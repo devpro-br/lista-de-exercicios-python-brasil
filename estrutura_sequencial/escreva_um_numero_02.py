@@ -1,5 +1,5 @@
 """
-Exercício 01 da sessão de estrutura sequencial da Python Brasil:
+Exercício 02 da sessão de estrutura sequencial da Python Brasil:
 https://wiki.python.org.br/EstruturaSequencial
 
 Faça um Programa que peça um número e então mostre a mensagem O número informado foi [número].
