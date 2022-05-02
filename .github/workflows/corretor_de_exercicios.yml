@@ -17,4 +17,7 @@ jobs:
         python-version: 3.9
     - name: Correção do Exercício 01 da sessão de Estrutura Sequencial
       run: |
-        python -m doctest -f estrutura-sequencial/alo_mundo_01.py
+        python -m doctest -f estrutura_sequencial/alo_mundo_01.py
+    - name: Correção do Exercício 02 da sessão de Estrutura Sequencial
+      run: |
+        python -m doctest -f estrutura_sequencial/escreva_um_numero_02.py
