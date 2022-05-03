@@ -27,3 +27,6 @@ jobs:
     - name: Correção do Exercício 04 da sessão de Estrutura Sequencial
       run: |
         python -m doctest -f estrutura_sequencial_01/notas_bimestrais_04.py
+    - name: Correção do Exercício 05 da sessão de Estrutura Sequencial
+      run: |
+        python -m doctest -f estrutura_sequencial_01/metros_para_centimetros_05.py
