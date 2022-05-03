@@ -9,9 +9,11 @@ Os pacotes do projeto possuem o mesmo nome de cada uma das sessões da lista de 
 Dentro de cada se encontra um arquivo python com um doctest que valida a correta implementação do problema.
 
 
-## Como fazer os exerícios?
+
+## Como fazer os exercícios?
 
 Você deve clonar esse repositório e resolver cada exercício. Ao enviar para o seu repositório, o servidor de integração do Github (Github Action) vai corrigir seu exercício, informando se há falhas.
+Assim você consegue evoluir com a certeza de entender os conceitos ;)
 
 ## Como contribuir para o projeto?
 
