@@ -4,7 +4,7 @@ https://wiki.python.org.br/EstruturaSequencial
 
 Faça um Programa que peça dois números inteiros e imprima a soma.
 
-    >>> from estrutura_sequencial import imprima_soma_de_dois_numeros_03
+    >>> from estrutura_sequencial_01 import imprima_soma_de_dois_numeros_03
     >>> numeros =['42', '43']
     >>> imprima_soma_de_dois_numeros_03.input = lambda k: numeros.pop()
     >>> imprima_soma_de_dois_numeros_03.imprima_a_soma_de_dois_numeros()
