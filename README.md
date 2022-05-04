@@ -27,6 +27,7 @@ Exemplo de código para testar o exerício alo_mundo.py:
 
 ```
     - name: Correção do Exercício 01 da sessão de Estrutura Sequencial
+      if: always()
       run: |
         python -m doctest -f estrutura_sequencial_01/alo_mundo_01.py
 ```
