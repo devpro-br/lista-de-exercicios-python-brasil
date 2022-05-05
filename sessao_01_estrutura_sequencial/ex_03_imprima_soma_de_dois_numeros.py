@@ -4,10 +4,10 @@ https://wiki.python.org.br/EstruturaSequencial
 
 Faça um Programa que peça dois números inteiros e imprima a soma.
 
-    >>> from sessao_01_estrutura_sequencial import imprima_soma_de_dois_numeros_03
+    >>> from sessao_01_estrutura_sequencial import ex_03_imprima_soma_de_dois_numeros
     >>> numeros =['42', '43']
-    >>> imprima_soma_de_dois_numeros_03.input = lambda k: numeros.pop()
-    >>> imprima_soma_de_dois_numeros_03.imprima_a_soma_de_dois_numeros()
+    >>> ex_03_imprima_soma_de_dois_numeros.input = lambda k: numeros.pop()
+    >>> ex_03_imprima_soma_de_dois_numeros.imprima_a_soma_de_dois_numeros()
     A soma dos dois números informados é 85
 
 """

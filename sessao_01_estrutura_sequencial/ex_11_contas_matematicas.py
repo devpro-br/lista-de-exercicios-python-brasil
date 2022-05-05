@@ -10,10 +10,10 @@ Faça um Programa que peça 2 números inteiros e um número real. Calcule e mos
 
  Apresente os resultados com duas casas decimais
 
-    >>> from sessao_01_estrutura_sequencial import contas_matematicas_11
+    >>> from sessao_01_estrutura_sequencial import ex_11_contas_matematicas
     >>> numeros = ['3.14', '43', '42']
-    >>> contas_matematicas_11.input = lambda k: numeros.pop()
-    >>> contas_matematicas_11.calcular_formulas()
+    >>> ex_11_contas_matematicas.input = lambda k: numeros.pop()
+    >>> ex_11_contas_matematicas.calcular_formulas()
     O produto do dobro do primeiro com metade do segundo é 1806.00
     A soma do triplo do primeiro com o terceiro é 129.14
     O terceiro elevado ao cubo é 30.96

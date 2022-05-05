@@ -5,12 +5,12 @@ https://wiki.python.org.br/EstruturaSequencial
 Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.
 Mostrar apenas valor inteiro da temperatura
 
-    >>> from sessao_01_estrutura_sequencial import celsius_para_fahrenheit_10
-    >>> celsius_para_fahrenheit_10.input = lambda k: '0'
-    >>> celsius_para_fahrenheit_10.transformar_para_fahrenheit()
+    >>> from sessao_01_estrutura_sequencial import ex_10_celsius_para_fahrenheit
+    >>> ex_10_celsius_para_fahrenheit.input = lambda k: '0'
+    >>> ex_10_celsius_para_fahrenheit.transformar_para_fahrenheit()
     Essa temperatura é de 32 Fahrenheit
-    >>> celsius_para_fahrenheit_10.input = lambda k: '21'
-    >>> celsius_para_fahrenheit_10.transformar_para_fahrenheit()
+    >>> ex_10_celsius_para_fahrenheit.input = lambda k: '21'
+    >>> ex_10_celsius_para_fahrenheit.transformar_para_fahrenheit()
     Essa temperatura é de 70 Fahrenheit
 
 """
