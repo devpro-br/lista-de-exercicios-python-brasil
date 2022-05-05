@@ -63,5 +63,9 @@ jobs:
       if: always()
       run: |
         python -m doctest -f sessao_01_estrutura_sequencial/ex_12_peso_ideal.py
+    - name: Correção do Exercício 13 da sessão de Estrutura Sequencial
+      if: always()
+      run: |
+        python -m doctest -f sessao_01_estrutura_sequencial/ex_13_peso_ideal_mulher_e_homem.py
 
         
