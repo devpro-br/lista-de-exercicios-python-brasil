@@ -5,7 +5,7 @@ https://wiki.python.org.br/EstruturaSequencial
 Faça um Programa que peça o raio de um círculo, calcule e mostre sua área. Mostrar a área com 4 casas decimais.
 Observação: Use o valor de 3.1415 para o valor da constante π
 
-    >>> from estrutura_sequencial_01 import area_circulo_06
+    >>> from sessao_01_estrutura_sequencial import area_circulo_06
     >>> area_circulo_06.input = lambda k: '1'
     >>> area_circulo_06.calcular_area_de_circulo()
     A área do círculo com esse raio é: 3.1415

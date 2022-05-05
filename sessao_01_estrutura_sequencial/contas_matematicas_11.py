@@ -10,7 +10,7 @@ Faça um Programa que peça 2 números inteiros e um número real. Calcule e mos
 
  Apresente os resultados com duas casas decimais
 
-    >>> from estrutura_sequencial_01 import contas_matematicas_11
+    >>> from sessao_01_estrutura_sequencial import contas_matematicas_11
     >>> numeros = ['3.14', '43', '42']
     >>> contas_matematicas_11.input = lambda k: numeros.pop()
     >>> contas_matematicas_11.calcular_formulas()

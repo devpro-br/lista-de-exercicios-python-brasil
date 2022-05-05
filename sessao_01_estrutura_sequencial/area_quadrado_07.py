@@ -5,7 +5,7 @@ https://wiki.python.org.br/EstruturaSequencial
 Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
 Mostra a área com 2 casas decimais.
 
-    >>> from estrutura_sequencial_01 import area_quadrado_07
+    >>> from sessao_01_estrutura_sequencial import area_quadrado_07
     >>> area_quadrado_07.input = lambda k: '2'
     >>> area_quadrado_07.calcular_area_de_quadrado()
     A área do quadrado com esse lado é: 4.00

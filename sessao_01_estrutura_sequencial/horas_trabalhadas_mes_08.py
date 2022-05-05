@@ -6,7 +6,7 @@ Faça um Programa que pergunte quanto você ganha por hora e o número de horas 
 Calcule e mostre o total do seu salário no referido mês.
 Mostrar salário com duas casas decimais
 
-    >>> from estrutura_sequencial_01 import horas_trabalhadas_mes_08
+    >>> from sessao_01_estrutura_sequencial import horas_trabalhadas_mes_08
     >>> numeros =['80', '55.62']
     >>> horas_trabalhadas_mes_08.input = lambda k: numeros.pop()
     >>> horas_trabalhadas_mes_08.calcular_salario()

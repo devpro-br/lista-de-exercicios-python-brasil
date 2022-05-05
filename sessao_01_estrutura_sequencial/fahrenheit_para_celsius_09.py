@@ -6,7 +6,7 @@ Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e most
 C = 5 * ((F-32) / 9)
 Mostrar apenas valor inteiro da temperatura
 
-    >>> from estrutura_sequencial_01 import fahrenheit_para_celsius_09
+    >>> from sessao_01_estrutura_sequencial import fahrenheit_para_celsius_09
     >>> fahrenheit_para_celsius_09.input = lambda k: '0'
     >>> fahrenheit_para_celsius_09.transformar_para_celsius()
     Essa temperatura é de -18 Celsius
