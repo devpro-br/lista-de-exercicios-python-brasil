@@ -39,5 +39,9 @@ jobs:
       if: always()
       run: |
         python -m doctest -f estrutura_sequencial_01/area_circulo_06.py
-        
+    - name: Correção do Exercício 07 da sessão de Estrutura Sequencial
+      if: always()
+      run: |
+        python -m doctest -f estrutura_sequencial_01/area_quadrado_07.py
+
         
