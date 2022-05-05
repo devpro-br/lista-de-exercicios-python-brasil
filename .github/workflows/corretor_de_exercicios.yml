@@ -75,3 +75,7 @@ jobs:
       if: always()
       run: |
         python -m doctest -f sessao_01_estrutura_sequencial/ex_15_clt_onerosa.py
+    - name: Correção do Exercício 16 da sessão de Estrutura Sequencial
+      if: always()
+      run: |
+        python -m doctest -f sessao_01_estrutura_sequencial/ex_16_loja_de_tintas_simples.py
