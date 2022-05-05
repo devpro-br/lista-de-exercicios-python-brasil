@@ -2,7 +2,7 @@
 Exercício 06 da sessão de estrutura sequencial da Python Brasil:
 https://wiki.python.org.br/EstruturaSequencial
 
-Faça um Programa que peça o raio de um círculo, calcule e mostre sua área. mostra a área com 4 casas decimais.
+Faça um Programa que peça o raio de um círculo, calcule e mostre sua área. Mostrar a área com 4 casas decimais.
 Observação: Use o valor de 3.1415 para o valor da constante π
 
     >>> from estrutura_sequencial_01 import area_circulo_06
