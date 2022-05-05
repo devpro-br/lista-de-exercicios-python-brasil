@@ -18,46 +18,46 @@ jobs:
     - name: Correção do Exercício 01 da sessão de Estrutura Sequencial
       if: always()
       run: |
-        python -m doctest -f sessao_01_estrutura_sequencial/alo_mundo_01.py
+        python -m doctest -f sessao_01_estrutura_sequencial/ex_01_alo_mundo.py
     - name: Correção do Exercício 02 da sessão de Estrutura Sequencial
       if: always()
       run: |
-        python -m doctest -f sessao_01_estrutura_sequencial/escreva_um_numero_02.py
+        python -m doctest -f sessao_01_estrutura_sequencial/ex_02_escreva_um_numero.py
     - name: Correção do Exercício 03 da sessão de Estrutura Sequencial
       if: always()
       run: |
-        python -m doctest -f sessao_01_estrutura_sequencial/imprima_soma_de_dois_numeros_03.py
+        python -m doctest -f sessao_01_estrutura_sequencial/ex_03_imprima_soma_de_dois_numeros.py
     - name: Correção do Exercício 04 da sessão de Estrutura Sequencial
       if: always()
       run: |
-        python -m doctest -f sessao_01_estrutura_sequencial/notas_bimestrais_04.py
+        python -m doctest -f sessao_01_estrutura_sequencial/ex_04_notas_bimestrais.py
     - name: Correção do Exercício 05 da sessão de Estrutura Sequencial
       if: always()
       run: |
-        python -m doctest -f sessao_01_estrutura_sequencial/metros_para_centimetros_05.py
+        python -m doctest -f sessao_01_estrutura_sequencial/ex_05_metros_para_centimetros.py
     - name: Correção do Exercício 06 da sessão de Estrutura Sequencial
       if: always()
       run: |
-        python -m doctest -f sessao_01_estrutura_sequencial/area_circulo_06.py
+        python -m doctest -f sessao_01_estrutura_sequencial/ex_06_area_circulo.py
     - name: Correção do Exercício 07 da sessão de Estrutura Sequencial
       if: always()
       run: |
-        python -m doctest -f sessao_01_estrutura_sequencial/area_quadrado_07.py
+        python -m doctest -f sessao_01_estrutura_sequencial/ex_07_area_quadrado.py
     - name: Correção do Exercício 08 da sessão de Estrutura Sequencial
       if: always()
       run: |
-        python -m doctest -f sessao_01_estrutura_sequencial/horas_trabalhadas_mes_08.py
+        python -m doctest -f sessao_01_estrutura_sequencial/ex_08_horas_trabalhadas_mes.py
     - name: Correção do Exercício 09 da sessão de Estrutura Sequencial
       if: always()
       run: |
-        python -m doctest -f sessao_01_estrutura_sequencial/fahrenheit_para_celsius_09.py
+        python -m doctest -f sessao_01_estrutura_sequencial/ex_09_fahrenheit_para_celsius.py
     - name: Correção do Exercício 10 da sessão de Estrutura Sequencial
       if: always()
       run: |
-        python -m doctest -f sessao_01_estrutura_sequencial/celsius_para_fahrenheit_10.py
+        python -m doctest -f sessao_01_estrutura_sequencial/ex_10_celsius_para_fahrenheit.py
     - name: Correção do Exercício 11 da sessão de Estrutura Sequencial
       if: always()
       run: |
-        python -m doctest -f sessao_01_estrutura_sequencial/contas_matematicas_11.py
+        python -m doctest -f sessao_01_estrutura_sequencial/ex_11_contas_matematicas.py
 
         
