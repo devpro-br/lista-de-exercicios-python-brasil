@@ -1,5 +1,5 @@
 """
-Exercício 15 da sessão de estrutura sequencial da Python Brasil:
+Exercício 16 da sessão de estrutura sequencial da Python Brasil:
 https://wiki.python.org.br/EstruturaSequencial
 
 Faça um programa para uma loja de tintas.
