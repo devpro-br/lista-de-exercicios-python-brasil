@@ -26,7 +26,85 @@ Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, consid
     Para menor custo, você pode comprar 2 lata(s) de 18 litros e 1 galão(ões) de 3.6 litros a um custo de R$ 185. Vão sobrar 2.6 litro(s) de tinta.
 
 """
+import math
 
 
 def calcular_latas_e_preco_de_tinta():
     """Escreva aqui em baixo a sua solução"""
+    area_a_ser_pintada = float(input('Qual a área, em metros quadrados, que você quer pintar? '))
+    area_a_ser_pintada_com_folga = area_a_ser_pintada * 1.1
+    quantidade_de_tinta_em_litros = area_a_ser_pintada_com_folga / 6
+    (
+        desperdicio_apenas_com_latas_de_18_litros,
+        quantidade_apenas_latas_de_tinta_18_litros,
+        valor_apenas_com_latas_de_18_litros
+    ) = calcular_recipientes_custo_e_desperdicio(
+        quantidade_de_tinta_em_litros,
+        18,
+        80
+    )
+    (
+        desperdicio_apenas_com_latas_de_3_6_litros,
+        quantidade_apenas_latas_de_tinta_3_6_litros,
+        valor_apenas_com_latas_de_3_6_litros
+    ) = calcular_recipientes_custo_e_desperdicio(
+        quantidade_de_tinta_em_litros,
+        3.6,
+        25
+    )
+
+    # Tirar uma lata de 18 litros
+    (
+        desperdicio_otimo_com_latas_de_18_litros,
+        quantidade_otima_latas_de_tinta_18_litros,
+        valor_otimo_com_latas_de_18_litros
+    ) = calcular_recipientes_custo_e_desperdicio(
+        quantidade_de_tinta_em_litros - 18,
+        18,
+        80
+    )
+
+    # Calcular galoes de 3.6 para a sobra
+    (
+        desperdicio_otimo_com_latas_de_3_6_litros,
+        quantidade_otima_latas_de_tinta_3_6_litros,
+        valor_otimo_com_latas_de_3_6_litros
+    ) = calcular_recipientes_custo_e_desperdicio(
+        18 - desperdicio_otimo_com_latas_de_18_litros,
+        3.6,
+        25
+    )
+
+    valor_otimo = valor_otimo_com_latas_de_3_6_litros + valor_otimo_com_latas_de_18_litros
+
+    print(f'Vocẽ deve comprar {quantidade_de_tinta_em_litros:.0f} litros de tinta.')
+    print(
+        f'Vocẽ pode comprar {quantidade_apenas_latas_de_tinta_18_litros} lata(s) de 18 litros a um custo de'
+        f' R$ {valor_apenas_com_latas_de_18_litros}. '
+        f'Vão sobrar {desperdicio_apenas_com_latas_de_18_litros:.1f} litro(s) de tinta.'
+    )
+    print(
+        f'Vocẽ pode comprar {quantidade_apenas_latas_de_tinta_3_6_litros} lata(s) de 3.6 litros a um custo de'
+        f' R$ {valor_apenas_com_latas_de_3_6_litros}. '
+        f'Vão sobrar {desperdicio_apenas_com_latas_de_3_6_litros:.1f} litro(s) de tinta.'
+    )
+    print(
+        f'Para menor custo, você pode comprar {quantidade_otima_latas_de_tinta_18_litros} lata(s) de 18 litros e'
+        f' {quantidade_otima_latas_de_tinta_3_6_litros} galão(ões) de 3.6 litros a um custo de R$ {valor_otimo}. '
+        f'Vão sobrar {desperdicio_otimo_com_latas_de_3_6_litros:.1f} litro(s) de tinta.'
+    )
+
+
+def calcular_recipientes_custo_e_desperdicio(quantidade_de_tinta_em_litros, litros_por_recipiente,
+        preco_por_recipiente):
+    quantidade_de_recipientes, resto_de_tinta_em_litros = divmod(
+        quantidade_de_tinta_em_litros, litros_por_recipiente
+    )
+    if resto_de_tinta_em_litros == 0:
+        quantidade_de_final_de_recipientes = int(quantidade_de_recipientes)
+        desperdicio = 0
+    else:
+        quantidade_de_final_de_recipientes = int(quantidade_de_recipientes + 1)
+        desperdicio = litros_por_recipiente - resto_de_tinta_em_litros
+    valor = preco_por_recipiente * quantidade_de_final_de_recipientes
+    return desperdicio, quantidade_de_final_de_recipientes, valor
