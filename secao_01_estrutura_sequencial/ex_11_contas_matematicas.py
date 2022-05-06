@@ -2,7 +2,6 @@
 Exercício 11 da seção de estrutura sequencial da Python Brasil:
 https://wiki.python.org.br/EstruturaSequencial
 
-Faça um Programa que peça dois números inteiros e imprima a soma.
 Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
  1) o produto do dobro do primeiro com metade do segundo;
  2) a soma do triplo do primeiro com o terceiro;
