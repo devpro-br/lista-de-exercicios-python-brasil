@@ -10,6 +10,7 @@ quanto pagou ao INSS.
 quanto pagou ao sindicato.
 o salário líquido.
 calcule os descontos e o salário líquido
+Mostrar os resultados com duas casas decimais
 
     >>> from secao_01_estrutura_sequencial import ex_15_clt_onerosa
     >>> numeros =['80', '55.62']

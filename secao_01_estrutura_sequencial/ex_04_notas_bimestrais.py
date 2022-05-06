@@ -2,7 +2,7 @@
 Exercício 03 da seção de estrutura sequencial da Python Brasil:
 https://wiki.python.org.br/EstruturaSequencial
 
-Faça um Programa que peça dois números inteiros e imprima a soma.
+Faça um Programa que peça as 4 notas bimestrais e mostre a média.
 
     >>> from secao_01_estrutura_sequencial import ex_04_notas_bimestrais
     >>> numeros =['7', '8','9','10']

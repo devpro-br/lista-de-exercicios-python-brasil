@@ -10,10 +10,10 @@ Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e 
     >>> from secao_01_estrutura_sequencial import ex_16_loja_de_tintas_simples
     >>> ex_16_loja_de_tintas_simples.input = lambda k: '50'
     >>> ex_16_loja_de_tintas_simples.calcular_latas_e_preco_de_tinta()
-    Vocẽ deve comprar 1 lata(s) tinta ao custo de R$ 80.00
+    Você deve comprar 1 lata(s) tinta ao custo de R$ 80.00
     >>> ex_16_loja_de_tintas_simples.input = lambda k: '100'
     >>> ex_16_loja_de_tintas_simples.calcular_latas_e_preco_de_tinta()
-    Vocẽ deve comprar 2 lata(s) tinta ao custo de R$ 160.00
+    Você deve comprar 2 lata(s) tinta ao custo de R$ 160.00
 
 
 """

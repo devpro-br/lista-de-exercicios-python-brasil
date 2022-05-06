@@ -4,7 +4,7 @@ https://wiki.python.org.br/EstruturaSequencial
 
 Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal, usando a seguinte
 fórmula: (72.7*altura) - 58
-Mostra a área com 1 casa decimal.
+Mostrar a área com 1 casa decimal.
 
     >>> from secao_01_estrutura_sequencial import ex_12_peso_ideal
     >>> ex_12_peso_ideal.input = lambda k: '1.62'
