@@ -1,5 +1,5 @@
 """
-Exercício 11 da sessão de estrutura sequencial da Python Brasil:
+Exercício 11 da seção de estrutura sequencial da Python Brasil:
 https://wiki.python.org.br/EstruturaSequencial
 
 Faça um Programa que peça dois números inteiros e imprima a soma.
@@ -10,7 +10,7 @@ Faça um Programa que peça 2 números inteiros e um número real. Calcule e mos
 
  Apresente os resultados com duas casas decimais
 
-    >>> from sessao_01_estrutura_sequencial import ex_11_contas_matematicas
+    >>> from secao_01_estrutura_sequencial import ex_11_contas_matematicas
     >>> numeros = ['3.14', '43', '42']
     >>> ex_11_contas_matematicas.input = lambda k: numeros.pop()
     >>> ex_11_contas_matematicas.calcular_formulas()

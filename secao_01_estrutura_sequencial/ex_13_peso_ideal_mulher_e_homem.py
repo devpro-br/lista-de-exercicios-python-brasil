@@ -1,5 +1,5 @@
 """
-Exercício 13 da sessão de estrutura sequencial da Python Brasil:
+Exercício 13 da seção de estrutura sequencial da Python Brasil:
 https://wiki.python.org.br/EstruturaSequencial
 
 Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
@@ -7,7 +7,7 @@ Para homens: (72.7*h) - 58
 Para mulheres: (62.1*h) - 44.7
 Mostra a área com 1 casa decimal.
 
-    >>> from sessao_01_estrutura_sequencial import ex_13_peso_ideal_mulher_e_homem
+    >>> from secao_01_estrutura_sequencial import ex_13_peso_ideal_mulher_e_homem
     >>> ex_13_peso_ideal_mulher_e_homem.input = lambda k: '1.62'
     >>> ex_13_peso_ideal_mulher_e_homem.calcular_peso_ideal()
     Seu peso ideal é 55.9 kg, se você for mulher

@@ -1,5 +1,5 @@
 """
-Exercício 15 da sessão de estrutura sequencial da Python Brasil:
+Exercício 15 da seção de estrutura sequencial da Python Brasil:
 https://wiki.python.org.br/EstruturaSequencial
 
 Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês.
@@ -11,7 +11,7 @@ quanto pagou ao sindicato.
 o salário líquido.
 calcule os descontos e o salário líquido
 
-    >>> from sessao_01_estrutura_sequencial import ex_15_clt_onerosa
+    >>> from secao_01_estrutura_sequencial import ex_15_clt_onerosa
     >>> numeros =['80', '55.62']
     >>> ex_15_clt_onerosa.input = lambda k: numeros.pop()
     >>> ex_15_clt_onerosa.calcular_assalto_no_salario()
