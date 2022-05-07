@@ -87,3 +87,23 @@ jobs:
       if: always()
       run: |
         python -m doctest -f secao_01_estrutura_sequencial/ex_18_tempo_de_download.py
+    - name: Correção do Exercício 01 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_01_imprimir_maior_numero.py
+    - name: Correção do Exercício 02 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_02_positivo_ou_negativo.py
+    - name: Correção do Exercício 03 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_03_F_ou_M.py
+    - name: Correção do Exercício 04 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_04_vogal_ou_consoante.py
+    - name: Correção do Exercício 05 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_05_notas_parciais.py
