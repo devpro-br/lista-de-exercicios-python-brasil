@@ -1,5 +1,5 @@
 """
-Exercício 14 da sessão de estrutura sequencial da Python Brasil:
+Exercício 14 da seção de estrutura sequencial da Python Brasil:
 https://wiki.python.org.br/EstruturaSequencial
 
 oão Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar o rendimento diário de seu trabalho.
@@ -11,7 +11,7 @@ pagar.
 Imprima os dados do programa com as mensagens adequadas.
 Mostra a peso e multa com duas casas decimais
 
-    >>> from sessao_01_estrutura_sequencial import ex_14_joao_papo_de_pescador
+    >>> from secao_01_estrutura_sequencial import ex_14_joao_papo_de_pescador
     >>> ex_14_joao_papo_de_pescador.input = lambda k: '62.35'
     >>> ex_14_joao_papo_de_pescador.calcular_peso_excedente_e_multa()
     O peso excedente de peixes é de 12.35 kg

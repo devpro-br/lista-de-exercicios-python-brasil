@@ -1,5 +1,5 @@
 """
-Exercício 17 da sessão de estrutura sequencial da Python Brasil:
+Exercício 17 da seção de estrutura sequencial da Python Brasil:
 https://wiki.python.org.br/EstruturaSequencial
 
 Faça um Programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada.
@@ -11,7 +11,7 @@ comprar apenas galões de 3,6 litros;
 misturar latas e galões, de forma que o custo seja menor.
 Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, considere latas cheias.
 
-    >>> from sessao_01_estrutura_sequencial import ex_17_loja_de_tintas_complexa
+    >>> from secao_01_estrutura_sequencial import ex_17_loja_de_tintas_complexa
     >>> ex_17_loja_de_tintas_complexa.input = lambda k: '100'
     >>> ex_17_loja_de_tintas_complexa.calcular_latas_e_preco_de_tinta()
     Vocẽ deve comprar 18 litros de tinta.
