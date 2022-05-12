@@ -115,3 +115,7 @@ jobs:
       if: always()
       run: |
         python -m doctest -f secao_02_estrutura_de_decisao/ex_07_maior_e_menor_numero_de_3_numeros.py
+    - name: Correção do Exercício 08 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_08_escolha_de_produto.py
