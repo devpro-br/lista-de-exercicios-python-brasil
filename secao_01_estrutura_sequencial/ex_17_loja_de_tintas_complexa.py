@@ -77,14 +77,14 @@ def calcular_latas_e_preco_de_tinta():
 
     valor_otimo = valor_otimo_com_latas_de_3_6_litros + valor_otimo_com_latas_de_18_litros
 
-    print(f'Vocẽ deve comprar {quantidade_de_tinta_em_litros:.0f} litros de tinta.')
+    print(f'Você deve comprar {quantidade_de_tinta_em_litros:.0f} litros de tinta.')
     print(
-        f'Vocẽ pode comprar {quantidade_apenas_latas_de_tinta_18_litros} lata(s) de 18 litros a um custo de'
+        f'Você pode comprar {quantidade_apenas_latas_de_tinta_18_litros} lata(s) de 18 litros a um custo de'
         f' R$ {valor_apenas_com_latas_de_18_litros}. '
         f'Vão sobrar {desperdicio_apenas_com_latas_de_18_litros:.1f} litro(s) de tinta.'
     )
     print(
-        f'Vocẽ pode comprar {quantidade_apenas_latas_de_tinta_3_6_litros} lata(s) de 3.6 litros a um custo de'
+        f'Você pode comprar {quantidade_apenas_latas_de_tinta_3_6_litros} lata(s) de 3.6 litros a um custo de'
         f' R$ {valor_apenas_com_latas_de_3_6_litros}. '
         f'Vão sobrar {desperdicio_apenas_com_latas_de_3_6_litros:.1f} litro(s) de tinta.'
     )

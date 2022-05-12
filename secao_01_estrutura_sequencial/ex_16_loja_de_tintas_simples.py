@@ -26,4 +26,4 @@ def calcular_latas_e_preco_de_tinta():
     quantidade_de_galoes_de_tinta = int((quantidade_de_tinta_em_litros // 18) + 1)
     valor = quantidade_de_galoes_de_tinta * 80
 
-    print(f'Vocẽ deve comprar {quantidade_de_galoes_de_tinta} lata(s) tinta ao custo de R$ {valor:.2f}')
+    print(f'Você deve comprar {quantidade_de_galoes_de_tinta} lata(s) tinta ao custo de R$ {valor:.2f}')

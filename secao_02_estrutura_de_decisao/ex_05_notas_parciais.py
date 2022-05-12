@@ -17,7 +17,14 @@ Obs: 0 <= nota <= 10
     >>> notas_parciais(10, 10)
     'Aprovado com Distinção'
 """
+from statistics import mean
 
 
 def notas_parciais(nota_1, nota_2):
     """Escreva aqui em baixo a sua solução"""
+    media = mean([nota_1, nota_2])
+    if media == 10:
+        return 'Aprovado com Distinção'
+    elif media < 7:
+        return 'Reprovado'
+    return 'Aprovado'
