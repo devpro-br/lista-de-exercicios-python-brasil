@@ -16,37 +16,37 @@ Mostrar valores monetários com duas casas decimais, alinhados à direita, com e
 até R$ 99999,99
 
     >>> calcular_salario_liquido(1, 160)
-    Salário Bruto: (R$ 1.00 * 160)     : R$   160,00
-    (-) IR (0%)                        : R$     0,00
-    (-) INSS (10%)                     : R$    16,00
-    (-) Sindicato (3%)                 : R$     4,80
-    FGTS (11%)                         : R$    17,60
-    Total de descontos                 : R$    20,80
-    Salário Liquido                    : R$   139,20
+    Salário Bruto: (R$ 1.00 * 160)     : R$   160.00
+    (-) IR (0%)                        : R$     0.00
+    (-) INSS (10%)                     : R$    16.00
+    (-) Sindicato (3%)                 : R$     4.80
+    FGTS (11%)                         : R$    17.60
+    Total de descontos                 : R$    20.80
+    Salário Liquido                    : R$   139.20
     >>> calcular_salario_liquido(5, 220)
-    Salário Bruto: (R$ 5.00 * 220)     : R$  1100,00
-    (-) IR (5%)                        : R$    55,00
-    (-) INSS (10%)                     : R$   110,00
-    (-) Sindicato (3%)                 : R$    33,00
-    FGTS (11%)                         : R$   121,00
-    Total de descontos                 : R$   198,00
-    Salário Liquido                    : R$   902,00
+    Salário Bruto: (R$ 5.00 * 220)     : R$  1100.00
+    (-) IR (5%)                        : R$    55.00
+    (-) INSS (10%)                     : R$   110.00
+    (-) Sindicato (3%)                 : R$    33.00
+    FGTS (11%)                         : R$   121.00
+    Total de descontos                 : R$   198.00
+    Salário Liquido                    : R$   902.00
     >>> calcular_salario_liquido(10, 160)
-    Salário Bruto: (R$ 10.00 * 160)    : R$  1600,00
-    (-) IR (10%)                       : R$   160,00
-    (-) INSS (10%)                     : R$   160,00
-    (-) Sindicato (3%)                 : R$    48,00
-    FGTS (11%)                         : R$   176,00
-    Total de descontos                 : R$   368,00
-    Salário Liquido                    : R$  1232,00
+    Salário Bruto: (R$ 10.00 * 160)    : R$  1600.00
+    (-) IR (10%)                       : R$   160.00
+    (-) INSS (10%)                     : R$   160.00
+    (-) Sindicato (3%)                 : R$    48.00
+    FGTS (11%)                         : R$   176.00
+    Total de descontos                 : R$   368.00
+    Salário Liquido                    : R$  1232.00
     >>> calcular_salario_liquido(100, 160)
-    Salário Bruto: (R$ 100.00 * 160)   : R$ 16000,00
-    (-) IR (20%)                       : R$  3200,00
-    (-) INSS (10%)                     : R$  1600,00
-    (-) Sindicato (3%)                 : R$   480,00
-    FGTS (11%)                         : R$  1760,00
-    Total de descontos                 : R$  5280,00
-    Salário Liquido                    : R$ 10720,00
+    Salário Bruto: (R$ 100.00 * 160)   : R$ 16000.00
+    (-) IR (20%)                       : R$  3200.00
+    (-) INSS (10%)                     : R$  1600.00
+    (-) Sindicato (3%)                 : R$   480.00
+    FGTS (11%)                         : R$  1760.00
+    Total de descontos                 : R$  5280.00
+    Salário Liquido                    : R$ 10720.00
 
 """
 
