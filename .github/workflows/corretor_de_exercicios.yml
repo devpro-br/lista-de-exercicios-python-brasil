@@ -119,3 +119,7 @@ jobs:
       if: always()
       run: |
         python -m doctest -f secao_02_estrutura_de_decisao/ex_08_escolha_de_produto.py
+    - name: Correção do Exercício 09 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_09_numeros_decrescentes.py
