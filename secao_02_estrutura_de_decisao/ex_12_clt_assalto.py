@@ -54,10 +54,45 @@ até R$ 99999,99
 def calcular_salario_liquido(valor_hora: float, horas_trabalhadas: int):
     """Escreva aqui em baixo a sua solução"""
     salario_bruto = valor_hora * horas_trabalhadas
-    print(f'Salário Bruto: (R$ {valor_hora:.2f} * {horas_trabalhadas})     : R$ {salario_bruto:.2f}')
-    print(f'(-) IR (5%)                        : R$    55,00')
-    print(f'(-) INSS (10%)                     : R$   110,00')
-    print(f'(-) Sindicato (3%)                 : R$    33,00')
-    print(f'FGTS (11%)                         : R$   121,00')
-    print(f'Total de descontos                 : R$   198,00')
-    print(f'Salário Liquido                    : R$   902,00')
+
+    percentual_inss = 0.1
+    desconto_inss = salario_bruto * percentual_inss
+
+    percentual_sindicato = 0.03
+    desconto_sindicato = salario_bruto * percentual_sindicato
+
+    percentual_fgts = 0.11
+    desconto_fgts = salario_bruto * percentual_fgts
+
+    faixas_ir = {0: 900, 0.05: 1500, 0.10: 2500}
+    percentual_ir = 0.2
+    for percentual_progressivo, salario_limite in faixas_ir.items():
+        if salario_bruto <= salario_limite:
+            percentual_ir = percentual_progressivo
+            break
+
+    desconto_ir = salario_bruto * percentual_ir
+
+    descontos_totais = desconto_ir + desconto_sindicato + desconto_inss
+
+    salario_liquido = salario_bruto - descontos_totais
+
+    tamanho_label = len('Salário Bruto: (R$ 100.00 * 160)   ')
+
+    label_salario_bruto = f'Salário Bruto: (R$ {valor_hora:.2f} * {horas_trabalhadas})'
+    label_salario_bruto = completar_com_espacos_em_branco(label_salario_bruto, tamanho_label)
+
+    label_ir = f'(-) IR ({percentual_ir:.0%})'
+    label_ir = completar_com_espacos_em_branco(label_ir, tamanho_label)
+
+    print(f'{label_salario_bruto}: R$ {salario_bruto:8.2f}')
+    print(f'{label_ir}: R$ {desconto_ir:8.2f}')
+    print(f'(-) INSS ({percentual_inss:.0%})                     : R$ {desconto_inss:8.2f}')
+    print(f'(-) Sindicato ({percentual_sindicato:.0%})                 : R$ {desconto_sindicato:8.2f}')
+    print(f'FGTS ({percentual_fgts:.0%})                         : R$ {desconto_fgts:8.2f}')
+    print(f'Total de descontos                 : R$ {descontos_totais:8.2f}')
+    print(f'Salário Liquido                    : R$ {salario_liquido:8.2f}')
+
+
+def completar_com_espacos_em_branco(label, tamanho_label):
+    return label + (' ' * (tamanho_label - len(label)))
