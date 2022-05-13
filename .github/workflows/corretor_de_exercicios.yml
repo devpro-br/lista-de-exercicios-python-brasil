@@ -131,3 +131,7 @@ jobs:
       if: always()
       run: |
         python -m doctest -f secao_02_estrutura_de_decisao/ex_11_salario_tabajara.py
+    - name: Correção do Exercício 12 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_12_clt_assalto.py
