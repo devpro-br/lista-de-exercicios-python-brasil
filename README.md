@@ -22,7 +22,7 @@ Assim você consegue evoluir com a certeza de entender os conceitos ;)
 3. Use o padrão de nomenclatura para os scritps `ex_dd_nome_do_arquivo`. Ou seja, comece sempre com o sufixo "ex_" seguindo do número do exercício. Assim a ordem alfabética dos arquivos ficará na mesma sequência que os exercícios da lista.
 4. Crie um doctest para o exercício;
 5. Crie uma entrada no [.github/workflows/corretor_de_exercícios.yml](.github/workflows/corretor_de_exercícios.yml) para executar o teste do exercício.
-6. Envie um pull request de volta para o projeto original [https://github.com/confraria-devpro/lista-de-exercicios-python-brasil](https://github.com/confraria-devpro/lista-de-exercicios-python-brasil).
+A6. Envie um pull request de volta para o projeto original [https://github.com/devpro-br/lista-de-exercicios-python-brasil](https://github.com/devpro-br/lista-de-exercicios-python-brasil).
 
 Exemplo de código para testar o exercício alo_mundo.py:
 
