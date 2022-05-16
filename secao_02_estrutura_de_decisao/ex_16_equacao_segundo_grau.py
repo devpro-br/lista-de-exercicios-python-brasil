@@ -17,7 +17,7 @@ Mostrar raízes com uma casa decimal.
     >>> resolver_equacao_do_segundo_grau(2, 1, 2)
     'Delta negativo (-15), por isso não existem raízes reais'
     >>> resolver_equacao_do_segundo_grau(1, 2, 1)
-    'Delta é 0, raíz única no valor de 1.0'
+    'Delta é 0, raíz única no valor de -1.0'
     >>> resolver_equacao_do_segundo_grau(1, 4, 3)
     'Delta é 4, raízes são -1.0 e -3.0'
 
