@@ -9,9 +9,9 @@ Faça um Programa que peça uma data no formato dd/mm/aaaa e determine se a mesm
     >>> validar_data('1')
     'Data inválida'
     >>> validar_data('1/2/2004')
-    'Data inválida'
+    'Data válida'
     >>> validar_data('1/02/2004')
-    'Data inválida'
+    'Data válida'
     >>> validar_data('01/02/2004')
     'Data válida'
     >>> validar_data('30/02/2004')
