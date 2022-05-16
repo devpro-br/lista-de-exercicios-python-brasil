@@ -22,7 +22,7 @@ Mostar valores com uma casa decimal.
     Status: APROVADO
     >>> calcular_conceito(8.5, 7.5)
     Notas: 8.5 e 7.5.
-    Média: 8
+    Média: 8.0
     Conceito: B
     Status: APROVADO
     >>> calcular_conceito(7, 6)
@@ -30,7 +30,7 @@ Mostar valores com uma casa decimal.
     Média: 6.5
     Conceito: C
     Status: APROVADO
-    >>> calcular_conceito(6, 4)
+    >>> calcular_conceito(6.2, 4)
     Notas: 6.2 e 4.0.
     Média: 5.1
     Conceito: D
