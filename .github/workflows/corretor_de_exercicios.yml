@@ -147,3 +147,7 @@ jobs:
       if: always()
       run: |
         python -m doctest -f secao_02_estrutura_de_decisao/ex_15_triangulo.py
+    - name: Correção do Exercício 16 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_16_equacao_segundo_grau.py
