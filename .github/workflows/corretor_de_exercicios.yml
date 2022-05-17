@@ -171,3 +171,7 @@ jobs:
       if: always()
       run: |
         python -m doctest -f secao_02_estrutura_de_decisao/ex_21_troco.py
+    - name: Correção do Exercício 22 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_22_par_ou_impar.py

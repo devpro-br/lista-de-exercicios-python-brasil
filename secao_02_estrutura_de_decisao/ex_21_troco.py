@@ -1,5 +1,5 @@
 """
-Exercício 20 da seção de estrutura de decisão da Python Brasil:
+Exercício 21 da seção de estrutura de decisão da Python Brasil:
 https://wiki.python.org.br/EstruturaDeDecisao
 
 Faça um Programa para um caixa eletrônico. O programa deverá perguntar ao usuário a valor do saque e depois informar
