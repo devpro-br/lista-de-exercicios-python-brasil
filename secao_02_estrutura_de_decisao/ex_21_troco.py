@@ -12,6 +12,14 @@ uma nota de 5 e quatro notas de 1.
 
     >>> calcular_troco(256)
     '2 notas de R$ 100, 1 nota de R$ 50, 1 nota de R$ 5 e 1 nota de R$ 1'
+    >>> calcular_troco(1)
+    '1 nota de R$ 1'
+    >>> calcular_troco(5)
+    '1 notas de R$ 5'
+    >>> calcular_troco(10)
+    '1 notas de R$ 10'
+    >>> calcular_troco(11)
+    '1 notas de R$ 10 e 1 nota de R$ 1'
     >>> calcular_troco(399)
     '3 notas de R$ 100, 1 nota de R$ 50, 4 notas de R$ 10, 1 nota de R$ 5 e 4 notas de R$ 1'
 """
@@ -19,3 +27,10 @@ uma nota de 5 e quatro notas de 1.
 
 def calcular_troco(valor: int) -> str:
     """Escreva aqui em baixo a sua solução"""
+    tipos_de_notas = [1, 5, 10, 50, 100]
+    pedacos=[]
+    resto = valor
+    while resto > 0:
+        tipo_de_nota = tipos_de_notas.pop()
+    if len(pedacos)==1:
+        return pedacos.pop()
