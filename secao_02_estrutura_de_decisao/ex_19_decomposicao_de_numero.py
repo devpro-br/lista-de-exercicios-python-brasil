@@ -52,3 +52,39 @@ Observando os termos no plural a colocação do "e", da vírgula entre outros. E
 
 def decompor_numero(numero: int):
     """Escreva aqui em baixo a sua solução"""
+    if numero >= 1000:
+        return 'O número precisa ser menor que 1000'
+
+    if numero <= 0:
+        return 'O número precisa ser positivo'
+
+    pedacos = []
+
+    centena, resto = divmod(numero, 100)
+    if centena == 1:
+        pedacos.append('1 centena')
+    elif centena > 0:
+        pedacos.append(f'{centena} centenas')
+
+    dezena, resto = divmod(resto, 10)
+    if dezena == 1:
+        pedacos.append('1 dezena')
+    elif dezena > 0:
+        pedacos.append(f'{dezena} dezenas')
+
+    unidade = resto
+    if unidade == 1:
+        pedacos.append('1 unidade')
+    elif unidade > 0:
+        pedacos.append(f'{unidade} unidades')
+
+    if len(pedacos) == 1:
+        decomposicao = pedacos.pop()
+    elif len(pedacos) == 2:
+        primera_parte, segunda_parte = pedacos
+        decomposicao = f'{primera_parte} e {segunda_parte}'
+    else:
+        primera_parte, segunda_parte, terceira_parte = pedacos
+        decomposicao = f'{primera_parte}, {segunda_parte} e {terceira_parte}'
+
+    return f'{numero} = {decomposicao}'
