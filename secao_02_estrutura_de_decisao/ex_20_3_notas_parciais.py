@@ -17,7 +17,15 @@ A mensagem "Aprovado com Distinção", se a média for igual a 10.
     >>> calcular_status(10, 10, 10)
     'Aprovado com Distinção'
 """
+from statistics import mean
 
 
 def calcular_status(nota_1, nota_2, nota_3):
     """Escreva aqui em baixo a sua solução"""
+    media = mean([nota_1, nota_2, nota_3])
+    if media == 10:
+        return 'Aprovado com Distinção'
+    elif media < 7:
+        return 'Reprovado'
+    return 'Aprovado'
+
