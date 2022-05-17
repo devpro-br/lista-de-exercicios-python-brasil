@@ -158,7 +158,7 @@ jobs:
     - name: Correção do Exercício 18 da seção de Estrutura de Decisão
       if: always()
       run: |
-        python -m doctest -f secao_02_estrutura_de_decisao/ex_18_ano_bissexto.py
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_18_validador_de_data.py
     - name: Correção do Exercício 19 da seção de Estrutura de Decisão
       if: always()
       run: |
