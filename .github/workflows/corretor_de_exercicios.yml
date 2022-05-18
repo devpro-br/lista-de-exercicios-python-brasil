@@ -195,3 +195,7 @@ jobs:
       if: always()
       run: |
         python -m doctest -f secao_02_estrutura_de_decisao/ex_27_hortifruti.py
+    - name: Correção do Exercício 28 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_28_mercado_tabajara.py.py
