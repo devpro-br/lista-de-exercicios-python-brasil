@@ -22,7 +22,7 @@ Mostre o restultado com duas casas decimais
     >>> calcular_abastecimento(20, 'A')
     '20 litro(s) de álcool custa(m): R$ 38.00. Com 3% de desconto, fica R$ 36.86'
     >>> calcular_abastecimento(30, 'A')
-    '30 litro(s) de álcool custa(m): R$ 57.00. Com 5% de desconto, fica R$ 54.86'
+    '30 litro(s) de álcool custa(m): R$ 57.00. Com 5% de desconto, fica R$ 54.15'
     >>> calcular_abastecimento(10, 'G')
     '10 litro(s) de gasolina custa(m): R$ 25.00. Com 4% de desconto, fica R$ 24.00'
     >>> calcular_abastecimento(20, 'G')
