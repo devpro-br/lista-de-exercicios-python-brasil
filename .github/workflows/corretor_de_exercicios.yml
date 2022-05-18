@@ -198,4 +198,8 @@ jobs:
     - name: Correção do Exercício 28 da seção de Estrutura de Decisão
       if: always()
       run: |
-        python -m doctest -f secao_02_estrutura_de_decisao/ex_28_mercado_tabajara.py.py
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_28_mercado_tabajara.py
+    - name: Correção do Exercício 01 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+        python -m doctest -f secao_03_estrutura_de_repeticao/ex_01_numero_valido.py
