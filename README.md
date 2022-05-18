@@ -35,11 +35,16 @@ Exemplo de código para testar o exercício alo_mundo.py:
 A seção nome é um texto livre. Já o final da última linha aponta para o endereço completo do script, incluindo o pacote (pasta) em que ele se encontra.
 
 ## Testando localmente
-O módulo pytest possui um parâmetro para executar o doctest dos módulos python. Para tanto, execute na linha de comando:
+Para rodar os testes de um módulo em sua máquina, rode: 
 ```sh
-pytest --doctest-modules
+python -m doctest -f <nome_do_pacote>/<nome_do_script>
 ```
+Basta substituir o <nome_do_pacote> pelo nome do pacote e <nome_do_script> pelo nome do escript.
+Exemplo para rodar os testes do primeiro exercício:
 
+```
+python -m doctest -f secao_01_estrutura_sequencial/ex_01_alo_mundo.py 
+```
 
 
 
