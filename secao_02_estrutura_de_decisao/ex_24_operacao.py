@@ -13,9 +13,12 @@ Mostre o restultado com duas casas decimais
     >>> fazer_operacao_e_classificar(2, 3, '+')
     Resultado: 5.00
     Número é impar, positivo e inteiro.
-    >>> fazer_operacao_e_classificar(-2, 2, '/')
-    Resultado: -1.00
+    >>> fazer_operacao_e_classificar(-4, 2, '/')
+    Resultado: -2.00
     Número é par, negativo e inteiro.
+    >>> fazer_operacao_e_classificar(0, 2, '*')
+    Resultado: 0.00
+    Número é par, neutro e inteiro.
     >>> fazer_operacao_e_classificar(-3.14, 2, '*')
     Resultado: -6.28
     Número é negativo e decimal.
