@@ -26,9 +26,9 @@ Mostre o restultado com duas casas decimais
     >>> calcular_preco_da_carne('Filé Duplo', 8, 'cartão tabajara')
     '8 kg de Filé Duplo a R$ 5.80/kg saem a R$ 46.40. Com desconto de 5% pelo pagamento feito com cartão tabajara, fica R$ 44.08'
     >>> calcular_preco_da_carne('Alcatra', 2, 'dinheiro')
-    '2 kg de Alcatra a R$ 5.90/kg saem a R$ 10.80. Não há desconto, pagamento feito com dinheiro'
+    '2 kg de Alcatra a R$ 5.90/kg saem a R$ 11.80. Não há desconto, pagamento feito com dinheiro'
     >>> calcular_preco_da_carne('Alcatra', 4, 'cartão tabajara')
-    '4 kg de Alcatra a R$ 5.90/kg saem a R$ 21.60. Com desconto de 5% pelo pagamento feito com cartão tabajara, fica R$ 20.52'
+    '4 kg de Alcatra a R$ 5.90/kg saem a R$ 23.60. Com desconto de 5% pelo pagamento feito com cartão tabajara, fica R$ 22.42'
     >>> calcular_preco_da_carne('Alcatra', 6, 'dinheiro')
     '6 kg de Alcatra a R$ 6.80/kg saem a R$ 40.80. Não há desconto, pagamento feito com dinheiro'
     >>> calcular_preco_da_carne('Alcatra', 8, 'cartão tabajara')
@@ -36,7 +36,7 @@ Mostre o restultado com duas casas decimais
     >>> calcular_preco_da_carne('Picanha', 2, 'dinheiro')
     '2 kg de Picanha a R$ 6.90/kg saem a R$ 13.80. Não há desconto, pagamento feito com dinheiro'
     >>> calcular_preco_da_carne('Picanha', 4, 'cartão tabajara')
-    '4 kg de Picanha a R$ 6.90/kg saem a R$ 27.60. Com desconto de 5% pelo pagamento feito com cartão tabajara, fica R$ 26.52'
+    '4 kg de Picanha a R$ 6.90/kg saem a R$ 27.60. Com desconto de 5% pelo pagamento feito com cartão tabajara, fica R$ 26.22'
     >>> calcular_preco_da_carne('Picanha', 6, 'dinheiro')
     '6 kg de Picanha a R$ 7.80/kg saem a R$ 46.80. Não há desconto, pagamento feito com dinheiro'
     >>> calcular_preco_da_carne('Picanha', 8, 'cartão tabajara')
