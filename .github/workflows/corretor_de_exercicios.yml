@@ -203,3 +203,7 @@ jobs:
       if: always()
       run: |
         python -m doctest -f secao_03_estrutura_de_repeticao/ex_01_numero_valido.py
+    - name: Correção do Exercício 02 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+        python -m doctest -f secao_03_estrutura_de_repeticao/ex_02_validador_de_senha.py
