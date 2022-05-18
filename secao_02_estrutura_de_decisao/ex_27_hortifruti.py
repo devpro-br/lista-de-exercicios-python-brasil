@@ -31,9 +31,9 @@ Mostre o restultado com duas casas decimais
     (-)  Desconto - valor:  R$  0.00
               Valor Total:  R$  3.60
     >>> calcular_preco_da_compra(0, 6)
-    (+)  Maça     - valor:  R$ 10.80 - quantidade:  6 kg - preço: R$ 1.80/kg
+    (+)  Maça     - valor:  R$  9.00 - quantidade:  6 kg - preço: R$ 1.50/kg
     (-)  Desconto - valor:  R$  0.00
-              Valor Total:  R$ 10.80
+              Valor Total:  R$  9.00
     >>> calcular_preco_da_compra(0, 9)
     (+)  Maça     - valor:  R$ 13.50 - quantidade:  9 kg - preço: R$ 1.50/kg
     (-)  Desconto - valor:  R$  1.35
