@@ -21,7 +21,7 @@ Mostre o restultado com duas casas decimais
     >>> calcular_preco_da_compra(6, 0)
     (+)  Morango  - valor:  R$ 13.20 - quantidade:  6 kg - preço: R$ 2.20/kg
     (-)  Desconto - valor:  R$  0.00
-              Valor Total:  R$ 13,20
+              Valor Total:  R$ 13.20
     >>> calcular_preco_da_compra(9, 0)
     (+)  Morango  - valor:  R$ 19.80 - quantidade:  9 kg - preço: R$ 2.20/kg
     (-)  Desconto - valor:  R$  1.98
