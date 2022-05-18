@@ -33,5 +33,5 @@ Mostre o restultado com duas casas decimais
 """
 
 
-def calcular_abastecimento(n_1: float, n_2: float, operacao: str):
+def calcular_abastecimento(litros_de_combustivel: float, tipo_de_combustivel: str) -> str:
     """Escreva aqui em baixo a sua solução"""
