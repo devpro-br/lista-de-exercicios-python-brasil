@@ -215,3 +215,7 @@ jobs:
       if: always()
       run: |
         python -m doctest -f secao_03_estrutura_de_repeticao/ex_04_crescimento_populacional.py
+    - name: Correção do Exercício 05 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+        python -m doctest -f secao_03_estrutura_de_repeticao/ex_05_crescimento_populacional_parametrizavel.py
