@@ -1,5 +1,5 @@
 """
-Exercício 02 da seção de estrutura sequencial da Python Brasil:
+Exercício 03 da seção de estrutura sequencial da Python Brasil:
 https://wiki.python.org.br/EstruturaDeRepeticao
 
 Faça um programa que leia e valide as seguintes informações:
