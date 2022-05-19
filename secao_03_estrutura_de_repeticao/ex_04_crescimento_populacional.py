@@ -12,7 +12,23 @@ de crescimento.
 
 
 """
+from itertools import count
 
 
 def calcular_ano_ultrapassagem_populacional() -> str:
     """Escreva aqui em baixo a sua solução"""
+    populacao_menor = 80_000
+    taxa_crescimento_populacao_menor = 0.03
+    populacao_maior = 200_000
+    taxa_crescimento_populacao_maior = 0.015
+    for ano in count(0):
+        if int(populacao_menor) > int(populacao_maior):
+            break
+        populacao_maior *= (1 + taxa_crescimento_populacao_maior)
+        populacao_menor *= (1 + taxa_crescimento_populacao_menor)
+    populacao_menor = int(populacao_menor)
+    populacao_maior = int(populacao_maior)
+    return (
+        f'População de A, depois de {ano} ano(s) será de {populacao_menor} pessoas, superando a de B, que será de'
+        f' {populacao_maior} pessoas'
+    )
