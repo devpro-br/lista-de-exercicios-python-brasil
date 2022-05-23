@@ -43,7 +43,7 @@ Basta substituir o <nome_do_pacote> pelo nome do pacote e <nome_do_script> pelo 
 Exemplo para rodar os testes do primeiro exercício:
 
 ```
-python -m doctest -f secao_01_estrutura_sequencial/ex_01_alo_mundo.py 
+python3 -m doctest -f secao_01_estrutura_sequencial/ex_01_alo_mundo.py 
 ```
 
 
