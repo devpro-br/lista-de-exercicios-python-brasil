@@ -18,4 +18,7 @@ Mostrar apenas valor inteiro da temperatura
 
 
 def transformar_para_celsius():
-    """Escreva aqui em baixo a sua solução"""
+    import math
+    fir = float(input("Qual é a temperatura em Fahrenheit? "))
+    print(f"Essa temperatura é de {round((5/9) * (fir - 32))} Celsius")
+

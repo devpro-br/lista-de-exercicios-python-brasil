@@ -20,10 +20,17 @@ Mostrar os resultados com duas casas decimais
     - IR (11%) : R$ 489.46
     - INSS (8%) : R$ 355.97
     - Sindicato ( 5%) : R$ 222.48
-    = Salário Liquido : R$ 3381.70
-
-"""
+    = Salário Liquido : R$ 3381.70"""
 
 
 def calcular_assalto_no_salario():
-    """Escreva aqui em baixo a sua solução"""
+    horas = float(input("Quantas horas no mês? "))
+    dinheiro = float(input("Quanto por hora? "))
+    salbruto = horas*dinheiro
+
+    print(f"""+ Salário Bruto : {round(salbruto,2):.2f}
+- IR (11%) : R$ {round(salbruto*0.11,2)}
+- INSS (8%) : R$ {round(salbruto*0.08,2)}
+- Sindicato ( 5%) : R$ {round(salbruto*0.05,2)}
+= Salário Liquido : R$ {salbruto - salbruto*0.24:.2f}""")
+
