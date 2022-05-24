@@ -18,8 +18,4 @@ def imprima_a_soma_de_dois_numeros():
     num1 = int(input("Digite um numero"))
     num2 = int(input("Digite outro numero"))
     soma = num1+num2
-<<<<<<< HEAD
     print("A soma dos dois números informados é", soma)
-=======
-    print("A soma dos dois números informados é", soma)
->>>>>>> e3a432a (Resolvido ex 03)
