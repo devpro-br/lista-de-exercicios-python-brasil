@@ -19,3 +19,6 @@ Mostrar apenas valor inteiro da temperatura
 
 def transformar_para_celsius():
     """Escreva aqui em baixo a sua solução"""
+    Fahrenheit = float(input('Digite a temperatura em graus Fahrenheit'))
+    celsius = (5*((Fahrenheit-32)/9))
+    print('Essa temperatura é de %.0f' % celsius, 'Celsius')
