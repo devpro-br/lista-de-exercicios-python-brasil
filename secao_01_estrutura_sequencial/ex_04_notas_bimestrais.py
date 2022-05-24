@@ -16,13 +16,18 @@ def calcular_media():
 
 >>>>>>> 79c3788 (Resolvido exercio 04)
     """Escreva aqui em baixo a sua solução"""
+    # print("Calculo de média por meio de 4 notas.\n")
     num1 = int(input("Digite a primeira nota: "))
     num2 = int(input("Digite a segunda nota: "))
     num3 = int(input("Digite a terceira nota: "))
     num4 = int(input("Digite a quarta nota: "))
     media = (num1+num2+num3+num4)/4
 <<<<<<< HEAD
+<<<<<<< HEAD
     print("A média anual é", media)
 =======
     print("A média anual é", media)
 >>>>>>> 79c3788 (Resolvido exercio 04)
+=======
+    print("A média anual é", media)
+>>>>>>> 7f7e747 (Resolvido exercício 5)
