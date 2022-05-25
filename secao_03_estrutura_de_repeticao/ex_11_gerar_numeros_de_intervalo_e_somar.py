@@ -1,5 +1,5 @@
 """
-Exercício 10 da seção de estrutura sequencial da Python Brasil:
+Exercício 11 da seção de estrutura sequencial da Python Brasil:
 https://wiki.python.org.br/EstruturaDeRepeticao
 
 
