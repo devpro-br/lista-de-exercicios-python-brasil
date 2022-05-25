@@ -1,5 +1,5 @@
 """
-Exercício 07 da seção de estrutura sequencial da Python Brasil:
+Exercício 08 da seção de estrutura sequencial da Python Brasil:
 https://wiki.python.org.br/EstruturaDeRepeticao
 
 Faça um programa que leia 5 números e informe a soma e a média dos números.
