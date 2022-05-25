@@ -38,7 +38,7 @@ jobs:
     - name: Correção do Exercício 06 da seção de Estrutura Sequencial
       if: always()
       run: |
-        python -m doctest -f secao_01_estrutura_sequencial/ex_06_area_circulo.py
+        python secao_01_estrutura_sequencial/ex_06_area_circulo.py
     - name: Correção do Exercício 07 da seção de Estrutura Sequencial
       if: always()
       run: |
