@@ -19,6 +19,6 @@ def maior_de_dois_numeros(x, y):
     """Escreva aqui em baixo a sua solução"""
     
     if x > y:
-        print(x)
+        return x
     else:
-        print(y)
+        return y
