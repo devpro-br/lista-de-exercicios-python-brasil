@@ -33,4 +33,4 @@ até que o usuário informe um valor válido.
 
 
 def obter_numero_valido():
-    """Escreva aqui em baixo a sua solução"""
+

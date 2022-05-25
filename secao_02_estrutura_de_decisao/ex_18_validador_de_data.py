@@ -23,4 +23,31 @@ Faça um Programa que peça uma data no formato dd/mm/aaaa e determine se a mesm
 
 
 def validar_data(data: str):
-    """Escreva aqui em baixo a sua solução"""
+    from datetime import datetime
+    resp = 0
+    try:
+        datetime.strptime(data.strip(), '%d/%m/%Y')
+        resp = 1
+    except ValueError:
+        resp = 2
+    if resp == 1:
+        print("""'Data válida'""")
+    else:
+        print("""'Data inválida'""")
+
+
+"""
+    if len(data) <5:
+        print("""'Data inválida'""")
+    elif data[1] and data[3] == '/' or data[1] and data[4] == '/' or data[2] and data[5] == '/':
+        if int(data[0]) > 3 or int(data[0]) >= 3 and int(data[4]) == 2:
+            print("""'Data inválida'""")
+        elif data[2] and data[5] == '/' and int(data[3]) == 1 and int(data[4]) > 2:
+            print("""'Data inválida'""")
+        else:
+            print("""'Data válida'""")
+"""
+
+
+
+
