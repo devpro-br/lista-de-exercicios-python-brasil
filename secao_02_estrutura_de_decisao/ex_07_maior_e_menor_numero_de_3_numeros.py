@@ -21,12 +21,7 @@ Faça um Programa que leia três números e mostre o maior e o menor deles.
 
 def calcular_maior_de_3_numeros(x, y, z):
     """Escreva aqui em baixo a sua solução"""
-<<<<<<< HEAD
-
-=======
-    calcular_maior_de_3_numeros = (x, y, z)
     maior = max(calcular_maior_de_3_numeros)
     menor = min(calcular_maior_de_3_numeros)
     print("Maior:", maior)
     print("Menor:", menor)
->>>>>>> resolucao_ex_07_estrutura_de_decisao
