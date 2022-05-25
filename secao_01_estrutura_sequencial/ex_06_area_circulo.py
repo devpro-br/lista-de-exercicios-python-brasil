@@ -20,5 +20,5 @@ def calcular_area_de_circulo():
     """Escreva aqui em baixo a sua solução"""
     pi = 3.1415
     raio = float(input('Digite o raio do circulo'))
-    area = round((pi*(raio*raio)), 4)
+    area = round((pi*(raio**2)), 4)
     print('A área do círculo com esse raio é:', area)

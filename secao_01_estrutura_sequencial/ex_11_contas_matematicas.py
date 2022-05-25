@@ -27,7 +27,7 @@ def calcular_formulas():
     numero3 = float(input('Digite o número real'))
     resposta1 = float((numero1*2)*(numero2/2))
     resposta2 = float((numero1*3)+(numero3))
-    resposta3 = float(numero3*numero3*numero3)
+    resposta3 = float(numero3**3)
     print('O produto do dobro do primeiro com metade do segundo é %.2f' % resposta1)
     print('A soma do triplo do primeiro com o terceiro é %.2f' % resposta2)
     print('O terceiro elevado ao cubo é %.2f' % resposta3)
