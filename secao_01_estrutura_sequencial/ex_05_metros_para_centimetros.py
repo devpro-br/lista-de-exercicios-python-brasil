@@ -21,6 +21,4 @@ def converter_metros_para_centimetros():
     metro=1_000
     # metro1= (float(input("Escreva quantos metros")))
     transformacao= metro/10
-    metro2= 3_621
-    transformando= metro2/10
     print("Transformando para centímetros dá", transformacao, "cm")
