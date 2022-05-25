@@ -10,9 +10,10 @@ Faça um programa que imprima na tela apenas os números ímpares entre 1 e 50po
     >>> calcular_numeros_no_intervalo(-10, -1)
     '-10, -9, -8, -7, -6, -5, -4, -3, -2'
     >>> calcular_numeros_no_intervalo(-1, -10)
+    ''
 
 """
 
 
-def calcular_numeros_no_intervalo(inicio:int, fim:int) -> str:
+def calcular_numeros_no_intervalo(inicio: int, fim: int) -> str:
     """Escreva aqui em baixo a sua solução"""
