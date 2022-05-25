@@ -24,4 +24,3 @@ def converter_metros_para_centimetros():
     metro2= 3_621
     transformando= metro2/10
     print("Transformando para centímetros dá", transformacao, "cm")
-    print('Transformando para centímetros dá', transformando,'cm')
