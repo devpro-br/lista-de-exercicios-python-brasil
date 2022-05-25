@@ -9,7 +9,7 @@ Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou 
     >>> positivo_ou_negativo(-1)
     'negativo'
     >>> positivo_ou_negativo(0)
-    'não nem positivo nem negativo'
+    'não tem positivo nem negativo'
     >>> positivo_ou_negativo(-100)
     'negativo'
 """
