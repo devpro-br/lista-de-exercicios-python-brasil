@@ -12,5 +12,7 @@ Faça um Programa que peça um número e então mostre a mensagem O número info
 """
 
 def escreva_um_numero():
-    """Escreva aqui em baixo a sua solução"""
+    # """Escreva aqui em baixo a sua solução"""
 
+    x = input('Digite um número:')
+    
