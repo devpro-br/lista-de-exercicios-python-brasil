@@ -18,7 +18,7 @@ Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou 
 def positivo_ou_negativo(n):
     """Escreva aqui em baixo a sua solução"""
     if n == 0:
-        return 'não nem positivo nem negativo'
+        return 'não tem positivo nem negativo'
     elif n > 0:
         return 'positivo'
     return 'negativo'
