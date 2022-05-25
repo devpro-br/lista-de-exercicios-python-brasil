@@ -16,4 +16,6 @@ Faça um Programa que converta metros para centímetros.
 
 
 def converter_metros_para_centrimetros():
-    """Escreva aqui em baixo a sua solução"""
+    valor = float(input("Digite a quantidade de metros. use ponto para as casas decimais"))
+    print('Transformando para centímetros dá %.1f cm' % (valor * 100) )
+
