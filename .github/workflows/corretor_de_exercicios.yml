@@ -239,7 +239,7 @@ jobs:
       if: always()
       run: |
         python -m doctest -f secao_03_estrutura_de_repeticao/ex_10_gerar_numeros_de_intervalo.py
-   - name: Correção do Exercício 11 da seção de Estrutura de Repetição
+    - name: Correção do Exercício 11 da seção de Estrutura de Repetição
       if: always()
       run: |
         python -m doctest -f secao_03_estrutura_de_repeticao/ex_11_gerar_numeros_de_intervalo_e_somar.py
