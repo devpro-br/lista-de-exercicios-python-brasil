@@ -33,7 +33,7 @@ def calcular_latas_e_preco_de_tinta():
     """Escreva aqui em baixo a sua solução"""
     area_a_ser_pintada = float(input('Qual a área, em metros quadrados, que você quer pintar? '))
     area_a_ser_pintada_com_folga = area_a_ser_pintada * 1.1
-    quantidade_de_tinta_em_litros = area_a_ser_pintada_com_folga / 6
+    quantidade_de_tinta_em_litros = math.ceil(area_a_ser_pintada_com_folga / 6)
     (
         desperdicio_apenas_com_latas_de_18_litros,
         quantidade_apenas_latas_de_tinta_18_litros,
