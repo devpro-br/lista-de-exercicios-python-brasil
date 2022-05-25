@@ -223,3 +223,15 @@ jobs:
       if: always()
       run: |
         python -m doctest -f secao_03_estrutura_de_repeticao/ex_06_numeros_1_a_20.py
+    - name: Correção do Exercício 07 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+        python -m doctest -f secao_03_estrutura_de_repeticao/ex_07_maior_de_5_numeros.py
+    - name: Correção do Exercício 08 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+        python -m doctest -f secao_03_estrutura_de_repeticao/ex_08_soma_e_media_de_5_numeros.py
+    - name: Correção do Exercício 09 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+        python -m doctest -f secao_03_estrutura_de_repeticao/ex_09_numeros_impares_de_1_a_50.py

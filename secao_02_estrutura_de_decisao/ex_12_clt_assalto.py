@@ -70,7 +70,7 @@ def calcular_salario_liquido(valor_hora: float, horas_trabalhadas: int):
     sindicato = salario_bruto*0.03
     fgts = salario_bruto*0.11
     desconto = ir+inss+sindicato
-    print(f"""Salário Bruto: (R$ {valor_hora:.2f} * {horas_trabalhadas}) ': R$ ' {salario_bruto:10}""")
+    print(f"""Salário Bruto: (R$ {valor_hora:.2f} * {horas_trabalhadas}) : R$  {salario_bruto:10}""")
     print(f"(-) IR ({ira}%)                    {': R$ ':>9} {ir:.2f}")
     print(f"(-) INSS (10%) {': R$ ':>20} {inss:.2f}")
     print(f"(-) Sindicato (3%) {': R$ ':>22} {sindicato:.2f}")
