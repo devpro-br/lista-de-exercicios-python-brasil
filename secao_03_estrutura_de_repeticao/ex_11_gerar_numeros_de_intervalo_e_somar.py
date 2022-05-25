@@ -2,7 +2,6 @@
 Exercício 11 da seção de estrutura sequencial da Python Brasil:
 https://wiki.python.org.br/EstruturaDeRepeticao
 
-
 Faça um programa que receba dois números inteiros e gere os números inteiros que estão no intervalo compreendido.
 Também mostre a soma dos números da sequência.
 
