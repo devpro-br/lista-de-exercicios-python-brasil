@@ -30,20 +30,20 @@ Exemplo de código para testar o exercício alo_mundo.py:
     - name: Correção do Exercício 01 da seção de Estrutura Sequencial
       if: always()
       run: |
-        python -m doctest -f secao_01_estrutura_sequencial/ex_01_alo_mundo.py
+        python secao_01_estrutura_sequencial/ex_01_alo_mundo.py
 ```
 A seção nome é um texto livre. Já o final da última linha aponta para o endereço completo do script, incluindo o pacote (pasta) em que ele se encontra.
 
 ## Testando localmente
 Para rodar os testes de um módulo em sua máquina, rode: 
 ```sh
-python -m doctest -f <nome_do_pacote>/<nome_do_script>
+python  <nome_do_pacote>/<nome_do_script>
 ```
 Basta substituir o <nome_do_pacote> pelo nome do pacote e <nome_do_script> pelo nome do escript.
 Exemplo para rodar os testes do primeiro exercício:
 
 ```
-python -m doctest -f secao_01_estrutura_sequencial/ex_01_alo_mundo.py 
+python secao_01_estrutura_sequencial/ex_01_alo_mundo.py 
 ```
 
 
