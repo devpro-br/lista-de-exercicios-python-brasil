@@ -3,16 +3,33 @@ Exercício 03 da seção de estrutura sequencial da Python Brasil:
 https://wiki.python.org.br/EstruturaSequencial
 
 Faça um Programa que peça dois números inteiros e imprima a soma.
-
-    >>> from secao_01_estrutura_sequencial import ex_03_imprima_soma_de_dois_numeros
-    >>> numeros =['42', '43']
-    >>> ex_03_imprima_soma_de_dois_numeros.input = lambda k: numeros.pop()
-    >>> ex_03_imprima_soma_de_dois_numeros.imprima_a_soma_de_dois_numeros()
+    
     A soma dos dois números informados é 85
 
 """
 
 
-def imprima_a_soma_de_dois_numeros():
+def imprima_a_soma_de_dois_numeros(a, b):
     """Escreva aqui em baixo a sua solução"""
-    print(f'A soma dos dois números informados é {42 + 43}')
+    return f'A soma dos dois números informados é {a + b}'
+
+def test(f, in_, expected):
+    """
+    Executa a função f com o parâmetro in_ e compara o resultado com expected.
+    :return: Exibe uma mensagem indicando se a função f está correta ou não.
+    """
+    out = f(*in_)
+
+    if out == expected:
+        sign = '✅'
+        info = ''
+    else:
+        sign = '❌'
+        info = f'e o correto é {expected!r}'
+
+    print(f'{sign} {f.__name__}({in_!r}) retornou {out!r} {info}')
+
+
+if __name__ == '__main__':
+    # Testes que verificam o resultado do seu código em alguns cenários.
+    test(imprima_a_soma_de_dois_numeros, (80, 5), "A soma dos dois números informados é 85")
