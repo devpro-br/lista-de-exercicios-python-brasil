@@ -21,3 +21,14 @@ Obs: 0 <= nota <= 10
 
 def notas_parciais(nota_1, nota_2):
     """Escreva aqui em baixo a sua solução"""
+    media = (nota_1 + nota_2)/2
+    #passo 1: A mensagem "Aprovado", se a média alcançada for maior ou igual a sete;
+    if media >= 7 and media < 10:
+        print("'Aprovado'")
+    #passo 2: A mensagem "Reprovado", se a média for menor do que sete;
+    elif media < 7:
+        print("'Reprovado'")
+    #passo 3:  A mensagem "Aprovado com Distinção", se a média for igual a dez.
+    elif media == 10:
+        print("'Aprovado com Distinção'")
+    #obs: Obs: 0 <= nota <= 10
