@@ -34,3 +34,5 @@ def calcular_formulas():
     print("A soma do triplo do primeiro com o terceiro é", "%.2f" % resp2)
     print("O terceiro elevado ao cubo é", "%.2f" % resp3)
 
+calcular_formulas()
+
