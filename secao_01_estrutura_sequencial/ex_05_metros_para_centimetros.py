@@ -5,10 +5,14 @@ https://wiki.python.org.br/EstruturaSequencial
 Faça um Programa que converta metros para centímetros.
 
     
-    Entrar com 1 metro
-    Transformando para centímetros dá 100.0 cm
-    Entrar com 3.621 metros
-    Transformando para centímetros dá 362.1 cm
+    Entrada:
+      1
+    Saída:
+      Transformando para centímetros dá 100.0 cm
+    Entrada:
+      3.621
+    Saída: 
+       Transformando para centímetros dá 362.1 cm
 
 """
 
@@ -16,8 +20,7 @@ Faça um Programa que converta metros para centímetros.
 def converter_metros_para_centimetros(metro):
     """Escreva aqui em baixo a sua solução"""
     
-    return f"Transformando para centímetros dá {float(metro) * 100} cm"
-
+    
 
 def test(f, in_, expected):
     """

@@ -11,8 +11,9 @@ Faça um Programa que peça dois números inteiros e imprima a soma.
 
 def imprima_a_soma_de_dois_numeros(a, b):
     """Escreva aqui em baixo a sua solução"""
-    return f'A soma dos dois números informados é {a + b}'
+    
 
+    
 def test(f, in_, expected):
     """
     Executa a função f com o parâmetro in_ e compara o resultado com expected.

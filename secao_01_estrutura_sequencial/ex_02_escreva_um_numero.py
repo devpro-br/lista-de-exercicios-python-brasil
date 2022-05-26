@@ -9,7 +9,7 @@ Faça um Programa que peça um número e então mostre a mensagem O número info
 def escreva_um_numero(numero):
     """Escreva aqui em baixo a sua solução"""
 
-    return f"O número informado foi {numero}"
+    
 
 def test(f, in_, expected):
     """

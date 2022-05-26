@@ -8,7 +8,7 @@ Escreva um programa que mostre a mensagem "Olá Mundo"
 
 def ola_mundo(mensagem):
     """Escreva aqui em baixo a sua solução"""
-    return f"{mensagem}"
+    
 
 def test(f, in_, expected):
     """

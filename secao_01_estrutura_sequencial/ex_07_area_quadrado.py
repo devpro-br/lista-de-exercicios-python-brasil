@@ -6,12 +6,16 @@ Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro 
 Mostrar a área com 2 casas decimais.
 
     
-    lado 2
-    A área do quadrado com esse lado é: 4.00
-    O dobro da aŕea do quadrado é: 8.00
-    lado 2.5
-    A área do quadrado com esse lado é: 6.25
-    O dobro da aŕea do quadrado é: 12.50
+    Entrada:
+      lado 2
+    Saída:
+      A área do quadrado com esse lado é: 4.00
+      O dobro da aŕea do quadrado é: 8.00
+    Entrada:
+      lado 2.5
+    Saída:
+      A área do quadrado com esse lado é: 6.25
+      O dobro da aŕea do quadrado é: 12.50
 
 """
 
@@ -19,6 +23,7 @@ Mostrar a área com 2 casas decimais.
 def calcular_area_de_quadrado(lado):
     """Escreva aqui em baixo a sua solução"""
     
+
 
 def test(f, in_, expected):
     """
