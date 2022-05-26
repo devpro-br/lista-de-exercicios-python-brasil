@@ -18,3 +18,6 @@ Observação: Use o valor de 3.1415 para o valor da constante π
 
 def calcular_area_de_circulo():
     """Escreva aqui em baixo a sua solução"""
+    raio= float(input("Qual o raio do circulo?"))
+    circunferencia=  3.1415 * raio**2
+    print (f'A área do círculo com esse raio é: {circunferencia :.4f}')
