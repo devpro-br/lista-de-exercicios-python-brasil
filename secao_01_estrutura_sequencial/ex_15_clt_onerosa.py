@@ -25,5 +25,22 @@ Mostrar os resultados com duas casas decimais
 """
 
 
+from operator import irshift
+
+
 def calcular_assalto_no_salario():
     """Escreva aqui em baixo a sua solução"""
+    horas = float(input("Digite quantas horas você trabalhou no mês: "))
+    valor = float(input("Digite quanto você ganha por hora: "))
+
+    salario = horas*valor
+    ir = salario*0.11
+    inss = salario*0.08
+    sindicato = salario*0.05
+    liquido = salario - ir - inss - sindicato
+
+    print("+ Salário Bruto :", "%.2f" % salario)
+    print("- IR (11%) : R$", "%.2f" % ir)
+    print("- INSS (8%) : R$", "%.2f" % inss)
+    print("- Sindicato ( 5%) : R$", "%.2f" % sindicato)
+    print("= Salário Liquido : R$", "%.2f" % liquido)
