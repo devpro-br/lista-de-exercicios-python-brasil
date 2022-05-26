@@ -18,3 +18,7 @@ Mostrar apenas valor inteiro da temperatura
 
 def transformar_para_fahrenheit():
     """Escreva aqui em baixo a sua solução"""
+    import math
+    celsius = int(input('Insira a temperatura em celsius: '))
+    faren = round((celsius*1.8)+32)
+    print(f'Essa temperatura é de {faren} Fahrenheit')

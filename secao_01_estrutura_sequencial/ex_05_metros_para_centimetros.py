@@ -17,3 +17,6 @@ Faça um Programa que converta metros para centímetros.
 
 def converter_metros_para_centimetros():
     """Escreva aqui em baixo a sua solução"""
+    numero1 = float(input('Insira a distância em Km: '))
+    dist_cm = numero1*100
+    print(f'Transformando para centímetros dá {dist_cm} cm')
