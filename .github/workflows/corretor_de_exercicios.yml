@@ -219,3 +219,31 @@ jobs:
       if: always()
       run: |
         python -m doctest -f secao_03_estrutura_de_repeticao/ex_05_crescimento_populacional_parametrizavel.py
+    - name: Correção do Exercício 06 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+        python -m doctest -f secao_03_estrutura_de_repeticao/ex_06_numeros_1_a_20.py
+    - name: Correção do Exercício 07 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+        python -m doctest -f secao_03_estrutura_de_repeticao/ex_07_maior_de_5_numeros.py
+    - name: Correção do Exercício 08 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+        python -m doctest -f secao_03_estrutura_de_repeticao/ex_08_soma_e_media_de_5_numeros.py
+    - name: Correção do Exercício 09 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+        python -m doctest -f secao_03_estrutura_de_repeticao/ex_09_numeros_impares_de_1_a_50.py
+    - name: Correção do Exercício 10 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+        python -m doctest -f secao_03_estrutura_de_repeticao/ex_10_gerar_numeros_de_intervalo.py
+    - name: Correção do Exercício 11 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+        python -m doctest -f secao_03_estrutura_de_repeticao/ex_11_gerar_numeros_de_intervalo_e_somar.py
+    - name: Correção do Exercício 12 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+        python -m doctest -f secao_03_estrutura_de_repeticao/ex_12_taboada.py
