@@ -30,3 +30,18 @@ Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, consid
 
 def calcular_latas_e_preco_de_tinta():
     """Escreva aqui em baixo a sua solução"""
+    #1º passo: solicitar input de metros quadrados
+    metros_quadrados = float(input("Digite o tamanho da área em metros quadrados: "))
+    #2º passo: efetue --> metros/6 (variavel litros)
+    litros = metros_quadrados / 6
+    #3º passo: crie a variável preco_litro, capacidade_litros, preco_galao e capacidade_galao
+    preco_litro = 80.00
+    capacidade_litros = 18
+    preco_galao = 25.00
+    capacidade_galao = 3.6
+    #4º passo: efetuar --> litros/capacidade (Latas)
+    latas = litros / capacidade_litros
+    #5º passo: latas * preço(total)
+    total = round(latas) * preco_litro
+    #6º passo: imprimir número de latas a serem compradas + valor total  
+    print(f"Você deve comprar {round(latas)} lata(s) tinta ao custo de R$ {total:.2f}")
