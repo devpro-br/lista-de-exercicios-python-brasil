@@ -21,3 +21,16 @@ Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e 
 
 def calcular_latas_e_preco_de_tinta():
     """Escreva aqui em baixo a sua solução"""
+    #1º passo: solicitar input de metros quadrados
+    metros_quadrados = float(input("Digite o tamanho da área em metros quadrados: "))
+    #2º passo: efetue --> metros/3 (variavel litros)
+    litros = metros_quadrados / 3
+    #3º passo: crie a variável preco_litro e capacidade_litros
+    preco_litro = 80.00
+    capacidade_litros = 18
+    #4º passo: efetuar --> litros/capacidade (Latas)
+    latas = litros / capacidade_litros
+    #5º passo: latas * preço(total)
+    total = round(latas) * preco_litro
+    #6º passo: imprimir número de latas a serem compradas + valor total  
+    print(f"Você deve comprar {round(latas)} lata(s) tinta ao custo de R$ {total:.2f}")
