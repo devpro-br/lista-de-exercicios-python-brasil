@@ -34,7 +34,7 @@ jobs:
     - name: Correção do Exercício 05 da seção de Estrutura Sequencial
       if: always()
       run: |
-        python -m doctest -f secao_01_estrutura_sequencial/ex_05_metros_para_centimetros.py
+        python secao_01_estrutura_sequencial/ex_05_metros_para_centimetros.py
     - name: Correção do Exercício 06 da seção de Estrutura Sequencial
       if: always()
       run: |
