@@ -17,5 +17,11 @@ Mostrar apenas valor inteiro da temperatura
 """
 
 
+from math import ceil, floor
+
+
 def transformar_para_celsius():
     """Escreva aqui em baixo a sua solução"""
+    faren = int(input('Temperatura em Farenheit: '))
+    celsius = floor(5*((faren-32)/9))
+    print(f'Essa temperatura é de {celsius} Celsius')

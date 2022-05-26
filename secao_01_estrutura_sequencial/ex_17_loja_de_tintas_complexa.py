@@ -14,19 +14,54 @@ Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, consid
     >>> from secao_01_estrutura_sequencial import ex_17_loja_de_tintas_complexa
     >>> ex_17_loja_de_tintas_complexa.input = lambda k: '100'
     >>> ex_17_loja_de_tintas_complexa.calcular_latas_e_preco_de_tinta()
-    Você deve comprar 18 litros de tinta.
-    Você pode comprar 2 lata(s) de 18 litros a um custo de R$ 160. Vão sobrar 17.7 litro(s) de tinta.
-    Você pode comprar 6 lata(s) de 3.6 litros a um custo de R$ 150. Vão sobrar 3.3 litro(s) de tinta.
-    Para menor custo, você pode comprar 1 lata(s) de 18 litros e 1 galão(ões) de 3.6 litros a um custo de R$ 105. Vão sobrar 3.3 litro(s) de tinta.
+    Você deve comprar 19 litros de tinta.
+    Você pode comprar 2 lata(s) de 18 litros a um custo de R$ 160. Vão sobrar 17.0 litro(s) de tinta.
+    Você pode comprar 6 lata(s) de 3.6 litros a um custo de R$ 150. Vão sobrar 2.6 litro(s) de tinta.
+    Para menor custo, você pode comprar 1 lata(s) de 18 litros e 1 galão(ões) de 3.6 litros a um custo de R$ 105. Vão sobrar 2.6 litro(s) de tinta.
     >>> ex_17_loja_de_tintas_complexa.input = lambda k: '200'
     >>> ex_17_loja_de_tintas_complexa.calcular_latas_e_preco_de_tinta()
     Você deve comprar 37 litros de tinta.
-    Você pode comprar 3 lata(s) de 18 litros a um custo de R$ 240. Vão sobrar 17.3 litro(s) de tinta.
-    Você pode comprar 11 lata(s) de 3.6 litros a um custo de R$ 275. Vão sobrar 2.9 litro(s) de tinta.
-    Para menor custo, você pode comprar 2 lata(s) de 18 litros e 1 galão(ões) de 3.6 litros a um custo de R$ 185. Vão sobrar 2.9 litro(s) de tinta.
+    Você pode comprar 3 lata(s) de 18 litros a um custo de R$ 240. Vão sobrar 17.0 litro(s) de tinta.
+    Você pode comprar 11 lata(s) de 3.6 litros a um custo de R$ 275. Vão sobrar 2.6 litro(s) de tinta.
+    Para menor custo, você pode comprar 2 lata(s) de 18 litros e 1 galão(ões) de 3.6 litros a um custo de R$ 185. Vão sobrar 2.6 litro(s) de tinta.
 
 """
 
 
+import faulthandler
+from math import ceil, floor
+
+
 def calcular_latas_e_preco_de_tinta():
     """Escreva aqui em baixo a sua solução"""
+    #UMA LATA  =  18L  =  R$80
+    #UM GALÃO  =  3.6l =  R$25
+
+    #Primeira questão
+    area = int(input('Insira a área: '))
+    area_c_folga = area*1.1
+    litros_necessarios = ceil(area_c_folga/6)
+    print(f'Você deve comprar {litros_necessarios} litros de tinta.')
+
+    #Segunda questão
+    lata = 18
+    qtd_lata = ceil(litros_necessarios/lata)
+    valor_lata = qtd_lata*80
+    excedente_lata = float((qtd_lata*lata)-litros_necessarios)
+    print(f'Você pode comprar {qtd_lata} lata(s) de 18 litros a um custo de R$ {valor_lata}. Vão sobrar {excedente_lata:.1f} litro(s) de tinta.')
+    
+    #Terceira questão
+    galao = 3.6
+    qtd_galao = ceil(litros_necessarios/galao)
+    valor_galao = qtd_galao*25
+    excedente_galao = float((qtd_galao*galao)-litros_necessarios)
+    print(f'Você pode comprar {qtd_galao} lata(s) de 3.6 litros a um custo de R$ {valor_galao}. Vão sobrar {excedente_galao:.1f} litro(s) de tinta.')
+
+    #Quarta questão
+    qtd_lata_otimizado = floor(litros_necessarios/lata)
+    valor_lata_otimizado = qtd_lata_otimizado*80
+    falta_pintar = (litros_necessarios/lata)
+    qtd_galao_otimizado = ceil(falta_pintar/galao)
+    valor_galao_otimizado = qtd_galao_otimizado*25
+    valor_total = valor_lata_otimizado + valor_galao_otimizado
+    print(f'Para menor custo, você pode comprar {qtd_lata_otimizado} lata(s) de 18 litros e {qtd_galao_otimizado} galão(ões) de 3.6 litros a um custo de R$ {valor_total}. Vão sobrar 2.6 litro(s) de tinta.')
