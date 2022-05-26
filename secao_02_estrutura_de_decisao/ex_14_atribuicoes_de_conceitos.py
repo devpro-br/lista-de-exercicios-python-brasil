@@ -46,3 +46,42 @@ Mostar valores com uma casa decimal.
 
 def calcular_conceito(nota_1: float, nota_2: float):
     """Escreva aqui em baixo a sua solução"""
+    #Notas: 10.0 e 9.0.
+    #Média: 9.5
+    #Conceito: A
+    #Status: APROVADO
+    media = (nota_1+nota_2)/2
+    if media > 9 and media <= 10:
+      conceito = 'A'
+      print('Notas: %.1f' %nota_1, 'e ' '%.1f.' %nota_2)
+      print('Média: %.1f'%media)
+      print('Conceito:', conceito)
+      print('Status: APROVADO')
+    else:
+      if media > 7.5 and media <= 9:
+        conceito = 'B'
+        print('Notas: %.1f' %nota_1, 'e ' '%.1f.' %nota_2)
+        print('Média: %.1f'%media)
+        print('Conceito:', conceito)
+        print('Status: APROVADO')
+      else:
+        if media > 6 and media <= 7.5:
+          conceito = 'C'
+          print('Notas: %.1f' %nota_1, 'e ' '%.1f.' %nota_2)
+          print('Média: %.1f'%media)
+          print('Conceito:', conceito)
+          print('Status: APROVADO')
+        else:
+          if media > 4 and media <= 6:
+            conceito = 'D'
+            print('Notas: %.1f' %nota_1, 'e ' '%.1f.' %nota_2)
+            print('Média: %.1f'%media)
+            print('Conceito:', conceito)
+            print('Status: REPROVADO')
+          else:
+            if media <= 4:
+              conceito = 'E'
+              print('Notas: %.1f' %nota_1, 'e ' '%.1f.' %nota_2)
+              print('Média: %.1f'%media)
+              print('Conceito:', conceito)
+              print('Status: REPROVADO')

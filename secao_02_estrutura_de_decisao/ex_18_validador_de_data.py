@@ -24,3 +24,12 @@ Faça um Programa que peça uma data no formato dd/mm/aaaa e determine se a mesm
 
 def validar_data(data: str):
     """Escreva aqui em baixo a sua solução"""
+    from datetime import datetime
+    formato = "%d/%m/%Y"
+    teste = True
+    teste = bool(datetime.strptime(data, formato))
+    
+    if teste == True:
+        return 'Data válida'
+    else:
+        return 'Data inválida'
