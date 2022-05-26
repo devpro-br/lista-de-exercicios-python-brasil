@@ -33,9 +33,3 @@ def calcular_formulas():
     print("O produto do dobro do primeiro com metade do segundo é", "%.2f" % resp1)
     print("A soma do triplo do primeiro com o terceiro é", "%.2f" % resp2)
     print("O terceiro elevado ao cubo é", "%.2f" % resp3)
-<<<<<<< HEAD
-=======
-
-calcular_formulas()
->>>>>>> ca479fe (Resolvido exercicio 11)
-
