@@ -53,3 +53,147 @@ até R$ 99999,99
 
 def calcular_salario_liquido(valor_hora: float, horas_trabalhadas: int):
     """Escreva aqui em baixo a sua solução"""
+    salario = (valor_hora*horas_trabalhadas)
+    if salario <= 900:
+      #Valores em porcentagem#
+      porcentagem_ir = 0
+      porcentagem_inss = 10
+      porcentagem_sindicato = 3
+      porcenteagem_fgts = 11
+      #calculos descontos#
+      ir = salario*(porcentagem_ir/100)
+      inss = salario*(porcentagem_inss/100)
+      sindicato = salario*(porcentagem_sindicato/100)
+      fgts = salario*(porcenteagem_fgts/100)
+      total_descontos = ir+inss+sindicato
+      salario_liquido = salario-total_descontos
+      #Auxilio do print#
+      salario = "{:.2f}".format(salario)
+      salario = str(salario)
+      ir = "{:.2f}".format(ir)
+      ir = str(ir)
+      inss = "{:.2f}".format(inss)
+      inss = str(inss)
+      sindicato = "{:.2f}".format(sindicato)
+      sindicato = str(sindicato)
+      fgts = "{:.2f}".format(fgts)
+      fgts = str(fgts)
+      total_descontos = "{:.2f}".format(total_descontos)
+      total_descontos = str(total_descontos)
+      salario_liquido = "{:.2f}".format(salario_liquido)
+      salario_liquido = str(salario_liquido)
+      print('Salário Bruto: (R$ ','%.2f' % valor_hora,' * ', horas_trabalhadas,')     : R$', salario.rjust(9,' '), sep='')
+      print('(-) IR (','%.0f' %porcentagem_ir,'%)                        : R$', ir.rjust(9,' '), sep='')
+      print('(-) INSS (','%.0f'%porcentagem_inss,'%)                     : R$', inss.rjust(9,' '), sep='')
+      print('(-) Sindicato (','%.0f'%porcentagem_sindicato,'%)                 : R$', sindicato.rjust(9,' '), sep='')
+      print('FGTS (','%.0f'%porcenteagem_fgts,'%)                         : R$', fgts.rjust(9,' '), sep='')
+      print('Total de descontos                 : R$', total_descontos.rjust(9,' '), sep='')
+      print('Salário Liquido                    : R$', salario_liquido.rjust(9,' '), sep='')
+    else:
+      if salario <= 1500:
+        #Valores em porcentagem#
+        porcentagem_ir = 5
+        porcentagem_inss = 10
+        porcentagem_sindicato = 3
+        porcenteagem_fgts = 11
+        #calculos descontos#
+        ir = salario*(porcentagem_ir/100)
+        inss = salario*(porcentagem_inss/100)
+        sindicato = salario*(porcentagem_sindicato/100)
+        fgts = salario*(porcenteagem_fgts/100)
+        total_descontos = ir+inss+sindicato
+        salario_liquido = salario-total_descontos
+        #Auxilio do print#
+        salario = "{:.2f}".format(salario)
+        salario = str(salario)
+        ir = "{:.2f}".format(ir)
+        ir = str(ir)
+        inss = "{:.2f}".format(inss)
+        inss = str(inss)
+        sindicato = "{:.2f}".format(sindicato)
+        sindicato = str(sindicato)
+        fgts = "{:.2f}".format(fgts)
+        fgts = str(fgts)
+        total_descontos = "{:.2f}".format(total_descontos)
+        total_descontos = str(total_descontos)
+        salario_liquido = "{:.2f}".format(salario_liquido)
+        salario_liquido = str(salario_liquido)
+        print('Salário Bruto: (R$ ','%.2f' % valor_hora,' * ', horas_trabalhadas,')     : R$', salario.rjust(9,' '), sep='')
+        print('(-) IR (','%.0f' %porcentagem_ir,'%)                        : R$', ir.rjust(9,' '), sep='')
+        print('(-) INSS (','%.0f'%porcentagem_inss,'%)                     : R$', inss.rjust(9,' '), sep='')
+        print('(-) Sindicato (','%.0f'%porcentagem_sindicato,'%)                 : R$', sindicato.rjust(9,' '), sep='')
+        print('FGTS (','%.0f'%porcenteagem_fgts,'%)                         : R$', fgts.rjust(9,' '), sep='')
+        print('Total de descontos                 : R$', total_descontos.rjust(9,' '), sep='')
+        print('Salário Liquido                    : R$', salario_liquido.rjust(9,' '), sep='')
+      else:
+        if salario <= 2500:
+          #Valores em porcentagem#
+          porcentagem_ir = 10
+          porcentagem_inss = 10
+          porcentagem_sindicato = 3
+          porcenteagem_fgts = 11
+          #calculos descontos#
+          ir = salario*(porcentagem_ir/100)
+          inss = salario*(porcentagem_inss/100)
+          sindicato = salario*(porcentagem_sindicato/100)
+          fgts = salario*(porcenteagem_fgts/100)
+          total_descontos = ir+inss+sindicato
+          salario_liquido = salario-total_descontos
+          #Auxilio do print#
+          salario = "{:.2f}".format(salario)
+          salario = str(salario)
+          ir = "{:.2f}".format(ir)
+          ir = str(ir)
+          inss = "{:.2f}".format(inss)
+          inss = str(inss)
+          sindicato = "{:.2f}".format(sindicato)
+          sindicato = str(sindicato)
+          fgts = "{:.2f}".format(fgts)
+          fgts = str(fgts)
+          total_descontos = "{:.2f}".format(total_descontos)
+          total_descontos = str(total_descontos)
+          salario_liquido = "{:.2f}".format(salario_liquido)
+          salario_liquido = str(salario_liquido)
+          print('Salário Bruto: (R$ ','%.2f' % valor_hora,' * ', horas_trabalhadas,')    : R$', salario.rjust(9,' '), sep='')
+          print('(-) IR (','%.0f' %porcentagem_ir,'%)                       : R$', ir.rjust(9,' '), sep='')
+          print('(-) INSS (','%.0f'%porcentagem_inss,'%)                     : R$', inss.rjust(9,' '), sep='')
+          print('(-) Sindicato (','%.0f'%porcentagem_sindicato,'%)                 : R$', sindicato.rjust(9,' '), sep='')
+          print('FGTS (','%.0f'%porcenteagem_fgts,'%)                         : R$', fgts.rjust(9,' '), sep='')
+          print('Total de descontos                 : R$', total_descontos.rjust(9,' '), sep='')
+          print('Salário Liquido                    : R$', salario_liquido.rjust(9,' '), sep='')
+        else:
+          if salario > 2500:
+            #Valores em porcentagem#
+            porcentagem_ir = 20
+            porcentagem_inss = 10
+            porcentagem_sindicato = 3
+            porcenteagem_fgts = 11
+            #calculos descontos#
+            ir = salario*(porcentagem_ir/100)
+            inss = salario*(porcentagem_inss/100)
+            sindicato = salario*(porcentagem_sindicato/100)
+            fgts = salario*(porcenteagem_fgts/100)
+            total_descontos = ir+inss+sindicato
+            salario_liquido = salario-total_descontos
+            #Auxilio do print#
+            salario = "{:.2f}".format(salario)
+            salario = str(salario)
+            ir = "{:.2f}".format(ir)
+            ir = str(ir)
+            inss = "{:.2f}".format(inss)
+            inss = str(inss)
+            sindicato = "{:.2f}".format(sindicato)
+            sindicato = str(sindicato)
+            fgts = "{:.2f}".format(fgts)
+            fgts = str(fgts)
+            total_descontos = "{:.2f}".format(total_descontos)
+            total_descontos = str(total_descontos)
+            salario_liquido = "{:.2f}".format(salario_liquido)
+            salario_liquido = str(salario_liquido)
+            print('Salário Bruto: (R$ ','%.2f' % valor_hora,' * ', horas_trabalhadas,')   : R$', salario.rjust(9,' '), sep='')
+            print('(-) IR (','%.0f' %porcentagem_ir,'%)                       : R$', ir.rjust(9,' '), sep='')
+            print('(-) INSS (','%.0f'%porcentagem_inss,'%)                     : R$', inss.rjust(9,' '), sep='')
+            print('(-) Sindicato (','%.0f'%porcentagem_sindicato,'%)                 : R$', sindicato.rjust(9,' '), sep='')
+            print('FGTS (','%.0f'%porcenteagem_fgts,'%)                         : R$', fgts.rjust(9,' '), sep='')
+            print('Total de descontos                 : R$', total_descontos.rjust(9,' '), sep='')
+            print('Salário Liquido                    : R$', salario_liquido.rjust(9,' '), sep='')
