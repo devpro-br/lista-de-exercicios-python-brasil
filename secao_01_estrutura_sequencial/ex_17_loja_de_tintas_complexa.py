@@ -48,8 +48,8 @@ def calcular_latas_e_preco_de_tinta():
     print('Você deve comprar', litros_necessarios, 'litros de tinta.')
     print('Você pode comprar', latas_necessarias_18, 'lata(s) de 18 litros a um custo de R$', '%.0f.' %custo_grande, 'Vão sobrar', '%.1f' %sobra_grande,'litro(s) de tinta.')
     print('Você pode comprar', latas_necessarias_3, 'lata(s) de 3.6 litros a um custo de R$', '%.0f.' %custo_pequena, 'Vão sobrar', '%.1f' %sobra_pequena,'litro(s) de tinta.')
-    if sobra_grande > 10.8:
-        print('Para menor custo, você pode comprar', latas_necessaria_18_economica, 'lata(s) de 18 litros e', latas_necessaria_3_economica, 'galão(ões) de 3.6 litros a um custo de R$', '%.0f.'% custo_economica, 'Vão sobrar %.1f' % sobra_economica, 'litro(s) de tinta.')
-    else:
-        print('Para menor custo, você pode comprar', latas_necessarias_18, 'lata(s) de 18 litros e nenhum galão(ões) de 3.6 litros a um custo de R$', '%.0f.'% custo_grande, 'Vão sobrar %.1f' % sobra_grande, 'litro(s) de tinta.')
+    #if sobra_grande > 10.8:
+    print('Para menor custo, você pode comprar', latas_necessaria_18_economica, 'lata(s) de 18 litros e', latas_necessaria_3_economica, 'galão(ões) de 3.6 litros a um custo de R$', '%.0f.'% custo_economica, 'Vão sobrar %.1f' % sobra_economica, 'litro(s) de tinta.')
+    #else:
+        #print('Para menor custo, você pode comprar', latas_necessarias_18, 'lata(s) de 18 litros e nenhum galão(ões) de 3.6 litros a um custo de R$', '%.0f.'% custo_grande, 'Vão sobrar %.1f' % sobra_grande, 'litro(s) de tinta.')
         
