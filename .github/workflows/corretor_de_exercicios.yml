@@ -255,3 +255,7 @@ jobs:
       if: always()
       run: |
         python -m doctest -f secao_03_estrutura_de_repeticao/ex_14_qtde_pares_e_impares.py
+    - name: Correção do Exercício 15 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+        python -m doctest -f secao_03_estrutura_de_repeticao/ex_15_fibonnacci_ate_n.py
