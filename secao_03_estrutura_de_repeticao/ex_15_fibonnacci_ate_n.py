@@ -25,3 +25,12 @@ n−ésimo termo.
 
 def calcular_serie_de_fibonacci(n: int) -> str:
     """Escreva aqui em baixo a sua solução"""
+
+    def funcao_geradora():
+        ultimo = 1
+        penultimo = 1
+        for i in range(n):
+            yield penultimo
+            ultimo, penultimo = ultimo + penultimo, ultimo
+
+    return ', '.join(map(str, funcao_geradora()))
