@@ -15,10 +15,7 @@ Faça um Programa que converta metros para centímetros.
 """
 
 
-from pyparsing import conditionAsParseAction
-
-
 def converter_metros_para_centimetros():
     """Escreva aqui em baixo a sua solução"""
-    metros = float(input())
+    metros = float(input("Entre com o valor em metros: ")) 
     print(f"Transformando para centímetros dá {metros * 100} cm")
