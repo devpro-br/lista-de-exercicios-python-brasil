@@ -26,7 +26,38 @@ Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, consid
     Para menor custo, você pode comprar 2 lata(s) de 18 litros e 1 galão(ões) de 3.6 litros a um custo de R$ 185. Vão sobrar 2.6 litro(s) de tinta.
 
 """
-
+from math import ceil
 
 def calcular_latas_e_preco_de_tinta():
     """Escreva aqui em baixo a sua solução"""
+    # entrada dos metros quadrados a serem pintados
+    metros = float(input("Quantos metros quadrados você vai pintar? "))
+    litros = metros / 6
+    
+    # quantidade total de litros
+    folga_litros = (10 /100) * litros
+    total_litros = ceil(litros + folga_litros) 
+    
+    # Quantidade de latas de 18 litros 
+    latas  = total_litros / 18
+    sobra_latas = (ceil(latas) * 18) - total_litros
+    custo_lata = ceil(latas) * 80
+    
+    # quantidade de galões de 3.6 litros
+    galoes = total_litros / 3.6
+    custo_galoes = ceil(galoes) * 25
+    sobra_galoes = (ceil(galoes) * 3.6) - total_litros
+
+    # latas e galões para um melhor custo
+    lata_melhor_custo = total_litros / 18
+    galao_melhor_custo = total_litros % 18
+    melhor_custo = (round(lata_melhor_custo) * 80) + (galao_melhor_custo * 25)
+    
+    # sobra em litros das latas e galões para um melhor custo
+    sobra_tintas = ((round(lata_melhor_custo) * 18) + (galao_melhor_custo * 3.6)) - total_litros 
+
+    # resultado esperado
+    print(f"Você deve comprar {total_litros} litros de tinta.")
+    print(f"Você pode comprar {ceil(latas)} lata(s) de 18 litros a um custo de R$ {custo_lata}. Vão sobrar {float(sobra_latas)} litro(s) de tinta.")
+    print(f"Você pode comprar {ceil(galoes)} lata(s) de 3.6 litros a um custo de R$ {custo_galoes}. Vão sobrar {sobra_galoes:.1f} litro(s) de tinta.")
+    print(f"Para menor custo, você pode comprar {round(lata_melhor_custo)} lata(s) de 18 litros e {ceil(galao_melhor_custo)} galão(ões) de 3.6 litros a um custo de R$ {melhor_custo}. Vão sobrar {sobra_tintas:.1f} litro(s) de tinta.")
