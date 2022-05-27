@@ -27,3 +27,13 @@ Mostrar os resultados com duas casas decimais
 
 def calcular_assalto_no_salario():
     """Escreva aqui em baixo a sua solução"""
+    valor = float(input("Quanto vale sua hora de trabalho? "))
+    horas = float(input("Quantas horas você trabalhou este mês? "))
+    
+    salario_bruto = valor * horas
+    imposto_renda = (11 / 100) * salario_bruto
+    inss = (8 / 100) * salario_bruto
+    sindicato = (5 / 100) * salario_bruto
+    liquido = salario_bruto - (imposto_renda + inss + sindicato)
+    print(f"+ Salário Bruto : {salario_bruto:.2f}\n- IR (11%) : R$ {imposto_renda:.2f}")
+    print(f"- INSS (8%) : R$ {inss:.2f}\n- Sindicato ( 5%) : R$ {sindicato:.2f}\n= Salário Liquido : R$ {liquido:.2f}")
