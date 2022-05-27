@@ -52,3 +52,62 @@ Observando os termos no plural a colocação do "e", da vírgula entre outros. E
 
 def decompor_numero(numero: int):
     """Escreva aqui em baixo a sua solução"""
+    num = numero
+    if numero >= 1000:
+        print(f"'O número precisa ser menor que 1000'")
+    elif numero <= 0:
+        print(f"'O número precisa ser positivo'")
+    else:
+        if numero < 1000 and numero > 0:
+            unidade = numero % 10
+            numero = (numero - unidade)/10
+            dezena = numero % 10
+            numero = (numero - dezena)/10
+            centena = numero
+            centena = int(centena)
+            dezena = int(dezena)
+            if centena > 1 and dezena > 1 and unidade > 1:
+                print(f"'{num} = {centena} centenas, {dezena} dezenas e {unidade} unidades'")
+            elif centena > 1 and dezena == 0 and unidade == 0:
+                print(f"'{num} = {centena} centenas'")
+            elif centena == 1 and dezena == 0 and unidade == 0:
+                print(f"'{num} = {centena} centena'")
+            elif centena > 1 and dezena > 1 and unidade == 0:
+                print(f"'{num} = {centena} centenas e {dezena} dezenas'")
+            elif centena > 1 and dezena == 1 and unidade == 0:
+                print(f"'{num} = {centena} centenas e {dezena} dezena'")
+            elif centena > 1 and dezena == 0 and unidade > 1:
+                print(f"'{num} = {centena} centenas e {unidade} unidades'")
+            elif centena > 1 and dezena == 0 and unidade == 1:
+                print(f"'{num} = {centena} centenas e {unidade} unidade'")
+            elif centena > 1 and dezena == 1 and unidade == 1:
+                print(f"'{num} = {centena} centenas, {dezena} dezena e {unidade} unidade'")
+            elif centena == 1 and dezena == 1 and unidade == 1:
+                print(f"'{num} = {centena} centena, {dezena} dezena e {unidade} unidade'")
+            elif centena == 1 and dezena == 0 and unidade == 1:
+                print(f"'{num} = {centena} centena e {unidade} unidade'")
+            elif centena == 0 and dezena > 1 and unidade > 1:
+                print(f"'{num} = {dezena} dezenas e {unidade} unidades'")
+            elif centena == 0 and dezena > 1 and unidade == 0:
+                print(f"'{num} = {dezena} dezenas'")
+            elif centena == 0 and dezena > 1 and unidade == 1:
+                print(f"'{num} = {dezena} dezenas e {unidade} unidade'")
+            elif centena == 0 and dezena == 1 and unidade == 0:
+                print(f"'{num} = {dezena} dezena'")
+            elif centena == 0 and dezena == 1 and unidade > 1:
+                print(f"'{num} = {dezena} dezena e {unidade} unidades'")
+            elif centena == 0 and dezena == 0 and unidade == 1:
+                print(f"'{num} = {unidade} unidade'")
+            elif centena == 0 and dezena == 0 and unidade > 1:
+                print(f"'{num} = {unidade} unidades'")
+            
+            
+            
+
+
+
+        
+
+        
+   
+

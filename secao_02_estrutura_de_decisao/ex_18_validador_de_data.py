@@ -24,3 +24,17 @@ Faça um Programa que peça uma data no formato dd/mm/aaaa e determine se a mesm
 
 def validar_data(data: str):
     """Escreva aqui em baixo a sua solução"""
+    if int(data[0:2]) != 0  and int(data[0:2]) <= 31 :
+        if int(data[3:5]) != 0  and int(data[3:5]) <= 12 :
+            if int(data[6:10]) != 0:
+                print("'Data válida'")
+            else :
+                print("'Data inválida'")
+        else :
+            print("'Data inválida'")
+    else:
+        print("'Data inválida'")
+
+
+    
+
