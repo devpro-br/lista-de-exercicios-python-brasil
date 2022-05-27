@@ -251,3 +251,7 @@ jobs:
       if: always()
       run: |
         python -m doctest -f secao_03_estrutura_de_repeticao/ex_13_potenciacao.py
+    - name: Correção do Exercício 14 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+        python -m doctest -f secao_03_estrutura_de_repeticao/ex_14_qtde_pares_e_impares.py
