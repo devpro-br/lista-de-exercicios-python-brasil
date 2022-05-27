@@ -12,3 +12,14 @@ A série de Fibonacci é formada pela seqüência 0,1,1,2,3,5,8,13,21,34,55,... 
 
 def calcular_serie_de_fibonacci_ate_valor_ser_maior_que_500() -> str:
     """Escreva aqui em baixo a sua solução"""
+
+    def funcao_geradora():
+        ultimo = 1
+        penultimo = 0
+        while True:
+            yield penultimo
+            if penultimo > 500:
+                break
+            ultimo, penultimo = ultimo + penultimo, ultimo
+
+    return ', '.join(map(str, funcao_geradora()))
