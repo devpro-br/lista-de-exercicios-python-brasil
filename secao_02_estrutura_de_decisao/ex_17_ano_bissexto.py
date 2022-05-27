@@ -24,15 +24,10 @@ from operator import truediv
 
 def eh_ano_bissexto(ano: int):
     """Escreva aqui em baixo a sua solução"""
-    if ano % 4 == 0:
-        if ano % 100 != 0:
-            return True
-        else:            
-            if ano % 400 == 0:
-                return True
-            else:
-                return False
-    else:
+    if (ano % 4 == 0 and ano % 100 != 0) or (ano % 4 == 0 and ano % 400 == 0 and ano % 100 == 0):
+        return True
+    else:            
         return False
+    
     
         

@@ -57,29 +57,25 @@ def calcular_conceito(nota_1: float, nota_2: float):
       print('Média: %.1f'%media)
       print('Conceito:', conceito)
       print('Status: APROVADO')
-    else:
-      if media > 7.5 and media <= 9:
+    elif media > 7.5 and media <= 9:
         conceito = 'B'
         print('Notas: %.1f' %nota_1, 'e ' '%.1f.' %nota_2)
         print('Média: %.1f'%media)
         print('Conceito:', conceito)
         print('Status: APROVADO')
-      else:
-        if media > 6 and media <= 7.5:
+    elif media > 6 and media <= 7.5:
           conceito = 'C'
           print('Notas: %.1f' %nota_1, 'e ' '%.1f.' %nota_2)
           print('Média: %.1f'%media)
           print('Conceito:', conceito)
           print('Status: APROVADO')
-        else:
-          if media > 4 and media <= 6:
+    elif media > 4 and media <= 6:
             conceito = 'D'
             print('Notas: %.1f' %nota_1, 'e ' '%.1f.' %nota_2)
             print('Média: %.1f'%media)
             print('Conceito:', conceito)
             print('Status: REPROVADO')
-          else:
-            if media <= 4:
+    elif media <= 4:
               conceito = 'E'
               print('Notas: %.1f' %nota_1, 'e ' '%.1f.' %nota_2)
               print('Média: %.1f'%media)

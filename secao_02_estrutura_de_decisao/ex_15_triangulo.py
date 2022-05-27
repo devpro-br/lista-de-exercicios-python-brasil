@@ -33,10 +33,9 @@ def classificar_trinagulo(lado_a: float, lado_b: float, lado_c: float):
     if teste_triangulo_1 > lado_c and teste_triangulo_2 > lado_a and teste_triangulo_3 > lado_b:
         if lado_a == lado_b == lado_c:
             return 'Triângulo Equilátero'
-        else:
-            if lado_a != lado_b != lado_c != lado_a:
+        elif lado_a != lado_b != lado_c != lado_a:
                 return 'Triângulo Escaleno'
-            else:
+        else:
                 return 'Triângulo Isósceles'
     else:
         return 'Não é um triângulo' 

@@ -29,16 +29,21 @@ def resolver_equacao_do_segundo_grau(a: float, b: float, c: float):
     delta = (b**2) - (4*a*c)
     if a == 0:
         return 'Valor do coeficiente a deve ser diferente de 0'
-    else:
-        if delta < 0:
-            return 'Delta negativo (%.0f), por isso não existem raízes reais' % delta
-        else:
-            if delta == 0:
-                x = -b/(2*a)
-                return 'Delta é 0, raíz única no valor de %.1f' % x
-            else:
-                x1 = (-b + delta**(1/2))/2*a
-                x2 = (-b - delta**(1/2))/2*a
-                return 'Delta é %.0f, raízes são %.1f e %.1f' % (delta, x1, x2)
+    elif delta < 0:
+        return 'Delta negativo (%.0f), por isso não existem raízes reais' % delta
+    elif delta == 0:
+        x = -b/(2*a)
+        return 'Delta é 0, raíz única no valor de %.1f' % x
+    elif delta > 0:
+        x1 = (-b + delta**(1/2))/2*a
+        x2 = (-b - delta**(1/2))/2*a
+        return 'Delta é %.0f, raízes são %.1f e %.1f' %(delta, x1, x2)
+      
+            
+        
+            
+                
+            
+                
 
 
