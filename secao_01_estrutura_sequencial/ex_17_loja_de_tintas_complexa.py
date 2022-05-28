@@ -29,19 +29,50 @@ Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, consid
 
 
 def calcular_latas_e_preco_de_tinta():
+    import math
+    from math import ceil
     """Escreva aqui em baixo a sua solução"""
-    #1º passo: solicitar input de metros quadrados
-    metros_quadrados = float(input("Digite o tamanho da área em metros quadrados: "))
-    #2º passo: efetue --> metros/6 (variavel litros)
-    litros = metros_quadrados / 6
-    #3º passo: crie a variável preco_litro, capacidade_litros, preco_galao e capacidade_galao
-    preco_litro = 80.00
+    area_m2 = float(input("Digite o tamanho da área(metros quadrados): ")) #area em metros quadrados
+    area_10 = area_m2 * 1.1
+    #litros a serem usados
+    litros = math.ceil (area_10 / 6) 
+    #litros por lata
     capacidade_litros = 18
-    preco_galao = 25.00
-    capacidade_galao = 3.6
-    #4º passo: efetuar --> litros/capacidade (Latas)
-    latas = litros / capacidade_litros
-    #5º passo: latas * preço(total)
-    total = round(latas) * preco_litro
-    #6º passo: imprimir número de latas a serem compradas + valor total  
-    print(f"Você deve comprar {round(latas)} lata(s) tinta ao custo de R$ {total:.2f}")
+    #numeros de latas
+    latas = math.ceil(litros / capacidade_litros) 
+    #valor com apenas latas
+    valor_lata = latas * 80
+    #diferença das latas utilizadas
+    diferenca = (latas * capacidade_litros) - litros 
+    print(f"Você deve comprar {litros} litros de tinta.")
+    print(f"Você pode comprar {latas} lata(s) de 18 litros a um custo de R$ {valor_lata}. Vão sobrar {diferenca:.1f} litro(s) de tinta.")
+
+    #litros por galão
+    capacidade_litros_galao = 3.6
+    #numeros de galoes
+    galoes = math.ceil(litros / capacidade_litros_galao) 
+    #valor com apenas galoes
+    valor_galoes = galoes * 25
+    #diferença galoes
+    diferenca_galoes = (galoes * capacidade_litros_galao) - litros 
+    print(f"Você pode comprar {galoes} lata(s) de 3.6 litros a um custo de R$ {valor_galoes}. Vão sobrar {diferenca_galoes:.1f} litro(s) de tinta.")
+
+    #compra de tinta otimizada por valor
+    #numeros de latas
+    latas = math.floor(litros / capacidade_litros) 
+    #valor com apenas latas
+    valor_de_lata = latas * 80
+    #litros faltantes
+    litros_faltantes = litros % capacidade_litros
+    #numeros de galoes
+    galoes = math.ceil(litros_faltantes / capacidade_litros_galao) 
+    #valor com apenas galoes
+    valor_com_galoes = galoes * 25
+    #valor total gasto
+    valor_total = valor_de_lata + valor_com_galoes
+    #diferenca total
+    diferenca_total = ((latas * capacidade_litros) + (galoes * capacidade_litros_galao))- litros
+    print(f"Para menor custo, você pode comprar {latas} lata(s) de 18 litros e {galoes} galão(ões) de 3.6 litros a um custo de R$ {valor_total}. Vão sobrar {diferenca_total:.1f} litro(s) de tinta.")
+    
+
+
