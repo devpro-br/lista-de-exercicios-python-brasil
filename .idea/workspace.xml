@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4ff1da9-091c-4da4-a066-8ca9b7db3353" name="Changes" comment="" />
+    <list default="true" id="f4ff1da9-091c-4da4-a066-8ca9b7db3353" name="Changes" comment=";;;;;;">
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_05_metros_para_centimetros.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_05_metros_para_centimetros.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_13_peso_ideal_mulher_e_homem.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_13_peso_ideal_mulher_e_homem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_17_loja_de_tintas_complexa.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_17_loja_de_tintas_complexa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_18_tempo_de_download.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_18_tempo_de_download.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_01_imprimir_maior_numero.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_01_imprimir_maior_numero.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_02_positivo_ou_negativo.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_02_positivo_ou_negativo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_03_F_ou_M.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_03_F_ou_M.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_04_vogal_ou_consoante.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_04_vogal_ou_consoante.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_05_notas_parciais.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_05_notas_parciais.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_06_maior_numero_de_3_numeros.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_06_maior_numero_de_3_numeros.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_07_maior_e_menor_numero_de_3_numeros.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_07_maior_e_menor_numero_de_3_numeros.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_08_escolha_de_produto.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_08_escolha_de_produto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_09_numeros_decrescentes.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_09_numeros_decrescentes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_10_cumprimento_em_turno.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_10_cumprimento_em_turno.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_11_salario_tabajara.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_11_salario_tabajara.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_12_clt_assalto.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_12_clt_assalto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_13_dia_da_semana.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_13_dia_da_semana.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,17 +50,17 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Doctests in ex_17_loja_de_tintas_complexa">
-    <configuration name="Doctests in ex_17_loja_de_tintas_complexa (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Doctests in ex_13_dia_da_semana (4)">
+    <configuration name="Doctests in ex_13_dia_da_semana (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="lista-de-exercicios-python-brasil" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/secao_01_estrutura_sequencial" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_17_loja_de_tintas_complexa.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_13_dia_da_semana.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -49,16 +69,16 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in ex_17_loja_de_tintas_complexa (2)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in ex_13_dia_da_semana (2)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="lista-de-exercicios-python-brasil" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/secao_01_estrutura_sequencial" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_17_loja_de_tintas_complexa.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_13_dia_da_semana.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -67,16 +87,16 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in ex_17_loja_de_tintas_complexa (3)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in ex_13_dia_da_semana (3)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="lista-de-exercicios-python-brasil" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/secao_01_estrutura_sequencial" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_17_loja_de_tintas_complexa.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_13_dia_da_semana.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -85,16 +105,16 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in ex_17_loja_de_tintas_complexa (5)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in ex_13_dia_da_semana (4)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="lista-de-exercicios-python-brasil" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/secao_01_estrutura_sequencial" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_17_loja_de_tintas_complexa.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_13_dia_da_semana.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -103,16 +123,16 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in ex_17_loja_de_tintas_complexa" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in ex_13_dia_da_semana" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="lista-de-exercicios-python-brasil" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/secao_01_estrutura_sequencial" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_17_loja_de_tintas_complexa.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_13_dia_da_semana.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -123,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Doctests in ex_17_loja_de_tintas_complexa" />
-        <item itemvalue="Python tests.Doctests in ex_17_loja_de_tintas_complexa (3)" />
-        <item itemvalue="Python tests.Doctests in ex_17_loja_de_tintas_complexa (2)" />
-        <item itemvalue="Python tests.Doctests in ex_17_loja_de_tintas_complexa (1)" />
-        <item itemvalue="Python tests.Doctests in ex_17_loja_de_tintas_complexa (5)" />
+        <item itemvalue="Python tests.Doctests in ex_13_dia_da_semana (4)" />
+        <item itemvalue="Python tests.Doctests in ex_13_dia_da_semana (3)" />
+        <item itemvalue="Python tests.Doctests in ex_13_dia_da_semana (2)" />
+        <item itemvalue="Python tests.Doctests in ex_13_dia_da_semana (1)" />
+        <item itemvalue="Python tests.Doctests in ex_13_dia_da_semana" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +160,14 @@
       <option name="presentableId" value="Default" />
       <updated>1653501824724</updated>
     </task>
+    <task id="LOCAL-00001" summary=";;;;;;">
+      <created>1653581427135</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653581427135</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,5 +183,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value=";;;;;;" />
+    <option name="LAST_COMMIT_MESSAGE" value=";;;;;;" />
   </component>
 </project>

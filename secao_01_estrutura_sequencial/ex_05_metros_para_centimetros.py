@@ -15,12 +15,10 @@ Faça um Programa que converta metros para centímetros.
 """
 
 
-<<<<<<< HEAD
+
 def converter_metros_para_centrimetros():
     valor = float(input("Digite a quantidade de metros. use ponto para as casas decimais"))
-    print('Transformando para centímetros dá %.1f cm' % (valor * 100) )
+    print('Transformando para centímetros dá %.1f cm' % (valor * 100))
 
-=======
-def converter_metros_para_centimetros():
-    """Escreva aqui em baixo a sua solução"""
->>>>>>> main
+
+
