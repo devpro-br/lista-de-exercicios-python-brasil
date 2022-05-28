@@ -25,5 +25,7 @@ def ceil(x):
         return int(x);
 
 def calcular_tempo_de_download():
-    tempo = ceil(float(input('tamanho')) / float(input('velocidade'))/60)
+    tamanho =  float(input('tamanho') )
+    velocidade =  float(input('velocidade')  )  / 8
+    tempo = round( (tamanho / velocidade)  / 60 )
     print(f'O tempo aproximado do Download é: {tempo} minuto(s)')
