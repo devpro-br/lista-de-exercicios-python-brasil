@@ -1,4 +1,9 @@
 {
-    "python.defaultInterpreterPath": "python3",
-    "python.pythonPath": "python3"
+    "python.pythonPath": "py",
+    "python.testing.pytestArgs": [
+        "secao_01_estrutura_sequencial"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.defaultInterpreterPath": "py"
 }

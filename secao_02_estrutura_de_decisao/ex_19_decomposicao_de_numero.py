@@ -50,5 +50,63 @@ Observando os termos no plural a colocação do "e", da vírgula entre outros. E
 """
 
 
+from math import ceil, floor
+
+
 def decompor_numero(numero: int):
     """Escreva aqui em baixo a sua solução"""
+    if numero < 1000 and numero > 0:
+        if numero < 10 and numero != 1:
+            print('\'%0.f = %0.f unidades\'' %(numero, numero))
+        elif numero == 1:
+            print('\'%0.f = %0.f unidade\'' %(numero, numero))
+        elif numero >= 10 and numero < 100:
+            numero_unidade = numero % 10
+            numero_dezenas = floor(numero/10)
+            if numero_unidade == 1 and numero_dezenas == 1:                
+                print('\'%0.f = %0.f dezena e %0.f unidade\'' %(numero, numero_dezenas, numero_unidade))
+            elif numero_unidade == 0 and numero_dezenas == 1:                
+                print('\'%0.f = %0.f dezena\'' %(numero, numero_dezenas))
+            elif numero_dezenas == 1:
+                print('\'%0.f = %0.f dezena e %0.f unidades\'' %(numero, numero_dezenas, numero_unidade))
+            elif numero_unidade == 1:
+                print('\'%0.f = %0.f dezenas e %0.f unidade\'' %(numero, numero_dezenas, numero_unidade))
+            elif numero_unidade == 0:
+                print('\'%0.f = %0.f dezenas\'' %(numero, numero_dezenas))
+            else:
+                print('\'%0.f = %0.f dezenas e %0.f unidades\'' %(numero, numero_dezenas, numero_unidade))
+        elif numero >= 100:
+            numero_aux = numero % 100
+            numero_unidade = numero_aux % 10
+            numero_dezenas = floor(numero_aux/10)
+            numero_centenas = floor(numero/100)
+            if numero_unidade == 1 and numero_dezenas == 1 and numero_centenas == 1:                
+                print('\'%0.f = %0.f centena, %0.f dezena e %0.f unidade\'' %(numero, numero_centenas, numero_dezenas, numero_unidade))
+            elif numero_centenas == 1  and numero_dezenas == 1 and numero_unidade == 0:                
+                print('\'%0.f = %0.f centena e %0.f dezena\'' %(numero, numero_centenas, numero_dezenas))
+            elif numero_centenas == 1  and numero_dezenas == 0 and numero_unidade == 0:                
+                print('\'%0.f = %0.f centena\'' %(numero, numero_centenas))
+            elif numero_centenas == 1 and numero_dezenas == 0 and numero_unidade == 1  :                
+                print('\'%0.f = %0.f centena e %0.f unidade\'' %(numero, numero_centenas, numero_unidade))
+            elif numero_dezenas == 1 and numero_unidade == 1:                
+                print('\'%0.f = %0.f centenas, %0.f dezena e %0.f unidade\'' %(numero, numero_centenas, numero_dezenas, numero_unidade))            
+            elif numero_dezenas == 1 and numero_unidade == 0:                
+                print('\'%0.f = %0.f centenas e %0.f dezena\'' %(numero, numero_centenas, numero_dezenas))
+            elif numero_dezenas == 1:
+                print('\'%0.f = %0.f centenas, %0.f dezena e %0.f unidades\'' %(numero, numero_centenas, numero_dezenas, numero_unidade))
+            elif numero_dezenas == 0 and numero_unidade == 0:
+                print('\'%0.f = %0.f centenas\'' %(numero, numero_centenas))
+            elif numero_dezenas == 0 and numero_unidade == 1:                
+                print('\'%0.f = %0.f centenas e %0.f unidade\'' %(numero, numero_centenas, numero_unidade))
+            elif numero_unidade == 1:
+                print('\'%0.f = %0.f centenas, %0.f dezenas e %0.f unidade\'' %(numero, numero_centenas, numero_dezenas, numero_unidade))  
+            elif numero_dezenas == 0:
+                print('\'%0.f = %0.f centenas e %0.f unidades\'' %(numero, numero_centenas, numero_unidade))
+            elif numero_unidade == 0:
+                print('\'%0.f = %0.f centenas e %0.f dezenas\'' %(numero, numero_centenas, numero_dezenas))               
+            else:
+                print('\'%0.f = %0.f centenas, %0.f dezenas e %0.f unidades\'' %(numero, numero_centenas, numero_dezenas, numero_unidade))       
+    elif numero < 0:
+        return 'O número precisa ser positivo'
+    else:
+        return 'O número precisa ser menor que 1000'
