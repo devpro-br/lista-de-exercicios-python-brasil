@@ -22,3 +22,4 @@ def calcular_media():
     media = (nota1 + nota2 + nota3 + nota4)/4
     print(f'A média anual é {media}')
 
+

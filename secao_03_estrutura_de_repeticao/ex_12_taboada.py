@@ -124,3 +124,10 @@ Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número i
 
 def gerar_taboada(n: int) -> str:
     """Escreva aqui em baixo a sua solução"""
+    if n >= 1 and n <= 10:
+        for numero in range(1, 11):
+            resultado = n*numero
+            print(f'{n} X {numero} = {resultado}')
+
+    else:
+        print('Somente pode ser gerada taboada de 1 a 10')

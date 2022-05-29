@@ -27,4 +27,44 @@ uma nota de 5 e quatro notas de 1.
 
 def calcular_troco(valor: int) -> str:
     """Escreva aqui em baixo a sua solução"""
+    notas_de_100 = valor//100
+    valor -= notas_de_100*100
+    notas_de_50 = valor//50
+    valor -= notas_de_50*50
+    notas_de_10 = valor//10
+    valor -= notas_de_10*10
+    notas_de_5 = valor//5
+    valor -= notas_de_5*5
+    notas_de_1 = valor
+    print("""'""", end='')
+    if notas_de_100 == 1:
+        print(f'{notas_de_100} nota de R$ 100', end=', ')
+    elif notas_de_100 > 1:
+        print(f'{notas_de_100} notas de R$ 100', end=', ')
+    if notas_de_50 == 1:
+        print(f'{notas_de_50} nota de R$ 50', end=', ')
+    elif notas_de_50 > 1:
+        print(f'{notas_de_50} notas de R$ 50', end=', ')
+    if notas_de_10 == 1:
+        if notas_de_5 == 0 and notas_de_1 == 0:
+            (print(f'{notas_de_10} nota de R$ 10', end=''))
+        else:
+            print(f'{notas_de_10} nota de R$ 10', end=' e ')
+    elif notas_de_10 > 1:
+        print(f'{notas_de_10} notas de R$ 10', end=', ')
+    if notas_de_5 == 1:
+        if notas_de_1 == 0:
+            print(f'{notas_de_5} nota de R$ 5', end='')
+        else:
+            print(f'{notas_de_5} nota de R$ 5', end=' e ')
+    elif notas_de_5 > 1 and notas_de_1 == 0:
+        if notas_de_1 == 0:
+            print(print(f'{notas_de_5} notas de R$ 5', end=''))
+        else:
+            print(f'{notas_de_5} notas de R$ 5', end=' e ')
+    if notas_de_1 == 1:
+        print(f'{notas_de_1} nota de R$ 1', end='')
+    elif notas_de_1 > 1:
+        print(f'{notas_de_1} notas de R$ 1', end='')
+    print("""'""", end='')
    

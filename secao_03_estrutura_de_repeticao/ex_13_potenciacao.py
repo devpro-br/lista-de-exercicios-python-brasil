@@ -18,3 +18,8 @@ Não utilize a função de potência da linguagem.
 
 def calcular_potencia(base: int, expoente: int) -> int:
     """Escreva aqui em baixo a sua solução"""
+    potencia = 1
+    for numero in range(expoente):
+        potencia *= base
+        numero+=1
+    print(potencia)

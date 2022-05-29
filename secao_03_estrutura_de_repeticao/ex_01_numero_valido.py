@@ -42,6 +42,4 @@ def obter_numero_valido():
         while nota < 0 or nota > 10:
             print(f'Número inválido: {input()}')
 
-obter_numero_valido()
-
 
