@@ -120,8 +120,6 @@ Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número i
     10 X 10 = 100
 
 """
-
-
 def gerar_taboada(n: int) -> str:
     """Escreva aqui em baixo a sua solução"""
     if n >= 1 and n <= 10:

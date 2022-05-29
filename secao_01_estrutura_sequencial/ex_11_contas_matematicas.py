@@ -18,8 +18,6 @@ Faça um Programa que peça 2 números inteiros e um número real. Calcule e mos
     O terceiro elevado ao cubo é 30.96
 
 """
-
-
 def calcular_formulas():
     """Escreva aqui em baixo a sua solução"""
     numero_int_1 = int(input('Digite o primeiro número inteiro: '))
@@ -31,6 +29,3 @@ def calcular_formulas():
     print(f'O produto do dobro do primeiro com metade do segundo é {primeiro_calculo:.2f}')
     print(f'A soma do triplo do primeiro com o terceiro é {segundo_calculo:.2f}')
     print(f'O terceiro elevado ao cubo é {terceiro_calculo:.2f}')
-
-
-

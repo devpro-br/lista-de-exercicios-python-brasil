@@ -14,8 +14,6 @@ Observação: Use o valor de 3.1415 para o valor da constante π
     A área do círculo com esse raio é: 19.6344
 
 """
-
-
 def calcular_area_de_circulo():
     """Escreva aqui em baixo a sua solução"""
     raio_circulo = float(input('Digite o raio do círculo em metros: '))

@@ -30,8 +30,6 @@ até que o usuário informe um valor válido.
 
 
 """
-
-
 def obter_numero_valido():
     """Escreva aqui em baixo a sua solução"""
     nota = input('Digite a sua nota: ')
@@ -39,5 +37,3 @@ def obter_numero_valido():
             print(f'Número inválido: {nota}')
             nota = input('Digite a sua nota: ')
     print(nota)
-
-

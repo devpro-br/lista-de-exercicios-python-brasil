@@ -13,8 +13,6 @@ Mostrar salário com duas casas decimais
     Seu salário desse mês é 4449.60
 
 """
-
-
 def calcular_salario():
     """Escreva aqui em baixo a sua solução"""
     ganhos_por_hora = float(input('Digite quanto você ganha por hora:'))

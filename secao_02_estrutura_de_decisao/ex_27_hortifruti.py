@@ -55,8 +55,6 @@ Mostre o restultado com duas casas decimais
               Valor Total:  R$ 23.31
 
 """
-
-
 def calcular_preco_da_compra(kilos_de_morango: int, kilos_de_maca: int):
     """Escreva aqui em baixo a sua solução"""
     preco_morangos = 0
@@ -95,6 +93,3 @@ def calcular_preco_da_compra(kilos_de_morango: int, kilos_de_maca: int):
     else:
         print('(-)  Desconto - valor:  R$  0.00')
         print(f'          Valor Total:  R$  {preco_total:.2f}')
-
-    
-    

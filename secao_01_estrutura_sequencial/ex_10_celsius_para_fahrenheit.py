@@ -14,8 +14,6 @@ Mostrar apenas valor inteiro da temperatura
     Essa temperatura é de 70 Fahrenheit
 
 """
-
-
 def transformar_para_fahrenheit():
     """Escreva aqui em baixo a sua solução"""
     temperatura_celsius = int(input('Digite a temperatura em graus Fahrenheit: '))

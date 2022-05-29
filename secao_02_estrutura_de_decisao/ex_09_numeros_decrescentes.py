@@ -14,8 +14,6 @@ Faça um Programa que leia três números e mostre-os em ordem decrescente.
     15, 7, 1
 
 """
-
-
 def ordenar_decrescente(x, y, z):
     """Escreva aqui em baixo a sua solução"""
     if x > y and x > z and y > z:
@@ -30,4 +28,3 @@ def ordenar_decrescente(x, y, z):
         print(f'{z}, {x}, {y}')
     else:
         print(f'{z}, {y}, {x}')
-

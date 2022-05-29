@@ -26,8 +26,6 @@ Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, consid
     Para menor custo, você pode comprar 2 lata(s) de 18 litros e 1 galão(ões) de 3.6 litros a um custo de R$ 185. Vão sobrar 2.6 litro(s) de tinta.
 
 """
-
-
 def calcular_latas_e_preco_de_tinta():
     """Escreva aqui em baixo a sua solução"""
     import math
@@ -61,4 +59,3 @@ def calcular_latas_e_preco_de_tinta():
     valor_total = valor_em_latas + valor_em_galoes
     resto_final = ((numero_de_latas*18 + numero_de_galoes*3.6)) % litros_necessarios
     print(f'Para menor custo, você pode comprar {numero_de_latas} lata(s) de 18 litros e {numero_de_galoes} galão(ões) de 3.6 litros a um custo de R$ {valor_total}. Vão sobrar {resto_final:.1f} litro(s) de tinta.')
-

@@ -12,8 +12,6 @@ Mostre a média com duas casas decimais.
     'Soma: -68, Média: -13.60'
 
 """
-
-
 def calcular_soma_e_media(n1: int, n2: int, n3: int, n4: int, n5: int) -> str:
     """Escreva aqui em baixo a sua solução"""
     numeros = [n1, n2, n3, n4, n5]

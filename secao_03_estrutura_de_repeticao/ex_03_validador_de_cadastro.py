@@ -36,8 +36,6 @@ Faça um programa que leia e valide as seguintes informações:
     Erro: o estado civil precisa ser "s", "c", "v" ou "d", não pode ser "p"
 
 """
-
-
 def cadastrar_usuario(nome: str, idade: int, salario: float, sexo: str, estado_civil: str):
     """Escreva aqui em baixo a sua solução"""
     erro = 0

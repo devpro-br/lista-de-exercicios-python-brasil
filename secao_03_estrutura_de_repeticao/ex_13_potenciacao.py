@@ -14,8 +14,6 @@ Não utilize a função de potência da linguagem.
     1024
 
 """
-
-
 def calcular_potencia(base: int, expoente: int) -> int:
     """Escreva aqui em baixo a sua solução"""
     potencia = 1

@@ -16,8 +16,6 @@ Mostrar o resultado com duas casas decimais
     Melhor produto custa R$ 1.00
 
 """
-
-
 def decidir_melhor_produto(x, y, z):
     """Escreva aqui em baixo a sua solução"""
     if x < y and x < z:

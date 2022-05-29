@@ -13,8 +13,6 @@ Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
     >>> vogal_ou_consoante('U')
     'vogal'
 """
-
-
 def vogal_ou_consoante(letra):
     """Escreva aqui em baixo a sua solução"""
     letra = letra.upper()

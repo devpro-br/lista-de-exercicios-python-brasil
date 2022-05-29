@@ -48,8 +48,6 @@ Observando os termos no plural a colocação do "e", da vírgula entre outros. E
     '7 = 7 unidades'
 
 """
-
-
 def decompor_numero(numero: int):
     """Escreva aqui em baixo a sua solução"""
     num = numero
@@ -100,14 +98,3 @@ def decompor_numero(numero: int):
                 print(f"'{num} = {unidade} unidade'")
             elif centena == 0 and dezena == 0 and unidade > 1:
                 print(f"'{num} = {unidade} unidades'")
-            
-            
-            
-
-
-
-        
-
-        
-   
-

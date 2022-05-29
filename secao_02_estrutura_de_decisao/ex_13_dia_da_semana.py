@@ -25,8 +25,6 @@ se digitar outro valor deve aparecer valor inválido.
     'Dia Inválido'
 
 """
-
-
 def calcular_dia_da_semana(numero: int):
     """Escreva aqui em baixo a sua solução"""
     if numero == 1:

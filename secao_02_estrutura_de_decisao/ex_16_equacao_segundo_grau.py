@@ -22,7 +22,6 @@ Mostrar raízes com uma casa decimal.
     'Delta é 4, raízes são -1.0 e -3.0'
 
 """
-
 import math
 
 def resolver_equacao_do_segundo_grau(a: float, b: float, c: float):
@@ -40,4 +39,3 @@ def resolver_equacao_do_segundo_grau(a: float, b: float, c: float):
             raiz1 = (-b + math.sqrt(delta)) / 2*a
             raiz2 = (-b - math.sqrt(delta)) / 2*a
             print(f"'Delta é {delta}, raízes são {raiz1} e {raiz2}'")
-

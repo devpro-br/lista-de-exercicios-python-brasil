@@ -17,8 +17,6 @@ Faça um Programa que leia três números e mostre o maior e o menor deles.
     Maior: 15
     Menor: -14
 """
-
-
 def calcular_maior_de_3_numeros(x, y, z):
     """Escreva aqui em baixo a sua solução"""
     if x < y and x < z and y > z:
@@ -33,4 +31,3 @@ def calcular_maior_de_3_numeros(x, y, z):
     else:
         print(f'Maior: {z}')
         print(f'Menor: {x}')
-

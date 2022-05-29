@@ -17,8 +17,6 @@ mensagem de erro e voltando a pedir as informações.
     'Cadastro realizado com suceso, seu login é outro_login'
 
 """
-
-
 def validar_senha():
     """Escreva aqui em baixo a sua solução"""
     login = input('Digite o seu login: ')
@@ -28,4 +26,3 @@ def validar_senha():
         login = input('Digite o seu login: ')
         senha = input('Digite a sua senha: ')
     print(f"'Cadastro realizado com suceso, seu login é {login}'")
-

@@ -22,8 +22,6 @@ Mostrar o peso e multa com duas casas decimais
     Por isso, a multa é de R$ 0.00
 
 """
-
-
 def calcular_peso_excedente_e_multa():
     """Escreva aqui em baixo a sua solução"""
     peso_peixes = float(input('Digite o peso total dos peixes: '))

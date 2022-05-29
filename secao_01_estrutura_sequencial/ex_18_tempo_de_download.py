@@ -17,8 +17,6 @@ Arredonde o tempo em minutos
     O tempo aproximado do Download é: 3 minuto(s)
 
 """
-
-
 def calcular_tempo_de_download():
     """Escreva aqui em baixo a sua solução"""
     tamanho_arquivo = float(input('Digite o tamanho do arquivo em mb: '))

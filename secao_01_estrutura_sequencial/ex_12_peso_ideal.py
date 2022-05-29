@@ -15,8 +15,6 @@ Mostrar a área com 1 casa decimal.
     Seu peso ideal é 72.9 kg
 
 """
-
-
 def calcular_peso_ideal():
     """Escreva aqui em baixo a sua solução"""
     altura = float(input('Digite a sua altura: '))

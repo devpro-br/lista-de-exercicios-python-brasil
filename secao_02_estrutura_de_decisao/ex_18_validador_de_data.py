@@ -30,13 +30,3 @@ def validar_data(data: str):
         print("'Data inválida'")
     else:
         print("'Data válida'")
-
-
-
-
-
-
-
-
-    
-

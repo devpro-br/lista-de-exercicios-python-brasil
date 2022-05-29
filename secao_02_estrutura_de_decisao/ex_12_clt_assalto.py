@@ -49,8 +49,6 @@ até R$ 99999,99
     Salário Liquido                    : R$ 10720.00
 
 """
-
-
 def calcular_salario_liquido(valor_hora: float, horas_trabalhadas: int):
     """Escreva aqui em baixo a sua solução"""
     salario_bruto = valor_hora * horas_trabalhadas

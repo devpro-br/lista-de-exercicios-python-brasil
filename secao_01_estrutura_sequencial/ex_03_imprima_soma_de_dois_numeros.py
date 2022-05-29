@@ -11,8 +11,6 @@ Faça um Programa que peça dois números inteiros e imprima a soma.
     A soma dos dois números informados é 85
 
 """
-
-
 def imprima_a_soma_de_dois_numeros():
     """Escreva aqui em baixo a sua solução"""
     numero1 = int(input('Digite o primeiro número: '))

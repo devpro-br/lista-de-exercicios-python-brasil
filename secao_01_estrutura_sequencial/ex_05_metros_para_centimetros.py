@@ -13,8 +13,6 @@ Faça um Programa que converta metros para centímetros.
     Transformando para centímetros dá 362.1 cm
 
 """
-
-
 def converter_metros_para_centimetros():
     """Escreva aqui em baixo a sua solução"""
     valor_em_metros = float(input('Digite o valor em metros: '))

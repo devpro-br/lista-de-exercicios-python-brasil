@@ -17,8 +17,6 @@ restrição).
 
 
 """
-
-
 def calcular_ano_ultrapassagem_populacional(
         populacao_menor: int, taxa_crescimento_populacao_menor: float, populacao_maior,
         taxa_crescimento_populacao_maior:float ) -> str:

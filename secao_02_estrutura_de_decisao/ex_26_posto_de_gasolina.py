@@ -31,8 +31,6 @@ Mostre o restultado com duas casas decimais
     '30 litro(s) de gasolina custa(m): R$ 75.00. Com 6% de desconto, fica R$ 70.50'
 
 """
-
-
 def calcular_abastecimento(litros_de_combustivel: float, tipo_de_combustivel: str) -> str:
     """Escreva aqui em baixo a sua solução"""
     preco_com_alcool = litros_de_combustivel * 1.9
@@ -56,7 +54,3 @@ def calcular_abastecimento(litros_de_combustivel: float, tipo_de_combustivel: st
             desconto_gasolina = preco_com_gasolina * 0.06
             preco_com_desconto = preco_com_gasolina - desconto_gasolina
             print(f"'{litros_de_combustivel} litro(s) de gasolina custa(m): R$ {preco_com_gasolina:.2f}. Com 6% de desconto, fica R$ {preco_com_desconto:.2f}'")
-        
-    
-
-        

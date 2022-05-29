@@ -23,8 +23,6 @@ uma nota de 5 e quatro notas de 1.
     >>> calcular_troco(399)
     '3 notas de R$ 100, 1 nota de R$ 50, 4 notas de R$ 10, 1 nota de R$ 5 e 4 notas de R$ 1'
 """
-
-
 def calcular_troco(valor: int) -> str:
     """Escreva aqui em baixo a sua solução"""
     notas_de_100 = valor//100
@@ -67,4 +65,3 @@ def calcular_troco(valor: int) -> str:
     elif notas_de_1 > 1:
         print(f'{notas_de_1} notas de R$ 1', end='')
     print("""'""", end='')
-   

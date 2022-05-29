@@ -8,8 +8,6 @@ Escreva um programa que mostre a mensagem "Olá Mundo"
     Olá Mundo
 
 """
-
-
 def ola_mundo():
     """Escreva aqui em baixo a sua solução"""
     print('Olá Mundo')

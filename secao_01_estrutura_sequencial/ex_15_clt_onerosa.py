@@ -23,8 +23,6 @@ Mostrar os resultados com duas casas decimais
     = Salário Liquido : R$ 3381.70
 
 """
-
-
 def calcular_assalto_no_salario():
     """Escreva aqui em baixo a sua solução"""
     ganhos_por_hora = float(input('Digite quanto você ganha por hora: '))

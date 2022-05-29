@@ -42,8 +42,6 @@ Mostar valores com uma casa decimal.
     Status: REPROVADO
 
 """
-
-
 def calcular_conceito(nota_1: float, nota_2: float):
     """Escreva aqui em baixo a sua solução"""
     print(f'Notas: {nota_1:.1f} e {nota_2:.1f}.')
@@ -65,5 +63,3 @@ def calcular_conceito(nota_1: float, nota_2: float):
       print('Status: REPROVADO')
     else:
       print('Status: APROVADO')
-    
-    
