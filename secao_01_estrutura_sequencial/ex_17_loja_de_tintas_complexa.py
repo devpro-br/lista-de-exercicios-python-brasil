@@ -30,3 +30,23 @@ Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, consid
 
 def calcular_latas_e_preco_de_tinta():
     """Escreva aqui em baixo a sua solução"""
+    import math
+    area = float(input("Insira a area em metros quadrados"))*1.10
+    litro_tinta = 6               #1 litro rende 6 metros²
+    litros_necessarios = (area / litro_tinta)
+    preco_lata = 80.00
+
+    lata = 18  # 18 litros
+
+    latas_necessarias = (math.ceil(lata) / litros_necessarios)*1.10 # quantidade de latas necessarias
+
+    litro_por_preco = (preco_lata *2) # preco do litro de tinta
+
+    sobra = (latas_necessarias *  litros_necessarios )   #sobra de tinta
+    galao =21.6                      # 3.6 litros
+
+    print(litros_necessarios)
+    print(litro_por_preco)
+    #print ()
+    print (f"Você deve comprar {math.ceil(litros_necessarios)} litros de tinta.")
+    print (f"Você pode comprar {math.ceil(latas_necessarias)} lata(s) de 18 litros a um custo de R$ {litro_por_preco :.2f}. Vão sobrar {sobra  :.2f} litro(s) de tinta.")
