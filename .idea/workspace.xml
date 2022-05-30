@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f4ff1da9-091c-4da4-a066-8ca9b7db3353" name="Changes" comment=";;;;;;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_17_loja_de_tintas_complexa.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_17_loja_de_tintas_complexa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_14_atribuicoes_de_conceitos.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_14_atribuicoes_de_conceitos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_15_triangulo.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_15_triangulo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_16_equacao_segundo_grau.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_16_equacao_segundo_grau.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_17_ano_bissexto.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_17_ano_bissexto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_18_validador_de_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_18_validador_de_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_19_decomposicao_de_numero.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_19_decomposicao_de_numero.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_20_3_notas_parciais.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_20_3_notas_parciais.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_21_troco.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_21_troco.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +51,7 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in ex_21_troco (3)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in ex_21_troco (2)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="lista-de-exercicios-python-brasil" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,7 +69,7 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in ex_21_troco (4)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in ex_21_troco (3)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="lista-de-exercicios-python-brasil" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,10 +126,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Doctests in ex_21_troco" />
+        <item itemvalue="Python tests.Doctests in ex_21_troco (3)" />
+        <item itemvalue="Python tests.Doctests in ex_21_troco (2)" />
         <item itemvalue="Python tests.Doctests in ex_21_troco (1)" />
         <item itemvalue="Python tests.Doctests in ex_21_troco (5)" />
-        <item itemvalue="Python tests.Doctests in ex_21_troco (4)" />
-        <item itemvalue="Python tests.Doctests in ex_21_troco (3)" />
       </list>
     </recent_temporary>
   </component>
