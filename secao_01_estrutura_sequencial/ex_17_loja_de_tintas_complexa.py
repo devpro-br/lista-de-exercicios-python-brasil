@@ -31,22 +31,36 @@ Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, consid
 def calcular_latas_e_preco_de_tinta():
     """Escreva aqui em baixo a sua solução"""
     import math
-    area = float(input("Insira a area em metros quadrados"))*1.10
+    area = float(input("Insira a area em metros quadrados"))
     litro_tinta = 6               #1 litro rende 6 metros²
-    litros_necessarios = (area / litro_tinta)
+    litros_necessarios = (area / litro_tinta)*1.10
     preco_lata = 80.00
-
     lata = 18  # 18 litros
+    latas_necessarias = math.ceil(litros_necessarios / lata )   # quantidade de latas necessarias
+    litro_por_preco = (preco_lata * latas_necessarias) # preco do litro de tinta
+    sobra = math.floor(latas_necessarias * lata - litros_necessarios )   #sobra de tinta
 
-    latas_necessarias = (math.ceil(lata) / litros_necessarios)*1.10 # quantidade de latas necessarias
+    #area = float(input("Insira a area em metros quadrados"))
+    galao_tinta =6               # 3.6 litros
+    litros_galao = 3.6
+    preco_galao = 25.00
+    litros_necessarios_galao = math.ceil(area / galao_tinta*1.10)
+    galoes_necessarios = math.ceil(litros_necessarios_galao / litros_galao) #quantidade de galoes necessarios
+    litro_preco_galao = math.ceil(preco_galao * galoes_necessarios)
+    sobra_galoes = (galoes_necessarios * litros_galao - litros_necessarios_galao )
+    #inicio terceira parte
 
-    litro_por_preco = (preco_lata *2) # preco do litro de tinta
+    lata = 18
+    litros_galao = 3.6
+    litros_necessarios = math.ceil((area / litro_tinta) *1.10)
+    qnt_latas = math.floor(litros_necessarios / lata)
+    subtracao = litros_necessarios - (lata *qnt_latas )     # qnt de litros ainda necessario
+    qntd_galoes = math.ceil(subtracao / litros_galao)       # qnts galoes de 3,6 litros ainda precisa
+    preco = (qnt_latas * 80 ) + (qntd_galoes * 25)
+    sobra3 = ( (qnt_latas * lata) + (qntd_galoes * litros_galao) - litros_necessarios)
 
-    sobra = (latas_necessarias *  litros_necessarios )   #sobra de tinta
-    galao =21.6                      # 3.6 litros
 
-    print(litros_necessarios)
-    print(litro_por_preco)
-    #print ()
     print (f"Você deve comprar {math.ceil(litros_necessarios)} litros de tinta.")
-    print (f"Você pode comprar {math.ceil(latas_necessarias)} lata(s) de 18 litros a um custo de R$ {litro_por_preco :.2f}. Vão sobrar {sobra  :.2f} litro(s) de tinta.")
+    print (f"Você pode comprar {math.ceil(latas_necessarias)} lata(s) de 18 litros a um custo de R$ {litro_por_preco :.0f}. Vão sobrar {sobra  :.1f} litro(s) de tinta.")
+    print(f"Você pode comprar {galoes_necessarios} lata(s) de 3.6 litros a um custo de R$ {litro_preco_galao :.0f}. Vão sobrar {sobra_galoes :.1f} litro(s) de tinta.")
+    print (f"Para menor custo, você pode comprar {qnt_latas} lata(s) de 18 litros e {qntd_galoes} galão(ões) de 3.6 litros a um custo de R$ {preco}. Vão sobrar {sobra3 :.1f} litro(s) de tinta.")
