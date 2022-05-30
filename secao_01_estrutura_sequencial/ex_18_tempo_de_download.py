@@ -21,3 +21,7 @@ Arredonde o tempo em minutos
 
 def calcular_tempo_de_download():
     """Escreva aqui em baixo a sua solução"""
+    tamanho = float(input('Qual o tamanho(MB) do arquivo? '))
+    velo = float(input('Qual a velocidade de um link de Internet (em Mbps)? '))
+    tempo = round((tamanho / (velo/8) / 60))
+    print(f'O tempo aproximado do Download é: {tempo} minuto(s)')

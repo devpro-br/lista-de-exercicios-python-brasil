@@ -17,4 +17,4 @@ def imprima_a_soma_de_dois_numeros():
     """Escreva aqui em baixo a sua solução"""
     n1 = int(input('Esreva um número: '))
     n2 = int(input('Escreva outro número: '))
-    print(f'A soma é {a + b}')
+    print(f'A soma dos dois números informados é {a + b}')
