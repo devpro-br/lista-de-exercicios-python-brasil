@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "py",
+    "python.pythonPath": "python3",
     "python.testing.pytestArgs": [
         "secao_01_estrutura_sequencial"
     ],
