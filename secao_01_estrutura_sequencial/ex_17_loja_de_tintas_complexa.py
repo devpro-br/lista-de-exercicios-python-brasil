@@ -34,7 +34,6 @@ def calcular_latas_e_preco_de_tinta():
     litros_por_metro = 6
     litros_sem_folga = area / litros_por_metro
     litros_necessarios = math.ceil(litros_sem_folga + (0.1 * litros_sem_folga))
-
     print(f'Você deve comprar {litros_necessarios:.0f} litros de tinta.')
   
     # Cálculo em latas
