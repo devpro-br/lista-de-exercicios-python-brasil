@@ -26,9 +26,10 @@ Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, consid
     Para menor custo, você pode comprar 2 lata(s) de 18 litros e 1 galão(ões) de 3.6 litros a um custo de R$ 185. Vão sobrar 2.6 litro(s) de tinta.
 
 """
+import math
+
 def calcular_latas_e_preco_de_tinta():
     """Escreva aqui em baixo a sua solução"""
-    import math
     area = float(input('Digite o tamanho da área a ser pintada em m²: '))
     litros_por_metro = 6
     litros_sem_folga = area / litros_por_metro
