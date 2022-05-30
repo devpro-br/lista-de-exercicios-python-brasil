@@ -16,3 +16,10 @@ Faça um Programa que peça as 4 notas bimestrais e mostre a média.
 def calcular_media():
     """Escreva aqui em baixo a sua solução"""
 
+    b1 = int(input("Informe sua nota do 1 Bimestre:"))
+    b2 = int(input("Informe sua nota do 2 Bimestre:"))
+    b3 = int(input("Informe sua nota do 3 Bimestre:"))
+    b4 = int(input("Informe sua nota do 4 Bimestre:"))
+    s1 = b1 + b2 + b3 + b4
+    print("A média anual é", s1 / 4)
+
