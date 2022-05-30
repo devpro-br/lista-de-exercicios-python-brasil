@@ -31,23 +31,24 @@ from math import ceil
 
 def calcular_latas_e_preco_de_tinta():
     """Escreva aqui em baixo a sua solução"""
-
-
     tamM = float(input("Digite o tamanho em metros quadrados da área a ser pintada: "))
-    cobertura = ceil(tamM / 6 * 1.1)
-    latas = ceil(cobertura / 18)
-    galoes = ceil(cobertura / 3.6)
-    resto_latas =  latas * 18 - cobertura
-    resto_galoes = galoes * 3.6 - cobertura
-    latas_custo = latas* 80.0
-    galoes_custo = galoes * 25.0
-
-    melhor_lata = round(cobertura / 18)
-    melhor_galao = ceil(cobertura % 18 / 3.6) 
-    melhor_custo = melhor_lata * 80.0 + melhor_galao * 25.0
-    sobra =  (melhor_lata * 18) + (melhor_galao * 3.6) - cobertura
+    cobertura = ceil((tamM / 6)*1.1)
+    latas = ceil((cobertura/18))
+    restoL = (latas*18 - (tamM / 6*1.1) )
+    galoes = ceil((cobertura/3.6))
+    restoG = (galoes*3.6 - (tamM / 6*1.1) )
+    granaL = latas * 80.00
+    granaG = galoes * 25.00
+    aprov = 0.0
     
-    print(f"Você deve comprar {cobertura} litros de tinta.")
-    print(f"Você pode comprar {latas} lata(s) de 18 litros a um custo de R$ {latas_custo:.0f}. Vão sobrar {resto_latas:.1f} litro(s) de tinta.")
-    print(f"Você pode comprar {galoes} lata(s) de 3.6 litros a um custo de R$ {galoes_custo:.0f}. Vão sobrar {resto_galoes:.1f} litro(s) de tinta.")
-    print(f"Para menor custo, você pode comprar {melhor_lata} lata(s) de 18 litros e {melhor_galao} galão(ões) de 3.6 litros a um custo de R$ {melhor_custo:.0f}. Vão sobrar {sobra:.1f} litro(s) de tinta.")
+    if restoL > 3.6:
+        aprov = round(restoL/3.6)
+        resto = restoL%3.6
+    else:
+        aprov = restoL
+
+    print(f"Você deve comprar {cobertura} litros de tinta .")
+    print(f"Você pode comprar {latas} lata(s) de 18 litros a um custo de R$ {granaL:.2f}. Vão sobrar {restoL:.1f} litro(s) de tinta.")
+    print(f"Você pode comprar {galoes} lata(s) de 3.6 litros a um custo de R$ {granaG:.2f}. Vão sobrar {restoG:.1f} litro(s) de tinta.")
+    print(f"Para menor custo, você pode comprar {latas} lata(s) de 18 litros e {aprov} galão(ões) de 3.6 litros a um custo de R$ 185. Vão sobrar {resto:.1f} litro(s) de tinta.")
+calcular_latas_e_preco_de_tinta()
