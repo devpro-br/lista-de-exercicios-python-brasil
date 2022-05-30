@@ -45,7 +45,7 @@ def calcular_troco(valor: int) -> str:
         print(f'{notas_de_50} notas de R$ 50', end=', ')
     if notas_de_10 == 1:
         if notas_de_5 == 0 and notas_de_1 == 0:
-            (print(f'{notas_de_10} nota de R$ 10', end=''))
+            print(f'{notas_de_10} nota de R$ 10', end='')
         else:
             print(f'{notas_de_10} nota de R$ 10', end=' e ')
     elif notas_de_10 > 1:
@@ -57,7 +57,7 @@ def calcular_troco(valor: int) -> str:
             print(f'{notas_de_5} nota de R$ 5', end=' e ')
     elif notas_de_5 > 1 and notas_de_1 == 0:
         if notas_de_1 == 0:
-            print(print(f'{notas_de_5} notas de R$ 5', end=''))
+            print(f'{notas_de_5} notas de R$ 5', end='')
         else:
             print(f'{notas_de_5} notas de R$ 5', end=' e ')
     if notas_de_1 == 1:
