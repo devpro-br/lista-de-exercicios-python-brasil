@@ -25,12 +25,52 @@ uma nota de 5 e quatro notas de 1.
 """
 
 
+
+def quant_nota(notas: list, valor_saque: int, valor_nota: int):
+    if valor_saque >= valor_nota:
+        notas.append(f'{valor_saque // valor_nota} nota')
+        if valor_saque // valor_nota > 1:
+            notas[-1] += 's'
+        notas[-1] += f' de R$ {valor_nota}'
+
+
+
 def calcular_troco(valor: int) -> str:
     """Escreva aqui em baixo a sua solução"""
-    tipos_de_notas = [1, 5, 10, 50, 100]
-    pedacos=[]
-    resto = valor
-    while resto > 0:
-        tipo_de_nota = tipos_de_notas.pop()
-    if len(pedacos)==1:
-        return pedacos.pop()
+    notas = []
+ #---------------------------------------
+    quant_nota(notas, valor, 100)
+    valor -= (valor // 100) * 100
+
+    quant_nota(notas, valor, 50)
+    valor -= (valor // 50) * 50
+
+    quant_nota(notas, valor, 10)
+    valor -= (valor // 10) * 10
+
+    quant_nota(notas, valor, 5)
+    valor -= (valor // 5) * 5
+
+    quant_nota(notas, valor, 1)
+    valor -= (valor // 1) * 1
+#--------------------------------------------------
+    if len(notas) == 5:
+        print(f"'{notas[0]}, {notas[1]}, {notas[2]}, {notas[3]} e {notas[4]}'")
+    if len(notas) == 4:
+        print(f"'{notas[0]}, {notas[1]}, {notas[2]} e {notas[3]}'")
+    if len(notas) == 3:
+        print(f"'{notas[0]}, {notas[1]} e {notas[2]}'")
+    if len(notas) == 2:
+        print(f"'{notas[0]} e {notas[1]}'")
+    if len(notas) == 1:
+        print(f"'{notas[0]}'")
+
+
+
+
+
+
+
+
+
+

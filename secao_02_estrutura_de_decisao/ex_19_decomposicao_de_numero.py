@@ -52,3 +52,60 @@ Observando os termos no plural a colocação do "e", da vírgula entre outros. E
 
 def decompor_numero(numero: int):
     """Escreva aqui em baixo a sua solução"""
+    if numero <= 0:
+        print(f"'O número precisa ser positivo'")
+        return None
+    if numero >= 1000:
+        print("'O número precisa ser menor que 1000'")
+        return None
+    #------------------------------------------
+
+    string_num = []
+    x = list(str(numero))
+    numero_aux = numero
+    if 100 <= numero < 200:
+        string_num.append(x[0] + ' centena')
+        numero -= (numero // 100) * 100
+        del x[0]
+    elif 200<= numero:
+        string_num.append(x[0] + ' centenas')
+        numero -= (numero // 100) * 100
+        del x[0]
+
+    #--------------------------------
+
+    if 10 <= numero < 20:
+        string_num.append(x[0] + ' dezena')
+        numero -= (numero //10) * 10
+        del x[0]
+    elif numero >= 20:
+        string_num.append(x[0] + ' dezenas')
+        numero -= (numero // 10) * 10
+        del x[0]
+
+    elif numero < 10 and numero_aux >= 100 :
+        del x[0]
+    #----------------------------------
+
+    if numero == 1:
+        string_num.append(x[0] + ' unidade')
+    elif numero > 1:
+        string_num.append(x[0] + ' unidades')
+
+    #-----------------------------------------
+
+    if len(string_num) == 3:
+        print(f"'{numero_aux} = {string_num[0]}, {string_num[1]} e {string_num[2]}'")
+    elif len(string_num) == 2:
+        print(f"'{numero_aux} = {string_num[0]} e {string_num[1]}'")
+    elif len(string_num) == 1:
+        print(f"'{numero_aux} = {string_num[0]}'")
+
+
+
+
+
+
+
+
+

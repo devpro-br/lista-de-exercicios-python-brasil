@@ -2,25 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4ff1da9-091c-4da4-a066-8ca9b7db3353" name="Changes" comment=";;;;;;">
-      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_05_metros_para_centimetros.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_05_metros_para_centimetros.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_13_peso_ideal_mulher_e_homem.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_13_peso_ideal_mulher_e_homem.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_17_loja_de_tintas_complexa.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_17_loja_de_tintas_complexa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_18_tempo_de_download.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_18_tempo_de_download.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_01_imprimir_maior_numero.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_01_imprimir_maior_numero.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_02_positivo_ou_negativo.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_02_positivo_ou_negativo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_03_F_ou_M.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_03_F_ou_M.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_04_vogal_ou_consoante.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_04_vogal_ou_consoante.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_05_notas_parciais.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_05_notas_parciais.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_06_maior_numero_de_3_numeros.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_06_maior_numero_de_3_numeros.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_07_maior_e_menor_numero_de_3_numeros.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_07_maior_e_menor_numero_de_3_numeros.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_08_escolha_de_produto.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_08_escolha_de_produto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_09_numeros_decrescentes.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_09_numeros_decrescentes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_10_cumprimento_em_turno.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_10_cumprimento_em_turno.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_11_salario_tabajara.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_11_salario_tabajara.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_12_clt_assalto.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_12_clt_assalto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_13_dia_da_semana.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_13_dia_da_semana.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_14_atribuicoes_de_conceitos.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_14_atribuicoes_de_conceitos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_15_triangulo.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_15_triangulo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_16_equacao_segundo_grau.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_16_equacao_segundo_grau.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_17_ano_bissexto.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_17_ano_bissexto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_18_validador_de_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_18_validador_de_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_19_decomposicao_de_numero.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_19_decomposicao_de_numero.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_20_3_notas_parciais.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_20_3_notas_parciais.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_21_troco.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_21_troco.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +41,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Doctests in ex_13_dia_da_semana (4)">
-    <configuration name="Doctests in ex_13_dia_da_semana (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Doctests in ex_21_troco">
+    <configuration name="Doctests in ex_21_troco (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="lista-de-exercicios-python-brasil" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,7 +51,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_13_dia_da_semana.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_21_troco.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -69,7 +60,7 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in ex_13_dia_da_semana (2)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in ex_21_troco (3)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="lista-de-exercicios-python-brasil" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,7 +69,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_13_dia_da_semana.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_21_troco.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -87,7 +78,7 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in ex_13_dia_da_semana (3)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in ex_21_troco (4)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="lista-de-exercicios-python-brasil" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,7 +87,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_13_dia_da_semana.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_21_troco.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -105,7 +96,7 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in ex_13_dia_da_semana (4)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in ex_21_troco (5)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="lista-de-exercicios-python-brasil" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,7 +105,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_13_dia_da_semana.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_21_troco.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -123,7 +114,7 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in ex_13_dia_da_semana" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in ex_21_troco" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="lista-de-exercicios-python-brasil" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,7 +123,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_13_dia_da_semana.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_21_troco.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -143,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Doctests in ex_13_dia_da_semana (4)" />
-        <item itemvalue="Python tests.Doctests in ex_13_dia_da_semana (3)" />
-        <item itemvalue="Python tests.Doctests in ex_13_dia_da_semana (2)" />
-        <item itemvalue="Python tests.Doctests in ex_13_dia_da_semana (1)" />
-        <item itemvalue="Python tests.Doctests in ex_13_dia_da_semana" />
+        <item itemvalue="Python tests.Doctests in ex_21_troco" />
+        <item itemvalue="Python tests.Doctests in ex_21_troco (1)" />
+        <item itemvalue="Python tests.Doctests in ex_21_troco (5)" />
+        <item itemvalue="Python tests.Doctests in ex_21_troco (4)" />
+        <item itemvalue="Python tests.Doctests in ex_21_troco (3)" />
       </list>
     </recent_temporary>
   </component>
