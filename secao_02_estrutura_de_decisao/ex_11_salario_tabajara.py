@@ -46,34 +46,23 @@ def calcular_aumento(salario: float):
       valor_do_aumento = porcentagem_de_aumento*salario
       novo_salario = valor_do_aumento + salario
       porcentos = porcentagem_de_aumento*100
-      print('Salário atual: R$','%.2f'%salario)
-      print('Aumento porcentual: ', '%.0f' %porcentos, '%', sep='')
-      print('Valor do aumento: R$','%.2f'% valor_do_aumento)
-      print('Novo salário: R$','%.2f'% novo_salario)
     elif salario >= 280 and salario < 700:
       porcentagem_de_aumento = 0.15
       valor_do_aumento = porcentagem_de_aumento*salario
       novo_salario = valor_do_aumento + salario
       porcentos = porcentagem_de_aumento*100
-      print('Salário atual: R$','%.2f'%salario)
-      print('Aumento porcentual: ', '%.0f' %porcentos, '%', sep='')
-      print('Valor do aumento: R$','%.2f'% valor_do_aumento)
-      print('Novo salário: R$','%.2f'% novo_salario)
     elif salario >= 700 and salario < 1500:
       porcentagem_de_aumento = 0.10
       valor_do_aumento = porcentagem_de_aumento*salario
       novo_salario = valor_do_aumento + salario
       porcentos = porcentagem_de_aumento*100
-      print('Salário atual: R$','%.2f'%salario)
-      print('Aumento porcentual: ', '%.0f' %porcentos, '%', sep='')
-      print('Valor do aumento: R$','%.2f'% valor_do_aumento)
-      print('Novo salário: R$','%.2f'% novo_salario)
     elif salario >= 1500:
       porcentagem_de_aumento = 0.05
       valor_do_aumento = porcentagem_de_aumento*salario
       novo_salario = valor_do_aumento + salario
       porcentos = porcentagem_de_aumento*100
-      print('Salário atual: R$','%.2f'%salario)
-      print('Aumento porcentual: ', '%.0f' %porcentos, '%', sep='')
-      print('Valor do aumento: R$','%.2f'% valor_do_aumento)
-      print('Novo salário: R$','%.2f'% novo_salario)
+
+    print('Salário atual: R$','%.2f'%salario)
+    print('Aumento porcentual: ', '%.0f' %porcentos, '%', sep='')
+    print('Valor do aumento: R$','%.2f'% valor_do_aumento)
+    print('Novo salário: R$','%.2f'% novo_salario)
