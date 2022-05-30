@@ -15,5 +15,15 @@ Faça um Programa que peça dois números e imprima o maior deles.
 """
 
 
+
 def maior_de_dois_numeros(x, y):
     """Escreva aqui em baixo a sua solução"""
+
+    if x > y:
+        return x
+    elif x == y:
+        print("Os números são iguais.")
+    else:
+        return y
+
+maior_de_dois_numeros(2,3)
