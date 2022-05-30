@@ -15,4 +15,6 @@ Faça um Programa que peça dois números inteiros e imprima a soma.
 
 def imprima_a_soma_de_dois_numeros():
     """Escreva aqui em baixo a sua solução"""
-    print(f'A soma dos dois números informados é {80 + 5}')
+    a = int(input('Entre com o 1° número inteiro: '))
+    b = int(input("Entre com o 2° número inteiro: "))
+    print(f'A soma dos dois números informados é {a + b}')
