@@ -17,3 +17,11 @@ Faça um Programa que leia três números e mostre o maior deles.
 
 def calcular_maior_de_3_numeros(x, y, z):
     """Escreva aqui em baixo a sua solução"""
+    if z < x > y:
+        maior_numero = x
+    elif x < z > y:
+        maior_numero = z
+    elif x < y > z:
+        maior_numero = y
+    print(maior_numero)
+    
