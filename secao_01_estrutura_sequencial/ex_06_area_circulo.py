@@ -16,5 +16,17 @@ Observação: Use o valor de 3.1415 para o valor da constante π
 """
 
 
+from cmath import pi
+from xml.etree.ElementTree import PI
+
+
 def calcular_area_de_circulo():
     """Escreva aqui em baixo a sua solução"""
+    PI = 3.1415
+    raio = float(input('informe o tamanho do raio: '))
+    área = PI*raio**2
+    print(f'A área do círculo com esse raio é: {"%.4f" %área}')
+
+
+
+
