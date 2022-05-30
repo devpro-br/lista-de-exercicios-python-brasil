@@ -19,3 +19,7 @@ Mostrar apenas valor inteiro da temperatura
 
 def transformar_para_celsius():
     """Escreva aqui em baixo a sua solução"""
+    fare = float(input("fare aqui: "))
+    celsius = float((fare - 32) / 1.8)
+    print(f"Essa temperatura é de {celsius:.0f} Celsius")
+
