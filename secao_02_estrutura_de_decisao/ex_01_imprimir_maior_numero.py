@@ -25,3 +25,5 @@ def maior_de_dois_numeros(x, y):
         print("Os números são iguais.")
     else:
         return y
+
+maior_de_dois_numeros(2,3)
