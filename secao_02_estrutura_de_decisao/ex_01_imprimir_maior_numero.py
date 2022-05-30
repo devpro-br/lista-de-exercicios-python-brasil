@@ -25,3 +25,8 @@ def maior_de_dois_numeros(x, y):
         print("Os números são iguais.")
     else:
         return y
+<<<<<<< HEAD
+=======
+
+maior_de_dois_numeros(2,3)
+>>>>>>> bcac473 (Resolvido exercício 01 da seção 02)
