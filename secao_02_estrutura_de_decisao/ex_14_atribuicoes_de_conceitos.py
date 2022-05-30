@@ -13,6 +13,7 @@ calcule a sua média. A atribuição de conceitos obedece à tabela abaixo:
 O algoritmo deve mostrar na tela as notas, a média, o conceito correspondente e a mensagem “APROVADO” se o conceito for
 A, B ou C ou “REPROVADO” se o conceito for D ou E.05
 
+
 Mostar valores com uma casa decimal.
 
     >>> calcular_conceito(10, 9)
@@ -42,7 +43,24 @@ Mostar valores com uma casa decimal.
     Status: REPROVADO
 
 """
+import math
 
 
 def calcular_conceito(nota_1: float, nota_2: float):
     """Escreva aqui em baixo a sua solução"""
+    nota_1= float(nota_1); nota_2=float(nota_2);
+    media = math.ceil((nota_1 + nota_2)/2)
+
+    nota_string = {0: 'E',1:'E', 2:'E', 3:'E' , 4:'E', 5:'D', 6:'D' , 7:'C', 8:'B' ,9:'B', 10:'A'}
+    aprovacao = {'A':'APROVADO', 'C':'APROVADO', 'B':'APROVADO', 'D': 'REPROVADO', 'E': 'REPROVADO'}
+    if 7 < (media)/2 <= 7.5:
+        media = 7
+    print(f'Notas: {nota_1} e {nota_2}.')
+    print(f'Média: {((nota_1 + nota_2)/2):.1f}')
+    print(f'Conceito: {nota_string[media]}')
+    print(f'Status: {aprovacao[nota_string[media]]}')
+
+
+
+
+
