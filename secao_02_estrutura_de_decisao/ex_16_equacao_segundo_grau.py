@@ -26,3 +26,13 @@ Mostrar raízes com uma casa decimal.
 
 def resolver_equacao_do_segundo_grau(a: float, b: float, c: float):
     """Escreva aqui em baixo a sua solução"""
+    #passo 1: calcular delta com --> delta = b*b - (4*a*c)
+    delta = b*b - (4*a*c)
+    #passo 2: Se o usuário informar o valor de A igual a zero, a equação não é do segundo grau e o programa não deve fazer pedir os demais valores, sendo encerrado;  
+    #função: print('Valor do coeficiente a deve ser diferente de 0')
+    if a == 0:
+        print("'Valor do coeficiente a deve ser diferente de 0'")
+    
+
+    
+    
