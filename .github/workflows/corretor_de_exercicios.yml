@@ -263,3 +263,11 @@ jobs:
       if: always()
       run: |
         python -m doctest -f secao_03_estrutura_de_repeticao/ex_16_fibonnacci_ate_valor_maior_que_500.py
+    - name: Correção do Exercício 17 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+        python -m doctest -f secao_03_estrutura_de_repeticao/ex_17_fatorial.py
+    - name: Correção do Exercício 18 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_18_estatisticas_de_n_numeros.py
