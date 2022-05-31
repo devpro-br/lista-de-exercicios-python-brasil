@@ -27,7 +27,42 @@ Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, consid
 
 """
 
+import math
 
 def calcular_latas_e_preco_de_tinta():
     """Escreva aqui em baixo a sua solução"""
+#total litros
+    area_a_ser_pintada = float(input('Qual é a área a ser pintada (em metros quadrados)? '))
+    area_com_folga = area_a_ser_pintada * 1.1
+    metros_por_litro = 6
+    litros_a_serem_usados = area_com_folga / metros_por_litro
+    print(f'Você deve comprar {round(litros_a_serem_usados)} litros de tinta.')
+
+# só com latas
+    litros_por_lata = 18
+    numero_de_latas = math.ceil(litros_a_serem_usados / litros_por_lata)
+    valor_apenas_latas = numero_de_latas * 80
+    sobra_de_tinta = numero_de_latas * 18 - litros_a_serem_usados
+    print(f'Você deve comprar {round(numero_de_latas)} lata(s) de 18 litros a um custo de R$ {valor_apenas_latas}. Vão sobrar {round(sobra_de_tinta):.1f} litro(s) de tinta.')
+
+# só com galão
+    litros_por_galao = 3.6
+    numero_de_galoes = math.ceil(litros_a_serem_usados / litros_por_galao)
+    sobra_de_tinta = numero_de_galoes * 3.6 - litros_a_serem_usados
+    valor_apenas_galoes = numero_de_galoes * 25
+    print(f'Você deve comprar {round(numero_de_galoes)} lata(s) de 3.6 litros a um custo de R$ {valor_apenas_galoes:.1f}. Vão sobrar {sobra_de_tinta:.1f} litro(s) de tinta.')
     
+# compra de tinta otimizada por valor
+    numero_latas = math.floor(litros_a_serem_usados / litros_por_lata)
+    valor_latas = numero_latas * 80
+    litros_faltantes = litros_a_serem_usados % litros_por_lata
+    numero_galoes = math.ceil(litros_faltantes / litros_por_galao)
+    valor_com_galoes = numero_galoes * 25
+    total_litros_tinta = (numero_latas * 18) + (numero_galoes * 3.6)
+    sobra_tinta_mista =  total_litros_tinta % litros_a_serem_usados
+    valor_total = valor_latas + valor_com_galoes
+    print(f'Para menor custo, você pode comprar {round(numero_latas)} lata(s) de 18 litros e {round(numero_galoes)} galão(ões) de 3.6 litros a um custo de R$ {valor_total}. Vão sobrar {sobra_tinta_mista:.1f} litro(s) de tinta.')
+
+#     Você pode comprar 3 lata(s) de 18 litros a um custo de R$ 240. Vão sobrar 17.0 litro(s) de tinta.
+#     Você pode comprar 11 lata(s) de 3.6 litros a um custo de R$ 275. Vão sobrar 2.6 litro(s) de tinta.
+#     Para menor custo, você pode comprar 2 lata(s) de 18 litros e 1 galão(ões) de 3.6 litros a um custo de R$ 185. Vão sobrar 2.6 litro(s) de tinta.
