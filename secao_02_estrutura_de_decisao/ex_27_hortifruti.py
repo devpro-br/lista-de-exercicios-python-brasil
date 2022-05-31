@@ -57,5 +57,59 @@ Mostre o restultado com duas casas decimais
 """
 
 
+from os import sep
+
+
 def calcular_preco_da_compra(kilos_de_morango: int, kilos_de_maca: int):
-    """Escreva aqui em baixo a sua solução"""
+    """Escreva aqui em baixo a sua solução"""    
+    
+    if kilos_de_maca <= 5:
+        
+        valor_maca = 1.8
+    else:
+        
+        valor_maca = 1.5
+
+    if kilos_de_morango <= 5:
+        valor_morango = 2.5
+    else:
+        valor_morango = 2.2
+
+    valor_total_morango = kilos_de_morango*valor_morango
+    valor_total_maca = kilos_de_maca*valor_maca
+    valor_total_frutas = (valor_total_maca)+(valor_total_morango)
+    kilos_de_frutas = kilos_de_maca + kilos_de_morango    
+
+    if kilos_de_frutas > 8 or valor_total_frutas > 25:
+        desconto_em_porcentagem = 10
+        desconto = desconto_em_porcentagem/100
+        valor_de_desconto = valor_total_frutas*desconto
+        valor_total_frutas = valor_total_frutas-valor_de_desconto
+    else:
+        desconto_em_porcentagem = 0
+        desconto = desconto_em_porcentagem/100
+        valor_de_desconto = valor_total_frutas*desconto
+        valor_total_frutas = valor_total_frutas-valor_de_desconto
+    
+
+    #Auxilio print
+    valor_total_morango = str('%.2f'%valor_total_morango)
+    valor_total_maca = str('%.2f'%valor_total_maca)
+    valor_morango = str('%.2f' %valor_morango)
+    valor_maca = str('%.2f' %valor_maca)
+    valor_de_desconto = str('%.2f'%valor_de_desconto)
+    valor_total_frutas = str('%.2f'%valor_total_frutas)
+    
+    if kilos_de_morango > 0 and kilos_de_maca == 0:
+        print('(+)  Morango  - valor:  R$', valor_total_morango.rjust(6,' '), ' - quantidade:', str(kilos_de_morango).rjust(3,' '), ' kg - preço: R$ ', valor_morango.rjust(3,' '),'/kg',sep='')
+        print('(-)  Desconto - valor:  R$', valor_de_desconto.rjust(5,' '))
+        print('          Valor Total:  R$', valor_total_frutas.rjust(5,' '))
+    elif kilos_de_morango == 0 and kilos_de_maca > 0:
+        print('(+)  Maça     - valor:  R$', valor_total_maca.rjust(6,' '), ' - quantidade:', str(kilos_de_maca).rjust(3,' '), ' kg - preço: R$ ', valor_maca.rjust(3,' '),'/kg',sep='')
+        print('(-)  Desconto - valor:  R$', valor_de_desconto.rjust(5,' '))
+        print('          Valor Total:  R$', valor_total_frutas.rjust(5,' '))
+    else:
+        print('(+)  Morango  - valor:  R$', valor_total_morango.rjust(6,' '), ' - quantidade:', str(kilos_de_morango).rjust(3,' '), ' kg - preço: R$ ', valor_morango.rjust(3,' '),'/kg',sep='')
+        print('(+)  Maça     - valor:  R$', valor_total_maca.rjust(6,' '), ' - quantidade:', str(kilos_de_maca).rjust(3,' '), ' kg - preço: R$ ', valor_maca.rjust(3,' '),'/kg',sep='')
+        print('(-)  Desconto - valor:  R$', valor_de_desconto.rjust(5,' '))
+        print('          Valor Total:  R$', valor_total_frutas.rjust(5,' '))
