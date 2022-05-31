@@ -18,3 +18,6 @@ Mostrar apenas valor inteiro da temperatura
 
 def transformar_para_fahrenheit():
     """Escreva aqui em baixo a sua solução"""
+    n1 = int (input('Informe os graus em celsius '))
+    n2 = round((9*n1/5)+32)
+    print(f'Essa temperatura é de {n2} Fahrenheit ')

@@ -18,5 +18,14 @@ Mostrar a área com 2 casas decimais.
 """
 
 
+from tkinter import N
+
+
 def calcular_area_de_quadrado():
     """Escreva aqui em baixo a sua solução"""
+    n = float (input('Informe o tamanho do lado do quadrado: '))
+    base = n
+    altura = n
+    area = altura*base
+    print(f'A área do quadrado com esse lado é: {"%.2f" %area}')
+    print(f'O dobro da aŕea do quadrado é: {"%.2f" %(area*2)}')
