@@ -47,3 +47,27 @@ Mostre o restultado com duas casas decimais
 
 def calcular_preco_da_carne(tipo_de_carne: str, kilos_de_carne: int, forma_de_pagamento: str) -> str:
     """Escreva aqui em baixo a sua solução"""
+
+    if tipo_de_carne == 'Filé Duplo' and kilos_de_carne <= 5:
+        valor_carne = 4.9
+    elif tipo_de_carne == 'Filé Duplo' and kilos_de_carne > 5:
+        valor_carne = 5.8
+    elif tipo_de_carne == 'Alcatra' and kilos_de_carne <= 5:
+        valor_carne = 5.9
+    elif tipo_de_carne == 'Alcatra' and kilos_de_carne > 5:
+        valor_carne = 6.8
+    elif tipo_de_carne == 'Picanha' and kilos_de_carne <= 5:
+        valor_carne = 6.9
+    elif tipo_de_carne == 'Picanha' and kilos_de_carne > 5:
+        valor_carne = 7.8
+    else:
+        return 'Tipo de carne invalida'
+
+    valor_total = valor_carne*kilos_de_carne
+    if forma_de_pagamento == 'cartão tabajara':
+        desconto_em_porcentagem = int(5)
+        desconto = desconto_em_porcentagem/100        
+        valor_com_desconto = valor_total-(valor_total*desconto)
+        print('\'',kilos_de_carne,' kg de ', tipo_de_carne, ' a R$ ','%.2f'%valor_carne,'/kg saem a R$ ','%.2f'%valor_total,'. Com desconto de ',desconto_em_porcentagem,'% pelo pagamento feito com ', forma_de_pagamento, ', fica R$ ', '%.2f'%valor_com_desconto,'\'', sep='')
+    else:
+        print('\'',kilos_de_carne,' kg de ', tipo_de_carne, ' a R$ ','%.2f'%valor_carne,'/kg saem a R$ ','%.2f'%valor_total,'. Não há desconto, pagamento feito com ', forma_de_pagamento, '\'', sep='')  
