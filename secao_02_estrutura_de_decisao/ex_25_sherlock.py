@@ -58,12 +58,7 @@ def investivar(telefonou: str, estava_no_local: str, mora_perto: str, devia: str
       trabalhou = 1
     else:
       trabalhou = 0
-    #Auxilio Teste#
-    telefonou = int(telefonou)
-    estava_no_local = int(estava_no_local)
-    mora_perto = int(mora_perto)
-    devia = int(devia)
-    trabalhou = int(trabalhou)
+    #Auxilio Teste#    
     teste = telefonou + estava_no_local + mora_perto + devia + trabalhou
 
     if teste == 5:
