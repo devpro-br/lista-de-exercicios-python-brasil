@@ -20,3 +20,10 @@ Mostrar o resultado com duas casas decimais
 
 def decidir_melhor_produto(x, y, z):
     """Escreva aqui em baixo a sua solução"""
+    if (y) > x < (z):
+        print(f'Melhor produto custa R$ {"%.2f" %(x)}')
+    elif (x) > y <= (z):
+        print(f'Melhor produto custa R$ {"%.2f" %(y)}')
+    else:
+        print(f'Melhor produto custa R$ {"%.2f" %(z)}')
+

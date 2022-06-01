@@ -16,5 +16,15 @@ Retorne: F - Feminino ou M - Masculino. Para quaisquer outros valores, retorne S
 """
 
 
+
 def f_ou_m(sexo):
     """Escreva aqui em baixo a sua solução"""
+    if sexo == 'M':
+        print("'M - Masculino'")
+    elif sexo == 'F':
+        print("'F - Feminino'")
+    else:
+        print("'Sexo inválido'")    
+   
+ 
+
