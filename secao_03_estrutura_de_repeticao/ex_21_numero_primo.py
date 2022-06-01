@@ -35,7 +35,19 @@ divisível somente por ele mesmo e por 1.
     False
 
 """
+from itertools import chain
+from math import sqrt, ceil
 
 
 def eh_primo(n: int) -> bool:
     """Escreva aqui em baixo a sua solução"""
+    if n < 2:
+        return False
+    elif n == 2:
+        return True
+
+    raiz_de_n = sqrt(n)
+    for i in chain([2], range(3, ceil(raiz_de_n) + 1, 2)):
+        if n % i == 0:
+            return False
+    return True
