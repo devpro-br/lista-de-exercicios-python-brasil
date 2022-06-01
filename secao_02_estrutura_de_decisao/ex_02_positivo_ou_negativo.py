@@ -17,10 +17,10 @@ Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou 
 
 def positivo_ou_negativo(n):
     """Escreva aqui em baixo a sua solução"""
-    numero = input('digite um número e direi se é positivo ou negativo: ')
-    if numero == 0:
+    # numero = input('digite um número e direi se é positivo ou negativo: ')
+    if n == 0:
         print('não tem positivo nem negativo')
-    elif numero > 0:
+    elif n > 0:
         print('positivo')
-    elif numero < 0:
+    elif n < 0:
         print('negativo')
