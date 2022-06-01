@@ -23,11 +23,12 @@ def notas_parciais(nota_1, nota_2):
     """Escreva aqui em baixo a sua solução"""
     # nota_1 = input('digite a primeira nota parcial: ')
     # nota_2 = input('digite a segundanota parcial: ')
-    media = nota_1 + nota_2 / 2
-    if media <= 0 <= 6:
-        print('Reprovado')
-    elif 7 >=  media >= 9:
-        print('Aprovado')
-    # elif media == 10:
-    else:
-        print('Aprovado com Distinção')
+    media = (nota_1 + nota_2) / 2
+    if 0 <= media < 7:
+        print("'Reprovado'")
+    elif 7 <= media <= 9:
+        print("'Aprovado'")
+    elif media == 10:
+        print("'Aprovado com Distinção'")
+    else: 
+        print("'Nota inválida'")

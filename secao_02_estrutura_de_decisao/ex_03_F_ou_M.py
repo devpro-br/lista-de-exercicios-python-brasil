@@ -20,8 +20,8 @@ def f_ou_m(sexo):
     """Escreva aqui em baixo a sua solução"""
     # sexo = input('digite F para feminino ou M para masculino: ').upper()
     if sexo == 'M':
-        print('M - Masculino')
+        print("'M - Masculino'")
     elif sexo == 'F':
-        print('F - Feminino')
+        print("'F - Feminino'")
     else:
-        print('Sexo Inválido')
+        print("'Sexo inválido'")
