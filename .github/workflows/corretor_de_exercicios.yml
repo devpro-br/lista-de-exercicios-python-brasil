@@ -279,3 +279,7 @@ jobs:
       if: always()
       run: |
           python -m doctest -f secao_03_estrutura_de_repeticao/ex_20_fatorial_com_limitacao.py
+    - name: Correção do Exercício 21 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_21_numero_primo.py
