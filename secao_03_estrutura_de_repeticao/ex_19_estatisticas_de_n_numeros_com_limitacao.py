@@ -22,5 +22,5 @@ Altere o programa anterior para que ele aceite apenas números entre 0 e 1000.
 """
 
 
-def calcular_estatisticas(*numeros) -> int:
+def calcular_estatisticas(*numeros) -> str:
     """Escreva aqui em baixo a sua solução"""
