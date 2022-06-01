@@ -271,3 +271,7 @@ jobs:
       if: always()
       run: |
           python -m doctest -f secao_03_estrutura_de_repeticao/ex_18_estatisticas_de_n_numeros.py
+    - name: Correção do Exercício 19 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_19_estatisticas_de_n_numeros_com_limitacao.py
