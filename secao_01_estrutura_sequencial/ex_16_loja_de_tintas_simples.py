@@ -17,8 +17,6 @@ Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e 
 
 
 """
-from math import ceil, floor
-
 
 def calcular_latas_e_preco_de_tinta():
     """Escreva aqui em baixo a sua solução"""
