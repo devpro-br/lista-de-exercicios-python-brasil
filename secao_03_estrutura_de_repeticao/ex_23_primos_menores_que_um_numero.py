@@ -43,3 +43,19 @@ from typing import Tuple
 
 def calcular_primos_e_divisoes(n: int) -> Tuple[str, int]:
     """Escreva aqui em baixo a sua solução"""
+
+    # Usada solução do Crivo de Erastótenes
+
+    primos = []
+    divisoes = 0
+    if n > 1:
+        candidatos_a_primos = list(range(3, n + 1, 2))
+        candidatos_a_primos.reverse()
+        candidatos_a_primos.append(2)
+        while len(candidatos_a_primos) > 0:
+            primo = candidatos_a_primos.pop()
+            primos.append(primo)
+            divisoes += len(candidatos_a_primos)
+            candidatos_a_primos = [n for n in candidatos_a_primos if n % 2 != 0]
+
+    return ', '.join(map(str, primos)), divisoes
