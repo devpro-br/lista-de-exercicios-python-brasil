@@ -46,3 +46,41 @@ Mostar valores com uma casa decimal.
 
 def calcular_conceito(nota_1: float, nota_2: float):
     """Escreva aqui em baixo a sua solução"""
+    lista_conceito = {'A': 'APROVADO', 'B': 'APROVADO', 'C': 'APROVADO', 'D': 'REPROVADO', 'E': 'REPROVADO', }
+    media = (nota_1 + nota_2)/2
+    conceito = ''
+
+    if media < 4:
+      conceito = 'E'
+      print(f"Notas: {nota_1:.1f} e {nota_2:.1f}.")
+      print(f"Média: {media:.1f}")
+      print(f"Conceito: {conceito}")
+      print(f"Status: {lista_conceito[conceito]}")
+
+    elif media < 6:
+      conceito = 'D'
+      print(f"Notas: {nota_1:.1f} e {nota_2:.1f}.")
+      print(f"Média: {media:.1f}")
+      print(f"Conceito: {conceito}")
+      print(f"Status: {lista_conceito[conceito]}")
+
+    elif media < 7.5:
+      conceito = 'C'
+      print(f"Notas: {nota_1:.1f} e {nota_2:.1f}.")
+      print(f"Média: {media:.1f}")
+      print(f"Conceito: {conceito}")
+      print(f"Status: {lista_conceito[conceito]}")
+
+    elif media < 9:
+      conceito = 'B'
+      print(f"Notas: {nota_1:.1f} e {nota_2:.1f}.")
+      print(f"Média: {media:.1f}")
+      print(f"Conceito: {conceito}")
+      print(f"Status: {lista_conceito[conceito]}")
+
+    else:
+      conceito = 'A'
+      print(f"Notas: {nota_1:.1f} e {nota_2:.1f}.")
+      print(f"Média: {media:.1f}")
+      print(f"Conceito: {conceito}")
+      print(f"Status: {lista_conceito[conceito]}")
