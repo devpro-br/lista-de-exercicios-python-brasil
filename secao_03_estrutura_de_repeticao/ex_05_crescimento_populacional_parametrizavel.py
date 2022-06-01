@@ -23,3 +23,17 @@ def calcular_ano_ultrapassagem_populacional(
         populacao_menor: int, taxa_crescimento_populacao_menor: float, populacao_maior,
         taxa_crescimento_populacao_maior:float ) -> str:
     """Escreva aqui em baixo a sua solução"""
+    ano = 0
+    while populacao_maior >= populacao_menor:
+        if taxa_crescimento_populacao_menor > taxa_crescimento_populacao_maior:
+            populacao_menor = populacao_menor + (populacao_menor*taxa_crescimento_populacao_menor)
+            populacao_maior = populacao_maior + (populacao_maior*taxa_crescimento_populacao_maior)
+            ano = ano + 1
+            continue
+        else:
+            porcentagem_maior = taxa_crescimento_populacao_maior*100
+            porcentagem_menor = taxa_crescimento_populacao_menor*100
+            print('\'A taxa de crescimento do país B (%.1f'%porcentagem_maior,'%',') deve ser menor do que a do país A (%.1f'% porcentagem_menor, '%',')\'' ,sep='')
+            break
+    else:
+        print('\'População de A, depois de %.0f ano(s) será de %.0f pessoas, superando a de B, que será de %.0f pessoas\''%(ano, populacao_menor, populacao_maior))

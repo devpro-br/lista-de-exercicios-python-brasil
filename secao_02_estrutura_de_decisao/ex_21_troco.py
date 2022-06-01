@@ -51,7 +51,7 @@ def calcular_troco(valor: int) -> str:
             notas_de_10 = floor(valor/10)
             notas_de_5 = floor(valor % 10)/5
             notas_de_1 = notas_de_5 % 5
-            if notas_de_5 >= 1 and notas_de_1 == 1 and notas_de_10 == 1: #
+            if notas_de_5 >= 1 and notas_de_1 == 1 and notas_de_10 == 1:
                 return  str(notas_de_10) + ' ' + 'nota de R$ 10' + ' ' + 'e' + ' ' + str(notas_de_1) + ' ' + 'nota de R$ 5' + ' ' + 'e' + ' ' + str(notas_de_1) + ' ' + 'nota de R$ 1'
             elif notas_de_5 == 5: 
                 return  str(notas_de_10) + ' ' + 'nota de R$ 10' + ' ' + 'e' + ' ' + str(notas_de_1) + ' ' + 'nota de R$ 5'
@@ -72,17 +72,3 @@ def calcular_troco(valor: int) -> str:
                 return str(notas_de_100) + ' notas de R$ 100, ' + str(notas_de_50) + ' nota de R$ 50, ' + str(notas_de_10) + ' notas de R$ 10, ' + str(notas_de_5) + ' nota de R$ 5 e ' + str(notas_de_1) + ' notas de R$ 1'
             else:
                 return str(notas_de_100) + ' notas de R$ 100, ' + str(notas_de_50) + ' nota de R$ 50, ' + str(notas_de_5) + ' nota de R$ 5 e ' + str(notas_de_1) + ' nota de R$ 1'
-
-
-
-            
-        #elif valor in [21, 31, 41]:
-        #    notas_de_10 = floor(valor/10)
-        #    notas_de_5 = valor % 10
-        #    notas_de_1 = notas_de_5 % 5
-        #    return str(notas_de_10) + ' ' + 'notas de R$ 10' + ' ' + 'e' + ' ' + str(notas_de_1) + ' ' + 'nota de R$ 1'
-        
-        
-            
-              
-

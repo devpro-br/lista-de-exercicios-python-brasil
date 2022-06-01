@@ -80,30 +80,43 @@ def decompor_numero(numero: int):
             numero_unidade = numero_aux % 10
             numero_dezenas = floor(numero_aux/10)
             numero_centenas = floor(numero/100)
+            #Imprimir numero 111
             if numero_unidade == 1 and numero_dezenas == 1 and numero_centenas == 1:                
                 print('\'%0.f = %0.f centena, %0.f dezena e %0.f unidade\'' %(numero, numero_centenas, numero_dezenas, numero_unidade))
+            #Imprimir numero 110
             elif numero_centenas == 1  and numero_dezenas == 1 and numero_unidade == 0:                
                 print('\'%0.f = %0.f centena e %0.f dezena\'' %(numero, numero_centenas, numero_dezenas))
+            #Imprimir numero 100
             elif numero_centenas == 1  and numero_dezenas == 0 and numero_unidade == 0:                
                 print('\'%0.f = %0.f centena\'' %(numero, numero_centenas))
+            #Imprimir numero 101
             elif numero_centenas == 1 and numero_dezenas == 0 and numero_unidade == 1  :                
                 print('\'%0.f = %0.f centena e %0.f unidade\'' %(numero, numero_centenas, numero_unidade))
+            #Imprimir numero 211,311...
             elif numero_dezenas == 1 and numero_unidade == 1:                
-                print('\'%0.f = %0.f centenas, %0.f dezena e %0.f unidade\'' %(numero, numero_centenas, numero_dezenas, numero_unidade))            
+                print('\'%0.f = %0.f centenas, %0.f dezena e %0.f unidade\'' %(numero, numero_centenas, numero_dezenas, numero_unidade))
+            #Imprimir numero 210,310...          
             elif numero_dezenas == 1 and numero_unidade == 0:                
                 print('\'%0.f = %0.f centenas e %0.f dezena\'' %(numero, numero_centenas, numero_dezenas))
+            #Imprimir numero 212, 213... 312, 313...
             elif numero_dezenas == 1:
                 print('\'%0.f = %0.f centenas, %0.f dezena e %0.f unidades\'' %(numero, numero_centenas, numero_dezenas, numero_unidade))
+            #Imprimir numero 200, 300, 400
             elif numero_dezenas == 0 and numero_unidade == 0:
                 print('\'%0.f = %0.f centenas\'' %(numero, numero_centenas))
+            #Imprimir numero 201, 301, 401...
             elif numero_dezenas == 0 and numero_unidade == 1:                
                 print('\'%0.f = %0.f centenas e %0.f unidade\'' %(numero, numero_centenas, numero_unidade))
+            #Imprimir numero 321, 331... 421, 431...
             elif numero_unidade == 1:
-                print('\'%0.f = %0.f centenas, %0.f dezenas e %0.f unidade\'' %(numero, numero_centenas, numero_dezenas, numero_unidade))  
+                print('\'%0.f = %0.f centenas, %0.f dezenas e %0.f unidade\'' %(numero, numero_centenas, numero_dezenas, numero_unidade))
+            #Imprimir numero 202,203... 302, 303...
             elif numero_dezenas == 0:
                 print('\'%0.f = %0.f centenas e %0.f unidades\'' %(numero, numero_centenas, numero_unidade))
+            #Imprimir numero 220, 230,... 320,330...
             elif numero_unidade == 0:
-                print('\'%0.f = %0.f centenas e %0.f dezenas\'' %(numero, numero_centenas, numero_dezenas))               
+                print('\'%0.f = %0.f centenas e %0.f dezenas\'' %(numero, numero_centenas, numero_dezenas)) 
+            #Imprimir numero 222,223,... 322,323              
             else:
                 print('\'%0.f = %0.f centenas, %0.f dezenas e %0.f unidades\'' %(numero, numero_centenas, numero_dezenas, numero_unidade))       
     elif numero < 0:
