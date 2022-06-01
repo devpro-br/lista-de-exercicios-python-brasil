@@ -247,3 +247,27 @@ jobs:
       if: always()
       run: |
         python -m doctest -f secao_03_estrutura_de_repeticao/ex_12_taboada.py
+    - name: Correção do Exercício 13 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+        python -m doctest -f secao_03_estrutura_de_repeticao/ex_13_potenciacao.py
+    - name: Correção do Exercício 14 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+        python -m doctest -f secao_03_estrutura_de_repeticao/ex_14_qtde_pares_e_impares.py
+    - name: Correção do Exercício 15 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+        python -m doctest -f secao_03_estrutura_de_repeticao/ex_15_fibonnacci_ate_n.py
+    - name: Correção do Exercício 16 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+        python -m doctest -f secao_03_estrutura_de_repeticao/ex_16_fibonnacci_ate_valor_maior_que_500.py
+    - name: Correção do Exercício 17 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+        python -m doctest -f secao_03_estrutura_de_repeticao/ex_17_fatorial.py
+    - name: Correção do Exercício 18 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_18_estatisticas_de_n_numeros.py
