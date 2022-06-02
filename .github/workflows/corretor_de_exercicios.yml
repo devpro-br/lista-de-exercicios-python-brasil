@@ -291,3 +291,7 @@ jobs:
       if: always()
       run: |
           python -m doctest -f secao_03_estrutura_de_repeticao/ex_23_primos_menores_que_um_numero.py
+    - name: Correção do Exercício 24 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_24_media_artmetica.py
