@@ -32,7 +32,16 @@ uma eleição existem três candidatos. Faça um programa que peça o número to
     Votos no candidato rouba, mas faz: 2
 
 """
+from collections import Counter
 
 
 def calcular_votos(*votos):
     """Escreva aqui em baixo a sua solução"""
+    resultado = Counter({'corrupto': 0, 'mentiroso': 0, 'rouba, mas faz':0})
+    resultado.update(votos)
+    votantes = len(votos)
+    print(f'Votantes: {votantes}')
+    for politico, votos in resultado.items():
+        print(f'Votos no candidato {politico}: {votos}')
+
+
