@@ -33,3 +33,19 @@ Caso contrário, ele será classificado como "Inocente".
 
 def investivar(telefonou: str, estava_no_local: str, mora_perto: str, devia: str, trabalhou: str, ):
     """Escreva aqui em baixo a sua solução"""
+    respostas = [telefonou, estava_no_local, mora_perto, devia, trabalhou]
+    count = 0
+    for v in respostas:
+        if v == 'Sim':
+            count += 1
+        else:
+            pass
+
+    if count == 1 or count == 0:
+        return 'Inocente'
+    elif count == 2:
+        return 'Suspeito'
+    elif count == 3 or count == 4:
+        return 'Cúmplice'
+    elif count == 5:
+        return 'Assassino'

@@ -24,3 +24,16 @@ Faça um Programa que peça uma data no formato dd/mm/aaaa e determine se a mesm
 
 def validar_data(data: str):
     """Escreva aqui em baixo a sua solução"""
+    if data == '' or len(data) < 3:
+        return 'Data inválida'
+    else:
+        data = data.split('/')
+        dia = int(data[0])
+        mes = int(data[1])
+        ano = int(data[2])
+        if dia > 28 and mes in (0o2, 2):
+            return 'Data inválida'
+        elif mes > 2 or dia > 31:
+            return 'Data inválida'
+        else:
+            return 'Data válida'
