@@ -18,3 +18,8 @@ Faça um Programa que leia três números e mostre-os em ordem decrescente.
 
 def ordenar_decrescente(x, y, z):
     """Escreva aqui em baixo a sua solução"""
+    numeros = [x, y, z]
+    decrescente = sorted(numeros) #ordena
+    decrescente.reverse() #inverte
+    # tentei tirar os [] com return(','.join(decrescente)) mas o erro parecia requerer uma lista de string
+    print(*decrescente, sep = ", ") #tira os brackets do print
