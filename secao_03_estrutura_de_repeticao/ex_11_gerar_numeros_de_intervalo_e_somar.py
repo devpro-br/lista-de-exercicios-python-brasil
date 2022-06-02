@@ -18,3 +18,19 @@ Também mostre a soma dos números da sequência.
 
 def calcular_numeros_no_intervalo_e_somar(inicio: int, fim: int) -> str:
     """Escreva aqui em baixo a sua solução"""
+
+    auxilio = inicio
+    soma = 0
+    print("'Sequência: ",sep='',end='')
+    while inicio <= auxilio < fim: 
+        soma = soma + auxilio
+        if auxilio != (fim - 1):
+            print(auxilio, end=', ')
+            auxilio = auxilio + 1
+            continue
+        else:
+            print(auxilio, end='. ')            
+            print("Soma: %.0f'"%soma)
+            break
+    else:
+        print("vazia. Soma: %.0f'"%soma,sep='',end='')

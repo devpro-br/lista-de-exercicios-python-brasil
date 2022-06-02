@@ -5,15 +5,9 @@ https://wiki.python.org.br/EstruturaDeRepeticao
 Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número inteiro entre 1 a 10.
 
     >>> gerar_tabuada(0)
-<<<<<<< HEAD:secao_03_estrutura_de_repeticao/ex_12_tabuada.py
     Somente pode ser gerada taboada de 1 a 10
     >>> gerar_tabuada(11)
     Somente pode ser gerada taboada de 1 a 10
-=======
-    Somente pode ser gerada tabuada de 1 a 10
-    >>> gerar_tabuada(11)
-    Somente pode ser gerada tabuada de 1 a 10
->>>>>>> bae442002c9cc66bc34ee1570ea1d205198fec78:secao_03_estrutura_de_repeticao/ex_12_taboada.py
     >>> gerar_tabuada(1)
     1 X 1 = 1
     1 X 2 = 2
@@ -130,3 +124,12 @@ Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número i
 
 def gerar_tabuada(n: int) -> str:
     """Escreva aqui em baixo a sua solução"""
+    multiplicado_por = 1
+    while 0 < n <= 10 and multiplicado_por <= 10:
+        multiplicacao = n * multiplicado_por
+        print('%.0f X %.0f = %.0f'%(n,multiplicado_por,multiplicacao))
+        multiplicado_por = multiplicado_por + 1
+        if multiplicado_por > 10:
+            break
+    else:
+        print('Somente pode ser gerada taboada de 1 a 10')
