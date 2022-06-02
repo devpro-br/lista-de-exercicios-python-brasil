@@ -30,12 +30,11 @@ from re import L
 
 def classificar_trinagulo(lado_a: float, lado_b: float, lado_c: float):
     """Escreva aqui em baixo a sua solução"""
-    # if (lado_a + lado_b) > lado_c or (lado_b + lado_c) > lado_a or (lado_a + lado_c) > lado_b:
-    if lado_a == lado_b == lado_c:
+    if (lado_a + lado_b) < lado_c or (lado_b + lado_c) < lado_a or (lado_a + lado_c) < lado_b:
+        print("'Não é um triângulo'")
+    elif lado_a == lado_b == lado_c:
         print("'Triângulo Equilátero'")
     elif lado_a != lado_b != lado_c:
         print("'Triângulo Escaleno'") 
-    elif (lado_a == lado_b) != lado_c or (lado_c + lado_a) != lado_b or (lado_c + lado_b) != lado_a:
+    else: #lado_a == lado_b != lado_c or lado_c == lado_a != lado_b or lado_c == lado_b != lado_a:
         print("'Triângulo Isósceles'")
-    else:
-        print("'Não é um triângulo'")
