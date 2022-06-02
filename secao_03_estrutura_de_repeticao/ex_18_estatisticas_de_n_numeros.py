@@ -14,7 +14,7 @@ Faça um programa que, dado um conjunto de N números, determine o menor valor, 
     'Maior valor: 2. Menor valor: -1. Soma: 2'
 
 """
-def calcular_estatisticas(*numeros) -> int:
+def calcular_estatisticas(*numeros) -> str:
     """Escreva aqui em baixo a sua solução"""
     n = [*numeros]
     if n == []:
