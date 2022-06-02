@@ -24,6 +24,41 @@ Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, consid
     Para menor custo, você pode comprar 2 lata(s) de 18 litros e 1 galão(ões) de 3.6 litros a um custo de R$ 185. Vão sobrar 2.6 litro(s) de tinta.
 """
 
+from math import ceil, floor
 
-def calcular_latas_e_preco_de_tinta():
-    """Escreva aqui em baixo a sua solução"""
+
+# lata
+    area_a_ser_pintada = int(input('Digite a área a ser pintada em m2: '))
+    area_com_folga = float(area_a_ser_pintada *1.1)
+    litros_por_metro = 6
+    litros_a_serem_usados = ceil(area_com_folga / litros_por_metro)
+    litros_por_lata = 18
+    numero_de_latas = ceil(litros_a_serem_usados /litros_por_lata)
+    valor_com_apenas_latas = numero_de_latas * 80
+    sobra_da_tinta = (numero_de_latas * litros_por_lata) - litros_a_serem_usados
+    print(f'Você pode comprar {numero_de_latas} lata(s) de 18 litros a um custo de R$ {valor_com_apenas_latas}. Vão sobrar {sobra_da_tinta:.1f} litro(s) de tinta.')
+
+# galao
+    litros_por_galao = 3.6
+    numero_de_galoes = ceil(litros_a_serem_usados / litros_por_galao)
+    valor_com_apenas_galoes = numero_de_galoes * 25
+    sobra_do_galao = (numero_de_galoes * litros_por_galao) - litros_a_serem_usados
+    print(f'Você pode comprar {numero_de_galoes} lata(s) de 3.6 litros a um custo de R$ {valor_com_apenas_galoes}. Vão sobrar {sobra_do_galao:.1f} litro(s) de tinta.')
+
+# lata e galao juntos
+    numero_de_latas_baixo = floor(litros_a_serem_usados - litros_por_lata)
+    valor_de_latas = numero_de_latas * 80
+
+
+
+    litros_faltantes = litros_a_serem_usados % litros_por_lata
+    numero_de_galoes_baixo = ceil(litros_faltantes / litros_por_galao)
+    valor_com_galoes = numero_de_galoes * 25
+
+
+
+    valor_total = numero_de_latas_baixo *80 + numero_de_galoes_baixo * 25 
+
+    sobra = (numero_de_latas_baixo + numero_de_galoes_baixo) 
+
+    print(f'Para menor custo, você pode comprar {numero_de_latas_baixo} lata(s) de 18 litros e {numero_de_galoes_baixo} galão(ões) de 3.6 litros a um custo de R$ {valor_total}. Vão sobrar {sobra:.1f} litro(s) de tinta.')
