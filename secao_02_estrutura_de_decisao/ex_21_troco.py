@@ -27,11 +27,13 @@ uma nota de 5 e quatro notas de 1.
 
 
 
-from math import floor
 
 
 def calcular_troco(valor: int) -> str:
     """Escreva aqui em baixo a sua solução"""
+
+    from math import floor
+
     if valor >= 1 and valor <=600:
         if valor < 10:
             notas_de_5 = floor(valor / 5)
@@ -72,3 +74,4 @@ def calcular_troco(valor: int) -> str:
                 return str(notas_de_100) + ' notas de R$ 100, ' + str(notas_de_50) + ' nota de R$ 50, ' + str(notas_de_10) + ' notas de R$ 10, ' + str(notas_de_5) + ' nota de R$ 5 e ' + str(notas_de_1) + ' notas de R$ 1'
             else:
                 return str(notas_de_100) + ' notas de R$ 100, ' + str(notas_de_50) + ' nota de R$ 50, ' + str(notas_de_5) + ' nota de R$ 5 e ' + str(notas_de_1) + ' nota de R$ 1'
+
