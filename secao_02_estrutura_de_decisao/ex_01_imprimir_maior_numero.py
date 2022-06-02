@@ -17,3 +17,9 @@ Faça um Programa que peça dois números e imprima o maior deles.
 
 def maior_de_dois_numeros(x, y):
     """Escreva aqui em baixo a sua solução"""
+    n1 = float(input('Escreva o primeiro número: '))
+    n2 = float(input('Escreva o segundo número: '))
+    if n1>n2 
+    print(f'{n1}')
+    else
+    print(f'{n2}')

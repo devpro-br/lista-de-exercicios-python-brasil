@@ -24,41 +24,30 @@ Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, consid
     Para menor custo, você pode comprar 2 lata(s) de 18 litros e 1 galão(ões) de 3.6 litros a um custo de R$ 185. Vão sobrar 2.6 litro(s) de tinta.
 """
 
-from math import ceil, floor
+import math
 
 
-# lata
-    area_a_ser_pintada = int(input('Digite a área a ser pintada em m2: '))
-    area_com_folga = float(area_a_ser_pintada *1.1)
-    litros_por_metro = 6
-    litros_a_serem_usados = ceil(area_com_folga / litros_por_metro)
-    litros_por_lata = 18
-    numero_de_latas = ceil(litros_a_serem_usados /litros_por_lata)
-    valor_com_apenas_latas = numero_de_latas * 80
-    sobra_da_tinta = (numero_de_latas * litros_por_lata) - litros_a_serem_usados
-    print(f'Você pode comprar {numero_de_latas} lata(s) de 18 litros a um custo de R$ {valor_com_apenas_latas}. Vão sobrar {sobra_da_tinta:.1f} litro(s) de tinta.')
+def calcular_latas_e_preco_de_tinta():
+    """Escreva aqui em baixo a sua solução"""
+    a_quadrada = float(input('Digite o valor da área para cálculo: '))
+    a_folga = a_quadrada * 1.1
+    li_pm = math.ceil(a_folga / 6)
+    lata_li = math.ceil(li_pm / 18)
+    galao_li = math.ceil(li_pm / 3.5)
+    preco_lata = lata_li * 80
+    preco_galao = galao_li * 25
+    sobra_lata = (lata_li * 18) - li_pm
+    sobra_galao = (galao_li * 3.6) - li_pm
+    resto = li_pm % 18
+    latas_int = math.floor(li_pm / 18)
+    galao_resto = math.ceil(resto / 3.6)
+    la_ga = (latas_int * 80) + (galao_resto * 25)
+    res_tot = ((latas_int * 18) + (galao_resto * 3.6)) - li_pm
 
-# galao
-    litros_por_galao = 3.6
-    numero_de_galoes = ceil(litros_a_serem_usados / litros_por_galao)
-    valor_com_apenas_galoes = numero_de_galoes * 25
-    sobra_do_galao = (numero_de_galoes * litros_por_galao) - litros_a_serem_usados
-    print(f'Você pode comprar {numero_de_galoes} lata(s) de 3.6 litros a um custo de R$ {valor_com_apenas_galoes}. Vão sobrar {sobra_do_galao:.1f} litro(s) de tinta.')
-
-# lata e galao juntos
-    numero_de_latas_baixo = floor(litros_a_serem_usados - litros_por_lata)
-    valor_de_latas = numero_de_latas * 80
-
-
-
-    litros_faltantes = litros_a_serem_usados % litros_por_lata
-    numero_de_galoes_baixo = ceil(litros_faltantes / litros_por_galao)
-    valor_com_galoes = numero_de_galoes * 25
-
-
-
-    valor_total = numero_de_latas_baixo *80 + numero_de_galoes_baixo * 25 
-
-    sobra = (numero_de_latas_baixo + numero_de_galoes_baixo) 
-
-    print(f'Para menor custo, você pode comprar {numero_de_latas_baixo} lata(s) de 18 litros e {numero_de_galoes_baixo} galão(ões) de 3.6 litros a um custo de R$ {valor_total}. Vão sobrar {sobra:.1f} litro(s) de tinta.')
+    print(f'Você deve comprar {li_pm} litros de tinta.')
+    print(
+        f'Você pode comprar {lata_li} lata(s) de 18 litros a um custo de R$ {preco_lata}. Vão sobrar {sobra_lata:.1f} litro(s) de tinta.')
+    print(
+        f'Você pode comprar {galao_li} lata(s) de 3.6 litros a um custo de R$ {preco_galao}. Vão sobrar {sobra_galao:.1f} litro(s) de tinta.')
+    print(
+        f'Para menor custo, você pode comprar {latas_int} lata(s) de 18 litros e {galao_resto} galão(ões) de 3.6 litros a um custo de R$ {la_ga:.0f}. Vão sobrar {res_tot:.1f} litro(s) de tinta.')
