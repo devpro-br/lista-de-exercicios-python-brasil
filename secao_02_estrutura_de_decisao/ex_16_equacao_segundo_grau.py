@@ -26,3 +26,7 @@ Mostrar raízes com uma casa decimal.
 
 def resolver_equacao_do_segundo_grau(a: float, b: float, c: float):
     """Escreva aqui em baixo a sua solução"""
+    if a == 0:
+        print("'Valor do coeficiente a deve ser diferente de 0'")
+    elif :
+        
