@@ -25,7 +25,6 @@ uma nota de 5 e quatro notas de 1.
 """
 def calcular_troco(valor: int) -> str:
     """Escreva aqui em baixo a sua solução"""
-<<<<<<< HEAD
     notas_de_100 = valor//100
     valor -= notas_de_100*100
     notas_de_50 = valor//50
