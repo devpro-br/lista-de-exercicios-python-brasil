@@ -65,5 +65,3 @@ def calcular_troco(valor: int) -> str:
     elif notas_de_1 > 1:
         print(f'{notas_de_1} notas de R$ 1', end='')
     print("""'""", end='')
-=======
->>>>>>> upstream/main
