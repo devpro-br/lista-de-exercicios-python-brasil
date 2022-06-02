@@ -20,7 +20,18 @@ Altere o programa anterior para que ele aceite apenas números entre 0 e 1000.
     'Somente números de 0 a 1000 são permitidos'
 
 """
-
-
 def calcular_estatisticas(*numeros) -> str:
     """Escreva aqui em baixo a sua solução"""
+    n = [*numeros]
+    if n == []:
+        print("'Maior valor: não existe. Menor valor: não existe. Soma: 0'")
+    else:
+        procede = True
+        for i in range(0, len(n)):
+            if n[i] < 0 or n[i] > 1000:
+                print("'Somente números de 0 a 1000 são permitidos'")
+                i+=1
+                procede = False
+        if procede == True:
+            n.sort()
+            print(f"'Maior valor: {n[-1]}. Menor valor: {n[0]}. Soma: {sum(n)}'")
