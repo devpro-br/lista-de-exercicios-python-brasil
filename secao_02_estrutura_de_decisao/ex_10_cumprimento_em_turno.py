@@ -25,3 +25,12 @@ Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!
 
 def cumprimentar(turno: str):
     """Escreva aqui em baixo a sua solução"""
+    if turno == 'M' or turno == 'm':
+        print(f"'Bom dia!'")
+    elif turno == 'V' or turno == 'v':
+        print(f"'Boa tarde!'")
+    elif turno == 'n' or turno == 'N':
+        print(f"'Boa noite!'")
+    else:
+        print(f"'Valor Inválido!'")
+

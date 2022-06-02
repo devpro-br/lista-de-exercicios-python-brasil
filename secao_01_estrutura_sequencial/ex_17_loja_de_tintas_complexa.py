@@ -32,13 +32,18 @@ def calcular_latas_e_preco_de_tinta():
     """Escreva aqui em baixo a sua solução"""
     import math
 
-    metros_quadrados = float(input('Digite a quantidade em metros quadrados: '))
-    quantidade_tinta_litros = float(math.ceil((metros_quadrados/6)/100)*110)
-    galao = int(math.ceil(quantidade_tinta_litros/18))
-    lata = int(math.ceil(quantidade_tinta_litros/3.6))
-    preco_lata = float(lata*25)
-    preco_galao = float (galao*80)
-    print(f'Você deve comprar {round(quantidade_tinta_litros)} litros de tinta.')
-    print(f'Você deve comprar {(round(galao)+0.5)} lata(s) de 18 litros a um custo de R$ {"%.2f"%(preco_galao)}')
+    metros_quadrados = int(input('Digite a quantidade em metros quadrados: '))
+    metros_com_sobra = metros_quadrados * 1.1
+    quantidade_tinta_metro = 6
+    litros_necessarios = metros_com_sobra / metros_quadrados
+    litros_lata = 18
+    quantidade_latas = math.ceil(litros_necessarios / litros_lata)
+    valor_apenas_latas = quantidade_latas * 80
+    print(f'Você deve comprar {quantidade_latas} lata(s) de 18 litros a um custo de R$ {valor_apenas_latas}')
+
+    litros_galao = 3.6
+    quantidade_galoes = math.ceil( litros_necessarios / litros_galao)
+    valor_apenas_galoes = quantidade_galoes * 25
+    print(f'Você pode comprar {quantidade_galoes} lata(s) de 3.6 litros a um custo de R$ {valor_apenas_galoes}')
 
     
