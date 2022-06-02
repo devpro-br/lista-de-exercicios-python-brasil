@@ -3,6 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="f4ff1da9-091c-4da4-a066-8ca9b7db3353" name="Changes" comment=";;;;;;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_17_loja_de_tintas_complexa.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_17_loja_de_tintas_complexa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_12_clt_assalto.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_12_clt_assalto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_21_troco.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_21_troco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_22_par_ou_impar.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_22_par_ou_impar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_23_inteiro_ou_decimal.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_23_inteiro_ou_decimal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_24_operacao.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_24_operacao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_25_sherlock.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_25_sherlock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_26_posto_de_gasolina.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_26_posto_de_gasolina.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_27_hortifruti.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_27_hortifruti.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_28_mercado_tabajara.py" beforeDir="false" afterPath="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_28_mercado_tabajara.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,17 +33,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ronaldseabra/buserestudos/python/lista-de-exercicios-python-brasil&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/ronaldseabra/buserestudos/python/lista-de-exercicios-python-brasil",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
-  <component name="RunManager" selected="Python tests.Doctests in ex_21_troco">
-    <configuration name="Doctests in ex_21_troco (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Python tests.Doctests in ex_17_loja_de_tintas_complexa (2)">
+    <configuration name="Doctests in ex_12_clt_assalto (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="lista-de-exercicios-python-brasil" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -42,7 +52,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_21_troco.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_12_clt_assalto.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -51,7 +61,7 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in ex_21_troco (2)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in ex_12_clt_assalto (2)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="lista-de-exercicios-python-brasil" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,7 +70,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_21_troco.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_12_clt_assalto.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -69,16 +79,16 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in ex_21_troco (3)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in ex_17_loja_de_tintas_complexa (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="lista-de-exercicios-python-brasil" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/secao_01_estrutura_sequencial" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_21_troco.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_17_loja_de_tintas_complexa.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -87,16 +97,16 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in ex_21_troco (5)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in ex_17_loja_de_tintas_complexa (2)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="lista-de-exercicios-python-brasil" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/secao_01_estrutura_sequencial" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_21_troco.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_17_loja_de_tintas_complexa.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -105,16 +115,16 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in ex_21_troco" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in ex_17_loja_de_tintas_complexa" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="lista-de-exercicios-python-brasil" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/secao_01_estrutura_sequencial" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_02_estrutura_de_decisao/ex_21_troco.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_17_loja_de_tintas_complexa.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -125,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Doctests in ex_21_troco" />
-        <item itemvalue="Python tests.Doctests in ex_21_troco (3)" />
-        <item itemvalue="Python tests.Doctests in ex_21_troco (2)" />
-        <item itemvalue="Python tests.Doctests in ex_21_troco (1)" />
-        <item itemvalue="Python tests.Doctests in ex_21_troco (5)" />
+        <item itemvalue="Python tests.Doctests in ex_17_loja_de_tintas_complexa (2)" />
+        <item itemvalue="Python tests.Doctests in ex_17_loja_de_tintas_complexa (1)" />
+        <item itemvalue="Python tests.Doctests in ex_17_loja_de_tintas_complexa" />
+        <item itemvalue="Python tests.Doctests in ex_12_clt_assalto (2)" />
+        <item itemvalue="Python tests.Doctests in ex_12_clt_assalto (1)" />
       </list>
     </recent_temporary>
   </component>

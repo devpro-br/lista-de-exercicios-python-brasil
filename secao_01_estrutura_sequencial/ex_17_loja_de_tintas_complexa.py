@@ -38,7 +38,7 @@ def calcular_latas_e_preco_de_tinta():
     print(f"Você deve comprar {quant_litro_int} litros de tinta.")
     print(f"Você pode comprar {litro_18} lata(s) de 18 litros a um custo de R$ {litro_18 * 80}. Vão sobrar {(litro_18*18 - quant_litro_float):.1f} litro(s) de tinta.")
     print(f"Você pode comprar {litro_36} lata(s) de 3.6 litros a um custo de R$ {litro_36 * 25}. Vão sobrar {(litro_36 * 3.6 - quant_litro_float):.1f} litro(s) de tinta.")
-    if quant_litro_float % 18 > 11.52:
+    if quant_litro_float % 18 >= 10.8:
         print(f"Para menor custo, você pode comprar {litro_18} lata(s) de 18 litros e 0 galão(ões) de 3.6 litros a um custo de R$ {litro_18 * 80}. Vão sobrar {litro_18 * 18 - quant_litro_float} litro(s) de tinta.")
     else:
         litro_36 = math.ceil((quant_litro_float - (litro_18-1)*18)/3.6)

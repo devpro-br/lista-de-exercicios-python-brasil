@@ -29,7 +29,18 @@ Caso contrário, ele será classificado como "Inocente".
     'Inocente'
 
 """
+def conte (resposta: str):
+    if resposta == 'Sim':
+        return 1
+    else:
+        return 0
+
 
 
 def investivar(telefonou: str, estava_no_local: str, mora_perto: str, devia: str, trabalhou: str, ):
     """Escreva aqui em baixo a sua solução"""
+    num_p = 0
+    status = {0:'Inocente', 1: 'Inocente', 2: 'Suspeito', 3: 'Cúmplice', 4:'Cúmplice', 5: 'Assassino'}
+    num_p = conte(telefonou) + conte(estava_no_local) + conte(mora_perto) + conte(devia) + conte(trabalhou)
+    print(f"'{status[num_p]}'")
+

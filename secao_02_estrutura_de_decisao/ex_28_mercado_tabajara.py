@@ -43,7 +43,17 @@ Mostre o restultado com duas casas decimais
     '8 kg de Picanha a R$ 7.80/kg saem a R$ 62.40. Com desconto de 5% pelo pagamento feito com cartão tabajara, fica R$ 59.28'
     
 """
-
+def preco(prod: str, kilos: int):
+    produtoxpreco = {'Filé Duplo': [4.90, 5.80], 'Alcatra': [5.90, 6.80], 'Picanha': [6.90, 7.80]}
+    if kilos <= 5:
+        return produtoxpreco[prod][0]
+    else:
+        return produtoxpreco[prod][1]
 
 def calcular_preco_da_carne(tipo_de_carne: str, kilos_de_carne: int, forma_de_pagamento: str) -> str:
     """Escreva aqui em baixo a sua solução"""
+    total = kilos_de_carne * preco(tipo_de_carne, kilos_de_carne)
+    if forma_de_pagamento == 'cartão tabajara':
+        print(f"'{kilos_de_carne} kg de {tipo_de_carne} a R$ {preco(tipo_de_carne,kilos_de_carne):.2f}/kg saem a R$ {(total):.2f}. Com desconto de 5% pelo pagamento feito com cartão tabajara, fica R$ {(total * 0.95):.2f}'")
+    if forma_de_pagamento == 'dinheiro' or forma_de_pagamento == 'pix':
+        print(f"'{kilos_de_carne} kg de {tipo_de_carne} a R$ {preco(tipo_de_carne, kilos_de_carne):.2f}/kg saem a R$ {(total):.2f}. Não há desconto, pagamento feito com {forma_de_pagamento}'")
