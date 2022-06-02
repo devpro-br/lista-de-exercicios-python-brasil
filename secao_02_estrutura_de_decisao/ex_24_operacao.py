@@ -29,5 +29,30 @@ Mostre o restultado com duas casas decimais
 """
 
 
+
 def fazer_operacao_e_classificar(n_1: float, n_2: float, operacao: str):
     """Escreva aqui em baixo a sua solução"""
+    operacoes = {'+': (n_1 + n_2), '-': (n_1 - n_2), '*': (n_1 * n_2), '/': (n_1 / n_2)}
+    print(f"Resultado: {(operacoes[operacao]):.2f}")
+    num = operacoes[operacao]
+    if num % 2 == 0:
+        if num < 0:
+            print("Número é par, negativo e inteiro.")
+        if num > 0:
+            print("Número é par, positivo e inteiro.")
+        if num == 0:
+            print("Número é par, neutro e inteiro.")
+
+
+    elif num % 2 == 1 or num % 2 == (-1):
+        if num < 0:
+            print("Número é impar, negativo e inteiro.")
+        if num > 0:
+            print("Número é impar, positivo e inteiro.")
+    else:
+        if num < 0:
+            print("Número é negativo e decimal.")
+        if num > 0:
+            print("Número é positivo e decimal.")
+
+

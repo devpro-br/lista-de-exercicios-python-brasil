@@ -56,6 +56,35 @@ Mostre o restultado com duas casas decimais
 
 """
 
+def preco(tipo : str, kilos : int):
+    if kilos <= 5:
+        if tipo == 'maca':
+            return 1.80
+        if tipo == 'morango':
+            return 2.50
+    else:
+        if tipo == 'maca':
+            return 1.50
+        if tipo == 'morango':
+            return 2.20
+
+def desconto(preco, kilo):
+    if preco >= 25 or kilo >= 8:
+        return preco * 0.10
+    else:
+        return  0.00
+
 
 def calcular_preco_da_compra(kilos_de_morango: int, kilos_de_maca: int):
     """Escreva aqui em baixo a sua solução"""
+    if kilos_de_morango > 0:
+        print(f"(+)  Morango  - valor:  R${(preco('morango',kilos_de_morango)*kilos_de_morango):>6.2f} - quantidade:  {kilos_de_morango} kg - preço: R$ {(preco('morango', kilos_de_morango)):.2f}/kg")
+    if kilos_de_maca > 0:
+        print(f"(+)  Maça     - valor:  R${(preco('maca',kilos_de_maca)* kilos_de_maca):>6.2f} - quantidade:  {kilos_de_maca} kg - preço: R$ {(preco('maca', kilos_de_maca)):.2f}/kg")
+    total = kilos_de_morango * preco('morango',kilos_de_morango) + kilos_de_maca * preco('maca', kilos_de_maca)
+    print(f"(-)  Desconto - valor:  R${desconto(total,kilos_de_maca+kilos_de_morango):>6.2f}")
+    print(f"          Valor Total:  R${(total - desconto(total, kilos_de_maca + kilos_de_morango)):>6.2f}")
+
+
+
+
