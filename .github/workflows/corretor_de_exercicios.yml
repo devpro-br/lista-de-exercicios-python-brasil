@@ -246,7 +246,7 @@ jobs:
     - name: Correção do Exercício 12 da seção de Estrutura de Repetição
       if: always()
       run: |
-        python -m doctest -f secao_03_estrutura_de_repeticao/ex_12_taboada.py
+        python -m doctest -f secao_03_estrutura_de_repeticao/ex_12_tabuada.py
     - name: Correção do Exercício 13 da seção de Estrutura de Repetição
       if: always()
       run: |
