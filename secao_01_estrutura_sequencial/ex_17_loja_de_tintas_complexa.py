@@ -30,20 +30,32 @@ Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, consid
 
 def calcular_latas_e_preco_de_tinta():
     """Escreva aqui em baixo a sua solução"""
-    import math
+    area = float(input('Area'))
+    area_folga = area * 1.1
+    litros_tinta = round((area_folga / 6) + 0.5)
 
-    metros_quadrados = int(input('Digite a quantidade em metros quadrados: '))
-    metros_com_sobra = metros_quadrados * 1.1
-    quantidade_tinta_metro = 6
-    litros_necessarios = metros_com_sobra / metros_quadrados
-    litros_lata = 18
-    quantidade_latas = math.ceil(litros_necessarios / litros_lata)
-    valor_apenas_latas = quantidade_latas * 80
-    print(f'Você deve comprar {quantidade_latas} lata(s) de 18 litros a um custo de R$ {valor_apenas_latas}')
+    latas = round((area_folga / (18 * 6)) + 0.5)
+    custo_lata = latas * 80
+    sobra_tinta_latas = (latas * 18) - litros_tinta
 
-    litros_galao = 3.6
-    quantidade_galoes = math.ceil( litros_necessarios / litros_galao)
-    valor_apenas_galoes = quantidade_galoes * 25
-    print(f'Você pode comprar {quantidade_galoes} lata(s) de 3.6 litros a um custo de R$ {valor_apenas_galoes}')
+    galoes = round((area_folga / (3.6 * 6)) + 0.5)
+    custo_galao = galoes * 25
+    sobra_tinta_galoes = (galoes * 3.6) - litros_tinta
+
+    latas_vantagem = (area_folga // (18 * 6))
+    resto_latas = (area_folga % 6)
+    galoes_vantagem = round((resto_latas / (3.6 * 6)) + 0.5)
+    sobra_vantagem = 3.6 - round((resto_latas / 6) + 0.5)
+    custo_vantagem = (latas_vantagem * 80) + (galoes_vantagem * 25)
+
+    print(f'Você deve comprar {litros_tinta} litros de tinta.')
+    print(
+    f'Você pode comprar {latas} lata(s) de 18 litros a um custo de R$ {custo_lata}. Vão sobrar {sobra_tinta_latas:.1f} litro(s) de tinta.')
+    print(
+    f'Você pode comprar {galoes} lata(s) de 3.6 litros a um custo de R$ {custo_galao}. Vão sobrar {sobra_tinta_galoes:.1f} litro(s) de tinta.')
+    print(
+    f'Para menor custo, você pode comprar {latas_vantagem:.0f} lata(s) de 18 litros e {galoes_vantagem} galão(ões) de 3.6 litros a um custo de R$ {custo_vantagem:.0f}. Vão sobrar {sobra_vantagem} litro(s) de tinta.')
+
+
 
     
