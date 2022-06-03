@@ -4,7 +4,6 @@ https://wiki.python.org.br/EstruturaDeRepeticao
 
 Faça um programa que calcule o número médio de alunos por turma. Para isto, peça a quantidade de turmas e a quantidade
 de alunos para cada turma. As turmas não podem ter mais de 40 alunos e devem ter ao menos um aluno.
-
 Arredonde o valor da média para baixo.
 
     >>> from secao_03_estrutura_de_repeticao import ex_27_alunos_por_turma

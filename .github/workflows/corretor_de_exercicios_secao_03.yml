@@ -119,3 +119,7 @@ jobs:
       if: always()
       run: |
           python -m doctest -f secao_03_estrutura_de_repeticao/ex_26_urna_eletronica.py
+    - name: Correção do Exercício 27 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_27_alunos_por_turma.py
