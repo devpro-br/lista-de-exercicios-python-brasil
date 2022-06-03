@@ -53,3 +53,64 @@ até R$ 99999,99
 
 def calcular_salario_liquido(valor_hora: float, horas_trabalhadas: int):
     """Escreva aqui em baixo a sua solução"""
+    salario_bruto =  valor_hora * horas_trabalhadas
+    imposto_renda = 0
+    calculo_imposto_renda = (salario_bruto / 100) * imposto_renda
+    sindicato = 3
+    inss = 10
+    calculo_inss =  (salario_bruto / 100) * inss
+    calculo_sindicato = (salario_bruto / 100) * sindicato
+    fgts = 11
+    calculo_fgts = (salario_bruto / 100) * fgts
+    total_descontos = calculo_imposto_renda + calculo_inss + calculo_sindicato
+    salario_liquido = salario_bruto - total_descontos
+    if salario_bruto <= 900:
+      imposto_renda = 0
+      calculo_imposto_renda = (salario_bruto / 100) * imposto_renda
+      total_descontos = calculo_imposto_renda + calculo_inss + calculo_sindicato
+      salario_liquido = salario_bruto - total_descontos
+      print(f'Salário Bruto: (R$ {"%.2f"%valor_hora} * {horas_trabalhadas})     : R$   {"%.2f"%salario_bruto}')
+      print(f'(-) IR ({imposto_renda}%)                        : R$     {"%.2f"%calculo_imposto_renda}')
+      print(f'(-) INSS ({inss}%)                     : R$    {"%.2f"%calculo_inss}')
+      print(f'(-) Sindicato ({sindicato}%)                 : R$     {"%.2f"%calculo_sindicato}')
+      print(f'FGTS ({fgts}%)                         : R$    {"%.2f"%calculo_fgts}')
+      print(f'Total de descontos                 : R$    {"%.2f"%total_descontos}')
+      print(f'Salário Liquido                    : R$   {"%.2f"%salario_liquido}')
+    elif  900< salario_bruto <= 1500.00:
+      imposto_renda = 5
+      calculo_imposto_renda = (salario_bruto / 100) * imposto_renda
+      total_descontos = calculo_imposto_renda + calculo_inss + calculo_sindicato
+      salario_liquido = salario_bruto - total_descontos
+      print(f'Salário Bruto: (R$ {"%.2f"%valor_hora} * {horas_trabalhadas})     : R$  {"%.2f"%salario_bruto}')
+      print(f'(-) IR ({imposto_renda}%)                        : R$    {"%.2f"%calculo_imposto_renda}')
+      print(f'(-) INSS ({inss}%)                     : R$   {"%.2f"%calculo_inss}')
+      print(f'(-) Sindicato ({sindicato}%)                 : R$    {"%.2f"%calculo_sindicato}')
+      print(f'FGTS ({fgts}%)                         : R$   {"%.2f"%calculo_fgts}')
+      print(f'Total de descontos                 : R$   {"%.2f"%total_descontos}')
+      print(f'Salário Liquido                    : R$   {"%.2f"%salario_liquido}')
+    elif 1500.00 < salario_bruto <= 2000.00:
+      imposto_renda = 10
+      calculo_imposto_renda = (salario_bruto / 100) * imposto_renda
+      total_descontos = calculo_imposto_renda + calculo_inss + calculo_sindicato
+      salario_liquido = salario_bruto - total_descontos
+      print(f'Salário Bruto: (R$ {"%.2f"%valor_hora} * {horas_trabalhadas})    : R$  {"%.2f"%salario_bruto}')
+      print(f'(-) IR ({imposto_renda}%)                       : R$   {"%.2f"%calculo_imposto_renda}')
+      print(f'(-) INSS ({inss}%)                     : R$   {"%.2f"%calculo_inss}')
+      print(f'(-) Sindicato ({sindicato}%)                 : R$    {"%.2f"%calculo_sindicato}')
+      print(f'FGTS ({fgts}%)                         : R$   {"%.2f"%calculo_fgts}')
+      print(f'Total de descontos                 : R$   {"%.2f"%total_descontos}')
+      print(f'Salário Liquido                    : R$  {"%.2f"%salario_liquido}')
+    else:
+      imposto_renda = 20
+      calculo_imposto_renda = (salario_bruto / 100) * imposto_renda
+      total_descontos = calculo_imposto_renda + calculo_inss + calculo_sindicato
+      salario_liquido = salario_bruto - total_descontos
+      print(f'Salário Bruto: (R$ {"%.2f"%valor_hora} * {horas_trabalhadas})   : R$ {"%.2f"%salario_bruto}')
+      print(f'(-) IR ({imposto_renda}%)                       : R$  {"%.2f"%calculo_imposto_renda}')
+      print(f'(-) INSS ({inss}%)                     : R$  {"%.2f"%calculo_inss}')
+      print(f'(-) Sindicato ({sindicato}%)                 : R$   {"%.2f"%calculo_sindicato}')
+      print(f'FGTS ({fgts}%)                         : R$  {"%.2f"%calculo_fgts}')
+      print(f'Total de descontos                 : R$  {"%.2f"%total_descontos}')
+      print(f'Salário Liquido                    : R$ {"%.2f"%salario_liquido}')
+
+    
