@@ -1,0 +1,129 @@
+name: Corretor da seção de estrutura de decisão da lista de exercícios da Python Brasil
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Configuração de Python 3.9
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.9
+    - name: Correção do Exercício 01 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_01_imprimir_maior_numero.py
+    - name: Correção do Exercício 02 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_02_positivo_ou_negativo.py
+    - name: Correção do Exercício 03 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_03_F_ou_M.py
+    - name: Correção do Exercício 04 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_04_vogal_ou_consoante.py
+    - name: Correção do Exercício 05 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_05_notas_parciais.py
+    - name: Correção do Exercício 06 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_06_maior_numero_de_3_numeros.py
+    - name: Correção do Exercício 07 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_07_maior_e_menor_numero_de_3_numeros.py
+    - name: Correção do Exercício 08 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_08_escolha_de_produto.py
+    - name: Correção do Exercício 09 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_09_numeros_decrescentes.py
+    - name: Correção do Exercício 10 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_10_cumprimento_em_turno.py
+    - name: Correção do Exercício 11 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_11_salario_tabajara.py
+    - name: Correção do Exercício 12 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_12_clt_assalto.py
+    - name: Correção do Exercício 13 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_13_dia_da_semana.py
+    - name: Correção do Exercício 14 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_14_atribuicoes_de_conceitos.py
+    - name: Correção do Exercício 15 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_15_triangulo.py
+    - name: Correção do Exercício 16 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_16_equacao_segundo_grau.py
+    - name: Correção do Exercício 17 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_17_ano_bissexto.py
+    - name: Correção do Exercício 18 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_18_validador_de_data.py
+    - name: Correção do Exercício 19 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_19_decomposicao_de_numero.py
+    - name: Correção do Exercício 20 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_20_3_notas_parciais.py
+    - name: Correção do Exercício 21 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_21_troco.py
+    - name: Correção do Exercício 22 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_22_par_ou_impar.py
+    - name: Correção do Exercício 23 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_23_inteiro_ou_decimal.py
+    - name: Correção do Exercício 24 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_24_operacao.py
+    - name: Correção do Exercício 25 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_25_sherlock.py
+    - name: Correção do Exercício 26 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_26_posto_de_gasolina.py
+    - name: Correção do Exercício 27 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_27_hortifruti.py
+    - name: Correção do Exercício 28 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao/ex_28_mercado_tabajara.py

@@ -1,4 +1,4 @@
-name: Corretor da lista de exercícios da Python Brasil
+name: Corretor da seção de estrutura sequencial da lista de exercícios da Python Brasil
 
 on:
   pull_request:
