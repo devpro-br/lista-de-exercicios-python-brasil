@@ -21,7 +21,7 @@ Assim você consegue evoluir com a certeza de entender os conceitos ;)
 2. Crie um script para cada exercício, dentro da pasta referente a seção de exercícios da Python Brasil. Use o arquivo [secao_01_estrutura_sequencial/ex_01_alo_mundo.py](secao_01_estrutura_sequencial/ex_01_alo_mundo.py) como modelo.
 3. Use o padrão de nomenclatura para os scritps `ex_dd_nome_do_arquivo`. Ou seja, comece sempre com o sufixo "ex_" seguindo do número do exercício. Assim a ordem alfabética dos arquivos ficará na mesma sequência que os exercícios da lista.
 4. Crie um doctest para o exercício;
-5. Crie uma entrada no [.github/workflows/corretor_de_exercícios.yml](.github/workflows/corretor_de_exercícios.yml) para executar o teste do exercício.
+5. Crie uma entrada no arquivo de correção respectivo à lista de exercícios em [.github/workflows](.github/workflows) para executar o teste do exercício. O número da seção é o sufixo do a arquivo. Exemplo: seção 2 está no arquivo `corretor_de_exercicios_secao_02.yml`.
 A6. Envie um pull request de volta para o projeto original [https://github.com/devpro-br/lista-de-exercicios-python-brasil](https://github.com/devpro-br/lista-de-exercicios-python-brasil).
 
 Exemplo de código para testar o exercício alo_mundo.py:
