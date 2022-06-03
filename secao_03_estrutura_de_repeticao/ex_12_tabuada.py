@@ -4,11 +4,11 @@ https://wiki.python.org.br/EstruturaDeRepeticao
 
 Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número inteiro entre 1 a 10.
 
-    >>> gerar_taboada(0)
-    Somente pode ser gerada taboada de 1 a 10
-    >>> gerar_taboada(11)
-    Somente pode ser gerada taboada de 1 a 10
-    >>> gerar_taboada(1)
+    >>> gerar_tabuada(0)
+    Somente pode ser gerada tabuada de 1 a 10
+    >>> gerar_tabuada(11)
+    Somente pode ser gerada tabuada de 1 a 10
+    >>> gerar_tabuada(1)
     1 X 1 = 1
     1 X 2 = 2
     1 X 3 = 3
@@ -19,7 +19,7 @@ Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número i
     1 X 8 = 8
     1 X 9 = 9
     1 X 10 = 10
-    >>> gerar_taboada(2)
+    >>> gerar_tabuada(2)
     2 X 1 = 2
     2 X 2 = 4
     2 X 3 = 6
@@ -30,7 +30,7 @@ Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número i
     2 X 8 = 16
     2 X 9 = 18
     2 X 10 = 20
-    >>> gerar_taboada(3)
+    >>> gerar_tabuada(3)
     3 X 1 = 3
     3 X 2 = 6
     3 X 3 = 9
@@ -41,7 +41,7 @@ Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número i
     3 X 8 = 24
     3 X 9 = 27
     3 X 10 = 30
-    >>> gerar_taboada(4)
+    >>> gerar_tabuada(4)
     4 X 1 = 4
     4 X 2 = 8
     4 X 3 = 12
@@ -52,7 +52,7 @@ Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número i
     4 X 8 = 32
     4 X 9 = 36
     4 X 10 = 40
-    >>> gerar_taboada(5)
+    >>> gerar_tabuada(5)
     5 X 1 = 5
     5 X 2 = 10
     5 X 3 = 15
@@ -63,7 +63,7 @@ Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número i
     5 X 8 = 40
     5 X 9 = 45
     5 X 10 = 50
-    >>> gerar_taboada(6)
+    >>> gerar_tabuada(6)
     6 X 1 = 6
     6 X 2 = 12
     6 X 3 = 18
@@ -74,7 +74,7 @@ Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número i
     6 X 8 = 48
     6 X 9 = 54
     6 X 10 = 60
-    >>> gerar_taboada(7)
+    >>> gerar_tabuada(7)
     7 X 1 = 7
     7 X 2 = 14
     7 X 3 = 21
@@ -85,7 +85,7 @@ Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número i
     7 X 8 = 56
     7 X 9 = 63
     7 X 10 = 70
-    >>> gerar_taboada(8)
+    >>> gerar_tabuada(8)
     8 X 1 = 8
     8 X 2 = 16
     8 X 3 = 24
@@ -96,7 +96,7 @@ Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número i
     8 X 8 = 64
     8 X 9 = 72
     8 X 10 = 80
-    >>> gerar_taboada(9)
+    >>> gerar_tabuada(9)
     9 X 1 = 9
     9 X 2 = 18
     9 X 3 = 27
@@ -107,7 +107,7 @@ Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número i
     9 X 8 = 72
     9 X 9 = 81
     9 X 10 = 90
-    >>> gerar_taboada(10)
+    >>> gerar_tabuada(10)
     10 X 1 = 10
     10 X 2 = 20
     10 X 3 = 30
@@ -122,5 +122,5 @@ Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número i
 """
 
 
-def gerar_taboada(n: int) -> str:
+def gerar_tabuada(n: int) -> str:
     """Escreva aqui em baixo a sua solução"""

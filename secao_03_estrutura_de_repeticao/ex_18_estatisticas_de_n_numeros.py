@@ -16,5 +16,5 @@ Faça um programa que, dado um conjunto de N números, determine o menor valor, 
 """
 
 
-def calcular_estatisticas(*numeros) -> int:
+def calcular_estatisticas(*numeros) -> str:
     """Escreva aqui em baixo a sua solução"""
