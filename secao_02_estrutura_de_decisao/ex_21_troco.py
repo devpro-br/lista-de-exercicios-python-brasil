@@ -36,6 +36,7 @@ def quantas_notas( lista_qnt_nota: list,valor:int, nota:int):
 
 def calcular_troco(valor: int):
     """Escreva aqui em baixo a sua solução"""
+
     lista_qnt_nota = []
     valor = quantas_notas(lista_qnt_nota, valor, 100)
     valor = quantas_notas(lista_qnt_nota, valor, 50)
