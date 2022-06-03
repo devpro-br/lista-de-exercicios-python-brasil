@@ -25,14 +25,7 @@ Triângulo Escaleno: três lados diferentes;
 """
 
 
-<<<<<<< HEAD
-from re import L
-
-
-def classificar_trinagulo(lado_a: float, lado_b: float, lado_c: float):
-=======
 def classificar_triangulo(lado_a: float, lado_b: float, lado_c: float):
->>>>>>> devpro-br-main
     """Escreva aqui em baixo a sua solução"""
     if (lado_a + lado_b) < lado_c or (lado_b + lado_c) < lado_a or (lado_a + lado_c) < lado_b:
         print("'Não é um triângulo'")
