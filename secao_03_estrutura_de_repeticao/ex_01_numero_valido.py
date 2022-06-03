@@ -34,6 +34,7 @@ até que o usuário informe um valor válido.
 
 def obter_numero_valido():
     """Escreva aqui em baixo a sua solução"""    
+    
     contador = 0
     while contador < 1:
         entradas = input('Insira um numero de 0 a 10: ')
@@ -46,5 +47,7 @@ def obter_numero_valido():
                 print('Número inválido:', entradas)
         else:
             print('Número inválido:', entradas)
-         
+
+
+def obter_numero_valido():  
             
