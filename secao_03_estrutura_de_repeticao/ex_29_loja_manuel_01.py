@@ -67,3 +67,12 @@ preços de 1 até 50 produtos.
 
 def gerar_tabela_de_precos():
     """Escreva aqui em baixo a sua solução"""
+    tabela = range(1,51)
+    i = 1
+    preco = 1.99    
+    print('Lojas Quase Dois - Tabela de preços')
+    for i in tabela:        
+        preco_total = preco * i
+        print('%-2.0f - R$%6.2f'%(i,preco_total))
+        i += i
+

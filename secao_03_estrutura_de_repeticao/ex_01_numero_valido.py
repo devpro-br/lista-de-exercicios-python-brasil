@@ -47,7 +47,5 @@ def obter_numero_valido():
                 print('Número inválido:', entradas)
         else:
             print('Número inválido:', entradas)
-
-
-def obter_numero_valido():  
+      
             
