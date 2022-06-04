@@ -31,4 +31,20 @@ Mostre o restultado com duas casas decimais
 
 def fazer_operacao_e_classificar(n_1: float, n_2: float, operacao: str):
     """Escreva aqui em baixo a sua solução"""
-  n_1 operacao n_2
+    if operacao == '+':
+      resultado = n_1 + n_2
+      print(f'Resultado: {resultado:.2f}')
+      # if resultado > 0 and 
+    
+    if operacao == '-':
+      resultado = n_1 - n_2
+      print(f'Resultado: {resultado:.2f}')
+
+    if operacao == '*':
+      resultado = n_1 * n_2
+      print(f'Resultado: {resultado:.2f}')
+      # if resultado > 0 and 
+    
+    if operacao == '/':
+      resultado = n_1 / n_2
+      print(f'Resultado: {resultado:.2f}')
