@@ -53,3 +53,13 @@ até R$ 99999,99
 
 def calcular_salario_liquido(valor_hora: float, horas_trabalhadas: int):
     """Escreva aqui em baixo a sua solução"""
+    salario_bruto = valor_hora * horas_trabalhadas
+    desconto_ir = float(salario_bruto * 0.11)
+    desconto_inss = float(salario_bruto * 0.08)
+    desconto_sind = float(salario_bruto * 0.05)
+
+    # Salário Bruto até 900
+    # Salário Bruto até 1500 (inclusive) - desconto de 5%
+    # Salário Bruto até 2500 (inclusive) - desconto de 10%
+    # Salário Bruto acima de 2500 - desconto de 20%
+#     O Salário Líquido corresponde ao Salário Bruto menos .os descontos
