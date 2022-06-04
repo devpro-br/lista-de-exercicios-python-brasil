@@ -47,3 +47,56 @@ Mostre o restultado com duas casas decimais
 
 def calcular_preco_da_carne(tipo_de_carne: str, kilos_de_carne: int, forma_de_pagamento: str) -> str:
     """Escreva aqui em baixo a sua solução"""
+#                       Até 5 Kg           Acima de 5 Kg
+# File Duplo      R$ 4,90 por Kg          R$ 5,80 por Kg
+# Alcatra         R$ 5,90 por Kg          R$ 6,80 por Kg
+# Picanha         R$ 6,90 por Kg          R$ 7,80 por Kg
+# compra for feita no cartão Tabajara o cliente receberá ainda um desconto de 5% sobre o total da compra.
+
+    if tipo_de_carne == 'Filé Duplo':
+        if kilos_de_carne < 5:
+            valor_total = kilos_de_carne * 4.9
+            if forma_de_pagamento == 'cartão tabajara':
+                valor_com_desconto = valor_total - (valor_total * 0.05)
+                print(f"'{kilos_de_carne} kg de {tipo_de_carne} a R$ 4.90/kg saem a R$ {valor_total:.2f}. Com desconto de 5% pelo pagamento feito com cartão tabajara, fica R$ {valor_com_desconto:.2f}'")
+            else:
+                print(f"'{kilos_de_carne} kg de {tipo_de_carne} a R$ 4.90/kg saem a R$ {valor_total:.2f}. Não há desconto, pagamento feito com {forma_de_pagamento}'")
+        else:
+            valor_total = kilos_de_carne * 5.8
+            if forma_de_pagamento == 'cartão tabajara':
+                valor_com_desconto = valor_total - (valor_total * 0.05)
+                print(f"'{kilos_de_carne} kg de {tipo_de_carne} a R$ 5.80/kg saem a R$ {valor_total:.2f}. Com desconto de 5% pelo pagamento feito com cartão tabajara, fica R$ {valor_com_desconto:.2f}'")
+            else:
+                print(f"'{kilos_de_carne} kg de {tipo_de_carne} a R$ 5.80/kg saem a R$ {valor_total:.2f}. Não há desconto, pagamento feito com {forma_de_pagamento}'")
+
+    if tipo_de_carne == 'Alcatra':
+        if kilos_de_carne < 5:
+            valor_total = kilos_de_carne * 5.9
+            if forma_de_pagamento == 'cartão tabajara':
+                valor_com_desconto = valor_total - (valor_total * 0.05)
+                print(f"'{kilos_de_carne} kg de {tipo_de_carne} a R$ 5.90/kg saem a R$ {valor_total:.2f}. Com desconto de 5% pelo pagamento feito com cartão tabajara, fica R$ {valor_com_desconto:.2f}'")
+            else:
+                print(f"'{kilos_de_carne} kg de {tipo_de_carne} a R$ 5.90/kg saem a R$ {valor_total:.2f}. Não há desconto, pagamento feito com {forma_de_pagamento}'")
+        else:
+            valor_total = kilos_de_carne * 6.8
+            if forma_de_pagamento == 'cartão tabajara':
+                valor_com_desconto = valor_total - (valor_total * 0.05)
+                print(f"'{kilos_de_carne} kg de {tipo_de_carne} a R$ 6.80/kg saem a R$ {valor_total:.2f}. Com desconto de 5% pelo pagamento feito com cartão tabajara, fica R$ {valor_com_desconto:.2f}'")
+            else:
+                print(f"'{kilos_de_carne} kg de {tipo_de_carne} a R$ 6.80/kg saem a R$ {valor_total:.2f}. Não há desconto, pagamento feito com {forma_de_pagamento}'")
+
+    if tipo_de_carne == 'Picanha':
+        if kilos_de_carne < 5:
+            valor_total = kilos_de_carne * 6.9
+            if forma_de_pagamento == 'cartão tabajara':
+                valor_com_desconto = valor_total - (valor_total * 0.05)
+                print(f"'{kilos_de_carne} kg de {tipo_de_carne} a R$ 6.90/kg saem a R$ {valor_total:.2f}. Com desconto de 5% pelo pagamento feito com cartão tabajara, fica R$ {valor_com_desconto:.2f}'")
+            else:
+                print(f"'{kilos_de_carne} kg de {tipo_de_carne} a R$ 6.90/kg saem a R$ {valor_total:.2f}. Não há desconto, pagamento feito com {forma_de_pagamento}'")
+        else:
+            valor_total = kilos_de_carne * 7.8
+            if forma_de_pagamento == 'cartão tabajara':
+                valor_com_desconto = valor_total - (valor_total * 0.05)
+                print(f"'{kilos_de_carne} kg de {tipo_de_carne} a R$ 7.80/kg saem a R$ {valor_total:.2f}. Com desconto de 5% pelo pagamento feito com cartão tabajara, fica R$ {valor_com_desconto:.2f}'")
+            else:
+                print(f"'{kilos_de_carne} kg de {tipo_de_carne} a R$ 7.80/kg saem a R$ {valor_total:.2f}. Não há desconto, pagamento feito com {forma_de_pagamento}'")
