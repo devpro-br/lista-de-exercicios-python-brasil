@@ -101,7 +101,7 @@ def calcular_preco_da_compra(kilos_de_morango: int, kilos_de_maca: int):
     valor_total_frutas = str('%.2f'%valor_total_frutas)
     
     if kilos_de_morango > 0 and kilos_de_maca == 0:
-        print('(+)  Morango  - valor:  R$', valor_total_morango.rjust(6,''), ' - quantidade:', str(kilos_de_morango).rjust(3,' '), ' kg - preço: R$ ', valor_morango.rjust(3,' '),'/kg',sep='')
+        print('(+)  Morango  - valor:  R$', valor_total_morango.rjust(6,' '), ' - quantidade:', str(kilos_de_morango).rjust(3,' '), ' kg - preço: R$ ', valor_morango.rjust(3,' '),'/kg',sep='')
         print('(-)  Desconto - valor:  R$', valor_de_desconto.rjust(5,' '))
         print('          Valor Total:  R$', valor_total_frutas.rjust(5,' '))
     elif kilos_de_morango == 0 and kilos_de_maca > 0:
