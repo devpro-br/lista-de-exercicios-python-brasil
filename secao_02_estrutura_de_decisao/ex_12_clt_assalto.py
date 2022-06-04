@@ -54,12 +54,26 @@ até R$ 99999,99
 def calcular_salario_liquido(valor_hora: float, horas_trabalhadas: int):
     """Escreva aqui em baixo a sua solução"""
     salario_bruto = valor_hora * horas_trabalhadas
-    desconto_ir = float(salario_bruto * 0.11)
-    desconto_inss = float(salario_bruto * 0.08)
-    desconto_sind = float(salario_bruto * 0.05)
+    desconto_inss = salario_bruto * 0.1
+    desconto_sind = salario_bruto * 0.03
+    valor_fgts = salario_bruto * 0.11 
 
-    # Salário Bruto até 900
-    # Salário Bruto até 1500 (inclusive) - desconto de 5%
-    # Salário Bruto até 2500 (inclusive) - desconto de 10%
-    # Salário Bruto acima de 2500 - desconto de 20%
-#     O Salário Líquido corresponde ao Salário Bruto menos .os descontos
+    if salario_bruto < 900:
+      salario_liquido = salario_bruto - total_descontos
+      total_descontos = desconto_inss + desconto_ir + desconto_sind
+      print(f'Salário Bruto: (R$ {valor_hora} * {horas_trabalhadas})   : R$ {salario_bruto:.2f}\n(-) IR (0%)                        : R$  {desconto_ir:.2f}\n(-) INSS (10%)                     : R$  {desconto_inss:.2f}\n(-) Sindicato (3%)                 : R$   {desconto_sind:.2f}\nFGTS (11%)                         : R$    {valor_fgts:.2f}\nTotal de descontos                 : R$  {total_descontos:.2f}\nSalário Liquido                    : R$  {salario_liquido:.2f}')
+    elif 900 <= salario_bruto < 1500:
+      desconto_ir = salario_bruto * 0.05
+      total_descontos = desconto_inss + desconto_ir + desconto_sind
+      salario_liquido = salario_bruto - total_descontos
+      print(f'Salário Bruto: (R$ {valor_hora} * {horas_trabalhadas})   : R$ {salario_bruto:.2f}\n(-) IR (5%)                        : R$  {desconto_ir:.2f}\n(-) INSS (10%)                     : R$  {desconto_inss:.2f}\n(-) Sindicato (3%)                 : R$   {desconto_sind:.2f}\nFGTS (11%)                         : R$    {valor_fgts:.2f}\nTotal de descontos                 : R$  {total_descontos:.2f}\nSalário Liquido                    : R$  {salario_liquido:.2f}')
+    elif 1500 <= salario_bruto < 2500:
+      desconto_ir = salario_bruto * 0.1
+      total_descontos = desconto_inss + desconto_ir + desconto_sind
+      salario_liquido = salario_bruto - total_descontos
+      print(f'Salário Bruto: (R$ {valor_hora} * {horas_trabalhadas})   : R$ {salario_bruto:.2f}\n(-) IR (5%)                        : R$  {desconto_ir:.2f}\n(-) INSS (10%)                     : R$  {desconto_inss:.2f}\n(-) Sindicato (3%)                 : R$   {desconto_sind:.2f}\nFGTS (11%)                         : R$    {valor_fgts:.2f}\nTotal de descontos                 : R$  {total_descontos:.2f}\nSalário Liquido                    : R$  {salario_liquido:.2f}')
+    else:
+      desconto_ir = salario_bruto * 0.2
+      total_descontos = desconto_inss + desconto_ir + desconto_sind
+      salario_liquido = salario_bruto - total_descontos
+      print(f'Salário Bruto: (R$ {valor_hora} * {horas_trabalhadas})   : R$ {salario_bruto:.2f}\n(-) IR (5%)                        : R$  {desconto_ir:.2f}\n(-) INSS (10%)                     : R$  {desconto_inss:.2f}\n(-) Sindicato (3%)                 : R$   {desconto_sind:.2f}\nFGTS (11%)                         : R$    {valor_fgts:.2f}\nTotal de descontos                 : R$  {total_descontos:.2f}\nSalário Liquido                    : R$  {salario_liquido:.2f}')
