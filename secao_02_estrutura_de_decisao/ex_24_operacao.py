@@ -31,20 +31,66 @@ Mostre o restultado com duas casas decimais
 
 def fazer_operacao_e_classificar(n_1: float, n_2: float, operacao: str):
     """Escreva aqui em baixo a sua solução"""
-    if operacao == '+':
-      resultado = n_1 + n_2
-      print(f'Resultado: {resultado:.2f}')
-      # if resultado > 0 and 
-    
-    if operacao == '-':
-      resultado = n_1 - n_2
-      print(f'Resultado: {resultado:.2f}')
+    if n_1 == 0 or n_2 == 0:
+      print('Resultado: 0.00')
+      print('Número é par, neutro e inteiro.')
+    else: 
+      if operacao == '+':
+        resultado = n_1 + n_2
+        print(f'Resultado: {resultado:.2f}')
+        if (resultado // 1 == resultado and resultado % 2 == 0 and resultado > 0):
+          print("Número é par, positivo e inteiro.")
+        elif (resultado // 1 == resultado and resultado % 2 != 0 and resultado > 0):
+              print("Número é impar, positivo e inteiro.")
+        elif (resultado // 1 == resultado and resultado % 2 == 0 and resultado < 0):
+          print("Número é par, negativo e inteiro.")
+        else:
+            if (resultado // 1 != resultado and resultado > 0):
+              print("Número é positivo e decimal.")
+            elif (resultado // 1 != resultado and resultado < 0):
+              print("Número é negativo e decimal.")
+      
+      if operacao == '-':
+        resultado = n_1 - n_2
+        print(f'Resultado: {resultado:.2f}')
+        if (resultado // 1 == resultado and resultado % 2 == 0 and resultado > 0):
+          print("Número é par, positivo e inteiro.")
+        elif (resultado // 1 == resultado and resultado % 2 != 0 and resultado > 0):
+              print("Número é impar, positivo e inteiro.")
+        elif (resultado // 1 == resultado and resultado % 2 == 0 and resultado < 0):
+          print("Número é par, negativo e inteiro.")
+        else:
+            if (resultado // 1 != resultado and resultado > 0):
+              print("Número é positivo e decimal.")
+            elif (resultado // 1 != resultado and resultado < 0):
+              print("Número é negativo e decimal.")
 
-    if operacao == '*':
-      resultado = n_1 * n_2
-      print(f'Resultado: {resultado:.2f}')
-      # if resultado > 0 and 
-    
-    if operacao == '/':
-      resultado = n_1 / n_2
-      print(f'Resultado: {resultado:.2f}')
+      if operacao == '*':
+        resultado = n_1 * n_2
+        print(f'Resultado: {resultado:.2f}')
+        if (resultado // 1 == resultado and resultado % 2 == 0 and resultado > 0):
+          print("Número é par, positivo e inteiro.")
+        elif (resultado // 1 == resultado and resultado % 2 != 0 and resultado > 0):
+              print("Número é impar, positivo e inteiro.")
+        elif (resultado // 1 == resultado and resultado % 2 == 0 and resultado < 0):
+          print("Número é par, negativo e inteiro.")
+        else:
+            if (resultado // 1 != resultado and resultado > 0):
+              print("Número é positivo e decimal.")
+            elif (resultado // 1 != resultado and resultado < 0):
+              print("Número é negativo e decimal.")
+
+      if operacao == '/':
+        resultado = n_1 / n_2
+        print(f'Resultado: {resultado:.2f}')
+        if (resultado // 1 == resultado and resultado % 2 == 0 and resultado > 0):
+          print("Número é par, positivo e inteiro.")
+        elif (resultado // 1 == resultado and resultado % 2 != 0 and resultado > 0):
+              print("Número é impar, positivo e inteiro.")
+        elif (resultado // 1 == resultado and resultado % 2 == 0 and resultado < 0):
+          print("Número é par, negativo e inteiro.")
+        else:
+            if (resultado // 1 != resultado and resultado > 0):
+              print("Número é positivo e decimal.")
+            elif (resultado // 1 != resultado and resultado < 0):
+              print("Número é negativo e decimal.")
