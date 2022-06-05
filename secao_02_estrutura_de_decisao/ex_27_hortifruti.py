@@ -55,7 +55,64 @@ Mostre o restultado com duas casas decimais
               Valor Total:  R$ 23.31
 
 """
+def espaco_branco(fruta):
+    espaco = ''
+    for i in range (9 - len(fruta)):
+        espaco += ' '
+    return espaco
 
+def espaco_valor(string):
+    if len(f'{string:.2f}') == 4:
+        return '  '
+    else: 
+        return ' '
+
+def print_fruta(fruta, valor, kilos):
+    if fruta == 'Maça':
+        if kilos < 5:
+            preco_kilo = 1.8
+        else:
+            preco_kilo = 1.5
+    elif fruta == 'Morango':    
+        if kilos < 5:
+            preco_kilo = 2.5
+        else:
+            preco_kilo = 2.2
+    
+    print(f'(+)  {fruta}{espaco_branco(fruta)}- valor:  R${espaco_valor(valor)}{valor:.2f} - quantidade:  {kilos} kg - preço: R$ {preco_kilo:.2f}/kg')
 
 def calcular_preco_da_compra(kilos_de_morango: int, kilos_de_maca: int):
     """Escreva aqui em baixo a sua solução"""
+    maca = 'Maça'
+    morango = 'Morango'
+
+    if kilos_de_maca < 5:
+        valor_maca = kilos_de_maca * 1.8
+    else:
+        valor_maca = kilos_de_maca * 1.5
+
+    if kilos_de_morango < 5:
+        valor_morango = kilos_de_morango * 2.5
+    else:
+        valor_morango = kilos_de_morango * 2.2
+
+    total_kilos = kilos_de_maca + kilos_de_morango
+    total_valor = valor_maca + valor_morango        
+    
+#     Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar R$ 25,00,receberá ainda um desconto de 10% sobre este total.
+    if total_kilos >= 8 or total_valor >= 25:
+        valor_desconto = total_valor * 0.1
+        valor_final = total_valor - valor_desconto
+        if kilos_de_morango > 0: 
+            print_fruta(morango, valor_morango, kilos_de_morango)
+        if kilos_de_maca > 0:
+            print_fruta(maca, valor_maca, kilos_de_maca)
+        print(f'(-)  Desconto - valor:  R${espaco_valor(valor_desconto)}{valor_desconto:.2f}')
+        print(f'          Valor Total:  R${espaco_valor(valor_final)}{valor_final:.2f}')    
+    else:
+        if kilos_de_morango > 0: 
+            print_fruta(morango, valor_morango, kilos_de_morango)
+        if kilos_de_maca > 0:
+            print_fruta(maca, valor_maca, kilos_de_maca)
+        print(f'(-)  Desconto - valor:  R$  0.00')
+        print(f'          Valor Total:  R${espaco_valor(total_valor)}{total_valor:.2f}')    
