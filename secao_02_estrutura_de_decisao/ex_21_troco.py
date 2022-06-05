@@ -36,27 +36,43 @@ def calcular_troco(valor: int) -> str:
     notas_5, valor = divmod(valor, 5)
     notas_1, valor = divmod(valor, 1)
 
-    if notas_100 == 1:
-        print(f'{notas_100} nota de 100')
-    elif notas_100 > 1:
-        print(f'{notas_100} notas de 100')
+    if notas_100 > 1:
+        notas_100 += 1
+    else:
+        notas_100 += 0
+    #     print(f'{notas_100} nota de 100')
+    # elif notas_100 > 1:
+    #     print(f'{notas_100} notas de 100')
 
-    if notas_50 == 1:
-        print(f'{notas_50} nota de 50')
-    elif notas_50 > 1:
-        print(f'{notas_50} notas de 50')
+    if notas_50 > 1:
+        notas_50 += 1
+    else:
+        notas_50 += 0 
+    #     print(f'{notas_50} nota de 50')
+    # elif notas_50 > 1:
+    #     print(f'{notas_50} notas de 50')
             
-    if notas_10 == 1:
-        print(f'{notas_10} nota de 10')
-    elif notas_10 > 1:
-        print(f'{notas_10} notas de 10')
+    if notas_10 > 1:
+        notas_10 += 1
+    else:
+        notas_10 += 0 
+    #     print(f'{notas_10} nota de 10')
+    # elif notas_10 > 1:
+    #     print(f'{notas_10} notas de 10')
 
-    if notas_5 == 1:
-        print(f'{notas_5} nota de 5')
-    elif notas_5 > 1:
-        print(f'{notas_5} notas de 5')
+    if notas_5 > 1:
+        notas_5 += 1
+    else:
+        notas_5 += 0 
+    #     print(f'{notas_5} nota de 5')
+    # elif notas_5 > 1:
+    #     print(f'{notas_5} notas de 5')
     
-    if notas_1 == 1:
-        print(f'{notas_1} nota de 1')
-    elif notas_1 > 1:
-        print(f'{notas_1} notas de 1')
+    if notas_1 > 1:
+        notas_1 += 1
+    else:
+        notas_1 += 0 
+    #     print(f'{notas_1} nota de 1')
+    # elif notas_1 > 1:
+    #     print(f'{notas_1} notas de 1')
+    print(f'{notas_100} notas de R$ 100, {notas_50} nota de R$ 50, {notas_10} notas de R$ 10, {notas_5} nota de R$ 5 e {notas_1} notas de R$ 1')

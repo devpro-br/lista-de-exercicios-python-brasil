@@ -19,8 +19,8 @@ def positivo_ou_negativo(n):
     """Escreva aqui em baixo a sua solução"""
     # numero = input('digite um número e direi se é positivo ou negativo: ')
     if n == 0:
-        print('não tem positivo nem negativo')
+        print("'não tem positivo nem negativo'")
     elif n > 0:
-        print('positivo')
+        print("'positivo'")
     elif n < 0:
-        print('negativo')
+        print("'negativo'")
