@@ -42,5 +42,3 @@ def resolver_equacao_do_segundo_grau(a: float, b: float, c: float):
             raiz_2 = (-b - math.sqrt(delta)) / (2 * a)
             print(f"'Delta é 4, raízes são {raiz_1} e {raiz_2}'")
 
-        # a * (x ** 2) + b * x + c == 0
-        # ax2 + bx + c

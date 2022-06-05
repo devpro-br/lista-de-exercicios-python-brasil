@@ -24,13 +24,22 @@ Faça um Programa que peça uma data no formato dd/mm/aaaa e determine se a mesm
 
 def validar_data(data: str):
     """Escreva aqui em baixo a sua solução"""
-    dia, mes, ano = data.split('/') # divide a string e coloca cada pedacinho numa variavel por justaposicao
+    valida = False
+    dia = 0
+    mes = 0
+    ano = 0
+    try:
+        dia, mes, ano = data.split('/') # divide a string e coloca cada pedacinho numa variavel por justaposicao
+    except:
+        print("'Data inválida'")
+        return
+
     
     if int(dia) and int(mes) and int(ano) != '':
-        if (int(mes)==1 or int(mes)==3 or int(mes)==5 or int(mes)==7 or int(mes)==8 or int(mes)==10 or int(mes)==12):
+        if int(mes)==1 or int(mes)==3 or int(mes)==5 or int(mes)==7 or int(mes)==8 or int(mes)==10 or int(mes)==12:
             if 0 < int(dia) <= 31:
                 valida = True
-        elif (int(mes) == 4 or int(mes) == 6 or int(mes) == 9 or int(mes) == 11):
+        elif int(mes) == 4 or int(mes) == 6 or int(mes) == 9 or int(mes) == 11:
             if 0 < int(dia) <= 30:
                 valida = True
         elif int(mes) == 2:

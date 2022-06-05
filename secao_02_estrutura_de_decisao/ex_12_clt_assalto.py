@@ -35,7 +35,7 @@ até R$ 99999,99
     Salário Bruto: (R$ 10.00 * 160)    : R$  1600.00
     (-) IR (10%)                       : R$   160.00
     (-) INSS (10%)                     : R$   160.00
-    (-) Sindicato (3%)                 : R$    48.00
+    (-) Sindicato (3%)                 : R$   48.00
     FGTS (11%)                         : R$   176.00
     Total de descontos                 : R$   368.00
     Salário Liquido                    : R$  1232.00
