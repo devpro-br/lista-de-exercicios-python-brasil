@@ -27,3 +27,10 @@ uma nota de 5 e quatro notas de 1.
 
 def calcular_troco(valor: int) -> str:
     """Escreva aqui em baixo a sua solução"""
+
+    x = list(str(valor))
+
+    if (x[-1]) in ['0', '2', '4', '6', '8']:
+        print("'Par'")
+    else:
+        print("'Impar'")
