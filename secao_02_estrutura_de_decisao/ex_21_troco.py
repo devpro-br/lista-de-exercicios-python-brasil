@@ -27,10 +27,38 @@ uma nota de 5 e quatro notas de 1.
 
 def calcular_troco(valor: int) -> str:
     """Escreva aqui em baixo a sua solução"""
+    
+    numero = valor
+    centena = int(numero / 100)
+    dezena = int((numero - (centena * 100)) / 10)
+    unidade = numero - (centena * 100 + (dezena * 10))
 
-    x = list(str(valor))
+    nota_100 = centena
 
-    if (x[-1]) in ['0', '2', '4', '6', '8']:
-        print("'Par'")
+    if dezena >= 5:
+        nota_50 = 1
+        nota_10 = dezena - 5
+    elif dezena < 5:
+        nota_10 = dezena
+
+    if unidade >=5:
+        nota_5 = 1
+        nota_1 = unidade - 5
     else:
-        print("'Impar'")
+        nota_1 = unidade
+
+    if centena == 0 and dezena == 0 and unidade == 1:
+        print(f"'{unidade} nota de R$ 1'")
+    if centena == 0 and dezena == 0 and unidade >= 5:
+        print(f"'{nota_5} nota de R$ 5'")
+
+    if centena == 0 and dezena == 1 and unidade == 0:
+        print(f"'{dezena} nota de R$ 10'")
+    if centena == 0 and dezena == 1 and unidade == 1:
+        print(f"'{dezena} nota de R$ 10 e {unidade} nota de R$ 1'")
+
+    if centena > 1 and dezena >5 and unidade >= 5:
+        print(f"'{centena} notas de R$ 100, {nota_50} nota de R$ 50, {nota_10} notas de R$ 10, {nota_5} nota de R$ 5 e {nota_1} notas de R$ 1'")
+
+    if centena > 1 and dezena == 5 and unidade > 1:
+        print(f"'{centena} notas de R$ 100, {nota_50} nota de R$ 50, {nota_5} nota de R$ 5 e {nota_1} nota de R$ 1'")
