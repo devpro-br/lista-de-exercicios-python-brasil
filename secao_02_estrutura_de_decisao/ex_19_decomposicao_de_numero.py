@@ -48,51 +48,60 @@ Observando os termos no plural a colocação do "e", da vírgula entre outros. E
     '7 = 7 unidades'
 
 """
+from os import uname_result
 
-
+def trata_string(numero, unidade):
+    retorno = ''
+    if numero == 1:
+        retorno = f'1 {unidade}'
+    elif numero > 1:
+        retorno = f'{numero} {unidade}s'
+    return retorno
 
 def decompor_numero(numero: int):
     """Escreva aqui em baixo a sua solução"""
-    centenas_str = dezenas_str = unidades_str = ''
-    
-    centenas_int, numero = divmod(numero, 100)
+    if numero > 999:
+        print("'O número precisa ser menor que 1000'")
+        return
+    if numero < 0:
+        print("'O número precisa ser positivo'")
+        return
 
-    partes_numericas = 0
+    centenas_str = ''
+    dezenas_str = ''
+    unidades_str = ''
 
-    if centenas_int == 1:
-        centenas_str = '1 centena'
-    elif centenas_int > 1:
-        centenas_str = f'{centenas_int} centenas'
+    pos_nums = []
+    num = numero
+    while num != 0:
+        pos_nums.append(num % 10)
+        num = num // 10
 
-        centenas_int = numero // 100
+    if pos_nums[0] > 0:
+        num = pos_nums[0]
+        unidades_str = trata_string(num,'unidade')
+    if len(pos_nums)>1 and pos_nums[1] > 0:
+        num = pos_nums[1]
+        dezenas_str = trata_string(num,'dezena')
+    if len(pos_nums)>2 and pos_nums[2] > 0:
+        num = pos_nums[2]
+        centenas_str = trata_string(num,'centena')
 
-    dezenas_int, numero = divmod(numero, 100)
+    result_array = []
+    result_string = ''
 
-    if dezenas_int == 1:
-        dezenas_str = '1 dezena'
-        partes_numericas += 1
-    elif dezenas_int > 1:
-        dezenas_str = f'{dezenas_int} dezenas'
-        partes_numericas += 1
+    if (centenas_str):
+        result_array.append(centenas_str)
+    if (dezenas_str):
+        result_array.append(dezenas_str)
+    if (unidades_str):
+        result_array.append(unidades_str)
 
-    if numero == 1:
-        unidades_str = '1 unidade'
-        partes_numericas += 1
-    elif numero > 1:
-        unidades_str = f'{numero} unidades'
-        partes_numericas += 1
-    
-    if partes_numericas == 0:
-        print('Numero 0 nao possui centenas, dezenas ou unidades')
-    elif partes_numericas == 1:
-        print(centenas_str + dezenas_str + unidades_str)
-    elif partes_numericas == 2:
-        if centenas_str != '':
-            segunda_parte = dezenas_str + unidades_str
-            print(f'{centenas_str} e {segunda_parte}')
-        else:
-            print(f'{dezenas_str} e {unidades_str}')
-    
-    elif partes_numericas == 3:
-        # print(f'{centenas_str}, {dezenas_str} e {unidades_str}')
-        print(f'{numero} = {centenas_int} {centenas_str}, {dezenas_int} {dezenas_str} e {numero} {unidades_str}')
+    if len(result_array) == 1:
+        result_string = f"{numero} = {result_array[0]}"
+    if 1 < len(result_array) < 3:
+        result_string = f"{numero} = {result_array[0]} e {result_array[1]}"
+    if len(result_array) == 3:
+        result_string = f"{numero} = {result_array[0]}, {result_array[1]} e {result_array[2]}"
+
+    print(f"'{result_string}'")
