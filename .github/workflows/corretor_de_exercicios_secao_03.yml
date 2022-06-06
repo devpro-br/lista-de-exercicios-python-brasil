@@ -147,3 +147,7 @@ jobs:
       if: always()
       run: |
           python -m doctest -f secao_03_estrutura_de_repeticao/ex_33_estatisticas_de_temperaturas.py
+    - name: Correção do Exercício 36 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_36_tabuada_com_intervalo.py
