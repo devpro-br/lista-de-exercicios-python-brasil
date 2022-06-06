@@ -4,7 +4,7 @@ https://wiki.python.org.br/EstruturaDeDecisao
 
 Faça um Programa para um caixa eletrônico. O programa deverá perguntar ao usuário a valor do saque e depois informar
 quantas notas de cada valor serão fornecidas. As notas disponíveis serão as de 1, 5, 10, 50 e 100 reais. O valor mínimo
-é de 10 reais e o máximo de 600 reais. O programa não deve se preocupar com a quantidade de notas existentes na máquina.
+é de 1 real e o máximo de 600 reais. O programa não deve se preocupar com a quantidade de notas existentes na máquina.
 Exemplo 1: Para sacar a quantia de 256 reais, o programa fornece duas notas de 100, uma nota de 50, uma nota de 5 e uma
 nota de 1;
 Exemplo 2: Para sacar a quantia de 399 reais, o programa fornece três notas de 100, uma nota de 50, quatro notas de 10,
@@ -36,6 +36,7 @@ def quantas_notas( lista_qnt_nota: list,valor:int, nota:int):
 
 def calcular_troco(valor: int):
     """Escreva aqui em baixo a sua solução"""
+<<<<<<< HEAD
 
     lista_qnt_nota = []
     valor = quantas_notas(lista_qnt_nota, valor, 100)
@@ -55,3 +56,5 @@ def calcular_troco(valor: int):
         print(f"'{lista_qnt_nota[0]} e {lista_qnt_nota[1]}'")
     if len(lista_qnt_nota) == 1:
         print(f"'{lista_qnt_nota[0]}'")
+=======
+>>>>>>> main
