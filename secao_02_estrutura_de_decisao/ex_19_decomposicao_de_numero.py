@@ -52,3 +52,7 @@ Observando os termos no plural a colocação do "e", da vírgula entre outros. E
 
 def decompor_numero(numero: int):
     """Escreva aqui em baixo a sua solução"""
+    numeracao = [100, 10, 1]
+    for x in numeracao:
+        print ("%i nota(s) de R$ %.2f"%((N/x),x))
+        N %= (x)
