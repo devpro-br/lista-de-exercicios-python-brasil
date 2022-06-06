@@ -11,16 +11,16 @@ O programa deve então mostrar o total da compra e perguntar o valor em dinheiro
 calcular e mostrar o valor do troco. Após esta operação, o programa deverá voltar ao ponto inicial,
 para registrar a próxima compra.
 
-    >>> from secao_03_estrutura_de_repeticao import ex_31_conveniencia_manel
+    >>> from secao_03_estrutura_de_repeticao import ex_31_conveniencia_manuel
     >>> entradas = ['-1']  # Encerrando o programa sem nenhuma compra
-    >>> ex_31_conveniencia_manel.input = lambda k: entradas.pop()
-    >>> ex_31_conveniencia_manel.rodar_programa_de_caixa()
+    >>> ex_31_conveniencia_manuel.input = lambda k: entradas.pop()
+    >>> ex_31_conveniencia_manuel.rodar_programa_de_caixa()
     Lojas Tabajara
     -------------------
     Programa encerrado!
     >>> entradas = ['2.00', '-1', '1.99']  # Compra de apenas um produto
-    >>> ex_31_conveniencia_manel.input = lambda k: entradas.pop()
-    >>> ex_31_conveniencia_manel.rodar_programa_de_caixa()
+    >>> ex_31_conveniencia_manuel.input = lambda k: entradas.pop()
+    >>> ex_31_conveniencia_manuel.rodar_programa_de_caixa()
     Lojas Tabajara
     Total     : R$   1.99
     Dinheiro  : R$   2.00
@@ -28,8 +28,8 @@ para registrar a próxima compra.
     -------------------
     Programa encerrado!
     >>> entradas = ['5.00', '-1', '1.99', '1.99']  # Compra de dois produtos
-    >>> ex_31_conveniencia_manel.input = lambda k: entradas.pop()
-    >>> ex_31_conveniencia_manel.rodar_programa_de_caixa()
+    >>> ex_31_conveniencia_manuel.input = lambda k: entradas.pop()
+    >>> ex_31_conveniencia_manuel.rodar_programa_de_caixa()
     Lojas Tabajara
     Total     : R$   3.98
     Dinheiro  : R$   5.00
@@ -37,8 +37,8 @@ para registrar a próxima compra.
     -------------------
     Programa encerrado!
     >>> entradas = ['10.00', '-1', '5.35', '5.00', '0', '1.98', '1.99']  # Compra de dois produtos
-    >>> ex_31_conveniencia_manel.input = lambda k: entradas.pop()
-    >>> ex_31_conveniencia_manel.rodar_programa_de_caixa()
+    >>> ex_31_conveniencia_manuel.input = lambda k: entradas.pop()
+    >>> ex_31_conveniencia_manuel.rodar_programa_de_caixa()
     Lojas Tabajara
     Total     : R$   3.97
     Dinheiro  : R$   5.00
