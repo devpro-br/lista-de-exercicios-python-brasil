@@ -25,3 +25,5 @@ def calcular_numeros_no_intervalo(inicio: int, fim: int) -> str:
                 break
             lista.append(str(numero))
         return ', '.join(lista)
+
+
