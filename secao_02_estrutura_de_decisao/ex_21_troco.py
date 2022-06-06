@@ -25,54 +25,42 @@ uma nota de 5 e quatro notas de 1.
 """
 
 
+def substitui_ultimo(s, old, new, occurrence):
+    li = s.rsplit(old, occurrence)
+    return new.join(li)
+
+def trata_string(numero, unidade):
+    retorno = ''
+    if numero == 1:
+        retorno = f'1 nota de R$ {unidade}'
+    elif numero > 1:
+        retorno = f'{numero} notas de R$ {unidade}'
+    return retorno
+
+
 def calcular_troco(valor: int) -> str:
     """Escreva aqui em baixo a sua solução"""
     # 1, 5, 10, 50 e 100 reais
-    notas_100 = notas_50 = notas_10 = notas_5 = notas_1 = 0
-    
-    notas_100, valor = divmod(valor, 100)
-    notas_50, valor = divmod(valor, 50)
-    notas_10, valor = divmod(valor, 10)
-    notas_5, valor = divmod(valor, 5)
-    notas_1, valor = divmod(valor, 1)
 
-    if notas_100 > 1:
-        notas_100 += 1
-    else:
-        notas_100 += 0
-    #     print(f'{notas_100} nota de 100')
-    # elif notas_100 > 1:
-    #     print(f'{notas_100} notas de 100')
+    valor_aux = valor
+    notas_100, valor_aux = divmod(valor_aux, 100)
+    notas_50, valor_aux = divmod(valor_aux, 50)
+    notas_10, valor_aux = divmod(valor_aux, 10)
+    notas_5, valor_aux = divmod(valor_aux, 5)
+    notas_1, valor_aux = divmod(valor_aux, 1)
 
-    if notas_50 > 1:
-        notas_50 += 1
-    else:
-        notas_50 += 0 
-    #     print(f'{notas_50} nota de 50')
-    # elif notas_50 > 1:
-    #     print(f'{notas_50} notas de 50')
-            
-    if notas_10 > 1:
-        notas_10 += 1
-    else:
-        notas_10 += 0 
-    #     print(f'{notas_10} nota de 10')
-    # elif notas_10 > 1:
-    #     print(f'{notas_10} notas de 10')
+    result_array = [notas_100, notas_50, notas_10, notas_5, notas_1]
+    notas_array = ['100', '50', '10', '5', '1']
+    result_string = ''
 
-    if notas_5 > 1:
-        notas_5 += 1
-    else:
-        notas_5 += 0 
-    #     print(f'{notas_5} nota de 5')
-    # elif notas_5 > 1:
-    #     print(f'{notas_5} notas de 5')
-    
-    if notas_1 > 1:
-        notas_1 += 1
-    else:
-        notas_1 += 0 
-    #     print(f'{notas_1} nota de 1')
-    # elif notas_1 > 1:
-    #     print(f'{notas_1} notas de 1')
-    print(f'{notas_100} notas de R$ 100, {notas_50} nota de R$ 50, {notas_10} notas de R$ 10, {notas_5} nota de R$ 5 e {notas_1} notas de R$ 1')
+
+    for i in range(len(result_array)):
+        nota = result_array[i]
+        if (nota) is not None and nota > 0:
+            result_string += trata_string(result_array[i], notas_array[i])
+            if i < 4 and sum(result_array) > 1:
+                result_string += ', '
+
+
+    result_string = substitui_ultimo(result_string, ', ', ' e ', 1)
+    print(f"'{result_string}'")
