@@ -21,3 +21,11 @@ Obs: 0 <= nota <= 10
 
 def notas_parciais(nota_1, nota_2):
     """Escreva aqui em baixo a sua solução"""
+    nota = (nota_1 + nota_2) / 2
+
+    if 10 > nota >= 7:     
+        print ("'Aprovado'")
+    elif (nota < 7):
+        print("'Reprovado'")
+    else:
+        print ("'Aprovado com Distinção'")
