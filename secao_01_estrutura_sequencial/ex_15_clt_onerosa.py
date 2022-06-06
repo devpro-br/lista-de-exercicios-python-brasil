@@ -39,4 +39,3 @@ def calcular_assalto_no_salario():
     print (f'- INSS (8%) : R$ {"%.2f" %inss}')
     print (f'- Sindicato ( 5%) : R$ {"%.2f" %sindicato}')
     print (f'= Salário Liquido : R$ {"%.2f" %salario_liquido}')
-calcular_assalto_no_salario()
