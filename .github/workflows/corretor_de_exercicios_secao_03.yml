@@ -138,4 +138,8 @@ jobs:
     - name: Correção do Exercício 31 da seção de Estrutura de Repetição
       if: always()
       run: |
-          python -m doctest -f secao_03_estrutura_de_repeticao/ex_31_conveniencia_manel.py
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_31_conveniencia_manuel.py
+    - name: Correção do Exercício 32 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_32_fatorial_com_operacoes.py
