@@ -34,7 +34,19 @@ Mostre os valores monetórios com duas casas decimais..
     Custo médio dos cds: R$ 20.00
 
 """
-
-
 def calcular_estatisticas_colecao_de_cd():
     """Escreva aqui em baixo a sua solução"""
+    quantidade_de_cds = int(input('Digite o número de cds: '))
+    preco_cd = []
+    print(f'Número de cds: {quantidade_de_cds}')
+    while len(preco_cd) < quantidade_de_cds:
+        cd_atual = len(preco_cd) + 1
+        preco_cd_atual = float(input(f'Digite quantos custou o cd {cd_atual}: '))
+        if preco_cd_atual < 0:
+            print(f'O cd deve ter um custo positivo, não pode ser {preco_cd_atual}')
+        else:
+            preco_cd.append(preco_cd_atual)
+    preco_total = sum(preco_cd)
+    media = preco_total/len(preco_cd)
+    print(f'Valor total da coleção: R$ {preco_total:.2f}')
+    print(f'Custo médio dos cds: R$ {media:.2f}')

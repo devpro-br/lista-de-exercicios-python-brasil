@@ -115,7 +115,13 @@ até 50 pães, a partir do preço do pão informado pelo usuário
 
 
 """
-
-
 def gerar_tabela_de_precos(preco_por_pao: float):
     """Escreva aqui em baixo a sua solução"""
+    quantidade = 1
+    print(f'Preço do pão: R$  {preco_por_pao}')
+    print('Panificadora Pão de Ontem - Tabela de preços')
+    for quantidade in range(1, 51):
+        preco_total = "%.2f" % round(preco_por_pao * quantidade, 2)
+        quantidade = str(quantidade)
+        preco_total = str(preco_total)
+        print(f'{quantidade.ljust(2)} - R$ {preco_total.rjust(6)}')
