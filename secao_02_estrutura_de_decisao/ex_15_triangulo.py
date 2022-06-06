@@ -34,5 +34,4 @@ def classificar_trinagulo(lado_a: float, lado_b: float, lado_c: float):
             return 'Triângulo Isósceles'
         else:
             return 'Triângulo Escaleno'
-    else:
-        return 'Não é um triângulo'
+    return 'Não é um triângulo'

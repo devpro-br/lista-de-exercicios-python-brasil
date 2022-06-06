@@ -27,18 +27,28 @@ uma nota de 5 e quatro notas de 1.
 
 def calcular_troco(valor: int) -> str:
     """Escreva aqui em baixo a sua solução"""
-    tipos_de_notas = [1, 5, 10, 50, 100]
-    notas = ['nota de R$ 1', 'nota de R$ 5', 'nota de R$ 10', 'nota de R$ 50', 'nota de R$ 100']
-    pedacos = 4
+    tipos_de_notas = [100, 50, 10, 5, 1]
+    aux = ''
+    pedacos = 0
     quantidade_de_notas = []
+
     resto = valor
     while resto > 0:
         valor = divmod(resto, tipos_de_notas[pedacos])
         notas, resto = valor
-        print(notas, tipos_de_notas[pedacos], resto)
-        quantidade_de_notas.append(str(notas))
-        pedacos -= 1
+        if notas > 1:
+            aux = f'{notas} notas de R$ {tipos_de_notas[pedacos]}'
+            quantidade_de_notas.append(aux)
+        elif notas == 1:
+            aux = f'{notas} nota de R$ {tipos_de_notas[pedacos]}'
+            quantidade_de_notas.append(aux)
+        pedacos += 1
+    for i in range(len(quantidade_de_notas)):
+        if i == len(quantidade_de_notas) - 1 and len(quantidade_de_notas) > 1:
+            quantidade_de_notas[i] = ' e ' + quantidade_de_notas[i]
+        elif len(quantidade_de_notas) > 1 and i != len(quantidade_de_notas) - 2:
+            quantidade_de_notas[i] = quantidade_de_notas[i] + ', '
 
-
+    return ''.join(quantidade_de_notas)
 
 
