@@ -29,14 +29,29 @@ def calcular_fatorial(n: int):
     fatorial = []
     aux = n
     calculo = 1
-    while True:
+    condicao = 0
+    while aux > 0:
         fatorial.append(n)        
         n = n-1
         if aux == 0 or aux == 1:
-            print(1)
+            print('Fatorial de 1:')
+            print('1! = 1 = 1')
             break
-        if n >= 0:              
-            calculo = fatorial[len(fatorial)-1]*calculo                    
-            if n == 0:
-                print('%.0f! ='%aux ,*fatorial, calculo) 
-                break
+        if n >= 0:
+            if n >= 0 and condicao == 0:
+                calculo = fatorial[len(fatorial)-1]*calculo
+            if n == 0:             
+                print('Fatorial de %.0f:'%aux)
+                print('%.0f! ='%aux, end='')                    
+            if n == 0 or condicao == 1:
+                condicao = 1                
+                if n <= aux:
+                    print(' ', fatorial[n], end=' .', sep='')
+                    n = n+2
+                    if n == aux:
+                        print(' ', fatorial[n-1], end=' = ', sep='')
+                        print(calculo)
+                        break
+                else:
+                    break          
+                

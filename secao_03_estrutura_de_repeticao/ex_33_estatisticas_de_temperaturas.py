@@ -22,3 +22,43 @@ Mostre a média com uma casa decimal.
 
 def calcular_estatisticas(*temperaturas) -> str:
     """Escreva aqui em baixo a sua solução"""
+
+    quantidade_numeros = len(temperaturas)    
+    contador = 0
+    while quantidade_numeros > contador and quantidade_numeros != 0:
+        if len(temperaturas) >= 2:
+                if (contador+1) < len(temperaturas):
+                    if contador == 0:
+                        if temperaturas[contador] > temperaturas[contador+1]:
+                            maior = temperaturas[contador]
+                            menor = temperaturas[contador+1]
+                            soma = temperaturas[contador] + temperaturas[contador+1]
+                            contador = contador + 1
+                        else:
+                            maior = temperaturas[contador+1]
+                            menor = temperaturas[contador]
+                            soma = temperaturas[contador] + temperaturas[contador+1]
+                            contador = contador + 1
+                    else:
+                        if temperaturas[contador+1] > menor:                            
+                            if temperaturas[contador+1] > maior:                                
+                                maior = temperaturas[contador+1]
+                                soma = soma + temperaturas[contador+1]
+                                contador = contador + 1                        
+                        else:
+                            menor = temperaturas[contador+1]
+                            soma = soma + temperaturas[contador+1]                            
+                            contador = contador + 1
+                else:       
+                    media = soma/len(temperaturas)             
+                    print('\'Maior temperatura: %.0f. Menor temperatura: %.0f. Média: %.1f\''%(maior,menor,media))
+                    break
+        else:
+            maior = temperaturas[0]
+            menor = temperaturas[0]
+            soma = temperaturas[0]
+            media = soma/len(temperaturas)  
+            print('\'Maior temperatura: %.0f. Menor temperatura: %.0f. Média: %.1f\''%(maior,menor,soma))
+            break
+    else:
+        print('\'Maior temperatura: não existe. Menor temperatura: não existe. Média: não existe\'')

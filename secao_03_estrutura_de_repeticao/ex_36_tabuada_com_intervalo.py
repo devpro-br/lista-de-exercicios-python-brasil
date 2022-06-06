@@ -38,4 +38,12 @@ Obs: Você deve verificar se o usuário não digitou o final menor que o inicial
 
 
 def gerar_tabuada(n: int, de: int, ate: int):
-    """Escreva aqui em baixo a sua solução"""
+    """Escreva aqui em baixo a sua solução"""    
+    while 0 < n <= 10 and de <= ate:
+        multiplicacao = n * de
+        print('%.0f X %.0f = %.0f'%(n,de,multiplicacao))
+        de = de + 1
+        if de > ate:
+            break
+    else:
+        print('O limite final (%.0f) deve ser maior que o inicial (%.0f)'%(ate,de))

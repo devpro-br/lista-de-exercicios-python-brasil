@@ -44,3 +44,25 @@ da média das alturas e dos pesos dos clientes
 
 def rodar_senso():
     """Escreva aqui em baixo a sua solução"""
+    #Criando listas para cada informação# 
+    lista_nome = []
+    lista_peso = []
+    lista_altura = []
+    lista_nome.append(input('Insira o nome do aluno ou digite 0 para encerrar: '))
+    while lista_nome[0].isdigit() == False:
+        lista_altura.insert(0,(input('Insira a altura do aluno:')))
+        lista_peso.insert(0,(input('Insira o peso do aluno:')))
+        lista_nome.insert(0,(input('Insira o nome do proximo aluno ou digite 0 para terminar:')))
+        if lista_nome[0].isdigit() == True:
+            lista_nome.pop(0)
+            break
+        else:
+            continue
+    
+    print(lista_altura.index(max(lista_altura)))
+
+    #USAR ISSO
+    lista_altura.index(max(lista_altura))
+
+    
+
