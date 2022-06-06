@@ -52,7 +52,25 @@ da média das alturas e dos pesos dos clientes
     Media de peso dos clientes: 90.2 kilos
 
 """
+import operator
 
 
 def rodar_senso():
     """Escreva aqui em baixo a sua solução"""
+    clientes = []
+    while True:
+        nome = input('Digite 0 para encerrar ou o nome do cliente a ser inserido no senso: ')
+        if nome == '0':
+            break
+        altura = int(input('Qual a altura do cliente? '))
+        peso = int(input('Qual o peso do cliente? '))
+        clientes.append((nome, altura, peso))
+
+    nome_cliente_mais_alto, altura_cliente_mais_alto, _ = max(clientes, key=operator.itemgetter(1))
+    nome_cliente_mais_baixo, altura_cliente_mais_baixo, _ = min(clientes, key=operator.itemgetter(1))
+    nome_cliente_mais_gordo, _, peso_cliente_mais_gordo = max(clientes, key=operator.itemgetter(2))
+    nome_cliente_mais_magro, _, peso_cliente_mais_magro = min(clientes, key=operator.itemgetter(2))
+    print(f'Cliente mais alto: {nome_cliente_mais_alto}, com {altura_cliente_mais_alto} centímetros')
+    print(f'Cliente mais baixo: {nome_cliente_mais_baixo}, com {altura_cliente_mais_baixo} centímetros')
+    print(f'Cliente mais magro: {nome_cliente_mais_magro}, com {peso_cliente_mais_magro} kilos')
+    print(f'Cliente mais gordo: {nome_cliente_mais_gordo}, com {peso_cliente_mais_gordo} kilos')
