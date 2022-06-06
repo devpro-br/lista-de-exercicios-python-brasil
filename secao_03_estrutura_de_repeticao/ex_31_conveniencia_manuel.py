@@ -56,3 +56,39 @@ para registrar a próxima compra.
 
 def rodar_programa_de_caixa():
     """Escreva aqui em baixo a sua solução"""
+    print('Lojas Tabajara')
+    operador = 1
+    total = 0
+    entradas = []
+    while True:
+        operador = float(input('Insira o valor do produto: '))
+        if operador == 0:            
+            dinheiro = float(input('Insira o valor do pagamento: '))
+            troco = dinheiro - total
+            print('Total'.ljust(9, ' '),': R$ %6.2f'% total)
+            print('Dinheiro'.ljust(9, ' '),': R$ %6.2f'% dinheiro)
+            print('Troco'.ljust(9, ' '),': R$ %6.2f'% troco)
+            print('-------------------')
+            print('Lojas Tabajara')
+            operador = 1
+            total = 0
+        elif operador == -1 and len(entradas) > 0:
+            dinheiro = float(input('Insira o valor do pagamento: '))
+            troco = dinheiro - total
+            operador = 1
+            print('Total'.ljust(9, ' '),': R$ %6.2f'% total)
+            print('Dinheiro'.ljust(9, ' '),': R$ %6.2f'% dinheiro)
+            print('Troco'.ljust(9, ' '),': R$ %6.2f'% troco)
+            print('-------------------')
+            print('Programa encerrado!')
+            break
+        elif operador == -1 and len(entradas)== 0:
+            print('-------------------')
+            print('Programa encerrado!')
+            break
+        else:
+            total = operador + total
+            entradas.append(operador)
+
+
+
