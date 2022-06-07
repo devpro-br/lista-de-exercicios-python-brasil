@@ -25,7 +25,4 @@ def calcular_aluno_mais_baixo_e_mais_alto(*alunos) -> str:
     tamanho_maior = max(altura)
     tamanho_menor = min(altura)
 
-
-    print('\'O maior aluno é o %s com %.0f cm. O menor aluno é o %s com %.0f cm\''%(nome_maior, tamanho_maior, nome_menor, tamanho_menor))
-    
-    
+    print('\'O maior aluno é o %s com %.0f cm. O menor aluno é o %s com %.0f cm\''%(nome_maior, tamanho_maior, nome_menor, tamanho_menor))    
