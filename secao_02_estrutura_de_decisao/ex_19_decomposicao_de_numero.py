@@ -52,3 +52,50 @@ Observando os termos no plural a colocação do "e", da vírgula entre outros. E
 
 def decompor_numero(numero: int):
     """Escreva aqui em baixo a sua solução"""
+    numero_final = numero
+    centenas_str = dezenas_str = unidade_str = ''
+    centenas_int, numero = divmod(numero, 100)
+    partes_numeros = 0
+
+    if centenas_int == 1:
+        centenas_str = '1 centena'
+        partes_numeros += 1
+    elif centenas_int > 1:
+        centenas_str = f'{centenas_int} centenas'
+        partes_numeros += 1
+
+    dezenas_int, numero = divmod(numero, 10)
+
+    if dezenas_int == 1:
+        dezenas_str = '1 dezena'
+        partes_numeros += 1
+    elif dezenas_int > 1:
+        dezenas_str = f'{dezenas_int} dezenas'
+        partes_numeros += 1
+
+    if numero == 1:
+        unidade_str = '1 unidade'
+        partes_numeros += 1
+    elif numero > 1:
+        unidade_str = f'{numero} unidades'
+        partes_numeros += 1
+
+    if numero_final <= 0:
+        print("""'O número precisa ser positivo'""")
+    elif numero_final >= 1000:
+        print("""'O número precisa ser menor que 1000'""")
+    elif partes_numeros == 1:
+        if centenas_str != '':
+            print(f"""'{numero_final} = {centenas_str}'""")
+        elif dezenas_str != '':
+            print(f"""'{numero_final} = {dezenas_str}'""")
+        elif unidade_str != '':
+            print(f"""'{numero_final} = {unidade_str}'""")
+    elif partes_numeros == 3:
+        print(f"""'{numero_final} = {centenas_str}, {dezenas_str} e {unidade_str}'""")
+    elif partes_numeros == 2:
+        if centenas_str != '':
+            segunda_parte = dezenas_str + unidade_str
+            print(f"""'{numero_final} = {centenas_str} e {segunda_parte}'""")
+        else:
+            print(f"""'{numero_final} = {dezenas_str} e {unidade_str}'""")

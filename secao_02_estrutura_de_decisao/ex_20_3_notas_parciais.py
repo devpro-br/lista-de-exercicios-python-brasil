@@ -21,3 +21,11 @@ A mensagem "Aprovado com Distinção", se a média for igual a 10.
 
 def calcular_status(nota_1, nota_2, nota_3):
     """Escreva aqui em baixo a sua solução"""
+    nota = (nota_1 + nota_2 + nota_3) / 3
+
+    if 10 > nota >= 7:     
+        print ("'Aprovado'")
+    elif (nota < 7):
+        print("'Reprovado'")
+    else:
+        print ("'Aprovado com Distinção'")

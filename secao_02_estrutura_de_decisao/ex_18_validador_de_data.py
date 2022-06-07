@@ -2,7 +2,7 @@
 Exercício 18 da seção de estrutura de decisão da Python Brasil:
 https://wiki.python.org.br/EstruturaDeDecisao
 
-Faça um Programa que peça uma data no formato dd/mm/aaaa e determine se a mesma é uma data válida.
+
 
     >>> validar_data('')
     'Data inválida'
@@ -24,3 +24,9 @@ Faça um Programa que peça uma data no formato dd/mm/aaaa e determine se a mesm
 
 def validar_data(data: str):
     """Escreva aqui em baixo a sua solução"""
+    from datetime import datetime
+    try:
+        datetime.strptime(data.strip(), '%d/%m/%Y')
+        print("""'Data válida'""")
+    except ValueError:
+        print("'Data inválida'")
