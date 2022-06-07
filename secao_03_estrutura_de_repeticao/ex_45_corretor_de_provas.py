@@ -46,6 +46,7 @@ Gabarito da Prova:
     Total de Alunos: 2
 """
 from itertools import islice
+from statistics import mean
 
 def corrigir(*provas):
     """Escreva aqui em baixo a sua solução"""
@@ -57,11 +58,16 @@ def corrigir(*provas):
         return aluno, nota
 
     correcoes = dict(map(corrigir_prova, provas))
+
+    maior_nota = max(correcoes.values())
+    menor_nota = min(correcoes.values())
+    media_geral = mean(correcoes.values())
+    total_de_alunos = len(provas)
     print(f'Aluno                 Nota')
     for aluno, nota in correcoes.items():
         print(f'{aluno:21s} {nota:2d}')
     print(f'---------------------------')
-    print(f'Média geral: 10.0')
-    print(f'Maior nota: 10')
-    print(f'Menor nota: 10')
-    print(f'Total de Alunos: 10')
+    print(f'Média geral: {media_geral:.1f}')
+    print(f'Maior nota: {maior_nota}')
+    print(f'Menor nota: {menor_nota}')
+    print(f'Total de Alunos: {total_de_alunos}')
