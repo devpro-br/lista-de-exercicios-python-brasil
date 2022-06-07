@@ -199,3 +199,7 @@ jobs:
       if: always()
       run: |
           python -m doctest -f secao_03_estrutura_de_repeticao/ex_49_imprimir_serie.py
+    - name: Correção do Exercício 50 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_50_soma_serie.py
