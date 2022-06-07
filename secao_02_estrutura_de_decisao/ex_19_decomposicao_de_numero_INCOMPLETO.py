@@ -52,7 +52,18 @@ Observando os termos no plural a colocação do "e", da vírgula entre outros. E
 
 def decompor_numero(numero: int):
     """Escreva aqui em baixo a sua solução"""
-    numeracao = [100, 10, 1]
-    for x in numeracao:
-        print ("%i nota(s) de R$ %.2f"%((N/x),x))
-        N %= (x)
+    output = ""
+    if numero < 0:
+        return("'O número precisa ser positivo'")
+    if numero >= 1000:
+        return('O número precisa ser menor que 1000')
+
+    if numero >= 100:
+        centena = numero //100
+        numero %= 100 #omite a variável por conta ra repetição, é equivalente à numero = numero % 100
+    if numero >= 10:
+        dezena = numero //10
+        numero %= 10
+    if numero > 0:
+        unidade =  numero
+
