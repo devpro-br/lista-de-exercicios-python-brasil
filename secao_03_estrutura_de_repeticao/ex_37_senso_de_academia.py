@@ -17,6 +17,9 @@ da média das alturas e dos pesos dos clientes
     Cliente mais baixo: Renzo, com 162 centímetros
     Cliente mais magro: Renzo, com 81 kilos
     Cliente mais gordo: Renzo, com 81 kilos
+    --------------------------------------------------
+    Media de altura dos clientes: 162.0 centímetros
+    Media de peso dos clientes: 81.0 kilos
     >>> entradas = ['0', '81', '162', 'Renzo', '80', '192', 'Gigante']
     >>> ex_37_senso_de_academia.input = lambda k: entradas.pop()
     >>> ex_37_senso_de_academia.rodar_senso()
@@ -24,6 +27,9 @@ da média das alturas e dos pesos dos clientes
     Cliente mais baixo: Renzo, com 162 centímetros
     Cliente mais magro: Gigante, com 80 kilos
     Cliente mais gordo: Renzo, com 81 kilos
+    --------------------------------------------------
+    Media de altura dos clientes: 177.0 centímetros
+    Media de peso dos clientes: 80.5 kilos
     >>> entradas = ['0', '81', '162', 'Renzo', '80', '192', 'Gigante', '150', '170', 'Bolota']
     >>> ex_37_senso_de_academia.input = lambda k: entradas.pop()
     >>> ex_37_senso_de_academia.rodar_senso()
@@ -31,6 +37,9 @@ da média das alturas e dos pesos dos clientes
     Cliente mais baixo: Renzo, com 162 centímetros
     Cliente mais magro: Gigante, com 80 kilos
     Cliente mais gordo: Bolota, com 150 kilos
+    --------------------------------------------------
+    Media de altura dos clientes: 174.7 centímetros
+    Media de peso dos clientes: 103.7 kilos
     >>> entradas = ['0', '81', '162', 'Renzo', '80', '192', 'Gigante', '150', '170', 'Bolota', '50', '172', 'Seco']
     >>> ex_37_senso_de_academia.input = lambda k: entradas.pop()
     >>> ex_37_senso_de_academia.rodar_senso()
@@ -38,6 +47,9 @@ da média das alturas e dos pesos dos clientes
     Cliente mais baixo: Renzo, com 162 centímetros
     Cliente mais magro: Seco, com 50 kilos
     Cliente mais gordo: Bolota, com 150 kilos
+    --------------------------------------------------
+    Media de altura dos clientes: 174.0 centímetros
+    Media de peso dos clientes: 90.2 kilos
 
 """
 
