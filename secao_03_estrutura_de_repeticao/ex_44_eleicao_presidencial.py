@@ -85,7 +85,6 @@ A percentagem de votos em branco sobre o total de votos. Para finalizar o conjun
 
 
 """
-from collections import Counter
 
 
 def apurar_votos(*votos):
