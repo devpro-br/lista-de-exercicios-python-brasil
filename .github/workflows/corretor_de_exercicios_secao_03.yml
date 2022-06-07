@@ -135,3 +135,47 @@ jobs:
       if: always()
       run: |
           python -m doctest -f secao_03_estrutura_de_repeticao/ex_30_padaria_manuel.py
+    - name: Correção do Exercício 31 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_31_conveniencia_manuel.py
+    - name: Correção do Exercício 32 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_32_fatorial_com_operacoes.py
+    - name: Correção do Exercício 33 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_33_estatisticas_de_temperaturas.py
+    - name: Correção do Exercício 36 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_36_tabuada_com_intervalo.py
+    - name: Correção do Exercício 37 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_37_senso_de_academia.py
+    - name: Correção do Exercício 38 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_38_aumento_salarial.py
+    - name: Correção do Exercício 39 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_39_sala_de_aula.py
+    - name: Correção do Exercício 40 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_40_transito.py
+    - name: Correção do Exercício 41 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_41_financiamento.py
+    - name: Correção do Exercício 43 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_43_lanchonete.py
+    - name: Correção do Exercício 44 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_44_eleicao_presidencial.py
