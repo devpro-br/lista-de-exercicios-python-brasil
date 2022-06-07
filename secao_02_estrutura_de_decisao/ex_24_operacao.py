@@ -32,16 +32,46 @@ Mostre o restultado com duas casas decimais
 def fazer_operacao_e_classificar(n_1: float, n_2: float, operacao: str):
     """Escreva aqui em baixo a sua solução"""
     soma = n_1 + n_2
-    divisao = n_1 / n_2
-    subtracao = n_1 - n_2
-    multiplicacao = n_1 * n_2
+    sub = n_1 - n_2
+    mul = n_1 * n_2
+    div = n_1 / n_2
+
     if operacao == '+':
-      print(f'Resultado: {"%.2f"%soma}')
-    if operacao == '-':
-      print(f'Resultado: {"%.2f"%subtracao}')
+     resultado = soma
+    elif operacao == '-':
+        resultado = sub
     if operacao == '*':
-      print(f'Resultado: {"%.2f"%multiplicacao}')
-    if operacao == '/':
-      print(f'Resultado: {"%.2f"%divisao}')
+        resultado = mul
+    elif operacao == '/':
+        resultado = div
+
+    if resultado // 1 == resultado:
+        tipo = 'inteiro'
+    else:
+        tipo = "decimal"
+
+    if resultado == 0:
+        p_n = 'neutro'
+    elif resultado >= 0:
+        p_n = 'positivo'
+    elif resultado <= 0:
+        p_n = 'negativo'
+
+    # a = list(str(resultado))
+
+    if resultado % 2 == 0 and tipo != 'decimal':
+        p_i = 'par'
+    elif resultado % 2 != 0 and tipo != 'decimal':
+        p_i = 'impar'
+    else:
+        p_i =''
+
+    print(f'Resultado: {resultado:.2f}')
+
+    if tipo == 'decimal':
+        print(f'Número é {p_n} e {tipo}.')
+    else:
+        print(f'Número é {p_i}, {p_n} e {tipo}.')
+   
       
 
