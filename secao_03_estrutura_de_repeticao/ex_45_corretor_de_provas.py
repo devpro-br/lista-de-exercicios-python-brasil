@@ -45,7 +45,23 @@ Gabarito da Prova:
     Menor nota: 9
     Total de Alunos: 2
 """
-
+from itertools import islice
 
 def corrigir(*provas):
     """Escreva aqui em baixo a sua solução"""
+    gabarito = ('A', 'B', 'C', 'D', 'E', 'E', 'D', 'C', 'B', 'A')
+
+    def corrigir_prova(prova):
+        aluno = prova[0]
+        nota = sum(1 for resposta_certa, reposta in zip(gabarito, islice(prova, 1, None)) if reposta == resposta_certa)
+        return aluno, nota
+
+    correcoes = dict(map(corrigir_prova, provas))
+    print(f'Aluno                 Nota')
+    for aluno, nota in correcoes.items():
+        print(f'{aluno:21s} {nota:2d}')
+    print(f'---------------------------')
+    print(f'Média geral: 10.0')
+    print(f'Maior nota: 10')
+    print(f'Menor nota: 10')
+    print(f'Total de Alunos: 10')
