@@ -90,3 +90,46 @@ from collections import Counter
 
 def apurar_votos(*votos):
     """Escreva aqui em baixo a sua solução"""
+    contador = 0
+    bolso = 0
+    lula = 0
+    dilma = 0
+    fhc = 0
+    nulo = 0
+    branco = 0
+    while contador < len(votos):
+        if votos[contador] == '1':
+            bolso = bolso + 1
+            contador = contador + 1
+        elif votos[contador] == '2':
+            lula = lula + 1
+            contador = contador + 1
+        elif votos[contador] == '3':
+            dilma = dilma + 1
+            contador = contador + 1
+        elif votos[contador] == '4':
+            fhc = fhc + 1
+            contador = contador + 1
+        elif votos[contador] == '5':
+            nulo = nulo + 1
+            contador = contador + 1
+        elif votos[contador] == '6':
+            branco = branco + 1
+            contador = contador + 1
+
+    total_votos = len(votos)
+    porcentagem_bozo = (bolso/total_votos)*100
+    porcentagem_lula = (lula/total_votos)*100
+    porcentagem_dilma = (dilma/total_votos)*100
+    porcentagem_fhc = (fhc/total_votos)*100
+    porcentagem_nulo = (nulo/total_votos)*100
+    porcentagem_branco = (branco/total_votos)*100
+    print('Código do Candidato Nome do Candidato Votos Porcentagem sobre total')
+    print('1                   Bostonaro         %.0f     %5.1f'%(bolso,porcentagem_bozo),'%',sep="")
+    print('2                   Luladrão          %.0f      %4.1f'%(lula,porcentagem_lula),'%',sep="")
+    print('3                   Dilmanta          %.0f      %4.1f'%(dilma,porcentagem_dilma),'%',sep="")
+    print('4                   FHC Isentão       %.0f      %4.1f'%(fhc,porcentagem_fhc),'%',sep="")
+    print('-------------------------------------------------------------------')
+    print('5                   Votos Nulos       %.0f      %4.1f'%(nulo,porcentagem_nulo),'%',sep="")
+    print('6                   Votos Brancos     %.0f      %4.1f'%(branco,porcentagem_branco),'%',sep="")
+    
