@@ -31,3 +31,40 @@ Mostre o restultado com duas casas decimais
 
 def fazer_operacao_e_classificar(n_1: float, n_2: float, operacao: str):
     """Escreva aqui em baixo a sua solução"""
+    if operacao == '+':
+      resultado = float(n_1+n_2)
+      print(f'Resultado: {resultado:.2f}')
+
+    elif operacao == '-':
+      resultado = float(n_1-n_2)
+      print(f'Resultado: {resultado:.2f}')
+
+    elif operacao == '*':
+      resultado = float(n_1*n_2)
+      print(f'Resultado: {resultado:.2f}')
+
+    elif operacao == '/':
+      resultado = float(n_1/n_2)
+      print(f'Resultado: {resultado:.2f}')
+      
+    else:
+      print(f'Números inválidos.')
+      
+    if resultado%2 == 0:
+        par_ou_impar = 'par'
+    else:
+        par_ou_impar = 'impar'
+
+    if resultado > 0:
+        pos_ou_neg = 'positivo'
+    elif resultado == 0:
+        pos_ou_neg = 'neutro'
+    else:
+        pos_ou_neg = 'negativo'
+
+    if resultado % 1 == 0:
+        int_ou_flo = 'inteiro'
+        print(f'Número é {par_ou_impar}, {pos_ou_neg} e {int_ou_flo}.') 
+    else:
+        int_ou_flo = 'decimal'
+        print(f'Número é {pos_ou_neg} e {int_ou_flo}.')

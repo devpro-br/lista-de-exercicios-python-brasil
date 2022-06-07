@@ -53,3 +53,64 @@ até R$ 99999,99
 
 def calcular_salario_liquido(valor_hora: float, horas_trabalhadas: int):
     """Escreva aqui em baixo a sua solução"""
+    salario = valor_hora * horas_trabalhadas
+    
+    if salario <= 900:
+        ir = salario * 0
+        inss = salario * 0.1
+        sindicato = salario * 0.03
+        fgts = salario * 0.11
+        total_descontos = ir + inss + sindicato
+        salario_liquido = salario - total_descontos
+        print(f"Salário Bruto: (R$ {valor_hora:.2f} * {horas_trabalhadas})     : R$   {salario:.2f}")
+        print(f"(-) IR (0%)                        : R$     {ir:.2f}")
+        print(f"(-) INSS (10%)                     : R$    {inss:.2f}")
+        print(f"(-) Sindicato (3%)                 : R$     {sindicato:.2f}")
+        print(f"FGTS (11%)                         : R$    {fgts:.2f}")
+        print(f"Total de descontos                 : R$    {total_descontos:.2f}")
+        print(f"Salário Liquido                    : R$   {salario_liquido:.2f}")
+    
+    elif salario <= 1500:
+        ir = salario * 0.05
+        inss = salario * 0.1
+        sindicato = salario * 0.03
+        fgts = salario * 0.11
+        total_descontos = ir + inss + sindicato
+        salario_liquido = salario - total_descontos
+        print(f"Salário Bruto: (R$ {valor_hora:.2f} * {horas_trabalhadas})     : R$  {salario:.2f}")
+        print(f"(-) IR (5%)                        : R$    {ir:.2f}")
+        print(f"(-) INSS (10%)                     : R$   {inss:.2f}")
+        print(f"(-) Sindicato (3%)                 : R$    {sindicato:.2f}")
+        print(f"FGTS (11%)                         : R$   {fgts:.2f}")
+        print(f"Total de descontos                 : R$   {total_descontos:.2f}")
+        print(f"Salário Liquido                    : R$   {salario_liquido:.2f}")
+    
+    elif salario <= 2500:
+        ir = salario * 0.1
+        inss = salario * 0.1
+        sindicato = salario * 0.03
+        fgts = salario * 0.11
+        total_descontos = ir + inss + sindicato
+        salario_liquido = salario - total_descontos
+        print(f"Salário Bruto: (R$ {valor_hora:.2f} * {horas_trabalhadas})    : R$  {salario:.2f}")
+        print(f"(-) IR (10%)                       : R$   {ir:.2f}")
+        print(f"(-) INSS (10%)                     : R$   {inss:.2f}")
+        print(f"(-) Sindicato (3%)                 : R$    {sindicato:.2f}")
+        print(f"FGTS (11%)                         : R$   {fgts:.2f}")
+        print(f"Total de descontos                 : R$   {total_descontos:.2f}")
+        print(f"Salário Liquido                    : R$  {salario_liquido:.2f}")
+    
+    elif salario > 2500:
+        ir = salario * 0.2
+        inss = salario * 0.1
+        sindicato = salario * 0.03
+        fgts = salario * 0.11
+        total_descontos = ir + inss + sindicato
+        salario_liquido = salario - total_descontos
+        print(f"Salário Bruto: (R$ {valor_hora:.2f} * {horas_trabalhadas})   : R$ {salario:.2f}")
+        print(f"(-) IR (20%)                       : R$  {ir:.2f}")
+        print(f"(-) INSS (10%)                     : R$  {inss:.2f}")
+        print(f"(-) Sindicato (3%)                 : R$   {sindicato:.2f}")
+        print(f"FGTS (11%)                         : R$  {fgts:.2f}")
+        print(f"Total de descontos                 : R$  {total_descontos:.2f}")
+        print(f"Salário Liquido                    : R$ {salario_liquido:.2f}")
