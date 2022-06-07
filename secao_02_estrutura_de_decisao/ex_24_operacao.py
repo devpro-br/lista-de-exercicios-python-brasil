@@ -50,7 +50,11 @@ def fazer_operacao_e_classificar(n_1: float, n_2: float, operacao: str):
     else:
       print(f'Números inválidos.')
       
+<<<<<<< HEAD
     if resultado % 2 == 0:
+=======
+    if resultado%2 == 0:
+>>>>>>> e7bdba4127b2570f536b16eee1c6f62a1ce8985e
         par_ou_impar = 'par'
     else:
         par_ou_impar = 'impar'
