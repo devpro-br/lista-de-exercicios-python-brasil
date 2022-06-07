@@ -29,6 +29,7 @@ def calcular_fatorial(n: int):
     fatorial = []
     aux = n
     calculo = 1
+<<<<<<< HEAD
     condicao = 0
     while aux > 0:
         fatorial.append(n)        
@@ -55,3 +56,16 @@ def calcular_fatorial(n: int):
                 else:
                     break          
                 
+=======
+    while True:
+        fatorial.append(n)        
+        n = n-1
+        if aux == 0 or aux == 1:
+            print(1)
+            break
+        if n >= 0:              
+            calculo = fatorial[len(fatorial)-1]*calculo                    
+            if n == 0:
+                print('%.0f! ='%aux ,*fatorial, calculo) 
+                break
+>>>>>>> main
