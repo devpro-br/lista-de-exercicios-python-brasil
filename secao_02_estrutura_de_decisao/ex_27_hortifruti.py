@@ -59,3 +59,60 @@ Mostre o restultado com duas casas decimais
 
 def calcular_preco_da_compra(kilos_de_morango: int, kilos_de_maca: int):
     """Escreva aqui em baixo a sua solução"""
+    frutas_peso = kilos_de_maca + kilos_de_morango
+
+
+    if kilos_de_maca <= 5:
+        preco_maca = 1.8
+    else: preco_maca = 1.5
+
+    total_maca = preco_maca * kilos_de_maca
+
+    if kilos_de_morango <= 5:
+        preco_morango= 2.5
+    else: preco_morango = 2.2
+
+    total_morango = preco_morango * kilos_de_morango
+
+    total = total_morango + total_maca
+
+    if frutas_peso > 8 or total > 25:
+        desconto = total * 0.1
+        valor_total = total - desconto
+    else:
+        desconto = 0
+        valor_total = total - desconto
+
+    if kilos_de_morango > 0 and kilos_de_maca > 0:
+        morango_str = '(+)  Morango '
+        total_morango_str = str(round((kilos_de_morango * preco_morango), 2))
+        print(f'{morango_str} {" " * (13 - len(morango_str))}- valor:{" " * 2}R${kilos_de_morango * preco_morango:>6.2f} - quantidade:  {kilos_de_morango} kg - preço: R$ {preco_morango:.2f}/kg')
+        maca_str = '(+)  Maça '
+        total_maca_str = str(round((kilos_de_maca * preco_maca), 2))
+        print(f'{maca_str} {" " * (13 - len(maca_str))}- valor:{" " * 2}R${kilos_de_maca * preco_maca:>6.2f} - quantidade:  {kilos_de_maca} kg - preço: R$ {preco_maca:.2f}/kg')
+        desconto_str = str(round((desconto), 2))
+        print(f'(-)  Desconto - valor:{" " * 2}R${desconto:>6.2f}')
+        valor_total_nome_str = 'Valor Total:'
+        valor_total_str = str(round((valor_total), 2))
+        print(f'{" " * 10}{valor_total_nome_str}{" " * 2}R${valor_total:>6.2f}')
+
+    elif kilos_de_morango > 0 and kilos_de_maca == 0:
+        morango_str = '(+)  Morango '
+        total_morango_str = str(round((kilos_de_morango * preco_morango), 2))
+        print(f'{morango_str} {" " * (13 - len(morango_str))}- valor:{" " * 2}R${kilos_de_morango * preco_morango:>6.2f} - quantidade:  {kilos_de_morango} kg - preço: R$ {preco_morango:.2f}/kg')
+        desconto_str = str(round((desconto), 2))
+        print(f'(-)  Desconto - valor:{" " * 2}R${desconto:>6.2f}')
+        valor_total_nome_str = 'Valor Total:'
+        valor_total_str = str(round((valor_total), 2))
+        print(f'{" " * 10}{valor_total_nome_str}{" " * 2}R${valor_total:>6.2f}')
+
+    elif kilos_de_morango == 0 and kilos_de_maca > 0:
+         maca_str = '(+)  Maça '
+         total_maca_str = str(round((kilos_de_maca * preco_maca), 2))
+         print(f'{maca_str} {" " * (13 - len(maca_str))}- valor:{" " * 2}R${kilos_de_maca * preco_maca:>6.2f} - quantidade:  {kilos_de_maca} kg - preço: R$ {preco_maca:.2f}/kg')
+         desconto_str = str(round((desconto), 2))
+         print(f'(-)  Desconto - valor:{" " * 2}R${desconto:>6.2f}')
+         valor_total_nome_str = 'Valor Total:'
+         valor_total_str = str(round((valor_total), 2))
+         print(f'{" " * 10}{valor_total_nome_str}{" " * 2}R${valor_total:>6.2f}')
+    
