@@ -171,3 +171,11 @@ jobs:
       if: always()
       run: |
           python -m doctest -f secao_03_estrutura_de_repeticao/ex_41_financiamento.py
+    - name: Correção do Exercício 43 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_43_lanchonete.py
+    - name: Correção do Exercício 44 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_44_eleicao_presidencial.py
