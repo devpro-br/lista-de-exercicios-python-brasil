@@ -7,7 +7,7 @@ magro, para isto você deve fazer um programa que pergunte a cada um dos cliente
 seu peso. 
 O final da digitação de dados deve ser dada quando o usuário digitar 0 (zero) no campo nome. Ao encerrar o programa 
 também deve ser informados os nomes e valores do cliente mais alto, do mais baixo, do mais gordo e do mais magro, além
-da média das alturas e dos pesos dos clientes
+da média das alturas e dos pesos dos clientes com 1 casa decimal
  
     >>> from secao_03_estrutura_de_repeticao import ex_37_senso_de_academia
     >>> entradas = ['0', '81', '162', 'Renzo']  # Um aluno apenas
@@ -53,6 +53,7 @@ da média das alturas e dos pesos dos clientes
 
 """
 import operator
+from statistics import mean
 
 
 def rodar_senso():
@@ -70,7 +71,12 @@ def rodar_senso():
     nome_cliente_mais_baixo, altura_cliente_mais_baixo, _ = min(clientes, key=operator.itemgetter(1))
     nome_cliente_mais_gordo, _, peso_cliente_mais_gordo = max(clientes, key=operator.itemgetter(2))
     nome_cliente_mais_magro, _, peso_cliente_mais_magro = min(clientes, key=operator.itemgetter(2))
+    media_de_altura = mean(map(operator.itemgetter(1), clientes))
+    media_de_peso = mean(map(operator.itemgetter(2), clientes))
     print(f'Cliente mais alto: {nome_cliente_mais_alto}, com {altura_cliente_mais_alto} centímetros')
     print(f'Cliente mais baixo: {nome_cliente_mais_baixo}, com {altura_cliente_mais_baixo} centímetros')
     print(f'Cliente mais magro: {nome_cliente_mais_magro}, com {peso_cliente_mais_magro} kilos')
     print(f'Cliente mais gordo: {nome_cliente_mais_gordo}, com {peso_cliente_mais_gordo} kilos')
+    print('-'*50)
+    print(f'Media de altura dos clientes: {media_de_altura:.1f} centímetros')
+    print(f'Media de peso dos clientes: {media_de_peso:.1f} kilos')
