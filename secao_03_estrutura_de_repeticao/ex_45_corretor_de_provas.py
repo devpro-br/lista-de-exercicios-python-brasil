@@ -47,5 +47,62 @@ Gabarito da Prova:
 """
 
 
+from re import I
+
+
 def corrigir(*provas):
     """Escreva aqui em baixo a sua solução"""
+    contador = 0
+    contador_2 = 0
+    nota = 0
+    maior_nota = 0
+    menor_nota = 0
+    soma = 0
+    print('Aluno                 Nota')
+    while len(provas) > contador:
+        prova = list(provas[contador])
+        aluno = prova[0]
+        prova.pop(0)
+        if prova[0] == 'A':
+            nota += 1
+        if prova[1] == 'B':
+            nota += 1
+        if prova[2] == 'C':
+            nota += 1
+        if prova[3] == 'D':
+            nota += 1
+        if prova[4] == 'E':
+            nota += 1
+        if prova[5] == 'E':
+            nota += 1
+        if prova[6] == 'D':
+            nota += 1
+        if prova[7] == 'C':
+            nota += 1
+        if prova[8] == 'B':
+            nota += 1
+        if prova[9] == 'A':
+            nota += 1
+        print('%s                 %.0f'%(aluno, nota))
+        soma = soma + nota
+        if len(provas) > 1:
+            if nota > maior_nota:
+                menor_nota = maior_nota
+                maior_nota = nota
+            else:
+                menor_nota = nota
+        else: 
+            maior_nota = nota
+            menor_nota = nota
+        contador += 1        
+        nota = 0
+    
+    total_alunos = int(len(provas))
+    media = (soma)/total_alunos
+    print('---------------------------')
+    print('Média geral: %.1f'%media)
+    print('Maior nota: %.0f'%maior_nota)
+    print('Menor nota: %.0f'%menor_nota)
+    print('Total de Alunos: %.0f'%total_alunos)
+        
+
