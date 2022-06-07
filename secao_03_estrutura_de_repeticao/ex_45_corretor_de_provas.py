@@ -63,7 +63,7 @@ def corrigir(*provas):
         prova = list(provas[contador])
         aluno = prova[0]
         prova.pop(0)
-        if prova[0] == 'A':
+        if prova[0] == 'A': 
             nota += 1
         if prova[1] == 'B':
             nota += 1
