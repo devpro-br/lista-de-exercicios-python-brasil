@@ -191,3 +191,7 @@ jobs:
       if: always()
       run: |
           python -m doctest -f secao_03_estrutura_de_repeticao/ex_46_salto_em_distancia.py
+    - name: Correção do Exercício 48 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_48_inteiro_invertido.py
