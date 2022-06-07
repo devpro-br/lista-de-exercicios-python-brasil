@@ -35,3 +35,17 @@ Mostre o restultado com duas casas decimais
 
 def calcular_abastecimento(litros_de_combustivel: float, tipo_de_combustivel: str) -> str:
     """Escreva aqui em baixo a sua solução"""
+
+    calculo = {tipo_de_combustivel: litros_de_combustivel}
+
+    if calculo[0] == 'A':
+        if calculo[1] <= 20:
+            pagar = calculo[1] * 1.9 - (calculo[1] * 0.03)
+        else:
+            pagar = calculo[1] * 1.9 - (calculo[1] * 0.05)
+        print(f"'{calculo[1]} litro(s) de álcool custa(m): R$ 38.00. Com 3% de desconto, fica R$ 36.86'")
+    else:
+        if calculo[1] <= 20:
+            pagar = calculo[1] * 2.5 - (calculo[1] * 0.04)
+        else:
+            pagar = calculo[1] * 2.5 - (calculo[1] * 0.06)
