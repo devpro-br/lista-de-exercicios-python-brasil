@@ -28,3 +28,36 @@ Mostre os valores com uma casa decimail
 
 def calcular_estatisticas(*cidades):
     """Escreva aqui em baixo a sua solução"""
+    cidade, numero_veiculos, numero_acidentes = zip(*cidades)
+    maior_indice_acidentes = cidade[numero_acidentes.index(max(numero_acidentes))]
+    quantidade_maior = max(numero_acidentes)
+    menor_indice_acidentes = cidade[numero_acidentes.index(min(numero_acidentes))]
+    quantidade_menor = min(numero_acidentes)
+    contador_1 = 0
+    contador_2 = 0
+    soma_veiculos = 0
+    soma_acidentes = 0
+    while contador_1 < len(numero_veiculos):
+        soma_veiculos = numero_veiculos[contador_1] + soma_veiculos
+        contador_1+=1
+
+    media_veiculos = soma_veiculos/(len(numero_veiculos))
+    
+    while contador_2 < len(numero_acidentes):
+        soma_acidentes = numero_acidentes[contador_2] + soma_acidentes
+        contador_2+=1
+    
+    media_acidentes = soma_acidentes/(len(numero_acidentes))    
+    acidentes_por_maior = (numero_veiculos[numero_acidentes.index(max(numero_acidentes))])/quantidade_maior
+
+    print(acidentes_por_maior)
+
+    #print('O maior índice de acidentes é de %s, com %.1f acidentes por mil habitantes.'%(maior_indice_acidentes,acidentes_por_maior))
+    #print('O menor índice de acidentes é de %s, com %.1f acidentes por mil habitantes.'%(menor_indice_acidentes,quantidade_menor))
+    #print('O média de veículos por cidade é de %.0f.'%(media_veiculos))
+    #print('A média de acidentes total nas cidades com menos de 150 mil habitantes é de %.1f acidentes.'%(media_acidentes))
+    
+    
+    
+    
+    

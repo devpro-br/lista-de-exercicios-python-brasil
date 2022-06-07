@@ -62,8 +62,8 @@ def rodar_senso():
     lista_altura = []
     lista_nome.append(input('Insira o nome do aluno ou digite 0 para encerrar: '))
     while lista_nome[0].isdigit() == False:
-        lista_altura.insert(0,(input('Insira a altura do aluno:')))
-        lista_peso.insert(0,(input('Insira o peso do aluno:')))
+        lista_altura.insert(0,int((input('Insira a altura do aluno:'))))
+        lista_peso.insert(0,int((input('Insira o peso do aluno:'))))
         lista_nome.insert(0,(input('Insira o nome do proximo aluno ou digite 0 para terminar:')))
         if lista_nome[0].isdigit() == True:
             lista_nome.pop(0)
@@ -71,7 +71,19 @@ def rodar_senso():
         else:
             continue
     
-    print(lista_altura.index(max(lista_altura)))
+    nome_maior_aluno = lista_nome[lista_altura.index(max(lista_altura))]
+    maior_aluno = int(max(lista_altura))
+    nome_menor_aluno = lista_nome[lista_altura.index(min(lista_altura))]
+    menor_aluno = int(min(lista_altura))
+    nome_mais_gordo = lista_nome[lista_peso.index(max(lista_peso))]
+    mais_gordo = int(max(lista_peso))
+    nome_mais_magro = lista_nome[lista_peso.index(min(lista_peso))]
+    mais_magro = int(min(lista_peso))
+
+    print('Cliente mais alto: %s, com %.0f centímetros'%(nome_maior_aluno, maior_aluno))
+    print('Cliente mais baixo: %s, com %.0f centímetros'%(nome_menor_aluno, menor_aluno))
+    print('Cliente mais magro: %s, com %.0f kilos'%(nome_mais_magro, mais_magro))
+    print('Cliente mais gordo: %s, com %.0f kilos'%(nome_mais_gordo, mais_gordo))
 
     #USAR ISSO
     lista_altura.index(max(lista_altura))
