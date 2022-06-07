@@ -109,3 +109,85 @@ comprados.
 
 def fechar_conta(*itens):
     """Escreva aqui em baixo a sua solução"""
+    contador = 0
+    total_cachorro = 0
+    quantidade_cachorro = 0        
+    total_bauro_simples = 0
+    quantidade_bauro_simples = 0
+    total_bauro_ovo = 0
+    quantidade_bauro_ovo = 0
+    total_hamburger = 0
+    quantidade_hamburger = 0
+    total_x_burger = 0
+    quantidade_x_burger = 0
+    total_refri = 0
+    quantidade_refri = 0
+    if len(itens) > 0:
+        codigo, unidades = zip(*itens)
+        quantidade_itens = len(unidades)        
+        print('_____________________________________________________________________________')
+        print('|                              RESUMO DA CONTA                              |')
+        print('|---------------------------------------------------------------------------|')
+        print('| Epecificação     | Código | Preço Unitário (R$) | Quantidade | Total (R$) |')
+        while len(unidades) > contador:
+            if codigo[contador] == '100':
+                total_cachorro = (unidades[contador]*1.20) + total_cachorro
+                quantidade_cachorro = unidades[contador]+quantidade_cachorro
+                contador += 1
+            elif codigo[contador] == '101':
+                total_bauro_simples = (unidades[contador]*1.30) + total_bauro_simples
+                quantidade_bauro_simples = unidades[contador]+quantidade_bauro_simples
+                contador += 1
+            elif codigo[contador] == '102':
+                total_bauro_ovo = (unidades[contador]*1.50) + total_bauro_ovo
+                quantidade_bauro_ovo = unidades[contador]+quantidade_bauro_ovo
+                contador += 1
+            elif codigo[contador] == '103':
+                total_hamburger = (unidades[contador]*1.20) + total_hamburger
+                quantidade_hamburger = unidades[contador]+quantidade_hamburger
+                contador += 1
+            elif codigo[contador] == '104':
+                total_x_burger = (unidades[contador]*1.30) + total_x_burger
+                quantidade_x_burger = unidades[contador]+quantidade_x_burger
+                contador += 1
+            elif codigo[contador] == '105':
+                total_refri = (unidades[contador]*1.00) + total_refri
+                quantidade_refri = unidades[contador]+quantidade_refri
+                contador += 1
+            else:
+                contador += 1
+        
+        if total_cachorro > 0:
+            print('| Cachorro Quente  | 100    | 1.20                |          %.0f |       %.2f |'%(quantidade_cachorro,total_cachorro)) 
+        if total_bauro_simples > 0:
+            print('| Bauru Simples    | 101    | 1.30                |          %.0f |       %.2f |'%(quantidade_bauro_simples,total_bauro_simples))
+        if total_bauro_ovo:
+            print('| Bauru com Ovo    | 102    | 1.50                |          %.0f |       %.2f |'%(quantidade_bauro_ovo,total_bauro_ovo))
+        if total_hamburger:
+            print('| Hamburger        | 103    | 1.20                |          %.0f |       %.2f |'%(quantidade_hamburger,total_hamburger))
+        if total_x_burger:
+            print('| Cheeseburger     | 104    | 1.30                |          %.0f |       %.2f |'%(quantidade_x_burger,total_x_burger))
+        if total_refri:
+            print('| Refrigerante     | 105    | 1.00                |          %.0f |       %.2f |'%(quantidade_refri,total_refri))
+
+        total_geral = total_x_burger+total_cachorro+total_bauro_ovo+total_bauro_simples+total_hamburger+total_refri
+        total_itens = quantidade_bauro_ovo+quantidade_bauro_simples+quantidade_cachorro+quantidade_hamburger+quantidade_refri+quantidade_x_burger
+        if total_itens > 9:
+            print('|---------------------------------------------------------------------------|')
+            print('| Total Geral:                                    |         %.0f |      %.2f |'%(total_itens,total_geral))
+            print('-----------------------------------------------------------------------------')
+        else:
+            print('|---------------------------------------------------------------------------|')
+            print('| Total Geral:                                    |          %.0f |      %5.2f |'%(total_itens,total_geral))
+            print('-----------------------------------------------------------------------------')
+    else:
+        print('_____________________________________________________________________________')
+        print('|                              RESUMO DA CONTA                              |')
+        print('|---------------------------------------------------------------------------|')
+        print('| Epecificação     | Código | Preço Unitário (R$) | Quantidade | Total (R$) |')
+        print('|---------------------------------------------------------------------------|')
+        print('| Total Geral:                                    |          0 |       0.00 |')
+        print('-----------------------------------------------------------------------------')
+
+    
+    
