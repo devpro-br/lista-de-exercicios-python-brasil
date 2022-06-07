@@ -37,23 +37,3 @@ Mostre na tela:
 
 def lancar_dados(*valor_lancamentos):
     """Escreva aqui em baixo a sua solução"""
-    lista = sorted(valor_lancamentos)
-    lista_quantidades = []
-    i = 0
-    valor = 0
-
-    print(f"O dado foi lançado {len(valor_lancamentos)} vezes")
-
-    lados_do_dado = 6
-    for lado in range(lados_do_dado):
-        while i < len(lista) and lista[i] == lado+1:
-            i += 1
-            valor += 1
-        lista_quantidades.append(valor)
-        valor = 0
-        print(f'O número {lado + 1} caiu {lista_quantidades[lado]} vezes')
-        lado += 1
-    
-    maxi = max(lista_quantidades)
-    numero = lista_quantidades.index(maxi)
-    print(f'O lado com o número {numero+1} caiu mais vezes ({maxi} vezes)')
