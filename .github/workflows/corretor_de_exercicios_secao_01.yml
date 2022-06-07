@@ -87,7 +87,4 @@ jobs:
         if: always()
         run: |
           python -m doctest -f secao_01_estrutura_sequencial/ex_18_tempo_de_download.py
-      - name: Correção do Exercício 01 da seção de Estrutura de Decisão
-        if: always()
-        run: |
-        
+
