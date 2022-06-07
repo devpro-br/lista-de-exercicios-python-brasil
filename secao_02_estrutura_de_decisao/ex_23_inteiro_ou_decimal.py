@@ -23,9 +23,11 @@ arredondamento.
 def decidir_se_eh_inteiro_ou_decimal(valor: str) -> str:
     """Escreva aqui em baixo a sua solução"""
     try:
-        valor = int(valor)
-        int(valor)
-        print("'Inteiro")
+        valor = int(valor.replace("'", " "))
     except ValueError:
-        # print(valor)
-        print("'Decimal'")
+        valor = float(valor.replace("'", " "))
+
+    if valor % 1 == 0:
+        print("'Inteiro'") 
+    else:
+        print("'Decimal'") 
