@@ -40,7 +40,30 @@ da média das alturas e dos pesos dos clientes
     Cliente mais gordo: Bolota, com 150 kilos
 
 """
-
-
 def rodar_senso():
     """Escreva aqui em baixo a sua solução"""
+    lista_de_nomes = []
+    lista_de_alturas = []
+    lista_de_pesos = []
+    while True:
+        nome = input('Digite o seu nome: ')
+        if nome == str(0):
+            break
+        else:
+            altura = input('Digite a sua altura: ')
+            peso = input('Digite o seu peso: ')
+            lista_de_nomes.append(nome)
+            lista_de_alturas.append(int(altura))
+            lista_de_pesos.append(int(peso))
+            mais_alto = max(lista_de_alturas)
+            nome_do_mais_alto = lista_de_nomes[lista_de_alturas.index(max(lista_de_alturas))]
+            mais_baixo = min(lista_de_alturas)
+            nome_do_mais_baixo = lista_de_nomes[lista_de_alturas.index(min(lista_de_alturas))]
+            mais_magro = min(lista_de_pesos)
+            nome_do_mais_magro = lista_de_nomes[lista_de_pesos.index(min(lista_de_pesos))]
+            mais_gordo = max(lista_de_pesos)
+            nome_do_mais_gordo = lista_de_nomes[lista_de_pesos.index(max(lista_de_pesos))]
+    print(f'Cliente mais alto: {nome_do_mais_alto}, com {mais_alto} centímetros')
+    print(f'Cliente mais baixo: {nome_do_mais_baixo}, com {mais_baixo} centímetros')
+    print(f'Cliente mais magro: {nome_do_mais_magro}, com {mais_magro} kilos')
+    print(f'Cliente mais gordo: {nome_do_mais_gordo}, com {mais_gordo} kilos')

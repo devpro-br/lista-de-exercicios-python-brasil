@@ -26,7 +26,11 @@ Os valores devem ser exibidos com duas casas decimais
     Salário em 2023: R$ 2308.55. Aumento porcentual: 24.00%
     
 """
-
-
 def calcular_salarios_anuais(salario: float):
     """Escreva aqui em baixo a sua solução"""
+    print(f'Salário em 2018: R$ {salario:.2f}')
+    aumento_porcentual = 0.015
+    for i in range(2019, 2024):
+        salario*=(1+aumento_porcentual)
+        print(f'Salário em {i}: R$ {salario:.2f}. Aumento porcentual: {aumento_porcentual*100:.2f}%')
+        aumento_porcentual*=2

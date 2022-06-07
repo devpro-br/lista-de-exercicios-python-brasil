@@ -22,7 +22,19 @@ Ex.: 5!=5.4.3.2.1=120
     5! = 5 . 4 . 3 . 2 . 1 = 120
 
 """
-
-
 def calcular_fatorial(n: int):
     """Escreva aqui em baixo a sua solução"""
+    resultado = 1
+    lista = []
+    print(f'Fatorial de {n}:')
+    print(f'{n}! = ', end='')
+    for numero in range(1, n+1):
+        resultado *= numero
+        lista.append(resultado)
+        lista.sort(reverse=True)
+    for i in range (0, len(lista)-1):
+        lista[i] = lista[i]/lista[i+1]
+        lista[i] = int(lista[i])
+        i+=1
+    print(*lista, sep=' . ', end='')
+    print(f' = {resultado}')
