@@ -1,0 +1,21 @@
+name: Corretor da seção de funções da lista de exercícios da Python Brasil
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Configuração de Python 3.9
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.9
+      - name: Correção do Exercício 01 da seção de Funções
+        if: always()
+        run: |
+          python -m doctest -f secao_05_exercicios_funcoes/ex_01_piramide.py
