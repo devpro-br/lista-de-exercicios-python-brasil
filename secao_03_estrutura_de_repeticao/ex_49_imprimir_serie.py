@@ -8,15 +8,7 @@ Faça um programa que mostre os n termos da Série a seguir:
     
     Imprima no final a soma da série.
     
-    ----------------------------------
-    | EXEMPLO                         |
-    ----------------------------------
-    | ENTRADA:                        |
-    | n = 5                           |
-    | SAIDA:                          |
-    | S = 1/1 + 2/3 + 3/5 + 4/7 + 5/9 |
-    | soma = 3.393650793650793        |
-    ----------------------------------
+
     
 
     >>> imprimir_serie(5)
@@ -37,3 +29,13 @@ Faça um programa que mostre os n termos da Série a seguir:
 
 def imprimir_serie(n):
     """Escreva aqui em baixo a sua solução"""
+    saida = 'S = '
+    naturais_e_impares = zip(range(1, n + 1), range(1, 2 * (n + 1), 2))
+    saida += ' + '.join(f'{numerador}/{denominador}' for numerador, denominador in naturais_e_impares)
+
+    # Já foi consumido na linha de cima, precisa ser novamente definido
+    naturais_e_impares = zip(range(1, n + 1), range(1, 2 * (n + 1), 2))
+    soma = sum(numerador/denominador for numerador, denominador in naturais_e_impares)
+
+    print(saida)
+    print(f'soma = {soma}')
