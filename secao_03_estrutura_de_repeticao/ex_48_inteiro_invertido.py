@@ -21,3 +21,10 @@ Exemplo:
 
 def inverter_inteiro(numero):
     """Escreva aqui em baixo a sua solução"""
+    numero_invertido = 0
+    divisor = numero
+    while divisor != 0:
+        divisor, resto = divmod(divisor, 10)
+        numero_invertido = numero_invertido * 10 + resto
+
+    return numero_invertido
