@@ -35,6 +35,10 @@ jobs:
         if: always()
         run: |
           python -m doctest -f secao_04_exercicios_lista/ex_11_intercalacao_de_3_vetores.py
+      - name: Correção do Exercício 12 da seção de Listas
+        if: always()
+        run: |
+          python -m doctest -f secao_04_exercicios_lista/ex_12_filtro_de_baixinhos.py
       - name: Correção do Exercício 24 da seção de Listas
         if: always()
         run: |
