@@ -33,7 +33,16 @@ Mostre na tela:
     O lado com o número 6 caiu mais vezes (15 vezes)
 
 """
+from collections import Counter
 
 
 def lancar_dados(*valor_lancamentos):
     """Escreva aqui em baixo a sua solução"""
+    total_de_lancamentos = len(valor_lancamentos)
+    contagem_de_frequencia = Counter({1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0})
+    contagem_de_frequencia.update(valor_lancamentos)
+    print(f'O dado foi lançado {total_de_lancamentos} vezes')
+    for face_do_dado, frequencia in contagem_de_frequencia.items():
+        print(f'O número {face_do_dado} caiu {frequencia} vezes')
+    face, frequencia = contagem_de_frequencia.most_common(1)[0]
+    print(f'O lado com o número {face} caiu mais vezes ({frequencia} vezes)')
