@@ -19,6 +19,10 @@ jobs:
         if: always()
         run: |
           python -m doctest -f secao_04_exercicios_lista/ex_01_vetor_5_numeros.py
+      - name: Correção do Exercício 05 da seção de Listas
+        if: always()
+        run: |
+          python -m doctest -f secao_04_exercicios_lista/ex_05_vetore_par_e_impar.py
       - name: Correção do Exercício 24 da seção de Listas
         if: always()
         run: |
