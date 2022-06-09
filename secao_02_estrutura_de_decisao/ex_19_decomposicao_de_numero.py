@@ -52,18 +52,68 @@ Observando os termos no plural a colocação do "e", da vírgula entre outros. E
 
 def decompor_numero(numero: int):
     """Escreva aqui em baixo a sua solução"""
-    output = ""
-    if numero < 0:
-        return("'O número precisa ser positivo'")
-    if numero >= 1000:
+    
+    str_centena = str_dezena = str_unidade = ""
+    resto = centena = dezena = unidade = 0
+
+
+    if numero <= 0:
+        return('O número precisa ser positivo')
+    elif numero >= 1000:
         return('O número precisa ser menor que 1000')
 
     if numero >= 100:
-        centena = numero //100
-        numero %= 100 #omite a variável por conta ra repetição, é equivalente à numero = numero % 100
-    if numero >= 10:
-        dezena = numero //10
-        numero %= 10
-    if numero > 0:
-        unidade =  numero
+        centena = numero // 100
+        resto = numero % 100 #omite a variável por conta ra repetição, é equivalente à numero = numero % 100
+        if resto >= 10:
+            dezena = resto // 10
+            unidade = resto % 10
+        else:
+            unidade =  resto
 
+    elif numero > 10:
+        dezena = numero // 10
+        resto = numero % 10
+        
+        if resto > 0:
+            unidade = resto
+    elif numero == 10:
+            dezena = numero // 10
+            unidade = 0
+
+    elif numero > 0:
+        unidade = numero
+
+    if centena == 1:
+        str_centena = ("1 centena")
+    elif centena != 0:
+        str_centena = (f"{centena} centenas")
+    if dezena == 1:
+        str_dezena = ("1 dezena")
+    elif dezena != 0:
+        str_dezena = (f"{dezena} dezenas")
+    if unidade == 1:
+        str_unidade = ("1 unidade")
+    elif unidade != 0:
+        str_unidade = (f"{unidade} unidades")
+
+    if centena != 0:
+        if dezena != 0:
+            if unidade != 0:
+                print(f"'{numero} = {str_centena}, {str_dezena} e {str_unidade}'")
+            else:
+                print(f"'{numero} = {str_centena} e {str_dezena}'")
+        elif unidade != 0:
+            print(f"'{numero} = {str_centena} e {str_unidade}'")
+        else:
+            print(f"'{numero} = {str_centena}'")
+    elif dezena != 0:
+        if unidade != 0:
+            print(f"'{numero} = {str_dezena} e {str_unidade}'")
+        else:
+            print(f"'{numero} = {str_dezena}'")
+    else:
+        if unidade != 0:
+            print(f"'{numero} = {str_unidade}'")
+        else:
+            return
