@@ -61,20 +61,25 @@ def decompor_numero(numero: int):
     numeros_print = []
     pedacos = 0
     resto = numero
+
     for k, v in valores.items():
         valor = divmod(resto, k)
         quantidade, resto = valor
+
+
+
         if quantidade > 1:
             aux = f'{quantidade} {v}s'
             numeros_print.append(aux)
         elif quantidade == 1:
             aux = f'{quantidade} {v}'
             numeros_print.append(aux)
-        pedacos += 1
+
     for i in range(len(numeros_print)):
         if i == len(numeros_print) - 1 and len(numeros_print) > 1:
             numeros_print[i] = ' e ' + numeros_print[i]
         elif len(numeros_print) > 1 and i != len(numeros_print) - 2:
             numeros_print[i] = numeros_print[i] + ', '
+
     return f'{numero} = ' + ''.join(numeros_print)
 
