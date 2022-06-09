@@ -147,3 +147,59 @@ jobs:
       if: always()
       run: |
           python -m doctest -f secao_03_estrutura_de_repeticao/ex_33_estatisticas_de_temperaturas.py
+    - name: Correção do Exercício 36 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_36_tabuada_com_intervalo.py
+    - name: Correção do Exercício 37 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_37_senso_de_academia.py
+    - name: Correção do Exercício 38 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_38_aumento_salarial.py
+    - name: Correção do Exercício 39 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_39_sala_de_aula.py
+    - name: Correção do Exercício 40 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_40_transito.py
+    - name: Correção do Exercício 41 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_41_financiamento.py
+    - name: Correção do Exercício 42 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_42_intervalos.py
+    - name: Correção do Exercício 43 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_43_lanchonete.py
+    - name: Correção do Exercício 44 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_44_eleicao_presidencial.py
+    - name: Correção do Exercício 45 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_45_corretor_de_provas.py
+    - name: Correção do Exercício 46 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_46_salto_em_distancia.py
+    - name: Correção do Exercício 48 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_48_inteiro_invertido.py
+    - name: Correção do Exercício 49 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_49_imprimir_serie.py
+    - name: Correção do Exercício 50 da seção de Estrutura de Repetição
+      if: always()
+      run: |
+          python -m doctest -f secao_03_estrutura_de_repeticao/ex_50_soma_serie.py
