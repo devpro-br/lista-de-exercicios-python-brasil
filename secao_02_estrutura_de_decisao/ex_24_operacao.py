@@ -43,8 +43,6 @@ def fazer_operacao_e_classificar(n_1: float, n_2: float, operacao: str):
     if operacao == '-':
       resultado = n_1 - n_2
 
-    
-
     if resultado % 1 == 0: #se for inteiro
       if resultado % 2 == 0:
         output.append(possibilidades[0])
@@ -72,7 +70,6 @@ def fazer_operacao_e_classificar(n_1: float, n_2: float, operacao: str):
         output.append(possibilidades[4])
         output.append(possibilidades[6])
         
-    
     print(f'Resultado: {resultado:.2f}')
     if len(output) == 1:
       print(f'Número é {output[0]}.')
@@ -80,4 +77,3 @@ def fazer_operacao_e_classificar(n_1: float, n_2: float, operacao: str):
       print(f'Número é {output[0]} e {output[1]}.')
     elif len(output) == 3:
       print(f'Número é {output[0]}, {output[1]} e {output[2]}.')
-    

@@ -36,16 +36,22 @@ Mostre o restultado com duas casas decimais
 def calcular_abastecimento(litros_de_combustivel: float, tipo_de_combustivel: str) -> str:
     """Escreva aqui em baixo a sua solução"""
 
-    calculo = {tipo_de_combustivel: litros_de_combustivel}
+    calculo = [tipo_de_combustivel, litros_de_combustivel]
 
     if calculo[0] == 'A':
+        subtotal = calculo[1] * 1.9
         if calculo[1] <= 20:
-            pagar = calculo[1] * 1.9 - (calculo[1] * 0.03)
+            pagar =  subtotal - (subtotal * 0.03)
+            print(f"'{calculo[1]} litro(s) de álcool custa(m): R$ {subtotal:.2F}. Com 3% de desconto, fica R$ {pagar:.2f}'")
         else:
-            pagar = calculo[1] * 1.9 - (calculo[1] * 0.05)
-        print(f"'{calculo[1]} litro(s) de álcool custa(m): R$ 38.00. Com 3% de desconto, fica R$ 36.86'")
+            pagar = subtotal - (subtotal * 0.05)
+            print(f"'{calculo[1]} litro(s) de álcool custa(m): R$ {subtotal:.2F}. Com 5% de desconto, fica R$ {pagar:.2f}'")
     else:
+        subtotal = calculo[1] * 2.5
         if calculo[1] <= 20:
-            pagar = calculo[1] * 2.5 - (calculo[1] * 0.04)
+            pagar = subtotal - (subtotal * 0.04)
+            print(f"'{calculo[1]} litro(s) de gasolina custa(m): R$ {subtotal:.2F}. Com 4% de desconto, fica R$ {pagar:.2f}'")
         else:
-            pagar = calculo[1] * 2.5 - (calculo[1] * 0.06)
+            pagar = subtotal - (subtotal * 0.06)
+            print(f"'{calculo[1]} litro(s) de gasolina custa(m): R$ {subtotal:.2F}. Com 6% de desconto, fica R$ {pagar:.2f}'")
+        
