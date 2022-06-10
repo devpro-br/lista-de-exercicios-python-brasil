@@ -27,4 +27,33 @@ uma nota de 5 e quatro notas de 1.
 
 def calcular_troco(valor: int) -> str:
     """Escreva aqui em baixo a sua solução"""
-      
+    notas = [100, 50, 10, 5, 1]
+    qtd_notas = {}
+    output = []
+    for nota in notas:
+        while valor >= nota:
+            nota_key = nota
+            nota_value = valor // nota
+            qtd_notas[nota_key] = nota_value
+            valor = valor - (nota * nota_value)
+
+    for qtds in qtd_notas:
+
+        if qtd_notas[qtds] > 0:
+            if qtd_notas[qtds] == 1:
+                output.append(f'{qtd_notas[qtds]} nota de R$ {qtds}')
+                qtd_notas[qtds] = 0
+            else:    
+                output.append(f'{qtd_notas[qtds]} notas de R$ {qtds}')
+                qtd_notas[qtds] = 0
+
+    if len(output) < 2:
+        print(f"'{output[0]}'")
+    elif len(output) < 3:
+        print(f"'{output[0]} e {output[1]}'")
+    elif len(output) < 4:
+        print(f"'{output[0]}, {output[1]} e {output[2]}'")
+    elif len(output) < 5:
+        print(f"'{output[0]}, {output[1]}, {output[2]} e {output[3]}'")
+    else:
+        print(f"'{output[0]}, {output[1]}, {output[2]}, {output[3]} e {output[4]}'")
