@@ -33,7 +33,20 @@ Faça um programa que mostre os n termos da Série a seguir:
     soma = 5.540311975606093
 
 """
-
-
 def imprimir_serie(n):
     """Escreva aqui em baixo a sua solução"""
+    dividendo = 1
+    divisor = 1
+    contas = 0
+    resultado = []
+    print('S = ', end='')
+    while contas < n-1:
+        print(f'{dividendo}/{divisor} + ', end='')
+        resultado.append(dividendo/divisor)
+        contas+=1
+        dividendo+=1
+        divisor+=2
+    else:
+        print(f'{dividendo}/{divisor}')
+        soma = sum(resultado)+(n/((n*2)-1))
+    print(f'soma = {soma}')

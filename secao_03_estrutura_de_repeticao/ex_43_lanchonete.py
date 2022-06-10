@@ -105,7 +105,6 @@ comprados.
     -----------------------------------------------------------------------------
 
 """
-
-
 def fechar_conta(*itens):
     """Escreva aqui em baixo a sua solução"""
+   

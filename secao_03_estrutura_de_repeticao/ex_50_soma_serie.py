@@ -25,7 +25,15 @@ Faça um programa que calcule o valor de H com N termos.
     H = 1.5
 
 """
-
-
 def soma_serie(n):
     """Escreva aqui em baixo a sua solução"""
+    dividendo = 1
+    divisor = 1
+    contas = 0
+    resultado = []
+    while contas <= n-1:
+        resultado.append(dividendo/divisor)
+        contas+=1
+        divisor+=1
+    soma = sum(resultado)
+    print(f'H = {soma}')
