@@ -7,7 +7,7 @@ operação deve ser acompanhado de uma frase que diga se o número é:
   par ou ímpar;
   positivo ou negativo;
   inteiro ou decimal.
-
+ 
 Mostre o restultado com duas casas decimais
 
     >>> fazer_operacao_e_classificar(2, 3, '+')
@@ -31,3 +31,43 @@ Mostre o restultado com duas casas decimais
 
 def fazer_operacao_e_classificar(n_1: float, n_2: float, operacao: str):
     """Escreva aqui em baixo a sua solução"""
+    if operacao == '+':
+      resultado = n_1 + n_2
+      print (f'Resultado: {resultado:.2f}')
+
+    if operacao == '-':
+      resultado = n_1 - n_2
+      print (f'Resultado: {resultado:.2f}')  
+
+    if operacao == '*':
+      resultado = n_1 * n_2
+      print (f'Resultado: {resultado:.2f}') 
+
+    if operacao == '/':
+      resultado = n_1 / n_2
+      print (f'Resultado: {resultado:.2f}')   
+
+    if resultado % 2 == 0:
+      par_impar = 'par'
+    else:
+      par_impar = 'impar'
+    
+    if resultado > 0:
+      positivo_negativo = 'positivo'
+    elif resultado == 0:
+      positivo_negativo = 'neutro'
+    else:
+      positivo_negativo = 'negativo'
+    
+    if resultado % 1 == 0:
+      inteiro_decimal = 'inteiro'
+      print(f'Número é {par_impar}, {positivo_negativo} e {inteiro_decimal}.')
+    else:
+      inteiro_decimal = 'decimal'
+      print(f'Número é {positivo_negativo} e {inteiro_decimal}.')
+      
+
+
+    
+             
+    

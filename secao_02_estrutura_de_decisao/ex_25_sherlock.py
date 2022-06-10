@@ -29,7 +29,17 @@ Caso contrário, ele será classificado como "Inocente".
     'Inocente'
 
 """
-
+from itertools import count
 
 def investivar(telefonou: str, estava_no_local: str, mora_perto: str, devia: str, trabalhou: str, ):
     """Escreva aqui em baixo a sua solução"""
+    pergunta = [telefonou, estava_no_local, mora_perto, devia, trabalhou]
+    resposta = pergunta.count('Sim')
+    if resposta == 2:
+      print("'Suspeito'") 
+    elif resposta == 3 or resposta == 4:
+      print("'Cúmplice'")
+    elif resposta == 5:
+      print("'Assassino'")
+    else:
+      print("'Inocente'")
