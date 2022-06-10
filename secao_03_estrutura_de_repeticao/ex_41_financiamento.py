@@ -28,7 +28,19 @@ Quantidade de Parcelas  % de Juros sobre o valor inicial da dívida
     R$ 1875.00      25%             12                      R$    156.25
 
 """
-
-
 def gerar_dados_de_financiamente(valor_inicial: float):
     """Escreva aqui em baixo a sua solução"""
+    print('Valor da Dívida Valor dos Juros Quantidade de Parcelas  Valor da Parcela')
+    print(f'R$ {valor_inicial:.2f}      0%              1                       R$   {valor_inicial:.2f}')
+    valor_total_3_parcelas = valor_inicial*1.1
+    valor_3_parcelas = valor_total_3_parcelas/3
+    print(f'R$ {valor_total_3_parcelas:.2f}      10%             3                       R$    {valor_3_parcelas:.2f}')
+    valor_total_6_parcelas = valor_inicial*1.15
+    valor_6_parcelas = valor_total_6_parcelas/6
+    print(f'R$ {valor_total_6_parcelas:.2f}      15%             6                       R$    {valor_6_parcelas:.2f}')
+    valor_total_9_parcelas = valor_inicial*1.2
+    valor_9_parcelas = valor_total_9_parcelas/9
+    print(f'R$ {valor_total_9_parcelas:.2f}      20%             9                       R$    {valor_9_parcelas:.2f}')
+    valor_total_12_parcelas = valor_inicial*1.25
+    valor_12_parcelas = valor_total_12_parcelas/12
+    print(f'R$ {valor_total_12_parcelas:.2f}      25%             12                      R$    {valor_12_parcelas:.2f}')

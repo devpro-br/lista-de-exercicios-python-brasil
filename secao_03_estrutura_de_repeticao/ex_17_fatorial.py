@@ -23,5 +23,5 @@ def calcular_fatorial(n: int) -> int:
     """Escreva aqui em baixo a sua solução"""
     resultado = 1
     for numero in range(1, n+1):
-        resultado *= numero
+        resultado *= numero #resultado = resultado * numero
     print(resultado)

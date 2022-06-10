@@ -85,8 +85,52 @@ A percentagem de votos em branco sobre o total de votos. Para finalizar o conjun
 
 
 """
-from collections import Counter
-
-
 def apurar_votos(*votos):
     """Escreva aqui em baixo a sua solução"""
+    votos = [*votos]
+    votos_bostonaro = 0 
+    votos_luladrao = 0
+    votos_dilmanta = 0
+    votos_fhcisentao = 0
+    votos_nulos = 0
+    votos_brancos = 0
+    for i in range(len(votos)):
+        if votos[i] == '1':
+            votos_bostonaro+=1
+        if votos[i] == '2':
+            votos_luladrao+=1
+        if votos[i] == '3':
+            votos_dilmanta+=1
+        if votos[i] == '4':
+            votos_fhcisentao+=1
+        if votos[i] == '5':
+            votos_nulos+=1
+        if votos[i] == '6':
+            votos_brancos+=1
+    porcentagem_bostonaro = votos_bostonaro*100/len(votos)
+    porcentagem_luladrao = votos_luladrao*100/len(votos)
+    porcentagem_dilmanta = votos_dilmanta*100/len(votos)
+    porcentagem_fhcisentao = votos_fhcisentao*100/len(votos)
+    porcentagem_nulos = votos_nulos*100/len(votos)
+    porcentagem_brancos = votos_brancos*100/len(votos)
+    print('Código do Candidato Nome do Candidato Votos Porcentagem sobre total')
+    if porcentagem_bostonaro == 100:
+        print(f'1                   Bostonaro         {votos_bostonaro}     {porcentagem_bostonaro:>4.1f}%')
+    else:
+        print(f'1                   Bostonaro         {votos_bostonaro}      {porcentagem_bostonaro:>4.1f}%')
+    if 5.7 > porcentagem_luladrao > 5.5:
+        print(f'2                   Luladrão          {votos_luladrao}       {porcentagem_luladrao:>2.1f}%')
+        print(f'3                   Dilmanta          {votos_dilmanta}       {porcentagem_dilmanta:>2.1f}%')
+    elif porcentagem_luladrao == 0:
+        print(f'2                   Luladrão          {votos_luladrao}       {porcentagem_luladrao:>2.1f}%')
+        print(f'3                   Dilmanta          {votos_dilmanta}       {porcentagem_dilmanta:>2.1f}%')
+    elif 51 > porcentagem_luladrao > 49:
+        print(f'2                   Luladrão          {votos_luladrao}      {porcentagem_luladrao:>2.1f}%')
+        print(f'3                   Dilmanta          {votos_dilmanta}       {porcentagem_dilmanta:>2.1f}%')
+    else:
+        print(f'2                   Luladrão          {votos_luladrao}      {porcentagem_luladrao:>2.1f}%')
+        print(f'3                   Dilmanta          {votos_dilmanta}      {porcentagem_dilmanta:>2.1f}%')
+    print(f'4                   FHC Isentão       {votos_fhcisentao}     {porcentagem_fhcisentao:>5.1f}%')
+    print('-------------------------------------------------------------------')
+    print(f'5                   Votos Nulos       {votos_nulos}      {porcentagem_nulos:>4.1f}%')
+    print(f'6                   Votos Brancos     {votos_brancos}    {porcentagem_brancos:>6.1f}%')

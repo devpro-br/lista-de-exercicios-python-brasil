@@ -36,7 +36,19 @@ A entrada de dados deverá terminar quando for lido um número negativo.
     1 número(s) entre o intervalo de 76 a 100
 
 """
-
-
 def listar_numeros_para_avaliacao():
     """Escreva aqui em baixo a sua solução"""
+    limites_superiores = {'zero a 25': 25, '26 a 50': 50, '51 a 75': 75, '76 a 100': 100}
+    resultado = {i: 0 for i in limites_superiores}
+    numeros = []
+    while True:
+        n = (int(input('Digite um número positivo para continuar no programa ou um número negativo para finalizá-lo: ')))
+        if n < 0:
+            break
+        for i, limite_superior in limites_superiores.items():
+            if n <= limite_superior:
+                resultado[i]+=1
+                break
+    for i, contador in resultado.items():
+        if contador > 0:
+            print(f'{contador} número(s) entre o intervalo de {i}')

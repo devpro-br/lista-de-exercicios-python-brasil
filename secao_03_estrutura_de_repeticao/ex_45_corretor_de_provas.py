@@ -45,7 +45,47 @@ Gabarito da Prova:
     Menor nota: 9
     Total de Alunos: 2
 """
+def gabarito(*lista_de_respostas):
+    gabarito = ('A', 'B', 'C', 'D', 'E', 'E', 'D', 'C', 'B', 'A')
+    nota = 0
+    for par in zip(gabarito, lista_de_respostas):
+        if par[0] == par[1]:
+            nota+=1
+    return nota
 
 
 def corrigir(*provas):
     """Escreva aqui em baixo a sua solução"""
+    provas = [*provas]
+    lista_de_nomes = []
+    lista_de_respostas = []
+    print('Aluno                 Nota')
+    for prova in provas:
+        lista_de_nomes.append(prova[0])
+        lista_de_respostas.append(prova[1:])
+    nota1 = gabarito(*lista_de_respostas[0])
+    nome1 = lista_de_nomes[0]
+    if len(lista_de_nomes) > 1:
+        total_de_alunos = 2
+        nota2 = gabarito(*lista_de_respostas[1])
+        nome2 = lista_de_nomes[1]
+        print(f'{nome1}                 {nota1}')
+        print(f'{nome2}                 {nota2}')
+        media_geral = (nota1 + nota2) / 2
+        if nota1 > nota2:
+            maior_nota = nota1
+            menor_nota = nota2
+        else:
+            maior_nota = nota2
+            menor_nota = nota1
+    else:
+        total_de_alunos = 1
+        print(f'{nome1}                 {nota1}')
+        media_geral = nota1
+        maior_nota = nota1
+        menor_nota = nota1
+    print('---------------------------')
+    print(f'Média geral: {media_geral:.1f}')
+    print(f'Maior nota: {maior_nota}')
+    print(f'Menor nota: {menor_nota}')
+    print(f'Total de Alunos: {total_de_alunos}')
