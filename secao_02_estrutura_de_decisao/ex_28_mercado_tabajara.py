@@ -47,3 +47,27 @@ Mostre o restultado com duas casas decimais
 
 def calcular_preco_da_carne(tipo_de_carne: str, kilos_de_carne: int, forma_de_pagamento: str) -> str:
     """Escreva aqui em baixo a sua solução"""
+
+    carnes = {'Filé Duplo' : 5.8, 'Alcatra' : 6.8, 'Picanha' : 7.8}
+    perc_desconto = 0
+    subtotal = 0
+    total = 0
+
+    if kilos_de_carne <= 5:
+        carnes['Alcatra'] = 5.9
+        carnes['Filé Duplo'] = 4.9
+        carnes['Picanha'] = 6.9
+    
+    subtotal = carnes[tipo_de_carne] * kilos_de_carne
+
+    if forma_de_pagamento == 'cartão tabajara':
+        perc_desconto = 0.05
+
+        desconto = subtotal * perc_desconto
+        total = subtotal - desconto
+
+        bloco_desconto = (f'Com desconto de {perc_desconto:.0%} pelo pagamento feito com cartão tabajara, fica R$ {total:.2f}')
+    else:
+        bloco_desconto = f'Não há desconto, pagamento feito com {forma_de_pagamento}'
+    
+    print(f"'{kilos_de_carne} kg de {tipo_de_carne} a R$ {carnes[tipo_de_carne]:.2f}/kg saem a R$ {subtotal:.2f}. {bloco_desconto}'")
