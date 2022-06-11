@@ -107,4 +107,60 @@ comprados.
 """
 def fechar_conta(*itens):
     """Escreva aqui em baixo a sua solução"""
-   
+    print('_____________________________________________________________________________')
+    print('|                              RESUMO DA CONTA                              |')
+    print('|---------------------------------------------------------------------------|')
+    print('| Epecificação     | Código | Preço Unitário (R$) | Quantidade | Total (R$) |')
+    qtd_cachorro_quente = 0
+    qtd_bauru_simples = 0
+    qtd_bauru_com_ovo = 0
+    qtd_hamburger = 0
+    qtd_cheeseburger = 0
+    qtd_refrigerante = 0
+    preco_cachorro_quente = 1.20
+    preco_bauru_simples = 1.30
+    preco_bauru_com_ovo = 1.50
+    preco_hamburger = 1.20
+    preco_cheeseburger = 1.30
+    preco_refrigerante = 1.00
+    for codigo, quantidade in itens:
+        if codigo == '100':
+            qtd_cachorro_quente+= quantidade
+        if codigo == '101':
+            qtd_bauru_simples+= quantidade
+        if codigo == '102':
+            qtd_bauru_com_ovo+= quantidade
+        if codigo == '103':
+            qtd_hamburger+= quantidade
+        if codigo == '104':
+            qtd_cheeseburger+= quantidade
+        if codigo == '105':
+            qtd_refrigerante+= quantidade
+    preco_cachorro_quente*= qtd_cachorro_quente
+    preco_bauru_simples*= qtd_bauru_simples
+    preco_bauru_com_ovo*= qtd_bauru_com_ovo
+    preco_hamburger*= qtd_hamburger
+    preco_cheeseburger*= qtd_cheeseburger
+    preco_refrigerante*=qtd_refrigerante
+    if qtd_cachorro_quente > 0:
+        print(f'| Cachorro Quente  | 100    | 1.20                |          {qtd_cachorro_quente} |       {preco_cachorro_quente:.2f} |')
+    if qtd_bauru_simples > 0:
+        print(f'| Bauru Simples    | 101    | 1.30                |          {qtd_bauru_simples} |       {preco_bauru_simples:.2f} |')
+    if qtd_bauru_com_ovo > 0:
+        print(f'| Bauru com Ovo    | 102    | 1.50                |          {qtd_bauru_com_ovo} |       {preco_bauru_com_ovo:.2f} |')
+    if qtd_hamburger > 0:
+        print(f'| Hamburger        | 103    | 1.20                |          {qtd_hamburger} |       {preco_hamburger:.2f} |')
+    if qtd_cheeseburger > 0:
+        print(f'| Cheeseburger     | 104    | 1.30                |          {qtd_cheeseburger} |       {preco_cheeseburger:.2f} |')
+    if qtd_refrigerante > 0:
+       print(f'| Refrigerante     | 105    | 1.00                |          {qtd_refrigerante} |       {preco_refrigerante:.2f} |') 
+    quantidade_total = qtd_cachorro_quente+qtd_bauru_simples+qtd_bauru_com_ovo+qtd_hamburger+qtd_cheeseburger+qtd_refrigerante
+    preco_total = preco_cachorro_quente+preco_bauru_simples+preco_bauru_com_ovo+preco_hamburger+preco_cheeseburger+preco_refrigerante
+    print('|---------------------------------------------------------------------------|')
+    if quantidade_total < 10 and preco_total < 10:
+        print(f'| Total Geral:                                    |          {quantidade_total} |       {preco_total:.2f} |')
+    elif quantidade_total < 10 and preco_total >=10:
+        print(f'| Total Geral:                                    |          {quantidade_total} |      {preco_total:.2f} |')
+    else:
+        print(f'| Total Geral:                                    |         {quantidade_total} |      {preco_total:.2f} |')
+    print('-----------------------------------------------------------------------------')
