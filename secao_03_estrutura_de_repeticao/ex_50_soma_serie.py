@@ -15,14 +15,13 @@ Faça um programa que calcule o valor de H com N termos.
     ----------------------------------
     
 
-    >>> from secao_03_estrutura_de_repeticao import ex_50_soma_serie
-    >>> ex_50_soma_serie.soma_serie(5)
+    >>> soma_serie(5)
     H = 2.283333333333333
-    >>> ex_50_soma_serie.soma_serie(7)
+    >>> soma_serie(7)
     H = 2.5928571428571425
-    >>> ex_50_soma_serie.soma_serie(17)
+    >>> soma_serie(17)
     H = 3.439552522640758
-    >>> ex_50_soma_serie.soma_serie(2)
+    >>> soma_serie(2)
     H = 1.5
 
 """
