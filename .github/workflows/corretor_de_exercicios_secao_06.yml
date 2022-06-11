@@ -19,3 +19,7 @@ jobs:
         if: always()
         run: |
           python -m doctest -f secao_06_exercicios_strings/ex_01_comparador_de_strings.py
+      - name: Correção do Exercício 05 da seção de Strings
+        if: always()
+        run: |
+          python -m doctest -f secao_06_exercicios_strings/ex_05_nome_vertical_escada_invertida.py
