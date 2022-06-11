@@ -33,7 +33,14 @@ Mostre na tela:
     O lado com o número 6 caiu mais vezes (15 vezes)
 
 """
-
-
 def lancar_dados(*valor_lancamentos):
     """Escreva aqui em baixo a sua solução"""
+    valor_lancamentos = [*valor_lancamentos]
+    print(f'O dado foi lançado {len(valor_lancamentos)} vezes')
+    mais_vezes = 1
+    for valor in range(1, 7):
+        print(f'O número {valor} caiu {valor_lancamentos.count(valor)} vezes')
+        if valor_lancamentos.count(valor) > mais_vezes:
+            mais_vezes = valor_lancamentos.count(valor)
+            valor_mais_vezes = valor
+    print(f'O lado com o número {valor_mais_vezes} caiu mais vezes ({mais_vezes} vezes)')

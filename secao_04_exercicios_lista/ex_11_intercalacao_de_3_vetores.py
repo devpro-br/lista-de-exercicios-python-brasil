@@ -14,8 +14,11 @@ Altere o programa anterior, intercalando 3 vetores.
     [0, 5, 10, 1, 6, 11, 2, 7, 12, 3, 8, 13, 4, 9, 14]
 
 """
-
-
 def intercalar(lista_1: list, lista_2: list, lista_3: list) -> list:
     """Escreva aqui em baixo a sua solução"""
-
+    lista_intercalada = []
+    for elemento1, elemento2, elemento3 in zip(lista_1, lista_2, lista_3):
+        lista_intercalada.append(elemento1)
+        lista_intercalada.append(elemento2)
+        lista_intercalada.append(elemento3)
+    print(lista_intercalada)
