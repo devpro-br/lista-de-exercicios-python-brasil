@@ -1,5 +1,5 @@
 """
-Exercício 01 da seção de listas da Python Brasil:
+Exercício 01 da seção de Strings da Python Brasil:
 https://wiki.python.org.br/ExerciciosComStrings
 
 Tamanho de strings. Faça um programa que compare 2 strings e informe o conteúdo delas seguido do seu comprimento.
