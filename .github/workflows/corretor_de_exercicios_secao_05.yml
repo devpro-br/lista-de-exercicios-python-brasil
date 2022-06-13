@@ -23,3 +23,4 @@ jobs:
         if: always()
         run: |
           python -m doctest -f secao_05_exercicios_funcoes/ex_12_embaralha_palavra.py
+

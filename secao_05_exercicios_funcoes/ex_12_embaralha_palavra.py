@@ -8,7 +8,7 @@ de forma aleatória. Padronize em sua função que todos os caracteres serão de
 independentemente de como foram digitados.
 
     >>> resultado = embaralha_palavra('Python')
-    >>> if resultado == 'Python' or resultado == 'python' or len(resultado) != 6 or sorted(resultado) != ['h', 'n', 'o', 'p', 't', 'y'] or resultado.isupper() and resultado.islower() == False:
+    >>> if resultado == 'Python' or resultado == 'python' or len(resultado) != 6 or sorted(resultado) != ['h', 'n', 'o', 'p', 't', 'y'] and sorted(resultado) != ['H', 'N', 'O', 'P', 'T', 'Y'] or resultado.isupper() == False and resultado.islower() == False:
     ...     False
     >>> resultado2 = embaralha_palavra('Python')
     >>> if resultado2 == resultado:
