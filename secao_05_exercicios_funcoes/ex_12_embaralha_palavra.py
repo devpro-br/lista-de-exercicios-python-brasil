@@ -16,12 +16,3 @@ independentemente de como foram digitados.
 
     OBS: USE RETURN AO INVÉS DE PRINT COMO RETORNO DA FUNÇÃO!
 """
-import random
-
-def embaralha_palavra(palavra:str):
-    palavra = palavra.lower()
-    lista_palavra = []
-    lista_palavra[:0] = palavra
-    random.shuffle(lista_palavra)
-    nova_palavra = ''.join(map(str, lista_palavra))
-    return nova_palavra
