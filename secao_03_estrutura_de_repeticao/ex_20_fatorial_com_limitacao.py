@@ -7,8 +7,6 @@ Ex.: 5!=5.4.3.2.1=120
 
 Limite o cáculo para valores inteiros, positivos, maiores ou iguais a 16.
 
-    >>> calcular_fatorial(0)
-    1
     >>> calcular_fatorial(1)
     1
     >>> calcular_fatorial(2)

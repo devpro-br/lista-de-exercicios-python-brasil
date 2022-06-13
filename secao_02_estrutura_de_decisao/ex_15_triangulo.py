@@ -9,23 +9,23 @@ Triângulo Equilátero: três lados iguais;
 Triângulo Isósceles: quaisquer dois lados iguais;
 Triângulo Escaleno: três lados diferentes;
 
-    >>> classificar_trinagulo(2, 3, 4)
+    >>> classificar_triangulo(2, 3, 4)
     'Triângulo Escaleno'
-    >>> classificar_trinagulo(2, 2, 3)
+    >>> classificar_triangulo(2, 2, 3)
     'Triângulo Isósceles'
-    >>> classificar_trinagulo(2, 2, 2)
+    >>> classificar_triangulo(2, 2, 2)
     'Triângulo Equilátero'
-    >>> classificar_trinagulo(2, 2, 5)
+    >>> classificar_triangulo(2, 2, 5)
     'Não é um triângulo'
-    >>> classificar_trinagulo(5, 2, 2)
+    >>> classificar_triangulo(5, 2, 2)
     'Não é um triângulo'
-    >>> classificar_trinagulo(2, 5, 2)
+    >>> classificar_triangulo(2, 5, 2)
     'Não é um triângulo'
 
 """
 
 
-def classificar_trinagulo(lado_a: float, lado_b: float, lado_c: float):
+def classificar_triangulo(lado_a: float, lado_b: float, lado_c: float):
     """Escreva aqui em baixo a sua solução"""
     
     if lado_a + lado_b >= lado_c and lado_b + lado_c >= lado_a and lado_a + lado_c >= lado_b: 

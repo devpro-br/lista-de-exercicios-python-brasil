@@ -1,0 +1,93 @@
+name: Corretor da seção de estrutura sequencial da lista de exercícios da Python Brasil
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Configuração de Python 3.9
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.9
+      - name: Correção do Exercício 01 da seção de Estrutura Sequencial
+        if: always()
+        run: |
+          python -m doctest -f secao_01_estrutura_sequencial/ex_01_alo_mundo.py
+      - name: Correção do Exercício 02 da seção de Estrutura Sequencial
+        if: always()
+        run: |
+          python -m doctest -f secao_01_estrutura_sequencial/ex_02_escreva_um_numero.py
+      - name: Correção do Exercício 03 da seção de Estrutura Sequencial
+        if: always()
+        run: |
+          python -m doctest -f secao_01_estrutura_sequencial/ex_03_imprima_soma_de_dois_numeros.py
+      - name: Correção do Exercício 04 da seção de Estrutura Sequencial
+        if: always()
+        run: |
+          python -m doctest -f secao_01_estrutura_sequencial/ex_04_notas_bimestrais.py
+      - name: Correção do Exercício 05 da seção de Estrutura Sequencial
+        if: always()
+        run: |
+          python -m doctest -f secao_01_estrutura_sequencial/ex_05_metros_para_centimetros.py
+      - name: Correção do Exercício 06 da seção de Estrutura Sequencial
+        if: always()
+        run: |
+          python -m doctest -f secao_01_estrutura_sequencial/ex_06_area_circulo.py
+      - name: Correção do Exercício 07 da seção de Estrutura Sequencial
+        if: always()
+        run: |
+          python -m doctest -f secao_01_estrutura_sequencial/ex_07_area_quadrado.py
+      - name: Correção do Exercício 08 da seção de Estrutura Sequencial
+        if: always()
+        run: |
+          python -m doctest -f secao_01_estrutura_sequencial/ex_08_horas_trabalhadas_mes.py
+      - name: Correção do Exercício 09 da seção de Estrutura Sequencial
+        if: always()
+        run: |
+          python -m doctest -f secao_01_estrutura_sequencial/ex_09_fahrenheit_para_celsius.py
+      - name: Correção do Exercício 10 da seção de Estrutura Sequencial
+        if: always()
+        run: |
+          python -m doctest -f secao_01_estrutura_sequencial/ex_10_celsius_para_fahrenheit.py
+      - name: Correção do Exercício 11 da seção de Estrutura Sequencial
+        if: always()
+        run: |
+          python -m doctest -f secao_01_estrutura_sequencial/ex_11_contas_matematicas.py
+      - name: Correção do Exercício 12 da seção de Estrutura Sequencial
+        if: always()
+        run: |
+          python -m doctest -f secao_01_estrutura_sequencial/ex_12_peso_ideal.py
+      - name: Correção do Exercício 13 da seção de Estrutura Sequencial
+        if: always()
+        run: |
+          python -m doctest -f secao_01_estrutura_sequencial/ex_13_peso_ideal_mulher_e_homem.py
+      - name: Correção do Exercício 14 da seção de Estrutura Sequencial
+        if: always()
+        run: |
+          python -m doctest -f secao_01_estrutura_sequencial/ex_14_joao_papo_de_pescador.py
+      - name: Correção do Exercício 15 da seção de Estrutura Sequencial
+        if: always()
+        run: |
+          python -m doctest -f secao_01_estrutura_sequencial/ex_15_clt_onerosa.py
+      - name: Correção do Exercício 16 da seção de Estrutura Sequencial
+        if: always()
+        run: |
+          python -m doctest -f secao_01_estrutura_sequencial/ex_16_loja_de_tintas_simples.py
+      - name: Correção do Exercício 17 da seção de Estrutura Sequencial
+        if: always()
+        run: |
+          python -m doctest -f secao_01_estrutura_sequencial/ex_17_loja_de_tintas_complexa.py
+      - name: Correção do Exercício 18 da seção de Estrutura Sequencial
+        if: always()
+        run: |
+          python -m doctest -f secao_01_estrutura_sequencial/ex_18_tempo_de_download.py
+      - name: Correção do Exercício 01 da seção de Estrutura de Decisão
+        if: always()
+        run: |
+        
