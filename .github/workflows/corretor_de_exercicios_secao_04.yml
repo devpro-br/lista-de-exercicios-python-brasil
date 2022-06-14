@@ -19,3 +19,27 @@ jobs:
         if: always()
         run: |
           python -m doctest -f secao_04_exercicios_lista/ex_01_vetor_5_numeros.py
+      - name: Correção do Exercício 05 da seção de Listas
+        if: always()
+        run: |
+          python -m doctest -f secao_04_exercicios_lista/ex_05_vetore_par_e_impar.py
+      - name: Correção do Exercício 09 da seção de Listas
+        if: always()
+        run: |
+          python -m doctest -f secao_04_exercicios_lista/ex_09_soma_de_quadrados.py
+      - name: Correção do Exercício 10 da seção de Listas
+        if: always()
+        run: |
+          python -m doctest -f secao_04_exercicios_lista/ex_10_intercalacao_de_vetores.py
+      - name: Correção do Exercício 11 da seção de Listas
+        if: always()
+        run: |
+          python -m doctest -f secao_04_exercicios_lista/ex_11_intercalacao_de_3_vetores.py
+      - name: Correção do Exercício 12 da seção de Listas
+        if: always()
+        run: |
+          python -m doctest -f secao_04_exercicios_lista/ex_12_filtro_de_baixinhos.py
+      - name: Correção do Exercício 24 da seção de Listas
+        if: always()
+        run: |
+          python -m doctest -f secao_04_exercicios_lista/ex_24_lancamento_de_dados.py
