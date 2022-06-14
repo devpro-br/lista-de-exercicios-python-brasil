@@ -23,10 +23,10 @@ Mostre os valores com uma casa decimal sem arredondar.
     ---------------------------------
     Melhor salto:  6.5 m
     Pior salto: 5.3 m
-    Média dos demais saltos: 5.8 m
+    Média dos demais saltos: 5.9 m
     ---------------------------------
     Resultado final:
-    Rodrigo Curvêllo: 5.8 m
+    Rodrigo Curvêllo: 5.9 m
     >>> calcular_estatiscas_do_salto('João do Pulo', 6.8, 6.5, 6.1, 6.2, 5.4)
     Atleta: João do Pulo
     ---------------------------------
@@ -44,7 +44,22 @@ Mostre os valores com uma casa decimal sem arredondar.
     João do Pulo: 6.2 m
 
 """
-
+from statistics import mean
 
 def calcular_estatiscas_do_salto(nome, *saltos):
     """Escreva aqui em baixo a sua solução"""
+
+    saltos = list(saltos)
+    media = sum(saltos) / len(saltos)
+    dict_saltos = {'Primeiro Salto': saltos[0], 'Segundo Salto': saltos[1], 'Terceiro Salto': saltos[2], 'Quarto Salto': saltos[3], 'Quinto Salto': saltos[4]}
+    print(f'Atleta: {nome}')
+    print('---------------------------------')
+    for k, v in dict_saltos.items():
+        print(f'{k}: {v} m')
+    print('---------------------------------')
+    print(f'Melhor salto:  {max(saltos)} m')
+    print(f'Pior salto: {min(saltos)} m')
+    print(f'Média dos demais saltos: {media} m')
+    print('---------------------------------')
+    print(f'Resultado final:')
+    print(f'{nome}: {media} m')

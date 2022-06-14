@@ -124,4 +124,4 @@ def gerar_tabela_de_precos(preco_por_pao: float):
     for i in count(1):
         if i > 50:
             break
-        print(f'{i: <3}- R$ {i * preco_por_pao: >6.2f}')
+        print(f'{i: <3}- R$ {i * preco_por_pao:6.2f}')
