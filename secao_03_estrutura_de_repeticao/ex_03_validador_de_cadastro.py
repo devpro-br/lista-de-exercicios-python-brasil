@@ -49,7 +49,7 @@ def cadastrar_usuario(nome: str, idade: int, salario: float, sexo: str, estado_c
         erros.append(f"Erro: a idade precisa estar entre 0 e 150, não pode ser {idade}")
     
     if salario <= 0:
-      erros.append(f"Erro: o salário precisa ser positivo, não pode ser {salario}")
+        erros.append(f"Erro: o salário precisa ser positivo, não pode ser {salario}")
     
     if not sexo in ["m", "f"]:
         erros.append(f'Erro: o sexo precisa ser "m" ou "f", não pode ser "{sexo}"')
