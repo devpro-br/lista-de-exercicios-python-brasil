@@ -1,0 +1,45 @@
+name: Corretor da seção de listas da lista de exercícios da Python Brasil
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Configuração de Python 3.9
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.9
+      - name: Correção do Exercício 01 da seção de Listas
+        if: always()
+        run: |
+          python -m doctest -f secao_04_exercicios_lista/ex_01_vetor_5_numeros.py
+      - name: Correção do Exercício 05 da seção de Listas
+        if: always()
+        run: |
+          python -m doctest -f secao_04_exercicios_lista/ex_05_vetore_par_e_impar.py
+      - name: Correção do Exercício 09 da seção de Listas
+        if: always()
+        run: |
+          python -m doctest -f secao_04_exercicios_lista/ex_09_soma_de_quadrados.py
+      - name: Correção do Exercício 10 da seção de Listas
+        if: always()
+        run: |
+          python -m doctest -f secao_04_exercicios_lista/ex_10_intercalacao_de_vetores.py
+      - name: Correção do Exercício 11 da seção de Listas
+        if: always()
+        run: |
+          python -m doctest -f secao_04_exercicios_lista/ex_11_intercalacao_de_3_vetores.py
+      - name: Correção do Exercício 12 da seção de Listas
+        if: always()
+        run: |
+          python -m doctest -f secao_04_exercicios_lista/ex_12_filtro_de_baixinhos.py
+      - name: Correção do Exercício 24 da seção de Listas
+        if: always()
+        run: |
+          python -m doctest -f secao_04_exercicios_lista/ex_24_lancamento_de_dados.py
