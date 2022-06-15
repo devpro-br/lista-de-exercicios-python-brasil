@@ -16,7 +16,7 @@ de crescimento.
 
 def calcular_ano_ultrapassagem_populacional() -> str:
     """Escreva aqui em baixo a sua solução"""
-    anus = 0
+    anos = 0
     pais_a = 80000 
     pais_b = 200000
 
@@ -29,7 +29,7 @@ def calcular_ano_ultrapassagem_populacional() -> str:
         crescimento_b = pais_b * porcentos_b
         pais_a += crescimento_a
         pais_b += crescimento_b        
-        anus += 1
+        anos += 1
     
-    print(f"'População de A, depois de {anus} ano(s) será de {pais_a:.0f} pessoas, superando a de B, que será de {pais_b:.0f} pessoas'")
+    print(f"'População de A, depois de {anos} ano(s) será de {pais_a:.0f} pessoas, superando a de B, que será de {pais_b:.0f} pessoas'")
         
