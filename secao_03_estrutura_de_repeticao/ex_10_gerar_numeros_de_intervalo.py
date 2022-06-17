@@ -16,3 +16,25 @@ Faça um programa que receba dois números inteiros e gere os números inteiros 
 
 def calcular_numeros_no_intervalo(inicio: int, fim: int) -> str:
     """Escreva aqui em baixo a sua solução"""
+    if inicio > fim:
+        print("''")
+    for n in range (inicio, fim):
+        if n == inicio:
+            print("'", end="") #ok
+        if n == fim - 1:
+            print(f"{n}'", end="")
+            break
+        
+        print(f"{n},", end=" ") #ok
+    
+        
+
+        
+        
+        # if numero == 1:
+        #         print(f"'", end='')
+        #     print(f"{numero},", end=' ')
+        #     numero += 2
+        #     if numero == 49:
+        #         print (f"{numero}'")
+        #     if numero > 49:

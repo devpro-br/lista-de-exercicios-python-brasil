@@ -22,7 +22,4 @@ def calcular_numeros_impares_de_1_a_50() -> str:
             print (f"{numero}'")
         if numero > 49:
             break
-
-        # if numero == 20:
-            # print(f"numero'", end='')
     
