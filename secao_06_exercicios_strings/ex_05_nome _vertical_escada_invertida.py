@@ -25,6 +25,7 @@ Nome na vertical em escada invertida. Altere o programa anterior de modo que a e
     ENZO PA
     ENZO P
     ENZO
+    ENZO
     ENZ
     EN
     E
