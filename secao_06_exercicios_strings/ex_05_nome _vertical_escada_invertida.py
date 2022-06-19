@@ -16,15 +16,15 @@ Nome na vertical em escada invertida. Altere o programa anterior de modo que a e
     CAM
     CA
     C
-    >>> inverter_escada('ENZO PASCOAL')
-    ENZO PASCOAL
-    ENZO PASCOA
-    ENZO PASCO
-    ENZO PASC
-    ENZO PAS
-    ENZO PA
-    ENZO P
-    ENZO
+    >>> inverter_escada('ENZO_PASCOAL')
+    ENZO_PASCOAL
+    ENZO_PASCOA
+    ENZO_PASCO
+    ENZO_PASC
+    ENZO_PAS
+    ENZO_PA
+    ENZO_P
+    ENZO_
     ENZO
     ENZ
     EN
