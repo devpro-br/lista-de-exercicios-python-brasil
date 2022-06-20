@@ -9,7 +9,7 @@ Dica de frase:
 'É uma linguagem de programação muito famosa, muito utilizada para automatização de tarefas'
 
     >>> adivinhar_frase()
-    Que pena, você errou todas
+    Que pena, você errou todas.
 
      >>> adivinhar_frase(['P'],['Y'],['T'],['H'])
      Você errou pela 2ª vez, tente novamente.
