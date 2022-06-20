@@ -47,34 +47,3 @@ O numero maximo de colunas é 20, a quantidade de colunas foi alterado para 20.
 +------------------+
 """
 
-def desenha_moldura(linha, coluna):
-    if linha < 1:
-        linha = 1
-        print('Não é possivel construir uma moldura sem linhas, a quantidade de linhas foi alterada para 1.')
-    if coluna < 1:
-        coluna = 1
-        print('Não é possivel construir uma moldura sem colunas, a quantidade de colunas foi alterada para 1.')
-    if linha > 20:
-        linha = 20
-        print('O numero maximo de linhas é 20, a quantidade de linhas foi alterado para 20.')
-    if coluna > 20:
-        coluna = 20
-        print('O numero maximo de colunas é 20, a quantidade de colunas foi alterado para 20.')
-    for m in range(linha):
-        for n in range(coluna):
-            if m == 0 or m == linha-1:
-                if n == 0 and coluna > 1:
-                    print('+',end='')
-                elif n == coluna-1 or coluna == 1:
-                    print('+')
-                else:
-                    print('-',end='')
-            elif n==0 and coluna > 1:
-                print('|',end='')
-            elif n==coluna-1 or coluna == 1:
-                print('|')
-            else:
-                print(' ',end='')    
-        
-
-
