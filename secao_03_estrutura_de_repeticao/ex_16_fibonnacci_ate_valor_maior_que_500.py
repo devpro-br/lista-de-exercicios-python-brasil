@@ -10,5 +10,24 @@ A série de Fibonacci é formada pela seqüência 0,1,1,2,3,5,8,13,21,34,55,... 
 """
 
 
+from turtle import pen
+
+
 def calcular_serie_de_fibonacci_ate_valor_ser_maior_que_500() -> str:
     """Escreva aqui em baixo a sua solução"""
+    ultimo = 0
+    penultimo = 1
+    soma = 1
+
+    while ultimo <= 500:
+        if ultimo == 0:
+            print(f"'{ultimo}", end=", ")
+        if penultimo > 500:
+            print(f"{penultimo}'", end="")
+            return
+        else:
+            print(f"{soma}", end=", ")
+            soma = ultimo + penultimo
+            ultimo = penultimo
+            penultimo = soma
+        
