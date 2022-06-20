@@ -24,9 +24,9 @@ Faça um Programa que peça uma data no formato dd/mm/aaaa e determine se a mesm
 
 def validar_data(data: str):
     def ver_bissexto(ano):
-    quatro = ano % 4
-    cem = ano % 100
-    quatrocentos = ano % 400
+        quatro = ano % 4
+        cem = ano % 100
+        quatrocentos = ano % 400
                 
     # primeira situação
     if quatro == 0:
@@ -53,7 +53,7 @@ def validar_data(data: str):
 
     while True:
         try:
-            aviso = ""
+            aviso = "Data válida"
             data = input('Entre com uma data dd/mm/aaaa: ')
             if len(data) != 10 or data[2] != "/" or data[5] != "/":
                 print('Data inválida')
@@ -82,8 +82,8 @@ def validar_data(data: str):
                 aviso = 'Data inválida'
                 
             print(aviso)
-          
+            
             break
-                   
+                               
         except ValueError:
             print('Entrada inválida!!!')
