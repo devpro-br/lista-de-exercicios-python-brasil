@@ -16,3 +16,4 @@ imprima o número de alunos com média maior ou igual a 7.0, e imprima separado 
 
 def calcular_media(*notas) -> int:
     """Escreva aqui em baixo a sua solução"""
+
