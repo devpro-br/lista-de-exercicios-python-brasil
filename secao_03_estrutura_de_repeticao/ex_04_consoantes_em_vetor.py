@@ -14,4 +14,4 @@ Imprima as consoantes.
 """
 
 def imprime_consoantes(palavra: str):
-    """Escreva aqui em baixo a sua solução"""
+    """Escreva aqui embaixo a sua solução"""
