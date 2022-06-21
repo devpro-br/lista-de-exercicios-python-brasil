@@ -26,6 +26,10 @@ jobs:
       - name: Correção do Exercício 09 da seção de Listas
         if: always()
         run: |
+          python -m doctest -f secao_04_exercicios_lista/ex_06_calculador_de_media.py
+      - name: Correção do Exercício 06 da seção de Listas
+        if: always()
+        run: |
           python -m doctest -f secao_04_exercicios_lista/ex_09_soma_de_quadrados.py
       - name: Correção do Exercício 10 da seção de Listas
         if: always()
