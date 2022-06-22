@@ -19,7 +19,7 @@ e em que mês elas ocorreram (mostrar o mês por extenso: 1 – Janeiro, 2 – F
 
     >>> from secao_04_exercicios_lista import ex_13_media_de_temperaturas_anual
 
-    >>> meses_vs_temperaturas = ['25','Dezembro', '33','Novembro','19','Outubro','16','Setembro','15','Agosto','20', 'Julho','25', 'Junho','29','Maio' ,'25', 'Abril','27','Março','33', 'Fevereiro', '30', 'Janeiro']
+    >>> meses_vs_temperaturas = ['25', '33', '19', '16', '15', '20', '25', '29', '25', '27', '33', '30']
     >>> ex_13_media_de_temperaturas_anual.input = lambda k: meses_vs_temperaturas.pop()
     >>> ex_13_media_de_temperaturas_anual.temperaturas_acima_da_media()
     Média anual: 24.75 Graus
@@ -31,6 +31,15 @@ e em que mês elas ocorreram (mostrar o mês por extenso: 1 – Janeiro, 2 – F
      6 - Junho:         25°
     11 - Novembro:      33°
     12 - Dezembro:      25°
+    >>> meses_vs_temperaturas = ['25', '33', '19', '16', '15', '20', '25', '29', '25', '27', '33', '35']
+    >>> ex_13_media_de_temperaturas_anual.input = lambda k: meses_vs_temperaturas.pop()
+    >>> ex_13_media_de_temperaturas_anual.temperaturas_acima_da_media()
+    Média anual: 25.16 Graus
+     1 - Janeiro:       35°
+     2 - Fevereiro:     33°
+     3 - Março:         27°
+     5 - Maio:          29°
+    11 - Novembro:      33°
 
 """
 
