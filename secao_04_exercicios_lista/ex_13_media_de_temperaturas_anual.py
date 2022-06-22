@@ -34,7 +34,7 @@ e em que mês elas ocorreram (mostrar o mês por extenso: 1 – Janeiro, 2 – F
     >>> meses_vs_temperaturas = ['25', '33', '19', '16', '15', '20', '25', '29', '25', '27', '33', '35']
     >>> ex_13_media_de_temperaturas_anual.input = lambda k: meses_vs_temperaturas.pop()
     >>> ex_13_media_de_temperaturas_anual.temperaturas_acima_da_media()
-    Média anual: 25.16 Graus
+    Média anual: 25.17 Graus
      1 - Janeiro:       35°
      2 - Fevereiro:     33°
      3 - Março:         27°
