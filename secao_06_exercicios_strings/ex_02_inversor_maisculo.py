@@ -8,15 +8,16 @@ letras maiúsculas ou minúsculas.
 
 
     >>> inversor('lucca')
-    ACCUL
+    'ACCUL'
     >>> inversor('douglas')
-    SALGUOD
+    'SALGUOD'
     >>> inversor('TaTIana')
-    ANAITAT
+    'ANAITAT'
     >>> inversor('MARIa')
-    AIRAM
+    'AIRAM'
 
 """
 
 
-def inversor(nome):
+def inversor(nome: str) -> str:
+    """ Escreva seu código aqui embaixo """
