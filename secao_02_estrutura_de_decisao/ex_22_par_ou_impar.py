@@ -21,4 +21,20 @@ Faça um Programa que peça um número inteiro e determine se ele é par ou impa
 
 
 def decidir_se_eh_par_ou_impar(valor: int) -> str:
-    """Escreva aqui em baixo a sua solução"""
+    while True:
+        try:
+
+            num = int(input('Digite o número a consultar se é par: '))
+
+            result = num % 2
+
+            if result == 0:
+                resposta = "Par"
+            else:
+                resposta = "Impar"
+
+            print(resposta)
+        
+        except ValueError:
+            print("Entrada inválida!!!")
+
