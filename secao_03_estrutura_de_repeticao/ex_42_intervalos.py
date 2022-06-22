@@ -6,7 +6,7 @@ Faça um programa que leia uma quantidade indeterminada de números positivos e 
 intervalos: [0-25], [26-50], [51-75] e [76-100].
 A entrada de dados deverá terminar quando for lido um número negativo.
 
-    >>> from secao_03_estrutura_de_repeticao import  ex_42_intervalos
+    >>> from secao_03_estrutura_de_repeticao import  ex_42_intervalos>>> from secao_03_estrutura_de_repeticao import  ex_42_intervalos
     >>> numeros_para_avaliacao=[-1, 10, 15, 20, 50, 13, 78, 22, 14, 16]
     >>> ex_42_intervalos.input = lambda k: numeros_para_avaliacao.pop()
     >>> ex_42_intervalos.listar_numeros_para_avaliacao()
