@@ -30,3 +30,4 @@ Dica de frase:
 
 def adivinhar_frase(*letras):
     """Escreva aqui em baixo a sua solução"""
+
