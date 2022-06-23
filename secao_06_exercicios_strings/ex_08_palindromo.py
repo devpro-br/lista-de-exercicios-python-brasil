@@ -22,3 +22,4 @@ leia uma seqüência de caracteres, mostre−a e diga se é um palíndromo ou n�
 
 def palindromo(expressao:str):
 	"""Escreva aqui em baixo a sua solução"""
+
