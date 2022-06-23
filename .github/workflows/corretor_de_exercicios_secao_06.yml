@@ -26,7 +26,7 @@ jobs:
       - name: Correção do Exercício 04 da seção de Strings
       - if: always()
         run: |
-          python -m doctest -f secao_06_exercicios_strings/ex_04_nome_vertical_escada.py
+          python -m doctest -f secao_06_exercicios_strings/ex_04_nomes_vertical_escada.py
       - name: Correção do Exercício 05 da seção de Strings
         if: always()
         run: |
