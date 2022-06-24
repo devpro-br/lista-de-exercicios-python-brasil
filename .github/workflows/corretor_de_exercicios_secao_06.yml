@@ -27,4 +27,7 @@ jobs:
         if: always()
         run: |
           python -m doctest -f secao_06_exercicios_strings/ex_11_jogo_da_forca.py
+      - name: Correção do Exercício 11 da seção de Strings
+        if: always()
+        run: |
           
