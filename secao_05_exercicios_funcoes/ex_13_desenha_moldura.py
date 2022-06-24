@@ -18,7 +18,7 @@ O número mínimo de linhas é 1, a quantidade de linhas foi alterada para 1.
 |   |
 +---+
 >>> desenha_moldura (linhas = 2, colunas = 0)
-O número mínimo de linhas é 1, a quantidade de colunas foi alterada para 1.
+O número mínimo de colunas é 1, a quantidade de colunas foi alterada para 1.
 +-+
 | |
 | |
