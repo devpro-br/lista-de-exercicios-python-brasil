@@ -19,3 +19,7 @@ jobs:
         if: always()
         run: |
           python -m doctest -f secao_05_exercicios_funcoes/ex_01_piramide.py
+      - name: Correção do Exercício 03 da seção de Funções
+        if: always()
+        run: |
+          python -m doctest -f secao_05_exercicios_funcoes/ex_03_soma3.py
