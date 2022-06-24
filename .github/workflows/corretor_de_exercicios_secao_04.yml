@@ -43,6 +43,10 @@ jobs:
         if: always()
         run: |
           python -m doctest -f secao_04_exercicios_lista/ex_13_media_de_temperaturas_anual.py
+      - name: Correção do Exercício 15 da seção de Listas
+        if: always()
+        run: |
+          python -m doctest -f secao_04_exercicios_lista/ex_15_brincando_com_notas.py
       - name: Correção do Exercício 24 da seção de Listas
         if: always()
         run: |
