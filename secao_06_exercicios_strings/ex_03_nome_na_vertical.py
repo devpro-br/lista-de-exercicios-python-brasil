@@ -1,5 +1,5 @@
 """
-Exercício 01 da seção de Strings da Python Brasil:
+Exercício 03 da seção de Strings da Python Brasil:
 https://wiki.python.org.br/ExerciciosComStrings
 
 Imprima o nome na vertical.
