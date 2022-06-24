@@ -23,6 +23,10 @@ jobs:
         if: always()
         run: |
           python -m doctest -f secao_04_exercicios_lista/ex_02_vetores_inverso.py
+      - name: Correção do Exercício 04 da seção de Listas
+          if: always()
+          run: |
+            python -m doctest -f secao_04_exercicios_lista/ex_04_consoantes_em_vetor.py
       - name: Correção do Exercício 05 da seção de Listas
         if: always()
         run: |
