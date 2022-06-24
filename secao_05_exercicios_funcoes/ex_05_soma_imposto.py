@@ -13,18 +13,9 @@ Faça um programa com uma função chamada somaImposto. A função possui dois p
     >>> somaImposto(10, -90)
     O custo não pode ser negativo
 """
-import math
+
 def somaImposto(taxaImposto, custo):
     """escreva aqui em baixo sua solução"""
     
     print(somaAlterada(taxaImposto, custo))
 
-def somaAlterada(taxaImposto, custo):
-    #cálculo do valor final com imposto
-    if taxaImposto < 0:
-        return 'A taxa de Imposto não pode ser negativa'
-    elif custo < 0:
-        return 'O custo não pode ser negativo'
-    else:
-        valor_imposto = custo + (custo*taxaImposto/100)
-        return f'{valor_imposto:.0f}'
