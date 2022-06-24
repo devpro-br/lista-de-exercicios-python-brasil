@@ -27,3 +27,7 @@ jobs:
         if: always()
         run: |
           python -m doctest -f secao_06_exercicios_strings/ex_05_nome_vertical_escada_invertida.py
+      - name: Correção do Exercício 06 da seção de Strings
+        if: always()
+        run: |
+          python -m doctest -f secao_06_exercicios_strings/ex_06_data_por_extenso.py
