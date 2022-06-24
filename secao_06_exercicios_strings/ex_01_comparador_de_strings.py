@@ -7,12 +7,6 @@ Informe também se as duas strings possuem o mesmo comprimento e são iguais ou 
 
 Compara duas strings
 
-String 1: Brasil Hexa 2006
-String 2: Brasil! Hexa 2006!
-Tamanho de "Brasil Hexa 2006": 16 caracteres
-Tamanho de "Brasil! Hexa 2006!": 18 caracteres
-As duas strings são de tamanhos diferentes.
-As duas strings possuem conteúdo diferente.
 
     >>> comparar('Brasil Hexa 2006', 'Brasil! Hexa 2006!')
     String 1: Brasil Hexa 2006
@@ -35,6 +29,16 @@ As duas strings possuem conteúdo diferente.
     Tamanho de "Hexa 2008": 9 caracteres
     As duas strings possuem tamanhos iguais.
     As duas strings possuem conteúdo diferentes.
+    As duas strings são de tamanhos diferentes.
+    As duas strings possuem conteúdo diferente.
+    >>> comparar('Igual', 'Igual')
+    String 1: Igual
+    String 2: Igual
+    Tamanho de "Igual": 5 caracteres
+    Tamanho de "Igual": 5 caracteres
+    As duas strings possuem  mesmo tamanho.
+    As duas strings possuem conteúdo igual.
+
 """
 
 
