@@ -2,7 +2,7 @@
 Exercício 04 da seção de listas da Python Brasil:
 https://wiki.python.org.br/ExerciciosListas
 
-Faça um Programa que leia um vetor de 10 caracteres, e diga quantas consoantes foram lidas. Imprima as consoantes.
+Faça um programa que leia um vetor de 10 caracteres, e diga quantas consoantes foram lidas. Imprima as consoantes.
 
     >>> imprimir_consoantes('consoantes')
     'A palavra "consoantes" possui 6 consoantes: c, n, s, t'
