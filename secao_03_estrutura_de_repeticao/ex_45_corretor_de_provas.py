@@ -49,3 +49,6 @@ Gabarito da Prova:
 
 def corrigir(*provas):
     """Escreva aqui em baixo a sua solução"""
+    alunos = []
+    for prova in provas:
+        alunos.append(prova[0])

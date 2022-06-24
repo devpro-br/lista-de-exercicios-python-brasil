@@ -27,6 +27,23 @@ Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, consid
 
 """
 
-
+import  math
 def calcular_latas_e_preco_de_tinta():
     """Escreva aqui em baixo a sua solução"""
+    area_tinta = int(input(''))
+    custo_lata = 80.00
+    custo_galo = 25.00
+
+
+    litros_comprar = math.ceil((area_tinta / 6) * 1.10)
+    latas_comprar_lata = math.ceil((litros_comprar / 18) * 1.10)
+    lista_comprar_galao= round((litros_comprar / 3.6) * 1.10)
+    menor_custo_lata = litros_comprar // 18
+    resto = (litros_comprar % 18)
+    sobra_lata = (latas_comprar_lata * 18) - litros_comprar
+    sobra_galao = ((lista_comprar_galao * 3.6) - litros_comprar)
+    total_tintas =(menor_custo_lata * 18 + resto * 3.6) - litros_comprar
+    print(f'Você deve comprar {litros_comprar} litros de tinta.')
+    print(f'Você pode comprar {latas_comprar_lata} lata(s) de 18 litros a um custo de R$ {custo_lata *latas_comprar_lata:.0f}. Vão sobrar {sobra_lata:.1f} litro(s) de tinta.')
+    print(f'Você pode comprar {lista_comprar_galao} lata(s) de 3.6 litros a um custo de R$ {custo_galo * lista_comprar_galao:.0f}. Vão sobrar {sobra_galao:.1f} litro(s) de tinta.')
+    print(f'Para menor custo, você pode comprar {menor_custo_lata} lata(s) de 18 litros e {resto} galão(ões) de 3.6 litros a um custo de R$ {(resto * 25) + (menor_custo_lata * 80)}. Vão sobrar {total_tintas:.1f} litro(s) de tinta.')

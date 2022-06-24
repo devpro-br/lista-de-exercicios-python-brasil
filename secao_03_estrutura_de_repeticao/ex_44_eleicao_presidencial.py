@@ -90,3 +90,6 @@ from collections import Counter
 
 def apurar_votos(*votos):
     """Escreva aqui em baixo a sua solução"""
+    candidatos = {1: 'Bostonaro', 2: 'Luladrão', 3: 'Dilmanta', 4: 'FHC Isentão'}
+    votos_candidatos = Counter(votos)
+    print(votos_candidatos)

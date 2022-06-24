@@ -17,7 +17,15 @@ Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e 
 
 
 """
-
+from math import ceil, floor
 
 def calcular_latas_e_preco_de_tinta():
     """Escreva aqui em baixo a sua solução"""
+    parede_tam = int(input(''))
+    custo = 0
+    total_latas = 0
+    while parede_tam >= 0:
+         custo += 80.00
+         total_latas += 1
+         parede_tam -= 54
+    print(f'Você deve comprar {total_latas} lata(s) tinta ao custo de R$ {custo:.2f}')

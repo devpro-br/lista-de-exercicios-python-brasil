@@ -12,7 +12,18 @@ Faça um programa que receba dois números inteiros e gere os números inteiros 
     ''
 
 """
-
+from itertools import count
 
 def calcular_numeros_no_intervalo(inicio: int, fim: int) -> str:
     """Escreva aqui em baixo a sua solução"""
+    lista = []
+    if inicio > fim:
+        return ''
+    else:
+        for numero in count(inicio):
+            if numero >= fim:
+                break
+            lista.append(str(numero))
+        return ', '.join(lista)
+
+

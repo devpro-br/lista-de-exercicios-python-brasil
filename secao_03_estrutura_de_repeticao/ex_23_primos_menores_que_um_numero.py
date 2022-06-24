@@ -43,3 +43,36 @@ from typing import Tuple
 
 def calcular_primos_e_divisoes(n: int) -> Tuple[str, int]:
     """Escreva aqui em baixo a sua solução"""
+    tupla = (is_primo(n), conta_for(n))
+    return tupla
+
+def is_primo(n: int):
+    lista_primos = []
+    if n == 1 or n == 0:
+        return ''
+    elif n == 2:
+        return '2'
+    else:
+        lista_primos.append(2)
+        for i in range(3, n + 1):
+            if n % i == 0 and n != i:
+               continue
+            else:
+                if i == 4:
+                    continue
+                else:
+                    lista_primos.append(i)
+        return ', '.join(str(x) for x in lista_primos)
+
+def conta_for(n: int):
+    contador = 0
+    if n == 1 or n == 0:
+        contador = 0
+        return contador
+    elif n == 2:
+        contador = 0
+        return contador
+    for i in range(1, n):
+        if n % i == 0:
+            contador += 1
+    return contador

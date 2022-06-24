@@ -11,4 +11,5 @@ Faça um Programa que leia um vetor de 5 números inteiros e mostre-os.
 
 def ler_5_valores():
     """Escreva aqui em baixo a sua solução"""
-
+    inteiros = [1,2,3,4,5]
+    return ler_5_valores()
