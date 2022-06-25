@@ -10,10 +10,15 @@ Mostrar salário com duas casas decimais
     >>> numeros =['80', '55.62']
     >>> ex_08_horas_trabalhadas_mes.input = lambda k: numeros.pop()
     >>> ex_08_horas_trabalhadas_mes.calcular_salario()
-    Seu salário desse mês é 4449.60
+    Seu salário este mês foi de 4449.60 reais
 
 """
 
 
 def calcular_salario():
     """Escreva aqui em baixo a sua solução"""
+
+    valor_hora = float(input('Valor da hora em Reais: '))
+    horas_trabalhadas = int(input('Quantas horas trabalhadas? '))
+    salario = valor_hora * horas_trabalhadas
+    print(f'Seu salário este mês foi de {salario:.2f} reais')

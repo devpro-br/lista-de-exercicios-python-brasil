@@ -8,13 +8,19 @@ Mostrar apenas valor inteiro da temperatura
     >>> from secao_01_estrutura_sequencial import ex_10_celsius_para_fahrenheit
     >>> ex_10_celsius_para_fahrenheit.input = lambda k: '0'
     >>> ex_10_celsius_para_fahrenheit.transformar_para_fahrenheit()
-    Essa temperatura é de 32 Fahrenheit
+    Essa temperatura é de 32° Fahrenheit
     >>> ex_10_celsius_para_fahrenheit.input = lambda k: '21'
     >>> ex_10_celsius_para_fahrenheit.transformar_para_fahrenheit()
-    Essa temperatura é de 70 Fahrenheit
+    Essa temperatura é de 70° Fahrenheit
 
 """
 
 
 def transformar_para_fahrenheit():
     """Escreva aqui em baixo a sua solução"""
+
+    import math
+
+    tempC = float(input('Qual a temperatura em °C? '))
+    tempF = (tempC * (9 / 5)) + 32
+    print(f'Essa temperatura é de {math.ceil(tempF)}° Fahrenheit')
