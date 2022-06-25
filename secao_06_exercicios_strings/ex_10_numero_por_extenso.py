@@ -2,7 +2,7 @@
 Exercício 10 da seção de Strings da Python Brasil:
 https://wiki.python.org.br/ExerciciosComStrings
 
-Faça um Programa que solicite ao usuário a digitação de um número até 99 e imprima-o na tela por extenso.
+Faça um Programa que solicite  ao usuário a digitação de um número até 99 e imprima-o na tela por extenso.
 
     >>> numero_por_extenso(4)
     quatro
