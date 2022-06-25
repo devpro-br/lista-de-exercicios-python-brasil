@@ -46,3 +46,5 @@ Mostar valores com uma casa decimal.
 
 def calcular_conceito(nota_1: float, nota_2: float):
     """Escreva aqui em baixo a sua solução"""
+
+    
