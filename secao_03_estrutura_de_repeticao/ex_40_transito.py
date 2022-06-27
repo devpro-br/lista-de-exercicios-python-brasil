@@ -25,6 +25,8 @@ Mostre os valores com uma casa decimail
     A média de acidentes total nas cidades com menos de 150 mil habitantes é de 900.0 acidentes.
 """
 
+import math
 
 def calcular_estatisticas(*cidades):
     """Escreva aqui em baixo a sua solução"""
+

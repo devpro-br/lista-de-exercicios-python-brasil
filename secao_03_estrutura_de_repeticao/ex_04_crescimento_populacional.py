@@ -14,5 +14,18 @@ de crescimento.
 """
 
 
+from math import floor
+
+
 def calcular_ano_ultrapassagem_populacional() -> str:
     """Escreva aqui em baixo a sua solução"""
+    populacao_a = 80_000
+    populacao_b = 200_000
+    taxa_crescimento_a = 1.03
+    taxa_crescimento_b = 1.015
+    anos = 0
+    while populacao_a < populacao_b:
+        anos += 1
+        populacao_a = round (populacao_a * taxa_crescimento_a)
+        populacao_b = round (populacao_b * taxa_crescimento_b)
+    print (f"'População de A, depois de {anos} ano(s) será de {populacao_a} pessoas, superando a de B, que será de {populacao_b} pessoas'")

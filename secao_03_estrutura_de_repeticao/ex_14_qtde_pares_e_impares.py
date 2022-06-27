@@ -18,3 +18,12 @@ Faça um programa que peça 10 números inteiros, calcule e mostre a quantidade 
 
 def calcular_qtde_numeros_pares_e_impares(n1: int, n2: int, n3: int, n4: int, n5: int, n6: int, n7: int, n8: int, n9: int, n10: int) -> str:
     """Escreva aqui em baixo a sua solução"""
+    numeros = [n1, n2, n3, n4, n5, n6, n7, n8, n9, n10]
+    par =[]
+    impar=[]
+    for valor in numeros:
+        if valor % 2 == 0:
+            par.append(valor)
+        else:
+            impar.append(valor)
+    print("'Existem" , len(par),"números pares e" , len(impar),"números impares'")

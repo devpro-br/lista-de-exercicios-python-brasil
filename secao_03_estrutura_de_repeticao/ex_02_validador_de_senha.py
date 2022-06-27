@@ -25,8 +25,7 @@ def validar_senha():
     senha = input("Digite a senha: ")
 
     while nome == senha:
-
         print("Senha deve ser diferente do login")
+        nome = input("Digite seu nome: ")
         senha = input("Digite a senha: ")
-        
-        print("'Cadastro realizado com suceso, seu login é outro_login'")
+    print(f"'Cadastro realizado com suceso, seu login é {nome}'")
