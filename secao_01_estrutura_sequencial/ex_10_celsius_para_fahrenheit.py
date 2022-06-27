@@ -18,3 +18,8 @@ Mostrar apenas valor inteiro da temperatura
 
 def transformar_para_fahrenheit():
     """Escreva aqui em baixo a sua solução"""
+
+    cel = int(input("Informe a temperatura em graus Celsius"))
+    fah = cel * 1.8 + 32
+    print(f"Essa temperatura é de {fah:.0f} Fahrenheit")
+

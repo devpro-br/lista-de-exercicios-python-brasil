@@ -30,3 +30,32 @@ Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, consid
 
 def calcular_latas_e_preco_de_tinta():
     """Escreva aqui em baixo a sua solução"""
+
+    from math import ceil
+    M2_POR_LITRO = 6
+    PRECO_GALAO = 80
+    LITROS_GALAO = 18
+    PRECO_LATA = 25
+    LITROS_LATA = 3.6
+    MARGEM_SEGURANCA = 1.1
+
+    m2 = float(input('informe a quantidade de METRO QUADRADO (m²) a ser pintado: '))
+
+    consumo_litro = ceil(m2 / M2_POR_LITRO * MARGEM_SEGURANCA)
+    qtd_galao_apenas = ceil(consumo_litro / LITROS_GALAO)
+    valor_galao_apenas = qtd_galao_apenas * PRECO_GALAO
+    qtd_lata_apenas = ceil(consumo_litro / LITROS_LATA)
+    valor_lata_apenas = ceil(qtd_lata_apenas * PRECO_LATA)
+    qtd_galao_misto = ceil(consumo_litro // LITROS_GALAO)
+    qtd_lata_misto = ceil((consumo_litro - qtd_galao_misto * LITROS_GALAO) / LITROS_LATA)
+    sobra_36 = (qtd_lata_apenas * 3.6) - consumo_litro
+    sobra_18 = (qtd_galao_apenas * 18) - consumo_litro
+    sobra_final = (qtd_galao_misto * 18) + (qtd_lata_misto * 3.6) - consumo_litro
+    valor_galao_misto = qtd_galao_misto * PRECO_GALAO
+    valor_lata_misto = qtd_lata_misto * PRECO_LATA
+    valor_misto_final = (qtd_galao_misto * 80) + (qtd_lata_misto * 25)
+
+    print(f'Você deve comprar {consumo_litro:.0f} litros de tinta.')
+    print(f'Você pode comprar {qtd_galao_apenas:.0f} lata(s) de 18 litros a um custo de R$ {valor_galao_apenas:.0f}. Vão sobrar {sobra_18:.1f} litro(s) de tinta.')
+    print(f'Você pode comprar {qtd_lata_apenas:.0f} lata(s) de 3.6 litros a um custo de R$ {valor_lata_apenas:.0f}. Vão sobrar {sobra_36:.1f} litro(s) de tinta.')
+    print(f'Para menor custo, você pode comprar {qtd_galao_misto:.0f} lata(s) de 18 litros e {qtd_lata_misto:.0f} galão(ões) de 3.6 litros a um custo de R$ {valor_misto_final:.0f}. Vão sobrar {sobra_final:.1f} litro(s) de tinta.')
