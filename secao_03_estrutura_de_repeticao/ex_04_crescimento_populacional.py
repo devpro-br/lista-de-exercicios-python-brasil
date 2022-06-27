@@ -26,6 +26,6 @@ def calcular_ano_ultrapassagem_populacional() -> str:
     anos = 0
     while populacao_a < populacao_b:
         anos += 1
-        populacao_a = round (populacao_a * taxa_crescimento_a)
-        populacao_b = round (populacao_b * taxa_crescimento_b)
-    print (f"'População de A, depois de {anos} ano(s) será de {populacao_a} pessoas, superando a de B, que será de {populacao_b} pessoas'")
+        populacao_a = (populacao_a * taxa_crescimento_a)
+        populacao_b = (populacao_b * taxa_crescimento_b)
+    print (f"'População de A, depois de {anos} ano(s) será de {populacao_a:.0f} pessoas, superando a de B, que será de {populacao_b:.0f} pessoas'")
