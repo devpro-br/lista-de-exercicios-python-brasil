@@ -30,3 +30,32 @@ Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, consid
 
 def calcular_latas_e_preco_de_tinta():
     """Escreva aqui em baixo a sua solução"""
+    area = float(input('Area'))
+    area_folga = area * 1.1
+    litros_tinta = round((area_folga / 6) + 0.5)
+
+    latas = round((area_folga / (18 * 6)) + 0.5)
+    custo_lata = latas * 80
+    sobra_tinta_latas = (latas * 18) - litros_tinta
+
+    galoes = round((area_folga / (3.6 * 6)) + 0.5)
+    custo_galao = galoes * 25
+    sobra_tinta_galoes = (galoes * 3.6) - litros_tinta
+
+    latas_vantagem = (area_folga // (18 * 6))
+    resto_latas = (area_folga % 6)
+    galoes_vantagem = round((resto_latas / (3.6 * 6)) + 0.5)
+    sobra_vantagem = 3.6 - round((resto_latas / 6) + 0.5)
+    custo_vantagem = (latas_vantagem * 80) + (galoes_vantagem * 25)
+
+    print(f'Você deve comprar {litros_tinta} litros de tinta.')
+    print(
+    f'Você pode comprar {latas} lata(s) de 18 litros a um custo de R$ {custo_lata}. Vão sobrar {sobra_tinta_latas:.1f} litro(s) de tinta.')
+    print(
+    f'Você pode comprar {galoes} lata(s) de 3.6 litros a um custo de R$ {custo_galao}. Vão sobrar {sobra_tinta_galoes:.1f} litro(s) de tinta.')
+    print(
+    f'Para menor custo, você pode comprar {latas_vantagem:.0f} lata(s) de 18 litros e {galoes_vantagem} galão(ões) de 3.6 litros a um custo de R$ {custo_vantagem:.0f}. Vão sobrar {sobra_vantagem} litro(s) de tinta.')
+
+
+
+    

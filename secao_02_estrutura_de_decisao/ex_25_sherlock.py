@@ -31,5 +31,34 @@ Caso contrário, ele será classificado como "Inocente".
 """
 
 
+
+from itertools import count
+
+
 def investigar(telefonou: str, estava_no_local: str, mora_perto: str, devia: str, trabalhou: str, ):
     """Escreva aqui em baixo a sua solução"""
+    count = 0
+    if telefonou == 'Sim':
+      count += 1
+    if estava_no_local == 'Sim':
+      count += 1
+    if mora_perto == 'Sim':
+      count += 1
+    if devia == 'Sim':
+      count += 1
+    if trabalhou == 'Sim':
+      count += 1
+    
+   
+    if count == 2:
+      print(f"'Suspeito'")
+    elif count == 3:
+      print(f"'Cúmplice'")
+    elif count == 4:
+      print(f"'Cúmplice'")
+    elif count == 5:
+      print(f"'Assassino'")
+    else:
+      print(f"'Inocente'")
+    
+    

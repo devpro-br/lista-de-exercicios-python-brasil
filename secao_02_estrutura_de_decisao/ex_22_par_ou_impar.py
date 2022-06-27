@@ -22,3 +22,10 @@ Faça um Programa que peça um número inteiro e determine se ele é par ou impa
 
 def decidir_se_eh_par_ou_impar(valor: int) -> str:
     """Escreva aqui em baixo a sua solução"""
+
+    x = list(str(valor))
+
+    if (x[-1]) in ['0', '2', '4', '6', '8']:
+        print("'Par'")
+    else:
+        print("'Impar'")

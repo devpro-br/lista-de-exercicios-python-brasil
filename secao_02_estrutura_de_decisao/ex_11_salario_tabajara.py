@@ -41,3 +41,36 @@ Mostrar valores monetários com duas casas decimais.
 
 def calcular_aumento(salario: float):
     """Escreva aqui em baixo a sua solução"""
+    # aumento_percentual = float(input('Digite a porcentagem do aumento: '))
+    
+    if salario <= 280.00:
+      aumento_percentual = 0.2
+      valor_aumento = (salario * aumento_percentual)
+      print(f'Salário atual: R$ {"%.2f"%salario}')
+      print(f'Aumento porcentual: {round(aumento_percentual*100)}%')
+      print(f'Valor do aumento: R$ {"%.2f"%valor_aumento}')
+      print(f'Novo salário: R$ {"%.2f"%(salario + valor_aumento)}')
+    elif 280.00 < salario <= 700.00: 
+      aumento_percentual = 0.15
+      valor_aumento = (salario * aumento_percentual)
+      print(f'Salário atual: R$ {"%.2f"%salario}')
+      print(f'Aumento porcentual: {round(aumento_percentual*100)}%')
+      print(f'Valor do aumento: R$ {"%.2f"%valor_aumento}')
+      print(f'Novo salário: R$ {"%.2f"%(salario + valor_aumento)}')
+    elif 700.00 < salario <= 1500.00: 
+      aumento_percentual = 0.1
+      valor_aumento = (salario * aumento_percentual)
+      print(f'Salário atual: R$ {"%.2f"%salario}')
+      print(f'Aumento porcentual: {round(aumento_percentual*100)}%')
+      print(f'Valor do aumento: R$ {"%.2f"%valor_aumento}')
+      print(f'Novo salário: R$ {"%.2f"%(salario + valor_aumento)}')
+    else:
+      aumento_percentual = 0.05
+      valor_aumento = (salario * aumento_percentual)
+      print(f'Salário atual: R$ {"%.2f"%salario}')
+      print(f'Aumento porcentual: {round(aumento_percentual*100)}%')
+      print(f'Valor do aumento: R$ {"%.2f"%valor_aumento}')
+      print(f'Novo salário: R$ {"%.2f"%(salario + valor_aumento)}')
+
+
+    
