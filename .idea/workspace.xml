@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4213a5e7-cc06-478c-b643-6d6397ac1da9" name="Changes" comment="Adding space in ex11" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="solucao" />
+                <branch-info repo="$PROJECT_DIR$" source="#55" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="#55" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.github/workflows/corretor_de_exercicios_secao_02.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.github/workflows/corretor_de_exercicios_secao_05.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.github/workflows/corretor_de_exercicios_secao_06.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_01_alo_mundo.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_04_notas_bimestrais.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_05_metros_para_centimetros.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_07_area_quadrado.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_10_celsius_para_fahrenheit.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_11_contas_matematicas.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/secao_01_estrutura_sequencial/ex_16_loja_de_tintas_simples.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/secao_03_estrutura_de_repeticao/ex_02_validador_de_senha.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/secao_03_estrutura_de_repeticao/ex_13_potenciacao.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/secao_03_estrutura_de_repeticao/ex_50_soma_serie.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2AB7UOwbVcQOadyhToNkkvbvbDQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/brunaandrade/workspace/lista-de-exercicios-python-brasil&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Python tests.Doctests in ex_06_data_por_extenso">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="lista-de-exercicios-python-brasil" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="lista-de-exercicios-python-brasil" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="lista-de-exercicios-python-brasil" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="lista-de-exercicios-python-brasil" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="lista-de-exercicios-python-brasil" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="lista-de-exercicios-python-brasil" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="lista-de-exercicios-python-brasil" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctests in ex_06_data_por_extenso" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="lista-de-exercicios-python-brasil" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/secao_06_exercicios_strings" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_06_exercicios_strings/ex_06_data_por_extenso.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctests in ex_40_transito" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="lista-de-exercicios-python-brasil" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_03_estrutura_de_repeticao/ex_40_transito.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctests in ex_46_salto_em_distancia (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="lista-de-exercicios-python-brasil" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_03_estrutura_de_repeticao/ex_46_salto_em_distancia.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctests in ex_46_salto_em_distancia" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="lista-de-exercicios-python-brasil" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_03_estrutura_de_repeticao/ex_46_salto_em_distancia.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctests in ex_49_imprimir_serie (5)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="lista-de-exercicios-python-brasil" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secao_03_estrutura_de_repeticao/ex_49_imprimir_serie.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="lista-de-exercicios-python-brasil" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="lista-de-exercicios-python-brasil" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Doctests in ex_06_data_por_extenso" />
+      <item itemvalue="Python tests.Doctests in ex_40_transito" />
+      <item itemvalue="Python tests.Doctests in ex_46_salto_em_distancia" />
+      <item itemvalue="Python tests.Doctests in ex_46_salto_em_distancia (1)" />
+      <item itemvalue="Python tests.Doctests in ex_49_imprimir_serie (5)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Doctests in ex_06_data_por_extenso" />
+        <item itemvalue="Python tests.Doctests in ex_40_transito" />
+        <item itemvalue="Python tests.Doctests in ex_46_salto_em_distancia (1)" />
+        <item itemvalue="Python tests.Doctests in ex_49_imprimir_serie (5)" />
+        <item itemvalue="Python tests.Doctests in ex_46_salto_em_distancia" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4213a5e7-cc06-478c-b643-6d6397ac1da9" name="Changes" comment="" />
+      <created>1654471140989</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654471140989</updated>
+      <workItem from="1654471142863" duration="8717000" />
+      <workItem from="1654480141820" duration="842000" />
+      <workItem from="1654517768178" duration="17704000" />
+      <workItem from="1654541324678" duration="695000" />
+      <workItem from="1654552688901" duration="8136000" />
+      <workItem from="1654605132054" duration="3473000" />
+      <workItem from="1654658114493" duration="1248000" />
+      <workItem from="1654689953425" duration="885000" />
+      <workItem from="1654706543358" duration="12914000" />
+      <workItem from="1654778320192" duration="28299000" />
+      <workItem from="1654862249643" duration="9815000" />
+      <workItem from="1654888205077" duration="11015000" />
+      <workItem from="1654977535840" duration="8629000" />
+      <workItem from="1654996141538" duration="1000" />
+      <workItem from="1655121900713" duration="28382000" />
+      <workItem from="1655208191414" duration="16294000" />
+      <workItem from="1655297033863" duration="12307000" />
+      <workItem from="1655418841437" duration="9664000" />
+      <workItem from="1655480716296" duration="1070000" />
+      <workItem from="1655674991439" duration="6549000" />
+      <workItem from="1655726560490" duration="24030000" />
+      <workItem from="1655814127058" duration="599000" />
+      <workItem from="1655816568878" duration="28431000" />
+      <workItem from="1656072690608" duration="1611000" />
+      <workItem from="1656075741963" duration="5584000" />
+      <workItem from="1656081982150" duration="785000" />
+      <workItem from="1656090352371" duration="12006000" />
+      <workItem from="1656104050490" duration="323000" />
+    </task>
+    <task id="LOCAL-00001" summary="resolvendo conflitos de merge">
+      <created>1654480316196</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654480316196</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding space in ex11">
+      <created>1656081702827</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656081702827</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="resolvendo conflitos de merge" />
+    <MESSAGE value="Adding space in ex11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding space in ex11" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_01_numero_valido__1_.coverage" NAME="Doctests in ex_01_numero_valido (1) Coverage Results" MODIFIED="1655143540045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_27_alunos_por_turma__4_.coverage" NAME="Doctests in ex_27_alunos_por_turma (4) Coverage Results" MODIFIED="1655735052863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_36_tabuada_com_intervalo.coverage" NAME="Doctests in ex_36_tabuada_com_intervalo Coverage Results" MODIFIED="1655735275023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_32_fatorial_com_operacoes.coverage" NAME="Doctests in ex_32_fatorial_com_operacoes Coverage Results" MODIFIED="1655828228679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_44_eleicao_presidencial__3_.coverage" NAME="Doctests in ex_44_eleicao_presidencial (3) Coverage Results" MODIFIED="1654980976490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_04_notas_bimestrais.coverage" NAME="Doctests in ex_04_notas_bimestrais Coverage Results" MODIFIED="1656080551920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_01_estrutura_sequencial" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_27_alunos_por_turma.coverage" NAME="Doctests in ex_27_alunos_por_turma Coverage Results" MODIFIED="1655736431997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_13_potenciacao.coverage" NAME="Doctests in ex_13_potenciacao Coverage Results" MODIFIED="1655735336221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_13_dia_da_semana.coverage" NAME="Doctests in ex_13_dia_da_semana Coverage Results" MODIFIED="1654479833114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_14_qtde_pares_e_impares__3_.coverage" NAME="Doctests in ex_14_qtde_pares_e_impares (3) Coverage Results" MODIFIED="1654816089516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_01_numero_valido.coverage" NAME="Doctests in ex_01_numero_valido Coverage Results" MODIFIED="1655904476393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$ex_24_media_artmetica.coverage" NAME="ex_24_media_artmetica Coverage Results" MODIFIED="1654985103315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_27_alunos_por_turma__3_.coverage" NAME="Doctests in ex_27_alunos_por_turma (3) Coverage Results" MODIFIED="1655736884159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_46_salto_em_distancia.coverage" NAME="Doctests in ex_46_salto_em_distancia Coverage Results" MODIFIED="1656104089906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_44_eleicao_presidencial__4_.coverage" NAME="Doctests in ex_44_eleicao_presidencial (4) Coverage Results" MODIFIED="1654981010131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_21_troco__1_.coverage" NAME="Doctests in ex_21_troco (1) Coverage Results" MODIFIED="1654478068374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_14_qtde_pares_e_impares__2_.coverage" NAME="Doctests in ex_14_qtde_pares_e_impares (2) Coverage Results" MODIFIED="1654816011388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_11_salario_tabajara.coverage" NAME="Doctests in ex_11_salario_tabajara Coverage Results" MODIFIED="1654479829159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_24_media_artmetica__4_.coverage" NAME="Doctests in ex_24_media_artmetica (4) Coverage Results" MODIFIED="1654985711143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_49_imprimir_serie__1_.coverage" NAME="Doctests in ex_49_imprimir_serie (1) Coverage Results" MODIFIED="1656009969954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_01_imprimir_maior_numero.coverage" NAME="Doctests in ex_01_imprimir_maior_numero Coverage Results" MODIFIED="1654479805456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_09_numeros_impares_de_1_a_50.coverage" NAME="Doctests in ex_09_numeros_impares_de_1_a_50 Coverage Results" MODIFIED="1655735346605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_24_lancamento_de_dados.coverage" NAME="Doctests in ex_24_lancamento_de_dados Coverage Results" MODIFIED="1655176955610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_04_exercicios_lista" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_28_colecao_de_cds.coverage" NAME="Doctests in ex_28_colecao_de_cds Coverage Results" MODIFIED="1655735295045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_20_fatorial_com_limitacao.coverage" NAME="Doctests in ex_20_fatorial_com_limitacao Coverage Results" MODIFIED="1655766668809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_29_loja_manuel_01__5_.coverage" NAME="Doctests in ex_29_loja_manuel_01 (5) Coverage Results" MODIFIED="1655173791696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_15_fibonnacci_ate_n.coverage" NAME="Doctests in ex_15_fibonnacci_ate_n Coverage Results" MODIFIED="1655763415717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_16_equacao_segundo_grau.coverage" NAME="Doctests in ex_16_equacao_segundo_grau Coverage Results" MODIFIED="1654479838297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_45_corretor_de_provas.coverage" NAME="Doctests in ex_45_corretor_de_provas Coverage Results" MODIFIED="1655735249640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_32_fatorial_com_operacoes__1_.coverage" NAME="Doctests in ex_32_fatorial_com_operacoes (1) Coverage Results" MODIFIED="1655768930208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_31_conveniencia_manuel__5_.coverage" NAME="Doctests in ex_31_conveniencia_manuel (5) Coverage Results" MODIFIED="1655991404042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_03_validador_de_cadastro__1_.coverage" NAME="Doctests in ex_03_validador_de_cadastro (1) Coverage Results" MODIFIED="1655218070093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_39_sala_de_aula.coverage" NAME="Doctests in ex_39_sala_de_aula Coverage Results" MODIFIED="1655736422442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_40_transito__1_.coverage" NAME="Doctests in ex_40_transito (1) Coverage Results" MODIFIED="1655230842612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_31_conveniencia_manuel.coverage" NAME="Doctests in ex_31_conveniencia_manuel Coverage Results" MODIFIED="1655991949020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_36_tabuada_com_intervalo__2_.coverage" NAME="Doctests in ex_36_tabuada_com_intervalo (2) Coverage Results" MODIFIED="1654804185872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_44_eleicao_presidencial__1_.coverage" NAME="Doctests in ex_44_eleicao_presidencial (1) Coverage Results" MODIFIED="1654980947435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_25_classificador_de_turma__1_.coverage" NAME="Doctests in ex_25_classificador_de_turma (1) Coverage Results" MODIFIED="1654986120900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_29_loja_manuel_01__3_.coverage" NAME="Doctests in ex_29_loja_manuel_01 (3) Coverage Results" MODIFIED="1655173538333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_49_imprimir_serie__2_.coverage" NAME="Doctests in ex_49_imprimir_serie (2) Coverage Results" MODIFIED="1656010123772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_24_media_artmetica__5_.coverage" NAME="Doctests in ex_24_media_artmetica (5) Coverage Results" MODIFIED="1654985425189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$docrunner.coverage" NAME="docrunner Coverage Results" MODIFIED="1654893569580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/plugins/python/helpers/pycharm" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_28_mercado_tabajara.coverage" NAME="Doctests in ex_28_mercado_tabajara Coverage Results" MODIFIED="1654479854905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_24_media_artmetica__2_.coverage" NAME="Doctests in ex_24_media_artmetica (2) Coverage Results" MODIFIED="1655743654234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_28_colecao_de_cds__5_.coverage" NAME="Doctests in ex_28_colecao_de_cds (5) Coverage Results" MODIFIED="1655732219478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_20_fatorial_com_limitacao__1_.coverage" NAME="Doctests in ex_20_fatorial_com_limitacao (1) Coverage Results" MODIFIED="1655766687544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_27_alunos_por_turma__1_.coverage" NAME="Doctests in ex_27_alunos_por_turma (1) Coverage Results" MODIFIED="1655736626147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_09_numeros_decrescentes.coverage" NAME="Doctests in ex_09_numeros_decrescentes Coverage Results" MODIFIED="1654479826201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_12_clt_assalto.coverage" NAME="Doctests in ex_12_clt_assalto Coverage Results" MODIFIED="1654479830567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_17_ano_bissexto.coverage" NAME="Doctests in ex_17_ano_bissexto Coverage Results" MODIFIED="1654479839633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_25_classificador_de_turma__2_.coverage" NAME="Doctests in ex_25_classificador_de_turma (2) Coverage Results" MODIFIED="1654986132454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_49_imprimir_serie__5_.coverage" NAME="Doctests in ex_49_imprimir_serie (5) Coverage Results" MODIFIED="1656104093996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_41_financiamento.coverage" NAME="Doctests in ex_41_financiamento Coverage Results" MODIFIED="1655735262312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_26_urna_eletronica__1_.coverage" NAME="Doctests in ex_26_urna_eletronica (1) Coverage Results" MODIFIED="1654884422449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_16_fibonnacci_ate_valor_maior_que_500__3_.coverage" NAME="Doctests in ex_16_fibonnacci_ate_valor_maior_que_500 (3) Coverage Results" MODIFIED="1654737662499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_37_senso_de_academia.coverage" NAME="Doctests in ex_37_senso_de_academia Coverage Results" MODIFIED="1655681284272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_30_padaria_manuel__1_.coverage" NAME="Doctests in ex_30_padaria_manuel (1) Coverage Results" MODIFIED="1654805508311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_19_decomposicao_de_numero.coverage" NAME="Doctests in ex_19_decomposicao_de_numero Coverage Results" MODIFIED="1654479842110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_46_salto_em_distancia__2_.coverage" NAME="Doctests in ex_46_salto_em_distancia (2) Coverage Results" MODIFIED="1655176418800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_15_fibonnacci_ate_n__5_.coverage" NAME="Doctests in ex_15_fibonnacci_ate_n (5) Coverage Results" MODIFIED="1655763284437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_11_gerar_numeros_de_intervalo_e_somar__5_.coverage" NAME="Doctests in ex_11_gerar_numeros_de_intervalo_e_somar (5) Coverage Results" MODIFIED="1655738935578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_03_F_ou_M.coverage" NAME="Doctests in ex_03_F_ou_M Coverage Results" MODIFIED="1654479812250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_40_transito__3_.coverage" NAME="Doctests in ex_40_transito (3) Coverage Results" MODIFIED="1655230896030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_19_estatisticas_de_n_numeros_com_limitacao__4_.coverage" NAME="Doctests in ex_19_estatisticas_de_n_numeros_com_limitacao (4) Coverage Results" MODIFIED="1654893520533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_15_triangulo.coverage" NAME="Doctests in ex_15_triangulo Coverage Results" MODIFIED="1654518531366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_28_colecao_de_cds__4_.coverage" NAME="Doctests in ex_28_colecao_de_cds (4) Coverage Results" MODIFIED="1655732188732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_32_fatorial_com_operacoes__3_.coverage" NAME="Doctests in ex_32_fatorial_com_operacoes (3) Coverage Results" MODIFIED="1655768596603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_06_data_por_extenso__5_.coverage" NAME="Doctests in ex_06_data_por_extenso (5) Coverage Results" MODIFIED="1656093353016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_06_exercicios_strings" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_41_financiamento__3_.coverage" NAME="Doctests in ex_41_financiamento (3) Coverage Results" MODIFIED="1654820599515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_30_padaria_manuel.coverage" NAME="Doctests in ex_30_padaria_manuel Coverage Results" MODIFIED="1655735291120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_26_urna_eletronica__2_.coverage" NAME="Doctests in ex_26_urna_eletronica (2) Coverage Results" MODIFIED="1654885079903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_32_fatorial_com_operacoes__2_.coverage" NAME="Doctests in ex_32_fatorial_com_operacoes (2) Coverage Results" MODIFIED="1655768557848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_30_padaria_manuel__2_.coverage" NAME="Doctests in ex_30_padaria_manuel (2) Coverage Results" MODIFIED="1654805837386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_10_gerar_numeros_de_intervalo.coverage" NAME="Doctests in ex_10_gerar_numeros_de_intervalo Coverage Results" MODIFIED="1655735344902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_25_classificador_de_turma__3_.coverage" NAME="Doctests in ex_25_classificador_de_turma (3) Coverage Results" MODIFIED="1654986073373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_38_aumento_salarial__1_.coverage" NAME="Doctests in ex_38_aumento_salarial (1) Coverage Results" MODIFIED="1655736282944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_04_vogal_ou_consoante.coverage" NAME="Doctests in ex_04_vogal_ou_consoante Coverage Results" MODIFIED="1654479813923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_11_gerar_numeros_de_intervalo_e_somar.coverage" NAME="Doctests in ex_11_gerar_numeros_de_intervalo_e_somar Coverage Results" MODIFIED="1655739302775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_42_intervalos.coverage" NAME="Doctests in ex_42_intervalos Coverage Results" MODIFIED="1655735260552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_04_crescimento_populacional.coverage" NAME="Doctests in ex_04_crescimento_populacional Coverage Results" MODIFIED="1655680796728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_43_lanchonete__3_.coverage" NAME="Doctests in ex_43_lanchonete (3) Coverage Results" MODIFIED="1655989540365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_16_fibonnacci_ate_valor_maior_que_500__2_.coverage" NAME="Doctests in ex_16_fibonnacci_ate_valor_maior_que_500 (2) Coverage Results" MODIFIED="1654737543196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_21_troco.coverage" NAME="Doctests in ex_21_troco Coverage Results" MODIFIED="1654479844426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_27_hortifruti.coverage" NAME="Doctests in ex_27_hortifruti Coverage Results" MODIFIED="1654479853564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_28_colecao_de_cds__3_.coverage" NAME="Doctests in ex_28_colecao_de_cds (3) Coverage Results" MODIFIED="1655732068816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_03_validador_de_cadastro.coverage" NAME="Doctests in ex_03_validador_de_cadastro Coverage Results" MODIFIED="1655680795584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_41_financiamento__2_.coverage" NAME="Doctests in ex_41_financiamento (2) Coverage Results" MODIFIED="1654820293389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_42_intervalos__5_.coverage" NAME="Doctests in ex_42_intervalos (5) Coverage Results" MODIFIED="1655431298155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_31_conveniencia_manuel__3_.coverage" NAME="Doctests in ex_31_conveniencia_manuel (3) Coverage Results" MODIFIED="1655991347067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_38_aumento_salarial__2_.coverage" NAME="Doctests in ex_38_aumento_salarial (2) Coverage Results" MODIFIED="1655736381593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_37_senso_de_academia__1_.coverage" NAME="Doctests in ex_37_senso_de_academia (1) Coverage Results" MODIFIED="1655319188417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_03_validador_de_cadastro__5_.coverage" NAME="Doctests in ex_03_validador_de_cadastro (5) Coverage Results" MODIFIED="1654895372032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_29_loja_manuel_01__4_.coverage" NAME="Doctests in ex_29_loja_manuel_01 (4) Coverage Results" MODIFIED="1655173780499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_43_lanchonete__4_.coverage" NAME="Doctests in ex_43_lanchonete (4) Coverage Results" MODIFIED="1655988496769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_10_gerar_numeros_de_intervalo__1_.coverage" NAME="Doctests in ex_10_gerar_numeros_de_intervalo (1) Coverage Results" MODIFIED="1654815754180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_44_eleicao_presidencial__5_.coverage" NAME="Doctests in ex_44_eleicao_presidencial (5) Coverage Results" MODIFIED="1654981024002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_22_numero_primo_divisores.coverage" NAME="Doctests in ex_22_numero_primo_divisores Coverage Results" MODIFIED="1655735315137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_14_qtde_pares_e_impares__1_.coverage" NAME="Doctests in ex_14_qtde_pares_e_impares (1) Coverage Results" MODIFIED="1654815917326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_17_fatorial.coverage" NAME="Doctests in ex_17_fatorial Coverage Results" MODIFIED="1655735326316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_21_numero_primo__1_.coverage" NAME="Doctests in ex_21_numero_primo (1) Coverage Results" MODIFIED="1654984862778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$ex_42_intervalos.coverage" NAME="ex_42_intervalos Coverage Results" MODIFIED="1655234027893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_12_clt_assalto__1_.coverage" NAME="Doctests in ex_12_clt_assalto (1) Coverage Results" MODIFIED="1654479711543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_20_fatorial_com_limitacao__5_.coverage" NAME="Doctests in ex_20_fatorial_com_limitacao (5) Coverage Results" MODIFIED="1655766210905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_24_media_artmetica__3_.coverage" NAME="Doctests in ex_24_media_artmetica (3) Coverage Results" MODIFIED="1655743667236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_07_maior_de_5_numeros__1_.coverage" NAME="Doctests in ex_07_maior_de_5_numeros (1) Coverage Results" MODIFIED="1654526701342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_27_alunos_por_turma__5_.coverage" NAME="Doctests in ex_27_alunos_por_turma (5) Coverage Results" MODIFIED="1655735132624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_06_data_por_extenso.coverage" NAME="Doctests in ex_06_data_por_extenso Coverage Results" MODIFIED="1656104112458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_06_exercicios_strings" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_31_conveniencia_manuel__4_.coverage" NAME="Doctests in ex_31_conveniencia_manuel (4) Coverage Results" MODIFIED="1655991390201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_50_soma_serie__1_.coverage" NAME="Doctests in ex_50_soma_serie (1) Coverage Results" MODIFIED="1654801639808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_22_numero_primo_divisores__4_.coverage" NAME="Doctests in ex_22_numero_primo_divisores (4) Coverage Results" MODIFIED="1655144778316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_23_primos_menores_que_um_numero.coverage" NAME="Doctests in ex_23_primos_menores_que_um_numero Coverage Results" MODIFIED="1655735313034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_46_salto_em_distancia__3_.coverage" NAME="Doctests in ex_46_salto_em_distancia (3) Coverage Results" MODIFIED="1655176433751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_40_transito__2_.coverage" NAME="Doctests in ex_40_transito (2) Coverage Results" MODIFIED="1655230870700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_02_validador_de_senha.coverage" NAME="Doctests in ex_02_validador_de_senha Coverage Results" MODIFIED="1655680794287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_06_maior_numero_de_3_numeros.coverage" NAME="Doctests in ex_06_maior_numero_de_3_numeros Coverage Results" MODIFIED="1654479817438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_26_urna_eletronica.coverage" NAME="Doctests in ex_26_urna_eletronica Coverage Results" MODIFIED="1655735302652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_36_tabuada_com_intervalo__1_.coverage" NAME="Doctests in ex_36_tabuada_com_intervalo (1) Coverage Results" MODIFIED="1654804023169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_45_corretor_de_provas__2_.coverage" NAME="Doctests in ex_45_corretor_de_provas (2) Coverage Results" MODIFIED="1655171397659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$ex_28_colecao_de_cds.coverage" NAME="ex_28_colecao_de_cds Coverage Results" MODIFIED="1655731777790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_19_estatisticas_de_n_numeros_com_limitacao__1_.coverage" NAME="Doctests in ex_19_estatisticas_de_n_numeros_com_limitacao (1) Coverage Results" MODIFIED="1654893820670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_11_gerar_numeros_de_intervalo_e_somar__1_.coverage" NAME="Doctests in ex_11_gerar_numeros_de_intervalo_e_somar (1) Coverage Results" MODIFIED="1655738951460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_38_aumento_salarial__4_.coverage" NAME="Doctests in ex_38_aumento_salarial (4) Coverage Results" MODIFIED="1655682161514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_18_estatisticas_de_n_numeros__2_.coverage" NAME="Doctests in ex_18_estatisticas_de_n_numeros (2) Coverage Results" MODIFIED="1654740767688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_06_numeros_1_a_20.coverage" NAME="Doctests in ex_06_numeros_1_a_20 Coverage Results" MODIFIED="1655739130170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_28_colecao_de_cds__1_.coverage" NAME="Doctests in ex_28_colecao_de_cds (1) Coverage Results" MODIFIED="1655731997718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_05_crescimento_populacional_parametrizavel__2_.coverage" NAME="Doctests in ex_05_crescimento_populacional_parametrizavel (2) Coverage Results" MODIFIED="1654981493157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_06_data_por_extenso__2_.coverage" NAME="Doctests in ex_06_data_por_extenso (2) Coverage Results" MODIFIED="1656093368610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_06_exercicios_strings" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_22_numero_primo_divisores__5_.coverage" NAME="Doctests in ex_22_numero_primo_divisores (5) Coverage Results" MODIFIED="1655144754375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_48_inteiro_invertido__1_.coverage" NAME="Doctests in ex_48_inteiro_invertido (1) Coverage Results" MODIFIED="1655832740182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_37_senso_de_academia__2_.coverage" NAME="Doctests in ex_37_senso_de_academia (2) Coverage Results" MODIFIED="1655319454430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_11_gerar_numeros_de_intervalo_e_somar__2_.coverage" NAME="Doctests in ex_11_gerar_numeros_de_intervalo_e_somar (2) Coverage Results" MODIFIED="1655738997657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_45_corretor_de_provas__3_.coverage" NAME="Doctests in ex_45_corretor_de_provas (3) Coverage Results" MODIFIED="1655171430522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_45_corretor_de_provas__1_.coverage" NAME="Doctests in ex_45_corretor_de_provas (1) Coverage Results" MODIFIED="1655171550289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_06_data_por_extenso__3_.coverage" NAME="Doctests in ex_06_data_por_extenso (3) Coverage Results" MODIFIED="1656093329864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_06_exercicios_strings" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_23_inteiro_ou_decimal.coverage" NAME="Doctests in ex_23_inteiro_ou_decimal Coverage Results" MODIFIED="1654479848253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_42_intervalos__1_.coverage" NAME="Doctests in ex_42_intervalos (1) Coverage Results" MODIFIED="1655431355683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_05_crescimento_populacional_parametrizavel__3_.coverage" NAME="Doctests in ex_05_crescimento_populacional_parametrizavel (3) Coverage Results" MODIFIED="1654981499386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_21_numero_primo__2_.coverage" NAME="Doctests in ex_21_numero_primo (2) Coverage Results" MODIFIED="1654984910392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_49_imprimir_serie.coverage" NAME="Doctests in ex_49_imprimir_serie Coverage Results" MODIFIED="1656009957220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_46_salto_em_distancia__5_.coverage" NAME="Doctests in ex_46_salto_em_distancia (5) Coverage Results" MODIFIED="1655176382350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_37_senso_de_academia__3_.coverage" NAME="Doctests in ex_37_senso_de_academia (3) Coverage Results" MODIFIED="1655319472754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_15_fibonnacci_ate_n__1_.coverage" NAME="Doctests in ex_15_fibonnacci_ate_n (1) Coverage Results" MODIFIED="1655763456669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_08_escolha_de_produto.coverage" NAME="Doctests in ex_08_escolha_de_produto Coverage Results" MODIFIED="1654479823836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_24_operacao.coverage" NAME="Doctests in ex_24_operacao Coverage Results" MODIFIED="1654479849624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_25_classificador_de_turma.coverage" NAME="Doctests in ex_25_classificador_de_turma Coverage Results" MODIFIED="1655735304750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_01_alo_mundo.coverage" NAME="Doctests in ex_01_alo_mundo Coverage Results" MODIFIED="1656080847878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_01_estrutura_sequencial" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_44_eleicao_presidencial.coverage" NAME="Doctests in ex_44_eleicao_presidencial Coverage Results" MODIFIED="1655735251142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_22_par_ou_impar.coverage" NAME="Doctests in ex_22_par_ou_impar Coverage Results" MODIFIED="1654479846977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_16_fibonnacci_ate_valor_maior_que_500__1_.coverage" NAME="Doctests in ex_16_fibonnacci_ate_valor_maior_que_500 (1) Coverage Results" MODIFIED="1654810082109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_41_financiamento__1_.coverage" NAME="Doctests in ex_41_financiamento (1) Coverage Results" MODIFIED="1654818368540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_45_corretor_de_provas__4_.coverage" NAME="Doctests in ex_45_corretor_de_provas (4) Coverage Results" MODIFIED="1655171491153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_42_intervalos__2_.coverage" NAME="Doctests in ex_42_intervalos (2) Coverage Results" MODIFIED="1655431590102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_19_estatisticas_de_n_numeros_com_limitacao.coverage" NAME="Doctests in ex_19_estatisticas_de_n_numeros_com_limitacao Coverage Results" MODIFIED="1655735322739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_22_numero_primo_divisores__3_.coverage" NAME="Doctests in ex_22_numero_primo_divisores (3) Coverage Results" MODIFIED="1655144750122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_18_validador_de_data.coverage" NAME="Doctests in ex_18_validador_de_data Coverage Results" MODIFIED="1654479840872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_06_maior_numero_de_3_numeros_copy.coverage" NAME="Doctests in ex_06_maior_numero_de_3_numeros copy Coverage Results" MODIFIED="1654479818785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_46_salto_em_distancia__4_.coverage" NAME="Doctests in ex_46_salto_em_distancia (4) Coverage Results" MODIFIED="1655176462804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_05_notas_parciais.coverage" NAME="Doctests in ex_05_notas_parciais Coverage Results" MODIFIED="1654479815500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_18_estatisticas_de_n_numeros__1_.coverage" NAME="Doctests in ex_18_estatisticas_de_n_numeros (1) Coverage Results" MODIFIED="1654738070286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_07_maior_de_5_numeros.coverage" NAME="Doctests in ex_07_maior_de_5_numeros Coverage Results" MODIFIED="1655680802418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_08_soma_e_media_de_5_numeros.coverage" NAME="Doctests in ex_08_soma_e_media_de_5_numeros Coverage Results" MODIFIED="1655739147497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_25_classificador_de_turma__4_.coverage" NAME="Doctests in ex_25_classificador_de_turma (4) Coverage Results" MODIFIED="1654986086720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_31_conveniencia_manuel__2_.coverage" NAME="Doctests in ex_31_conveniencia_manuel (2) Coverage Results" MODIFIED="1655992847123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_43_lanchonete__5_.coverage" NAME="Doctests in ex_43_lanchonete (5) Coverage Results" MODIFIED="1655988515704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_14_joao_papo_de_pescador.coverage" NAME="Doctests in ex_14_joao_papo_de_pescador Coverage Results" MODIFIED="1656080569741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_01_estrutura_sequencial" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_03_validador_de_cadastro__4_.coverage" NAME="Doctests in ex_03_validador_de_cadastro (4) Coverage Results" MODIFIED="1654895304865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_15_fibonnacci_ate_n__2_.coverage" NAME="Doctests in ex_15_fibonnacci_ate_n (2) Coverage Results" MODIFIED="1655763468708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_03_imprima_soma_de_dois_numeros.coverage" NAME="Doctests in ex_03_imprima_soma_de_dois_numeros Coverage Results" MODIFIED="1656080641465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_01_estrutura_sequencial" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_05_crescimento_populacional_parametrizavel.coverage" NAME="Doctests in ex_05_crescimento_populacional_parametrizavel Coverage Results" MODIFIED="1655680798742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_06_data_por_extenso__1_.coverage" NAME="Doctests in ex_06_data_por_extenso (1) Coverage Results" MODIFIED="1656094105782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_06_exercicios_strings" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_09_numeros_impares_de_1_a_50__1_.coverage" NAME="Doctests in ex_09_numeros_impares_de_1_a_50 (1) Coverage Results" MODIFIED="1654527341352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_32_fatorial_com_operacoes__4_.coverage" NAME="Doctests in ex_32_fatorial_com_operacoes (4) Coverage Results" MODIFIED="1655768701643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_11_gerar_numeros_de_intervalo_e_somar__4_.coverage" NAME="Doctests in ex_11_gerar_numeros_de_intervalo_e_somar (4) Coverage Results" MODIFIED="1655738897164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_28_colecao_de_cds__2_.coverage" NAME="Doctests in ex_28_colecao_de_cds (2) Coverage Results" MODIFIED="1655732036691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_37_senso_de_academia__5_.coverage" NAME="Doctests in ex_37_senso_de_academia (5) Coverage Results" MODIFIED="1655319508784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_33_estatisticas_de_temperaturas.coverage" NAME="Doctests in ex_33_estatisticas_de_temperaturas Coverage Results" MODIFIED="1655735278501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_38_aumento_salarial__3_.coverage" NAME="Doctests in ex_38_aumento_salarial (3) Coverage Results" MODIFIED="1655682056103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_14_qtde_pares_e_impares.coverage" NAME="Doctests in ex_14_qtde_pares_e_impares Coverage Results" MODIFIED="1655735334632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_38_aumento_salarial.coverage" NAME="Doctests in ex_38_aumento_salarial Coverage Results" MODIFIED="1655766015034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_21_numero_primo__3_.coverage" NAME="Doctests in ex_21_numero_primo (3) Coverage Results" MODIFIED="1654984777451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_50_soma_serie.coverage" NAME="Doctests in ex_50_soma_serie Coverage Results" MODIFIED="1655735233790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_10_gerar_numeros_de_intervalo__2_.coverage" NAME="Doctests in ex_10_gerar_numeros_de_intervalo (2) Coverage Results" MODIFIED="1654803540228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_20_fatorial_com_limitacao__4_.coverage" NAME="Doctests in ex_20_fatorial_com_limitacao (4) Coverage Results" MODIFIED="1655766198256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_06_data_por_extenso__4_.coverage" NAME="Doctests in ex_06_data_por_extenso (4) Coverage Results" MODIFIED="1656093344790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_06_exercicios_strings" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_26_urna_eletronica__3_.coverage" NAME="Doctests in ex_26_urna_eletronica (3) Coverage Results" MODIFIED="1654886135798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_03_validador_de_cadastro__3_.coverage" NAME="Doctests in ex_03_validador_de_cadastro (3) Coverage Results" MODIFIED="1654895275960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_29_loja_manuel_01__2_.coverage" NAME="Doctests in ex_29_loja_manuel_01 (2) Coverage Results" MODIFIED="1655173891526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_23_primos_menores_que_um_numero__2_.coverage" NAME="Doctests in ex_23_primos_menores_que_um_numero (2) Coverage Results" MODIFIED="1655299600094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_21_numero_primo.coverage" NAME="Doctests in ex_21_numero_primo Coverage Results" MODIFIED="1655735316971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_16_fibonnacci_ate_valor_maior_que_500.coverage" NAME="Doctests in ex_16_fibonnacci_ate_valor_maior_que_500 Coverage Results" MODIFIED="1655735328570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_43_lanchonete__2_.coverage" NAME="Doctests in ex_43_lanchonete (2) Coverage Results" MODIFIED="1655989516322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_20_3_notas_parciais.coverage" NAME="Doctests in ex_20_3_notas_parciais Coverage Results" MODIFIED="1654479843122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_24_media_artmetica__1_.coverage" NAME="Doctests in ex_24_media_artmetica (1) Coverage Results" MODIFIED="1655743612676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_20_fatorial_com_limitacao__3_.coverage" NAME="Doctests in ex_20_fatorial_com_limitacao (3) Coverage Results" MODIFIED="1655766769510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$ex_14_joao_papo_de_pescador.coverage" NAME="ex_14_joao_papo_de_pescador Coverage Results" MODIFIED="1656081946005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_01_estrutura_sequencial" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_42_intervalos__4_.coverage" NAME="Doctests in ex_42_intervalos (4) Coverage Results" MODIFIED="1655431280250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_23_primos_menores_que_um_numero__1_.coverage" NAME="Doctests in ex_23_primos_menores_que_um_numero (1) Coverage Results" MODIFIED="1655313186730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_46_salto_em_distancia__1_.coverage" NAME="Doctests in ex_46_salto_em_distancia (1) Coverage Results" MODIFIED="1656104099122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_49_imprimir_serie__4_.coverage" NAME="Doctests in ex_49_imprimir_serie (4) Coverage Results" MODIFIED="1656009661521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_29_loja_manuel_01__1_.coverage" NAME="Doctests in ex_29_loja_manuel_01 (1) Coverage Results" MODIFIED="1655173878508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_22_numero_primo_divisores__2_.coverage" NAME="Doctests in ex_22_numero_primo_divisores (2) Coverage Results" MODIFIED="1655144743159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_24_media_artmetica.coverage" NAME="Doctests in ex_24_media_artmetica Coverage Results" MODIFIED="1655743515351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_40_transito__4_.coverage" NAME="Doctests in ex_40_transito (4) Coverage Results" MODIFIED="1655230953707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_15_fibonnacci_ate_n__4_.coverage" NAME="Doctests in ex_15_fibonnacci_ate_n (4) Coverage Results" MODIFIED="1655763129788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_20_fatorial_com_limitacao__2_.coverage" NAME="Doctests in ex_20_fatorial_com_limitacao (2) Coverage Results" MODIFIED="1655766724099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_07_maior_e_menor_numero_de_3_numeros.coverage" NAME="Doctests in ex_07_maior_e_menor_numero_de_3_numeros Coverage Results" MODIFIED="1654479821666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_25_sherlock.coverage" NAME="Doctests in ex_25_sherlock Coverage Results" MODIFIED="1654479850849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_40_transito.coverage" NAME="Doctests in ex_40_transito Coverage Results" MODIFIED="1656104100918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_13_peso_ideal_mulher_e_homem.coverage" NAME="Doctests in ex_13_peso_ideal_mulher_e_homem Coverage Results" MODIFIED="1656080608804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_01_estrutura_sequencial" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_21_numero_primo__5_.coverage" NAME="Doctests in ex_21_numero_primo (5) Coverage Results" MODIFIED="1654984829543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_19_estatisticas_de_n_numeros_com_limitacao__3_.coverage" NAME="Doctests in ex_19_estatisticas_de_n_numeros_com_limitacao (3) Coverage Results" MODIFIED="1654893442272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_11_gerar_numeros_de_intervalo_e_somar__3_.coverage" NAME="Doctests in ex_11_gerar_numeros_de_intervalo_e_somar (3) Coverage Results" MODIFIED="1655739319360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_15_fibonnacci_ate_n__3_.coverage" NAME="Doctests in ex_15_fibonnacci_ate_n (3) Coverage Results" MODIFIED="1655763122654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_49_imprimir_serie__3_.coverage" NAME="Doctests in ex_49_imprimir_serie (3) Coverage Results" MODIFIED="1656010187801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_32_fatorial_com_operacoes__5_.coverage" NAME="Doctests in ex_32_fatorial_com_operacoes (5) Coverage Results" MODIFIED="1655768913333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_12_tabuada__1_.coverage" NAME="Doctests in ex_12_tabuada (1) Coverage Results" MODIFIED="1654611980752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_40_transito__5_.coverage" NAME="Doctests in ex_40_transito (5) Coverage Results" MODIFIED="1655230983659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_37_senso_de_academia__4_.coverage" NAME="Doctests in ex_37_senso_de_academia (4) Coverage Results" MODIFIED="1655319504046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_05_crescimento_populacional_parametrizavel__1_.coverage" NAME="Doctests in ex_05_crescimento_populacional_parametrizavel (1) Coverage Results" MODIFIED="1654981485774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_21_numero_primo__4_.coverage" NAME="Doctests in ex_21_numero_primo (4) Coverage Results" MODIFIED="1654984822471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$ex_06_data_por_extenso.coverage" NAME="ex_06_data_por_extenso Coverage Results" MODIFIED="1656103764265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_06_exercicios_strings" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_27_alunos_por_turma__2_.coverage" NAME="Doctests in ex_27_alunos_por_turma (2) Coverage Results" MODIFIED="1655736832624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_48_inteiro_invertido.coverage" NAME="Doctests in ex_48_inteiro_invertido Coverage Results" MODIFIED="1655846812659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_38_aumento_salarial__5_.coverage" NAME="Doctests in ex_38_aumento_salarial (5) Coverage Results" MODIFIED="1655682280555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$ex_43_lanchonete.coverage" NAME="ex_43_lanchonete Coverage Results" MODIFIED="1655853266397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_29_loja_manuel_01.coverage" NAME="Doctests in ex_29_loja_manuel_01 Coverage Results" MODIFIED="1655735293092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_14_atribuicoes_de_conceitos.coverage" NAME="Doctests in ex_14_atribuicoes_de_conceitos Coverage Results" MODIFIED="1654479835133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_39_sala_de_aula__1_.coverage" NAME="Doctests in ex_39_sala_de_aula (1) Coverage Results" MODIFIED="1654736704129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_26_posto_de_gasolina.coverage" NAME="Doctests in ex_26_posto_de_gasolina Coverage Results" MODIFIED="1654479852032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_01_numero_valido__2_.coverage" NAME="Doctests in ex_01_numero_valido (2) Coverage Results" MODIFIED="1654611986801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_05_metros_para_centimetros.coverage" NAME="Doctests in ex_05_metros_para_centimetros Coverage Results" MODIFIED="1656080832533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_01_estrutura_sequencial" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_03_validador_de_cadastro__2_.coverage" NAME="Doctests in ex_03_validador_de_cadastro (2) Coverage Results" MODIFIED="1654894805135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_42_intervalos__3_.coverage" NAME="Doctests in ex_42_intervalos (3) Coverage Results" MODIFIED="1655431245091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_08_soma_e_media_de_5_numeros__1_.coverage" NAME="Doctests in ex_08_soma_e_media_de_5_numeros (1) Coverage Results" MODIFIED="1654815486171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_19_estatisticas_de_n_numeros_com_limitacao__2_.coverage" NAME="Doctests in ex_19_estatisticas_de_n_numeros_com_limitacao (2) Coverage Results" MODIFIED="1654894038329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_02_positivo_ou_negativo.coverage" NAME="Doctests in ex_02_positivo_ou_negativo Coverage Results" MODIFIED="1654479809302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$ex_49_imprimir_serie.coverage" NAME="ex_49_imprimir_serie Coverage Results" MODIFIED="1655830463144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_45_corretor_de_provas__5_.coverage" NAME="Doctests in ex_45_corretor_de_provas (5) Coverage Results" MODIFIED="1655171502287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_31_conveniencia_manuel__1_.coverage" NAME="Doctests in ex_31_conveniencia_manuel (1) Coverage Results" MODIFIED="1655991429305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_43_lanchonete.coverage" NAME="Doctests in ex_43_lanchonete Coverage Results" MODIFIED="1655988526208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_43_lanchonete__1_.coverage" NAME="Doctests in ex_43_lanchonete (1) Coverage Results" MODIFIED="1655989340885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_10_cumprimento_em_turno.coverage" NAME="Doctests in ex_10_cumprimento_em_turno Coverage Results" MODIFIED="1654479827931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_02_estrutura_de_decisao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_25_classificador_de_turma__5_.coverage" NAME="Doctests in ex_25_classificador_de_turma (5) Coverage Results" MODIFIED="1654986095198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_18_estatisticas_de_n_numeros.coverage" NAME="Doctests in ex_18_estatisticas_de_n_numeros Coverage Results" MODIFIED="1655735324543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_22_numero_primo_divisores__1_.coverage" NAME="Doctests in ex_22_numero_primo_divisores (1) Coverage Results" MODIFIED="1655144729658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_12_tabuada.coverage" NAME="Doctests in ex_12_tabuada Coverage Results" MODIFIED="1655680810601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+    <SUITE FILE_PATH="coverage/lista_de_exercicios_python_brasil$Doctests_in_ex_44_eleicao_presidencial__2_.coverage" NAME="Doctests in ex_44_eleicao_presidencial (2) Coverage Results" MODIFIED="1654980952947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secao_03_estrutura_de_repeticao" />
+  </component>
+</project>
