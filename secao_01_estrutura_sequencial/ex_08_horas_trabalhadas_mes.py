@@ -24,5 +24,5 @@ def calcular_salario():
             print(f'Seu salário desse mês é {salario:.2f}')
             break
         except ValueError:
-            print('Informe um valor válido!!!')
+            #print('Informe um valor válido!!!')
             break

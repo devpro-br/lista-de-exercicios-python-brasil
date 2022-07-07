@@ -21,5 +21,6 @@ def converter_metros_para_centimetros():
             metro = float(input('Informe a medida em metros a ser convertida em centimetros: '))
             centimetro = metro * 100        
             print(f'Transformando para centímetros dá {centimetro} cm')
+            break
         except ValueError:
             print('Não informou um número!!!')
