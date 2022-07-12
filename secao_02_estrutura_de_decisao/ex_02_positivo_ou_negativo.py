@@ -25,10 +25,11 @@ def positivo_ou_negativo(n):
             break
         
         if numero > 0:
-                num = 'Positivo'
+                num = "'positivo'"
         elif numero < 0:
-                num = 'Negativo'
+                num = "'negativo'"
         else:
-                num = 'None'
+                num = "'não tem positivo nem negativo'"
                 
-        print(f'Esse número é: {num}')
+        print(num)
+

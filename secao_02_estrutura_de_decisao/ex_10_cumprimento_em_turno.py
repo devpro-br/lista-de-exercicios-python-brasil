@@ -27,12 +27,13 @@ def cumprimentar(turno: str):
     turno = input('Em que turno você estuda?  (M)atutino  (V)espertino (N)oturno ').lower()
 
     if turno == 'm':
-        mensagem = 'Bom Dia!'
+        mensagem = "'Bom Dia!'"
     elif turno == 'v':
-        mensagem = 'Boa Tarde!'
+        mensagem = "'Boa Tarde!'"
     elif turno == 'n':
-        mensagem = 'Boa Noite!'
+        mensagem = "'Boa Noite!'"
     else:
-        mensagem = 'Valor Inválido!'
+        mensagem = "'Valor Inválido!'"
 
     print(mensagem)
+

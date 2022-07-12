@@ -18,7 +18,7 @@ Mostrar a área com 1 casa decimal.
 
 
 def calcular_peso_ideal():
-    while True:
+   while True:
         try:
             altura = float(input('Informe a altura em metros: '))
             peso_ideal = (72.7*altura) - 58

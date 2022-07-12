@@ -51,16 +51,16 @@ Observando os termos no plural a colocação do "e", da vírgula entre outros. E
 
 
 def decompor_numero(numero: int):
-    
+
     while True:
         try:
             
             numero = int(input('Digite um número positivo menor que 1000: '))
             
             if numero >= 1000:
-                print('O número precisa ser menor que 1000')
+                print("'O número precisa ser menor que 1000'")
             elif numero < 0:
-                print('O número precisa ser positivo')
+                print("'O número precisa ser positivo'")
             else:
                 
                 cent_int = dez_int = und_int = 0
@@ -105,9 +105,12 @@ def decompor_numero(numero: int):
                 # 010
                 elif cent_int == 0 and dez_int != 0 and und_int == 0:
                      mensagem = str(dez_int) + dez_str
-                
+                # 001                 
+                elif cent_int == 0 and dez_int == 0 and und_int != 0:
+                     mensagem = str(und_int) + und_str
             
-                print(f'{numero} = {mensagem}')
+                print(f"'{numero} = {mensagem}'")
                 break
         except ValueError:
-            print('Entrada inválida')
+        print('Entrada inválida')    
+

@@ -17,10 +17,13 @@ Mostrar apenas valor inteiro da temperatura
 
 
 def transformar_para_fahrenheit():
-    try:
-        cel = float(input('Informe a temperatura em Celsius a ser convertida em Fahrenheit: '))
-        # print(f'O equivalente a {cel} Fahrenheit em Fahrenheit é { (cel * (9/5)) + 32}')
-        print(f'Essa temperatura é de {(cel * (9/5)) + 32} Fahrenheit')
-    except ValueError:
-        print('')
+    while True:
+        try:
+            cel = float(input('Informe a temperatura em Celsius a ser convertida em Fahrenheit: '))
+            fahrenheit = round((cel * (9/5)) + 32)
+            print(f'Essa temperatura é de {fahrenheit} Fahrenheit')
+            break
+        except ValueError:
+            print('Valor informado ínválido!!!')
+
      

@@ -44,12 +44,12 @@ def calcular_aumento(salario: float):
         try:
             
             salario = float(input('Digite o salário atual do colaborador ou 0 para terminar: R$ '))
-            if salario == 0:
-                break
+            #if salario == 0:
+             #   break
             
         except ValueError:
-            
-            Print('Entrada inválida!!!')
+            break
+            #Print('Entrada inválida!!!')
 
         novo_salario = 0
         ajuste = 0
@@ -76,6 +76,9 @@ def calcular_aumento(salario: float):
             
            
         print(f'Salário atual: R$ {salario:.2f}')
-        print(f'Aumento porcentual: {ajuste:.2f}')
+        print(f'Aumento porcentual: {ajuste}%')
         print(f'Valor do aumento: R$ {valor_aumento:.2f}')
         print(f'Novo salário: R$ {novo_salario:.2f}')
+        
+        break
+

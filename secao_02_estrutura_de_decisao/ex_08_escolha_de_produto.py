@@ -41,3 +41,5 @@ def decidir_melhor_produto(x, y, z):
             
         
         print(f'Melhor produto custa R$ {menor_preco:,.2f}')
+        break
+

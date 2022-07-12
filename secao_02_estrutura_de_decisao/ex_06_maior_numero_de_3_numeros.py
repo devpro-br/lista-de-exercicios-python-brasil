@@ -16,8 +16,6 @@ Faça um Programa que leia três números e mostre o maior deles.
 
 
 def calcular_maior_de_3_numeros(x, y, z):
-    #print('Esse programa identifica o maior número entre três digitados')
-
     while True:
         try:
             numero1 = 0
@@ -38,7 +36,8 @@ def calcular_maior_de_3_numeros(x, y, z):
                 maior = numero3
              
             print(maior)   
-                    
+            break        
         except ValueError:
-            print('Digite um número!!')
+            #print('Digite um número!!')
             break
+                   

@@ -26,12 +26,12 @@ def notas_parciais(nota_1, nota_2):
     media = (nota_1 + nota_2)/2
 
     if media == 10:
-        resultado = 'Aprovado com Distinção'
+        resultado = "'Aprovado com Distinção'"
 
     elif media >= 7 and media != 10:
-        resultado = 'Aprovado'
+        resultado = "'Aprovado'"
         
     elif media < 7:
-        resultado = 'Reprovado'
+        resultado = "'Reprovado'"
 
     print(resultado)

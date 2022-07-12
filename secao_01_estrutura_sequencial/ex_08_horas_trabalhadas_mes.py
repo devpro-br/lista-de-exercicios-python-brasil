@@ -22,7 +22,7 @@ def calcular_salario():
             total_hora_mes = int(input('Informe a quantidade de horas trabalhadas no mês: '))
             salario = valor_hora * total_hora_mes
             print(f'Seu salário desse mês é {salario:.2f}')
-            break
+            
         except ValueError:
-            #print('Informe um valor válido!!!')
+            print('Informe um valor válido!!!')
             break

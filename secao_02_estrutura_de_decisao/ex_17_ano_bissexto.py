@@ -19,40 +19,23 @@ bissexto.
 
 
 def eh_ano_bissexto(ano: int):
-    while True:
+    
+    import calendar
+
     try:
-        ano_str = "11111"
-        while len(ano_str) != 4:
-            ano = int(input("Digite o ano que deseja consultar se é bissexto: "))
-            ano_str = str(ano)
-            # Só segue adiante recebendo 4 digitos. recebendo letras cai em ValueError.
+        
      
+        ano = int(input("Digite o ano que deseja consultar se é bissexto: "))        
 
         quatro = ano % 4
         cem = ano % 100
         quatrocentos = ano % 400
                 
-        # primeira situação
-        if quatro == 0:
-            if cem != 0:  
-                mensagem = "bissexto"
-            else:
-                mensagem = "Não é bissexto"
+        mensagem = calendar.isleap(ano)
                 
-        #segunda situação    
-        if quatro != 0:
-            if quatrocentos == 0: 
-                mensagem = "bissexto"
-            else:
-                mensagem = "Não é bissexto"
-            
-        #terceira condição
-        if quatro != 0:
-            if quatrocentos == 0:
-                mensagem = "bissexto"
-            else:
-                mensagem = "Não é bissexto"
+                
         print(mensagem)
-        
+               
     except ValueError:
-        print('Entrada inválida!!!')
+        print('Entrada inválida!!!')    
+

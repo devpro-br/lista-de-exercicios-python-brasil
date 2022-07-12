@@ -30,6 +30,7 @@ def ordenar_decrescente(x, y, z):
             # 10, 5.5 e 7 e pedia saida: 10, 7, 5.5
             # sem essa solução a saída seria: 10.0, 7.0, 5.0
             
+                    
             if round(n1) == n1:
                 n1 = round(n1)
             if round(n2) ==n2:
@@ -51,5 +52,7 @@ def ordenar_decrescente(x, y, z):
             break
         
         except ValueError:
-            
-        print('Entrada inválida!!!') 
+            break
+        
+            #print('Entrada inválida!!!')        
+        
