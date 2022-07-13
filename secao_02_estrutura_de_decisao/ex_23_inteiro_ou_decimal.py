@@ -27,8 +27,8 @@ def decidir_se_eh_inteiro_ou_decimal(valor: str) -> str:
             numero = float(input('digite um número: '))
             num = round(numero)
             if numero == num:
-                print('Inteiro')
+                print("'Inteiro'")
             else:
-                print('Decimal') 
+                print("'Decimal'") 
         except ValueError:
             print('Entrada inválida')

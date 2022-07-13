@@ -46,16 +46,16 @@ def investigar(telefonou: str, estava_no_local: str, mora_perto: str, devia: str
 
 
     if respostas_positivas == 5:
-        classificacao = 'Assassino'
+        classificacao = "'Assassino'"
 
     elif respostas_positivas == 3 or respostas_positivas == 4:
-        classificacao = 'Cúmplice'
+        classificacao = "'Cúmplice'"
 
     elif respostas_positivas == 2:
-        classificacao = 'Suspeito'
+        classificacao = "'Suspeito'"
 
     elif respostas_positivas < 2:
-        classificacao = 'Inocente'
+        classificacao = "'Inocente'"
 
     print (classificacao)
 

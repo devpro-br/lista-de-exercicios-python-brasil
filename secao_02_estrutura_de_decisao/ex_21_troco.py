@@ -26,8 +26,13 @@ uma nota de 5 e quatro notas de 1.
 
 
 def calcular_troco(valor: int) -> str:
+    nota_100 = nota_50 = nota_10 = nota_5 = nota_1 = 1   
+    nota_100_str = nota_50_str = nota_10_str = nota_5_str = nota_1_str = saida = controle = ""
+    retorno = [nota_100, nota_100_str, '', nota_50, nota_50_str, '', nota_10, nota_10_str, '', nota_5, nota_5_str, '', nota_1, nota_1_str]
+
+
     while True:
-       
+           
         try:
             
             nota_100 = nota_50 = nota_10 = nota_5 = nota_1 = 0   
@@ -41,7 +46,7 @@ def calcular_troco(valor: int) -> str:
                 saque = int(input('Limites para saque R$ 1 e R$ 600. Informe o valor do saque: '))
                             
             retorno = [nota_100, nota_100_str, '', nota_50, nota_50_str, '', nota_10, nota_10_str, '',
-                    nota_5, nota_5_str, '', nota_1, nota_1_str]
+                       nota_5, nota_5_str, '', nota_1, nota_1_str]
             retorno[0] = retorno[3] = retorno[6] = retorno[9] = retorno[12] = ''
                 
         # -----------------------------------------------------
@@ -79,7 +84,7 @@ def calcular_troco(valor: int) -> str:
                 controle += '1'
             else:
                 controle += '0'
-                
+                   
     # a variável controle representa se existem determinadas notas. Ex.: '10111' onde controle[0] indica existência
     # de notas 100 se igual a 1 e inexistencia se igual a zero. Controle[1] o mesmo para as notas de 50 e assim  
     # por diante: Quando saque igual a 166 gera controle igual a '11111", 165 gera '11110', 1 gera '00001'.
@@ -104,10 +109,17 @@ def calcular_troco(valor: int) -> str:
                 retorno[11] = ', '
             else:
                 retorno[11] = ''
-            
-                    
+
+    #-----------------acrescimo atender situações onde controle = 10111 e 11011        
+           
+            if int(controle[0]) +  int(controle[2]) == 2:
+                retorno[5] = ', '
+
+            if int(controle[1]) +  int(controle[3]) == 2:
+                retorno[8] = ', '
+
     #-----------------posiciona o ' e '.
-                
+                   
             
             if controle[4] == '1':
                 if controle[3] != '0' or controle[2] != '0' or controle[1] != '0' or controle[0] != '0':
@@ -116,7 +128,7 @@ def calcular_troco(valor: int) -> str:
             elif controle[3] == '1' and controle[4] == '0':
                 if controle[2] != '0' or controle[1] != '0' or controle[0] != '0':
                     retorno[8] = ' e '
-            
+              
             
             elif controle[2] == '1' and controle[3] == '0' and controle[4] == '0':
                 if controle[1] != '0' or controle[0] != '0':
@@ -133,8 +145,10 @@ def calcular_troco(valor: int) -> str:
                 if retorno[a] != '':
                     saida += retorno[a]
                 a += 1
+            print()    
             print(saida)    
-                
-        
+            for _ in range(4):
+                print()
+         
         except ValueError:
             print('Entrada inválida!!!') 
