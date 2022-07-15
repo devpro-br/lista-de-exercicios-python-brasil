@@ -11,8 +11,7 @@ Faça um Programa que peça um número e então mostre a mensagem O número info
 
 """
 
-def escreva_um_numero():
+def escreva_um_numero(numero):
     #numero = input('Entre com um número: ')
-    escreva_um_numero(42)
     print(f'O número informado foi {numero}')
 
