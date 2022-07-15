@@ -15,10 +15,10 @@ Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou 
 """
 
 
-def positivo_ou_negativo(n):
+def positivo_ou_negativo(numero):
     while True:
         try:
-            numero = float(input('Digite um número: '))
+            #numero = float(input('Digite um número: '))
        
         except ValueError:
             print('Digite um número!!!') 
