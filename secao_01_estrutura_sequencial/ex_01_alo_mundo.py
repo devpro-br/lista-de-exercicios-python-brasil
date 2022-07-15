@@ -11,7 +11,7 @@ Escreva um programa que mostre a mensagem "Olá Mundo"
 
 
 def ola_mundo():
-    saida = ola_mundo('Olá mundo')
+    saida = ola_mundo(Olá mundo)
     print(saida)
     
 
