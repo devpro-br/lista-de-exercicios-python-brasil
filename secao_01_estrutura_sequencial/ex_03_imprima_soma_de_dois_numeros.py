@@ -13,10 +13,12 @@ Faça um Programa que peça dois números inteiros e imprima a soma.
 """
 
 
-def imprima_a_soma_de_dois_numeros():
-    numero_1 = int(input('Entre com o primeiro número: '))
-    numero_2 = int(input('Entre com o segundo número: '))
+def imprima_a_soma_de_dois_numeros(numero_1,numero_1):
+    #numero_1 = int(input('Entre com o primeiro número: '))
+    #numero_1 = int(input('Entre com o segundo número: '))
     print(f'A soma dos dois números informados é {numero_1 + numero_2}')
 
-imprima_a_soma_de_dois_numeros(42)
-imprima_a_soma_de_dois_numeros(43)
+
+
+
+
