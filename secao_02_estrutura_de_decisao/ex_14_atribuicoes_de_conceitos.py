@@ -44,9 +44,9 @@ Mostar valores com uma casa decimal.
 """
 
 
-def calcular_conceito(nota_1: float, nota_2: float):
-    nota_01 = float(input('Digite a primeira nota: '))
-    nota_02 = float(input('Digite a segunda nota: '))
+def calcular_conceito(nota_01: float, nota_02: float):
+    #nota_01 = float(input('Digite a primeira nota: '))
+    #nota_02 = float(input('Digite a segunda nota: '))
     media = (nota_01 + nota_02)/2
     conceito = 'E'
     condicao = "REPROVADO"

@@ -30,9 +30,9 @@ def classificar_triangulo(lado_a: float, lado_b: float, lado_c: float):
     
         try:
                     
-            lado_a = float(input('Entre com o valor para o primeiro lado do triângulo: '))
-            lado_b = float(input('Entre com o valor para o segundo lado do triângulo: '))
-            lado_c = float(input('Entre com o valor para o terceiro lado do triângulo: '))
+            #lado_a = float(input('Entre com o valor para o primeiro lado do triângulo: '))
+            #lado_b = float(input('Entre com o valor para o segundo lado do triângulo: '))
+            #lado_c = float(input('Entre com o valor para o terceiro lado do triângulo: '))
             
             if lado_a + lado_b < lado_c or lado_a > lado_b + lado_c or lado_a + lado_c < lado_b: 
                 triangulo = "'Não é um triângulo'"

@@ -22,9 +22,9 @@ A mensagem "Aprovado com Distinção", se a média for igual a 10.
 def calcular_status(nota_1, nota_2, nota_3):
     while True:
         try:
-            nota_1 = float(input("Informe a primeira nota: "))
-            nota_2 = float(input("Informe a segunda nota: "))
-            nota_3 = float(input("Informe a terceira nota: "))
+            #nota_1 = float(input("Informe a primeira nota: "))
+            #nota_2 = float(input("Informe a segunda nota: "))
+            #nota_3 = float(input("Informe a terceira nota: "))
             
             media = (nota_1 + nota_2 + nota_3)/3
             

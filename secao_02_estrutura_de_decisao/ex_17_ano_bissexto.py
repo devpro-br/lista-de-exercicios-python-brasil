@@ -25,7 +25,7 @@ def eh_ano_bissexto(ano: int):
     try:
         
      
-        ano = int(input("Digite o ano que deseja consultar se é bissexto: "))        
+        #ano = int(input("Digite o ano que deseja consultar se é bissexto: "))        
 
         quatro = ano % 4
         cem = ano % 100

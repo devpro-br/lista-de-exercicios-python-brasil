@@ -39,7 +39,7 @@ def validar_data(data: str):
         try:
             aviso = "'Data válida'"
             aaaa = ''
-            data = input('Entre com uma data dd/mm/aaaa: ')
+            #data = input('Entre com uma data dd/mm/aaaa: ')
             tamanho = len(data)
             #print(f'tamanho: {tamanho}')
             if tamanho < 8 or tamanho > 10: #or data[2] != "/" or data[5] != "/":

@@ -55,7 +55,7 @@ def decompor_numero(numero: int):
     while True:
         try:
             
-            numero = int(input('Digite um número positivo menor que 1000: '))
+            #numero = int(input('Digite um número positivo menor que 1000: '))
             
             if numero >= 1000:
                 print("'O número precisa ser menor que 1000'")

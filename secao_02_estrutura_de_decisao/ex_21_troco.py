@@ -43,7 +43,8 @@ def calcular_troco(valor: int) -> str:
             
             while saque < 1 or saque > 600:       
                 
-                saque = int(input('Limites para saque R$ 1 e R$ 600. Informe o valor do saque: '))
+                #saque = int(input('Limites para saque R$ 1 e R$ 600. Informe o valor do saque: '))
+                saque = valor # valor é a variável usada na função do doctest.
                             
             retorno = [nota_100, nota_100_str, '', nota_50, nota_50_str, '', nota_10, nota_10_str, '',
                        nota_5, nota_5_str, '', nota_1, nota_1_str]

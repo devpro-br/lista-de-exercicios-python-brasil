@@ -30,12 +30,12 @@ def resolver_equacao_do_segundo_grau(a: float, b: float, c: float):
        
     while True:
         try:
-            a = float(input('Entre com o valor de a: '))
+            #a = float(input('Entre com o valor de a: '))
             if a == 0:
                 print("'Valor do coeficiente a deve ser diferente de 0'")
                 break
-            b = float(input('Entre com o valor de b: '))
-            c = float(input('Entre com o valor de c: '))
+            #b = float(input('Entre com o valor de b: '))
+            #c = float(input('Entre com o valor de c: '))
                     
             delta = (b**2) - 4 * a * c
             

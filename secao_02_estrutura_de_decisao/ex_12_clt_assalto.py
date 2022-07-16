@@ -51,7 +51,7 @@ até R$ 99999,99
 """
 
 
-def calcular_salario_liquido(valor_hora: float, horas_trabalhadas: int):
+def calcular_salario_liquido(valor_hora: float, quant_hora: int):
     def alinha_saida_valores_no_print(numero: float, num_caracteres: int):
         ''' Resulta em alinhamento das colunas de impressão de valores com número
             de caracteres diferente. Retornando uma string do tamanho indicado em
@@ -99,8 +99,8 @@ def calcular_salario_liquido(valor_hora: float, horas_trabalhadas: int):
 
 
 
-    valor_hora = float(input('Entre com o valor da hora: '))
-    quant_hora = int(input('Entrer com a quantidade de horas trabalhadas: '))
+    #valor_hora = float(input('Entre com o valor da hora: '))
+    #quant_hora = int(input('Entrer com a quantidade de horas trabalhadas: '))
 
     salario_bruto = valor_hora * quant_hora
 

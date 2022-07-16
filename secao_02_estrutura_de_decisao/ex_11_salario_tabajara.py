@@ -43,7 +43,7 @@ def calcular_aumento(salario: float):
     while True:
         try:
             
-            salario = float(input('Digite o salário atual do colaborador ou 0 para terminar: R$ '))
+            #salario = float(input('Digite o salário atual do colaborador ou 0 para terminar: R$ '))
             #if salario == 0:
              #   break
             

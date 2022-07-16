@@ -27,10 +27,10 @@ se digitar outro valor deve aparecer valor inválido.
 """
 
 
-def calcular_dia_da_semana(numero: int):
+def calcular_dia_da_semana(dia: int):
     try:
     
-        dia = int(input('Digite um número entre 1 e 7: '))
+        #dia = int(input('Digite um número entre 1 e 7: '))
           
           
         if  dia < 1 or dia >7:
