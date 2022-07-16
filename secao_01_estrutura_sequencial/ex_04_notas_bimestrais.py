@@ -14,13 +14,15 @@ Faça um Programa que peça as 4 notas bimestrais e mostre a média.
 
 
 def calcular_media(nota):
-    while True:
-        try:
-            nota = 0
-            for n in (1, 2, 3, 4):
-                #nota =  float(input(f'Informe a nota do bimestre {n}: '))
-                nota += nota
-            print(f'A média anual é {nota / 4}')
+    return nota
+
+while True:
+    try:
+        nota = 0
+        for n in (1, 2, 3, 4):
+            nota =  calcular_media(nota)#float(input(f'Informe a nota do bimestre {n}: '))
+            nota += nota
+        print(f'A média anual é {nota / 4}')
             break
         except ValueError:
             print('Não foi digitado um número!!!')
