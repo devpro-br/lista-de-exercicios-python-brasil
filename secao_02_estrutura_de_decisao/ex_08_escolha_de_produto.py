@@ -18,12 +18,12 @@ Mostrar o resultado com duas casas decimais
 """
 
 
-def decidir_melhor_produto(x, y, z):
+def decidir_melhor_produto(preco_prod_01, preco_prod_02, preco_prod_03):
     while True:
         try:
-            preco_prod_01 = float(input('Entre com o valor do produto 01: '))
-            preco_prod_02 = float(input('Entre com o valor do produto 02: '))
-            preco_prod_03 = float(input('Entre com o valor do produto 03: '))
+            #preco_prod_01 = float(input('Entre com o valor do produto 01: '))
+            #preco_prod_02 = float(input('Entre com o valor do produto 02: '))
+            #preco_prod_03 = float(input('Entre com o valor do produto 03: '))
             
         except ValueError:
             

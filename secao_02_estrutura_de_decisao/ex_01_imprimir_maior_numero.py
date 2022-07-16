@@ -15,9 +15,9 @@ Faça um Programa que peça dois números e imprima o maior deles.
 """
 
 
-def maior_de_dois_numeros(x, y):
-    numero01 = x #int(input('Entre com o primeiro número: '))
-    numero02 = y #int(input('Entre com o segundo  número: '))
+def maior_de_dois_numeros(numero01, numero02):
+    #numero01 = int(input('Entre com o primeiro número: '))
+    #numero02 = int(input('Entre com o segundo  número: '))
 
     if numero01 > numero02:
         print(numero01)

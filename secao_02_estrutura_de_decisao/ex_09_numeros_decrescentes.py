@@ -16,13 +16,14 @@ Faça um Programa que leia três números e mostre-os em ordem decrescente.
 """
 
 
-def ordenar_decrescente(x, y, z):
+def ordenar_decrescente(n1, n2, n3):
     while True:
         try:
             #print('digite três números que serão apresentados em ordem decrescente.')
-            n1 = float(input('Entre com o primeiro número: '))
-            n2 = float(input('Entre com o segundo número: '))
-            n3 = float(input('Entre com o terceiro número: '))
+            
+            #n1 = float(input('Entre com o primeiro número: '))
+            #n2 = float(input('Entre com o segundo número: '))
+            #n3 = float(input('Entre com o terceiro número: '))
             
             
             # A seguir, solução que encontrei para atender ao doctest do curso

@@ -15,17 +15,17 @@ Faça um Programa que leia três números e mostre o maior deles.
 """
 
 
-def calcular_maior_de_3_numeros(x, y, z):
+def calcular_maior_de_3_numeros(numero1, numero2, numero3):
     while True:
         try:
-            numero1 = 0
-            numero2 = 0
-            numero3 = 0
+            #numero1 = 0
+            #numero2 = 0
+            #numero3 = 0
             maior = 0
-            while numero1 == numero2 == numero3:
-                numero1 = int(input('Entre com o primeiro número: '))
-                numero2 = int(input('Entre com o segundo número: '))
-                numero3 = int(input('Entre com o terceiro número: '))
+            #while numero1 == numero2 == numero3:
+                #numero1 = int(input('Entre com o primeiro número: '))
+                #numero2 = int(input('Entre com o segundo número: '))
+                #numero3 = int(input('Entre com o terceiro número: '))
             
           
             if numero1 >= numero2:

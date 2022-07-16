@@ -19,7 +19,8 @@ def vogal_ou_consoante(letra):
     
     while True:
 
-        letra = input("Digite uma letra: ").lower()    
+        #letra = input("Digite uma letra: ").lower()    
+        letra = letra.lower()        
 
         if letra in vogais:
         

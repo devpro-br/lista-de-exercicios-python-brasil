@@ -20,8 +20,8 @@ Obs: 0 <= nota <= 10
 
 
 def notas_parciais(nota_1, nota_2):
-    nota_1 = float(input("Entre com a primeira nota: "))
-    nota_2 = float(input('Entre com a segunda nota: '))
+    #nota_1 = float(input("Entre com a primeira nota: "))
+    #nota_2 = float(input('Entre com a segunda nota: '))
                    
     media = (nota_1 + nota_2)/2
 

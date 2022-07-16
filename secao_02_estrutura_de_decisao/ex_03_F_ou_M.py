@@ -19,7 +19,7 @@ Retorne: F - Feminino ou M - Masculino. Para quaisquer outros valores, retorne S
 def f_ou_m(sexo):
     while True:
 
-        sexo = input('Digite: (F) - Feminino ou  (M) - Masculino:  ').lower()
+        #sexo = input('Digite: (F) - Feminino ou  (M) - Masculino:  ').lower()
 
         if sexo == 'f':
             print("'F - Feminino'")
