@@ -24,7 +24,7 @@ def decidir_se_eh_par_ou_impar(valor: int) -> str:
     while True:
         try:
 
-            num = int(input('Digite o número a consultar se é par: '))
+            num = valor #int(input('Digite o número a consultar se é par: '))
 
             result = num % 2
 

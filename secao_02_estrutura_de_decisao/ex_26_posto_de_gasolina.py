@@ -42,11 +42,11 @@ def calcular_abastecimento(litros_de_combustivel: float, tipo_de_combustivel: st
     while True:
         try:
 
-            while quantidade <= 0:
-                quantidade = float(input('Quantos litros? '))
+            #while quantidade <= 0:
+                quantidade = litros_de_combustivel #float(input('Quantos litros? '))
 
-            while 'G' != combustivel != 'A': 
-                combustivel = input('Qual o combustível? (A) - álcool ou (G) - gasolina? ').upper()
+            #while 'G' != combustivel != 'A': 
+                combustivel = tipo_de_combustivel#input('Qual o combustível? (A) - álcool ou (G) - gasolina? ').upper()
 
             if combustivel == 'A':
                 tipo_combustivel = 'álcool'

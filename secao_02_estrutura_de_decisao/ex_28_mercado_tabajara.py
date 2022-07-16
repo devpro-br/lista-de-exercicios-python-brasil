@@ -55,9 +55,20 @@ def calcular_preco_da_carne(tipo_de_carne: str, kilos_de_carne: int, forma_de_pa
 
             print('Digite (f) para Filé duplo, (a) para Alcatra ou (p) para Picanha: ', end = '')
             
-            while carne != 'f' and carne != 'a' and carne != 'p': 
-                carne = input().lower()
-              
+            #while carne != 'f' and carne != 'a' and carne != 'p': 
+             #   carne = input().lower()
+           
+
+       #---------lógica para adequar a minha lógica ao que é inserido pelo teste.            
+            if tipo_de_carne = 'Filé Duplo':
+                carne = 'f'            
+            if tipo_de_carne = 'Alcatra':
+                carne = 'a' 
+            if tipo_de_carne = 'Picanha':
+                carne = 'p' 
+        
+
+
             if carne == 'f':
                 tipo_carne = "Filé Duplo"
 
@@ -68,19 +79,19 @@ def calcular_preco_da_carne(tipo_de_carne: str, kilos_de_carne: int, forma_de_pa
                 tipo_carne = "Picanha"
 
 
-            quantidade = int(input('Quantos kilos?: '))
+            quantidade = kilos_de_carne #int(input('Quantos kilos?: '))
 
             print('Forma de pagamento: (d) Dinheiro  (c) Cartão (p) pix: ', end = '')
             
-            while modo_pag != 'd' and modo_pag != 'c' and modo_pag != 'p':
-                modo_pag = input().lower()
+            #while modo_pag != 'd' and modo_pag != 'c' and modo_pag != 'p':
+                #modo_pag = input().lower()
             
-            if modo_pag == 'd':
-                forma_pagamento = "dinheiro"
-            if modo_pag == 'p':
-                forma_pagamento = "pix"
+            #if modo_pag == 'd':
+                #forma_pagamento = "dinheiro"
+            #if modo_pag == 'p':
+                #forma_pagamento = "pix"
 
-            
+            forma_pagamento = forma_de_pagamento
 
             if quantidade > 5:
 

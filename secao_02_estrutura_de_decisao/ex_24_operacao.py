@@ -34,12 +34,12 @@ def fazer_operacao_e_classificar(n_1: float, n_2: float, operacao: str):
     while True:
         try:
             operacao = '?'
-            num_1 = float(input('Entre com o primeiro número: '))
+            num_1 = n_1 #float(input('Entre com o primeiro número: '))
             
-            num_2 = float(input('Entre com o segundo número: '))
+            num_2 = n_2#float(input('Entre com o segundo número: '))
             
             while not operacao in ('+', '-', '*', '/'):
-                operacao = input('Entre com a operacao desejada: (+, -, / ou *): ')
+                #operacao = input('Entre com a operacao desejada: (+, -, / ou *): ')
              
 
             if operacao == '+':

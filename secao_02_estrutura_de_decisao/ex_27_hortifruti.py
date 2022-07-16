@@ -106,8 +106,8 @@ def calcular_preco_da_compra(kilos_de_morango: int, kilos_de_maca: int):
 
     #-----------------------------------------------------
 
-    peso_morango = int(input('Qual o peso dos morangos?: '))
-    peso_maca = int(input('Qual o peso das maças?: '))
+    peso_morango = kilos_de_morango #int(input('Qual o peso dos morangos?: '))
+    peso_maca = kilos_de_maca #int(input('Qual o peso das maças?: '))
     desconto = 0
 
     preco_morango = 2.5
