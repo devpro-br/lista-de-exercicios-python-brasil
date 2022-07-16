@@ -18,7 +18,7 @@ def calcular_media(nota):
         try:
             nota = 0
             for n in (1, 2, 3, 4):
-                nota =  float(input(f'Informe a nota do bimestre {n}: '))
+                #nota =  float(input(f'Informe a nota do bimestre {n}: '))
                 nota += nota
             print(f'A média anual é {nota / 4}')
             break

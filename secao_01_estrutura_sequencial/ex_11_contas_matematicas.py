@@ -20,13 +20,13 @@ Faça um Programa que peça 2 números inteiros e um número real. Calcule e mos
 """
 
 
-def calcular_formulas():
+def calcular_formulas(num_i_01, num_i_02, num_real):
     while True:
         try:
 
-            num_i_01 = float(input('Entre com um número inteiro: '))
-            num_i_02 = float(input('Entre com outro número inteiro: '))
-            num_real = float(input('Entre com um número real: '))
+            #num_i_01 = float(input('Entre com um número inteiro: '))
+            #num_i_02 = float(input('Entre com outro número inteiro: '))
+            #num_real = float(input('Entre com um número real: '))
 
             print(f'O produto do dobro do primeiro com metade do segundo é {(((num_i_01)*2) * (num_i_02/2)):.2f}')
 

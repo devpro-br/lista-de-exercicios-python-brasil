@@ -18,8 +18,8 @@ Mostrar a área com 2 casas decimais.
 """
 
 
-def calcular_area_de_quadrado():
-    lado = float(input('Informe a medida da lateral do quadrado: '))
+def calcular_area_de_quadrado(lado):
+    #lado = float(input('Informe a medida da lateral do quadrado: '))
 
     area_quadrado = lado ** 2
     print(f'A área do quadrado com esse lado é: {area_quadrado:,.2f}')
