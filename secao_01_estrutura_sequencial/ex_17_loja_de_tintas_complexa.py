@@ -28,7 +28,7 @@ Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, consid
 """
 
 
-def calcular_latas_e_preco_de_tinta():
+def calcular_latas_e_preco_de_tinta(area_pintar):
     #Parametros
     import math
 
@@ -37,7 +37,7 @@ def calcular_latas_e_preco_de_tinta():
     valor_galao = 25
 
 
-    area_pintar = float(input('Qual área a pintar em m²? '))
+    #area_pintar = float(input('Qual área a pintar em m²? '))
     litros = math.ceil((area_pintar/rendimento) * 1.1)
     lata = math.ceil(litros/18)
     valor_lata = lata * 80

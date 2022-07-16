@@ -24,8 +24,8 @@ Mostrar o peso e multa com duas casas decimais
 """
 
 
-def calcular_peso_excedente_e_multa():
-    peso = float(input('Qual o peso da pesca? '))
+def calcular_peso_excedente_e_multa(peso):
+    #peso = float(input('Qual o peso da pesca? '))
 
     excesso = (peso - 50)
 

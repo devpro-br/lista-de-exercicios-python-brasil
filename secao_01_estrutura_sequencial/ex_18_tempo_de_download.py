@@ -19,9 +19,9 @@ Arredonde o tempo em minutos
 """
 
 
-def calcular_tempo_de_download():
-    tam_MB = int(input('Informe o tamanho do arquivo MB: '))
-    velo_Mbps = int(input('Informe a velocidade em Mbps: '))
+def calcular_tempo_de_download(tam_MB, velo_Mbps):
+    #tam_MB = int(input('Informe o tamanho do arquivo MB: '))
+    #velo_Mbps = int(input('Informe a velocidade em Mbps: '))
 
     #tempo_down_minutos = math.ceil((tam_MB /(velo_Mbps/8))/60)
     tempo_down_minutos = ((tam_MB /(velo_Mbps/8))/60)

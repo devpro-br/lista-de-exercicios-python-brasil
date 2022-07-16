@@ -19,7 +19,7 @@ Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e 
 """
 
 
-def calcular_latas_e_preco_de_tinta():
+def calcular_latas_e_preco_de_tinta(area_pintar):
     import math
     rendimento = 3 # cada litro cobre 3 m²
 
@@ -27,7 +27,7 @@ def calcular_latas_e_preco_de_tinta():
 
          try:
 
-              area_pintar = float(input('Informe a área a pintar em m²: '))
+              #area_pintar = float(input('Informe a área a pintar em m²: '))
               area_cobertura_lata = 18 * rendimento
               quant_latas = math.ceil(area_pintar / area_cobertura_lata)
               valor_pagar = quant_latas * 80
