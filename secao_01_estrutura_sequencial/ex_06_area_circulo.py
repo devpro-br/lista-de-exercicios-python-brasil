@@ -23,7 +23,7 @@ def calcular_area_de_circulo(raio):
 while True:
     
     try:
-        raio = calcular_area_de_circulo()    
+        raio = float(calcular_area_de_circulo())
      #raio = float(input('Informe o raio do círculo a ser calculada a área: '))
         p = 3.1415
         area = p * (raio ** 2)
