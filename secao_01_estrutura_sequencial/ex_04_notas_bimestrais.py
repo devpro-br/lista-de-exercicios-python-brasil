@@ -23,9 +23,9 @@ while True:
             nota =  calcular_media(nota)#float(input(f'Informe a nota do bimestre {n}: '))
             nota += nota
         print(f'A média anual é {nota / 4}')
-            break
-        except ValueError:
-            print('Não foi digitado um número!!!')
-            break
+        break
+    except ValueError:
+        print('Não foi digitado um número!!!')
+        break
 
 
