@@ -4,16 +4,15 @@ https://wiki.python.org.br/EstruturaSequencial
 
 Escreva um programa que mostre a mensagem "Olá Mundo"
 
-    >>> ola_mundo()
+    >>> ola_mundo('Olá Mundo')
     Olá Mundo
 
 """
 
+def ola_mundo(txt):
+    return txt
 
-def ola_mundo(texto):
-    return texto
-
-saida = ola_mundo('Olá mundo')
+saida = ola_mundo('Olá Mundo')
 print(saida)
     
 
