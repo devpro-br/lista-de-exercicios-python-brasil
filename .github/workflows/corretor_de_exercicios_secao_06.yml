@@ -26,7 +26,7 @@ jobs:
       - name: Correção do Exercício 05 da seção de Strings
         if: always()
         run: |
-          python -m doctest -f secao_06_exercicios_strings/ex_09_validador_de_ cpf_strings.py
+          python -m doctest -f secao_06_exercicios_strings/ex_09_validador_de_cpf_strings.py
       - name: Correção do Exercício 09 da seção de Strings
         if: always()
         run: |
