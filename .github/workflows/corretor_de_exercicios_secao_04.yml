@@ -54,4 +54,8 @@ jobs:
       - name: Correção do Exercício 24 da seção de Listas
         if: always()
         run: |
+          python -m doctest -f secao_04_exercicios_lista/ex_14_investigacao.py
+      - name: Correção do Exercício 14 da seção de Listas
+        if: always()
+        run: |
           python -m doctest -f secao_04_exercicios_lista/ex_24_lancamento_de_dados.py
