@@ -25,3 +25,63 @@ n−ésimo termo.
 
 def calcular_serie_de_fibonacci(n: int) -> str:
     """Escreva aqui em baixo a sua solução"""
+
+    # ultimo = 1
+    # penultimo = 1
+    # soma = 1
+
+    # if n == 1:
+    #     print(f"'{n}'")
+        
+    # else:
+    #     n -= 1
+    #     print("'1", end=", ")
+    #     for numero in range(n):
+    #         if numero == n -1:
+    #             print(f"{soma}'", end="")
+    #         else:
+    #             print(f"{soma}", end=", ")
+    #             soma = ultimo + penultimo
+    #             ultimo = penultimo
+    #             penultimo = soma
+    
+    
+    ultimo = 1
+    penultimo = 1
+    soma = 1
+
+    if n == 1:
+        print(f"'{n}'")
+        
+    else:
+        n -= 1
+        print("'1", end=", ")
+        
+        for numero in range(n): 
+            if numero == n - 1:
+                print(f"{soma}'", end="")
+        
+            else:
+                print(f"{soma}", end=", ")
+                soma = ultimo + penultimo
+                ultimo = penultimo
+                penultimo = soma
+                
+        
+            
+
+
+            
+        
+        
+    
+        
+
+
+    
+        
+    
+        
+
+        
+

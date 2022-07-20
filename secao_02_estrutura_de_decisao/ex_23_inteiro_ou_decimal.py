@@ -18,7 +18,11 @@ arredondamento.
     >>> decidir_se_eh_inteiro_ou_decimal('3.1415')
     'Decimal'
 """
-
+import math
 
 def decidir_se_eh_inteiro_ou_decimal(valor: str) -> str:
     """Escreva aqui em baixo a sua solução"""
+    if math.floor(float(valor)) == float(valor): 
+        return 'Inteiro' 
+    else:
+        return 'Decimal'

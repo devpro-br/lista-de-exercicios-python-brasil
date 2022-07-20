@@ -6,7 +6,7 @@ Faça um Programa que leia um número inteiro menor que 1000 e imprima a quantid
 mesmo.
 Observando os termos no plural a colocação do "e", da vírgula entre outros. Exemplo:
 326 = 3 centenas, 2 dezenas e 6 unidades
-12 = 1 dezena e 2 unidades Testar com: 326, 300, 100, 320, 310,305, 301, 101, 311, 111, 25, 20, 10, 21, 11, 1, 7 e 16
+12 = 1 dezena e 2 unidades Testar com: 326, 300, 100, 320, 310,305,' 301, 101, 311, 111, 25, 20, 10, 21, 11, 1, 7 e 16
 
     >>> decompor_numero(1000)
     'O número precisa ser menor que 1000'
@@ -52,3 +52,26 @@ Observando os termos no plural a colocação do "e", da vírgula entre outros. E
 
 def decompor_numero(numero: int):
     """Escreva aqui em baixo a sua solução"""
+
+    #mais de mil e menos de zero
+
+    if (numero) >= 1000:
+        print("'O número precisa ser menor que 1000'")
+        return
+    elif (numero) < 0:
+        print ("'O número precisa ser positivo'")
+        return
+    
+    centena = (numero//100)
+    dezena = (numero - (centena*100))//10
+    unidade = (numero-(centena*100)-(dezena*10))
+    print("'", end='')
+    print(f'{numero} = ', end='')
+
+    if(centena):
+        print(f'{centena} centena{"s" if centena>1 else ""}{(", " if unidade else " e ") if dezena else (" e " if unidade else "")}', end='')
+    if(dezena):
+        print(f'{dezena} dezena{"s" if dezena>1 else ""}{" e " if unidade else ""}', end='')
+    if(unidade):
+        print (f'{unidade} unidade{"s" if unidade>1 else ""}', end='')
+    print("'")

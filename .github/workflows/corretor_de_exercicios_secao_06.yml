@@ -23,6 +23,10 @@ jobs:
         if: always()
         run: |
           python -m doctest -f secao_06_exercicios_strings/ex_02_inversor_maisculo.py
+      - name: Correção do Exercício 04 da seção de Strings
+      - if: always()
+        run: |
+          python -m doctest -f secao_06_exercicios_strings/ex_04_nomes_vertical_escada.py
       - name: Correção do Exercício 05 da seção de Strings
         if: always()
         run: |

@@ -21,3 +21,9 @@ Obs: 0 <= nota <= 10
 
 def notas_parciais(nota_1, nota_2):
     """Escreva aqui em baixo a sua solução"""
+n = input(float(f'Digite a primeira nota do aluno: '))
+n2 = input(float(f'Digite a segunda nota do aluno: '))
+if (n + n2) / 2 >= 7:
+    print(f'Aprovado')
+else:
+    print(f'Reprovado')

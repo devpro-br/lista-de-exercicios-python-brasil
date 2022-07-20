@@ -16,7 +16,12 @@ bissexto.
     False
 
 """
-
+import calendar
 
 def eh_ano_bissexto(ano: int):
     """Escreva aqui em baixo a sua solução"""
+
+    if calendar.isleap(ano):
+        print('True')
+    else:
+        print('False')
