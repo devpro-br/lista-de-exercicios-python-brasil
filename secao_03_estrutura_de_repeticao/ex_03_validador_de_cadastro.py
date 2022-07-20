@@ -39,17 +39,42 @@ Faça um programa que leia e valide as seguintes informações:
 
 
 def cadastrar_usuario(nome: str, idade: int, salario: float, sexo: str, estado_civil: str):
-    
-  
-    if len(nome) <=3:
-        mens_nome = f'Erro: o nome precisa ter 3 letras ou mais, não pode ser {nome}'
+    sexo = sexo.lower()
+    estado_civil = estado_civil.lower()
+    mensagem = mens_nome = mens_idade = mens_salario = mens_sexo = mens_est_civil = ''
+    controle = True
+    if len(nome) <3:
+        mens_nome = f'Erro: o nome precisa ter 3 letras ou mais, não pode ser {nome}\n'
+        mensagem += mens_nome
+        controle = False
     if idade < 0 or idade > 150:
-        mens_idade = f'Erro: a idade precisa estar entre 0 e 150, não pode ser {idade}'
+        mens_idade = f'Erro: a idade precisa estar entre 0 e 150, não pode ser {idade}\n'
+        mensagem += mens_idade
+        controle = False
     if salario <= 0:
-        mens_salario = f'Erro: o salário precisa ser positivo, não pode ser 0'
-      
-    return mensagem
+        mens_salario = f'Erro: o salário precisa ser positivo, não pode ser {salario}\n'
+        mensagem += mens_salario
+        controle = False
+    if not sexo in ('f', 'm'):
+        mens_sexo =  f'Erro: o sexo precisa ser "m" ou "f", não pode ser "{sexo}"\n'  
+        mensagem += mens_sexo
+        controle = False
+    if not estado_civil in ("s", "c", "v", "d"):
+        mens_est_civil = f'Erro: o estado civil precisa ser "s", "c", "v" ou "d", não pode ser "{estado_civil}"\n'
+        mensagem += mens_est_civil
+        controle = False
+    if controle == True:
+        mensagem = 'Cadastro realizado com sucesso'
+    
+
+    return print(mensagem)
+
+nome = input('Entre com o nome: ')
+idade = int(input('Entre com a idade: '))
+salario = float(input('Entre com o salário: '))
+sexo = input('Entre com o sexo (M)asculino ou (F)eminino: ')
+estado_civil = input('Entre com o estado civil (s)olteiro, (c)asado, (v)iúvo, (d)ivorsiado: ')
 
 
-nome: str, 
-idade: int, salario: float, sexo: str, estado_civil
+cadastrar_usuario(nome,idade,salario,sexo,estado_civil)
+#nome: str, idade: int, salario: float, sexo: str, estado_civil
