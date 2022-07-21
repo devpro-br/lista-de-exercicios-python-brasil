@@ -18,3 +18,6 @@ Faça um Programa que leia três números e mostre-os em ordem decrescente.
 
 def ordenar_decrescente(x, y, z):
     """Escreva aqui em baixo a sua solução"""
+    numeros = [x,y,z]
+    numeros.sort()
+    print(f'{numeros[2]}, {numeros[1]}, {numeros[0]}')

@@ -20,3 +20,6 @@ Mostrar o resultado com duas casas decimais
 
 def decidir_melhor_produto(x, y, z):
     """Escreva aqui em baixo a sua solução"""
+    precos = [x,y,z]
+    precos.sort()
+    print(f'Melhor produto custa R$ {precos[0] :.2f}')

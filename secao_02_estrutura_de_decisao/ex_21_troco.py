@@ -23,7 +23,38 @@ uma nota de 5 e quatro notas de 1.
     >>> calcular_troco(399)
     '3 notas de R$ 100, 1 nota de R$ 50, 4 notas de R$ 10, 1 nota de R$ 5 e 4 notas de R$ 1'
 """
+def quantas_notas( lista_qnt_nota: list,valor:int, nota:int):
+    if valor >= nota:
+        lista_qnt_nota.append(f"{valor // nota} nota")
+        if valor // nota > 1:
+            lista_qnt_nota[-1] += 's'
+        lista_qnt_nota[-1] += f' de R$ {nota}'
+        valor = valor % nota
+    return valor
 
 
-def calcular_troco(valor: int) -> str:
+
+def calcular_troco(valor: int):
     """Escreva aqui em baixo a sua solução"""
+<<<<<<< HEAD
+
+    lista_qnt_nota = []
+    valor = quantas_notas(lista_qnt_nota, valor, 100)
+    valor = quantas_notas(lista_qnt_nota, valor, 50)
+    valor = quantas_notas(lista_qnt_nota, valor, 10)
+    valor = quantas_notas(lista_qnt_nota, valor, 5)
+    valor = quantas_notas(lista_qnt_nota, valor, 1)
+
+    if len(lista_qnt_nota) == 5:
+        print(f"'{lista_qnt_nota[0]}, {lista_qnt_nota[1]}, {lista_qnt_nota[2]}, {lista_qnt_nota[3]} e {lista_qnt_nota[4]}'")
+
+    if len(lista_qnt_nota) == 4:
+        print(f"'{lista_qnt_nota[0]}, {lista_qnt_nota[1]}, {lista_qnt_nota[2]} e {lista_qnt_nota[3]}'")
+    if len(lista_qnt_nota) == 3:
+        print(f"'{lista_qnt_nota[0]}, {lista_qnt_nota[1]} e {lista_qnt_nota[2]}'")
+    if len(lista_qnt_nota) == 2:
+        print(f"'{lista_qnt_nota[0]} e {lista_qnt_nota[1]}'")
+    if len(lista_qnt_nota) == 1:
+        print(f"'{lista_qnt_nota[0]}'")
+=======
+>>>>>>> main
