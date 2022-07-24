@@ -19,11 +19,19 @@ jobs:
         if: always()
         run: |
           python -m doctest -f secao_04_exercicios_lista/ex_01_vetor_5_numeros.py
+      - name: Correção do Exercício 02 da seção de Listas
+        if: always()
+        run: |
+          python -m doctest -f secao_04_exercicios_lista/ex_02_vetores_inverso.py
       - name: Correção do Exercício 05 da seção de Listas
         if: always()
         run: |
           python -m doctest -f secao_04_exercicios_lista/ex_05_vetore_par_e_impar.py
       - name: Correção do Exercício 09 da seção de Listas
+        if: always()
+        run: |
+          python -m doctest -f secao_04_exercicios_lista/ex_06_calculador_de_media.py
+      - name: Correção do Exercício 06 da seção de Listas
         if: always()
         run: |
           python -m doctest -f secao_04_exercicios_lista/ex_09_soma_de_quadrados.py
@@ -43,7 +51,15 @@ jobs:
         if: always()
         run: |
           python -m doctest -f secao_04_exercicios_lista/ex_13_media_de_temperaturas_anual.py
-      - name: Correção do Exercício 24 da seção de Listas
+      - name: Correção do Exercício 14 da seção de Listas
         if: always()
         run: |
           python -m doctest -f secao_04_exercicios_lista/ex_24_lancamento_de_dados.py
+      - name: Correção do Exercício 18 da seção de Listas
+        if: always()
+        run: |
+          python -m doctest -f secao_04_exercicios_lista/ex_18_melhor_jogador.py
+      - name: Correção do Exercício 24 da seção de Listas
+        if: always()
+        run: |
+          python -m doctest -f secao_04_exercicios_lista/ex_14_investigacao.py
