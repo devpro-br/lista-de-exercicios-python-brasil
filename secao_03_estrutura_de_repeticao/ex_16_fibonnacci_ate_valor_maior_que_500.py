@@ -12,3 +12,13 @@ A série de Fibonacci é formada pela seqüência 0,1,1,2,3,5,8,13,21,34,55,... 
 
 def calcular_serie_de_fibonacci_ate_valor_ser_maior_que_500() -> str:
     """Escreva aqui em baixo a sua solução"""
+    penultimo = 1
+    ultimo = 1
+    fibo = [0, 1, 1]
+    while fibo[-1] <= 500:
+        soma = ultimo + penultimo
+        fibo.append(soma)
+        penultimo = ultimo
+        ultimo = soma
+    return ', '.join(map(str, fibo)) #converting a list to str to pass the doctests. Marcelo
+
