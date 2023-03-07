@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Configuração de Python 3.9
+      - name: Configuração de Python 3.11
         uses: actions/setup-python@v1
         with:
-          python-version: 3.9
+          python-version: 3.11
       - name: Correção do Exercício 01 da seção de Listas
         if: always()
         run: |
