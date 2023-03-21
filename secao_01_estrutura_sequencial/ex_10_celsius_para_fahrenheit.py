@@ -18,3 +18,15 @@ Mostrar apenas valor inteiro da temperatura
 
 def transformar_para_fahrenheit():
     """Escreva aqui em baixo a sua solução"""
+    while True:
+        c_transformar_para_fahrenheit = int(input('Digite a temperatura em celsus: '))
+        dividindo_graus_celsus = c_transformar_para_fahrenheit / 5
+        multiplica_graus_celsus = dividindo_graus_celsus * 9
+        soma_graus_celsus = multiplica_graus_celsus + 32
+
+        soma_graus_celsus = int(soma_graus_celsus)
+
+        print(f'Essa temperatura é de {soma_graus_celsus} Celsius')
+transformar_para_fahrenheit()
+
+

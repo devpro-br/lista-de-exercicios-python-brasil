@@ -27,3 +27,16 @@ Mostrar os resultados com duas casas decimais
 
 def calcular_assalto_no_salario():
     """Escreva aqui em baixo a sua solução"""
+    horas_trabalhadas_mes = 80
+    valor_hora = float(input('Digite o quanto você ganha por hora: '))
+    ir = 489.46
+    inss = 355.97
+    sindicato = 222.48
+    
+    decontos = ir + inss + sindicato
+
+    salario_hora = valor_hora * horas_trabalhadas_mes
+    total_descontos = salario_hora - decontos
+    print(f'Seu salário desse mês é {total_descontos:.2f}')
+
+calcular_assalto_no_salario()
