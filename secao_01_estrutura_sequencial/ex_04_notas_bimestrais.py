@@ -1,5 +1,5 @@
 """
-Exercício 03 da seção de estrutura sequencial da Python Brasil:
+Exercício 04 da seção de estrutura sequencial da Python Brasil:
 https://wiki.python.org.br/EstruturaSequencial
 
 Faça um Programa que peça as 4 notas bimestrais e mostre a média.
@@ -15,4 +15,11 @@ Faça um Programa que peça as 4 notas bimestrais e mostre a média.
 
 def calcular_media():
     """Escreva aqui em baixo a sua solução"""
+    nota1 = float(input('Digite a primeira nota bimestral: '))
+    nota2 = float(input('Digite a segunda nota bimestral: '))
+    nota3 = float(input('Digite a terceira nota bimestral: '))
+    nota4 = float(input('Digite a quarta nota bimestral: '))
 
+    media = (nota1 + nota2 + nota3 + nota4) / 4
+    print(f" A média anual é {media:.2f}")
+calcular_media()

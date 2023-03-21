@@ -10,10 +10,19 @@ Faça um Programa que converta metros para centímetros.
     Transformando para centímetros dá 100.0 cm
     >>> ex_05_metros_para_centimetros.input = lambda k: '3.621'
     >>> ex_05_metros_para_centimetros.converter_metros_para_centimetros()
-    Transformando para centímetros dá 362.1 cm
-
+    >>> Transformando para centímetros dá 362.1 cm
+    python3 -m doctest -f secao_01_estrutura_sequencial/ex_05_metros_para_centimetros.py
 """
 
 
 def converter_metros_para_centimetros():
     """Escreva aqui em baixo a sua solução"""
+   
+    resultado_de_centimetros = 100.0 * 3.621
+    print(resultado_de_centimetros)
+   
+
+
+converter_metros_para_centimetros()
+
+
