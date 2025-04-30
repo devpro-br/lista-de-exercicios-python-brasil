@@ -11,6 +11,15 @@ Faça um Programa que peça um número e então mostre a mensagem O número info
 
 """
 
-def escreva_um_numero():
+def escreva_um_numero(num):
     """Escreva aqui em baixo a sua solução"""
+    return print(f"O número informado foi {num}")
 
+while True:
+    try:
+        num = float(input("Insira um número: "))
+        break
+    except ValueError:
+        print("Insira um número válido!")
+        
+escreva_um_numero(num)

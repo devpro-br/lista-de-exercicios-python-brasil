@@ -13,6 +13,22 @@ Faça um Programa que peça as 4 notas bimestrais e mostre a média.
 """
 
 
-def calcular_media():
+def calcular_media(notas):
     """Escreva aqui em baixo a sua solução"""
+    return sum(notas) / len(notas)
+
+while True:
+    try:
+        n1 = float(input("Insira a nota do primeiro bimestre: "))
+        n2 = float(input("Insira a nota do segundo bimestre: "))
+        n3 = float(input("Insira a nota do terceiro bimestre: "))
+        n4 = float(input("Insira a nota do quarto bimestre: "))
+        break
+    except ValueError:
+        print("Insira notas válidas!")
+
+notas = [n1, n2, n3, n4]
+media = calcular_media(notas)
+print(f"A média anual é {media:.1f}")
+
 

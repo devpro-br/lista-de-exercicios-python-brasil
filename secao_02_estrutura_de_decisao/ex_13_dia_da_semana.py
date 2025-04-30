@@ -29,3 +29,28 @@ se digitar outro valor deve aparecer valor inválido.
 
 def calcular_dia_da_semana(numero: int):
     """Escreva aqui em baixo a sua solução"""
+    match(numero):
+        case 1:
+            print("Domingo")
+        case 2:
+            print("Segunda")
+        case 3:
+            print("Terça")
+        case 4:
+            print("Quarta")
+        case 5:
+            print("Quinta")
+        case 6:
+            print("Sexta")
+        case 7:
+            print("Sábado")
+        case _:
+            print("Dia inválido")
+
+while True:
+    try:
+        numero = float(input("Insira um número: "))
+        break
+    except ValueError:
+        print("Insira um valor válido!")
+calcular_dia_da_semana(numero)

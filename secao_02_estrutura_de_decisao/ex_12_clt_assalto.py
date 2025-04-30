@@ -53,3 +53,41 @@ até R$ 99999,99
 
 def calcular_salario_liquido(valor_hora: float, horas_trabalhadas: int):
     """Escreva aqui em baixo a sua solução"""
+    salario_bruto = valor_hora * horas_trabalhadas
+    
+    if salario_bruto <= 900:
+      IR = 0
+      desconto_IR = 0
+    elif 900 < salario_bruto <= 1500:
+      IR = 0.05 * salario_bruto
+      desconto_IR = 5
+    elif 1500 < salario_bruto <= 2500:
+      IR = 0.1 * salario_bruto
+      desconto_IR = 10
+    elif salario_bruto > 2500:
+      IR = 0.1 * salario_bruto
+      desconto_IR = 20
+      
+    sindicato = 0.03 * salario_bruto
+    fgts = 0.11 * salario_bruto
+    inss= 0.1 * salario_bruto
+    total_descontos = IR + sindicato + inss
+    salario_liquido = salario_bruto - total_descontos
+    
+    print(f"Salário Bruto: (R$ {valor_hora:.2f} * {horas_trabalhadas}) : R$ {salario_bruto:.2f}")
+    print(f"(-) IR ({desconto_IR}%)                                    : R$ {IR:.2f}")
+    print(f"(-) INSS (10%)                                             : R$ {inss:.2f}")
+    print(f"(-) Sindicato (3%)                                         : R$ {sindicato:.2f}")
+    print(f"FGTS (11%)                                                 : R$ {fgts:15.2f}")
+    print(f"Total de descontos                                         : R$ {total_descontos:.2f}")
+    print(f"Salário Liquido                                            : R$ {salario_liquido:.2f}")
+    
+    
+while True:
+    try:
+        salarioHora = float(input("Quanto você ganha por hora trabalhada? "))
+        horasMes = float(input("Insira o número de horas trabalhadas no mês: "))
+        break
+    except ValueError:
+        print("Insira um valor válido!")
+calcular_salario_liquido(salarioHora, horasMes)

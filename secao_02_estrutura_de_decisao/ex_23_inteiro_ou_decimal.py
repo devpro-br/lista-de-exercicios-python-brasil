@@ -21,4 +21,17 @@ arredondamento.
 
 
 def decidir_se_eh_inteiro_ou_decimal(valor: str) -> str:
-    """Escreva aqui em baixo a sua solução"""
+    """Determina se o número informado é inteiro ou decimal."""
+    try:
+        numero = float(valor)
+        arredondado = round(numero)
+        if numero == arredondado:
+            return "Inteiro"
+        else:
+            return "Decimal"
+    except ValueError:
+        return "Entrada inválida."
+
+valor = input("Insira um valor: ")
+print(decidir_se_eh_inteiro_ou_decimal(valor))
+

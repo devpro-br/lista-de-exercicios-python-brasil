@@ -19,5 +19,16 @@ Arredonde o tempo em minutos
 """
 
 
-def calcular_tempo_de_download():
+def calcular_tempo_de_download(mb, mbps):
     """Escreva aqui em baixo a sua solução"""
+    tempo = round(mb/mbps)
+    print(f"O tempo aproximado do Download é: {tempo} minuto(s)")
+
+while True:
+        try:
+            mb = float(input("Tamanho do arquivo para download (em MB): "))
+            mbps = float(input("velocidade do link de Internet (em Mbps): "))
+            break
+        except ValueError:
+            print("Insira um valor válido!")
+calcular_tempo_de_download(mb, mbps)

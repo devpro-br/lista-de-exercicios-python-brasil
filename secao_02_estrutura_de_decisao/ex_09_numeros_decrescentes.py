@@ -15,6 +15,18 @@ Faça um Programa que leia três números e mostre-os em ordem decrescente.
 
 """
 
-
 def ordenar_decrescente(x, y, z):
     """Escreva aqui em baixo a sua solução"""
+    numeros = [x, y, z]
+    numeros.sort(reverse=True)
+    print(numeros)
+    
+while True:
+    try:
+        x = float(input("Digite o primeiro número: "))
+        y = float(input("Digite o segundo número: "))
+        z = float(input("Digite o terceiro número: "))
+        break
+    except ValueError:
+        print("Insira um número válido!")
+ordenar_decrescente(x, y, z)

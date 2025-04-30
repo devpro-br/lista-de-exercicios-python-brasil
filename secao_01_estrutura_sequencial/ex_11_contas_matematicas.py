@@ -20,7 +20,24 @@ Faça um Programa que peça 2 números inteiros e um número real. Calcule e mos
 """
 
 
-def calcular_formulas():
+def calcular_formulas(n1, n2, n3):
     """Escreva aqui em baixo a sua solução"""
+    f1 = (n1 * 2) * (n2 /2)
+    f2 = (n1 * 3) + n3
+    f3 = n3 ** 3
+    
+    print(f"O produto do dobro do primeiro com metade do segundo é {f1}")
+    print(f"A soma do triplo do primeiro com o terceiro é {f2}")
+    print(f"O terceiro elevado ao cubo é {f3}")
 
+while True:
+    try:
+        n1 = int(input("Insira um número inteiro: "))
+        n2 = int(input("Insira outro número inteiro: "))
+        n3 = float(input("Insira um número real: "))
+        break
+    except ValueError:
+        print("Insira um número válido!")
+
+calcular_formulas(n1, n2, n3)
 

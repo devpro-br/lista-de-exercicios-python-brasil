@@ -25,5 +25,24 @@ Mostrar os resultados com duas casas decimais
 """
 
 
-def calcular_assalto_no_salario():
+def calcular_assalto_no_salario(salarioHora, horasMes):
     """Escreva aqui em baixo a sua solução"""
+    salarioBruto = salarioHora * horasMes
+    IR = salarioBruto * 0.11
+    INSS = salarioBruto * 0.08
+    sindicato = salarioBruto * 0.05
+    SalarioLiquido = salarioBruto - (IR + INSS + sindicato)
+    print(f"Salário Bruto: {salarioBruto:.2f}")
+    print(f"IR (11%): {IR:.2f}")
+    print(f"INSS (8%): {INSS:.2f}")
+    print(f"Sindicato: {sindicato:.2f}")
+    print(f"Salário Liquído: {SalarioLiquido:.2f}")
+
+while True:
+    try:
+        salarioHora = float(input("Quanto você ganha por hora trabalhada? "))
+        horasMes = float(input("Insira o número de horas trabalhadas no mês: "))
+        break
+    except ValueError:
+        print("Insira um valor válido!")
+calcular_assalto_no_salario(salarioHora, horasMes)

@@ -27,6 +27,49 @@ Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, consid
 
 """
 
-
-def calcular_latas_e_preco_de_tinta():
-    """Escreva aqui em baixo a sua solução"""
+import math
+def calcular_latas_e_preco_de_tinta(area):
+    area_com_folga = area * 1.10
+    litros = area_com_folga / 6
+    latas = math.ceil(litros / 18)
+    preco_latas = latas * 80
+    sobra_latas = (latas * 18) - litros
+    galoes = math.ceil(litros / 3.6)
+    preco_galoes = galoes * 25
+    sobra_galoes = (galoes * 3.6) - litros
+    melhor_preco = float('inf')
+    melhor_latas = 0
+    melhor_galoes = 0
+    sobra_mistura = 0
+    
+    for latas_usadas in range(latas + 1):
+        litros_usados = latas_usadas * 18
+        litros_restantes = max(0, litros - litros_usados)
+        galoes_usados = math.ceil(litros_restantes / 3.6)
+        
+        custo_total = (latas_usadas * 80) + (galoes_usados * 25)
+        sobra = (latas_usadas * 18 + galoes_usados * 3.6) - litros
+        
+        if custo_total < melhor_preco:
+            melhor_preco = custo_total
+            melhor_latas = latas_usadas
+            melhor_galoes = galoes_usados
+            sobra_mistura = sobra
+    
+    # Exibindo os resultados
+    print(f"Você deve comprar {math.ceil(litros)} litros de tinta.")
+    print(f"Você pode comprar {latas} lata(s) de 18 litros a um custo de R$ {preco_latas}. Vão sobrar {sobra_latas:.1f} litro(s) de tinta.")
+    print(f"Você pode comprar {galoes} galão(ões) de 3.6 litros a um custo de R$ {preco_galoes}. Vão sobrar {sobra_galoes:.1f} litro(s) de tinta.")
+    print(f"Para menor custo, você pode comprar {melhor_latas} lata(s) de 18 litros e {melhor_galoes} galão(ões) de 3.6 litros a um custo de R$ {melhor_preco}. Vão sobrar {sobra_mistura:.1f} litro(s) de tinta.")
+    
+while True:
+    try:
+        area = float(input("Insira o tamanho em metros quadrados da área a ser pintada: "))
+        if area <= 0:
+            print("A área deve ser um número positivo!")
+            continue
+        break
+    except ValueError:
+        print("Insira uma área válida!")
+        
+calcular_latas_e_preco_de_tinta(area)

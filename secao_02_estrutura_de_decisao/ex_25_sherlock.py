@@ -29,7 +29,25 @@ Caso contrário, ele será classificado como "Inocente".
     'Inocente'
 
 """
-
-
 def investigar(telefonou: str, estava_no_local: str, mora_perto: str, devia: str, trabalhou: str, ):
-    """Escreva aqui em baixo a sua solução"""
+  """Escreva aqui em baixo a sua solução"""
+  respostas = [telefonou, estava_no_local, mora_perto, devia, trabalhou]
+  positivos = respostas.count('Sim')
+  
+  if positivos == 5:
+    return 'Assassino'
+  elif 3 <= positivos <= 4:
+    return 'Cúmplice'
+  elif positivos == 2:
+    return 'Suspeito'
+  elif positivos == 1:
+    return 'Inocente'
+  elif positivos == 0:
+    return 'Inocente'
+
+telefonou = input("Telefonou para a vítima? ")
+estava_no_local = input("Esteve no local do crime? ")
+mora_perto = input("Mora perto da vítima? ")
+devia = input("Devia para a vítima? ")
+trabalhou = input("Já trabalhou com a vítima? ")
+print(investigar(telefonou, estava_no_local, mora_perto, devia, trabalhou))

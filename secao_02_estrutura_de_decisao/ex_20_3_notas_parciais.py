@@ -21,3 +21,20 @@ A mensagem "Aprovado com Distinção", se a média for igual a 10.
 
 def calcular_status(nota_1, nota_2, nota_3):
     """Escreva aqui em baixo a sua solução"""
+    media = (nota_1+nota_2+nota_3)/3
+    if 10 > media >= 7:
+        print("Aprovado")
+    elif media == 10:
+        print("Aprovado com Distinção")
+    else:
+        print("Reprovado")
+    
+while True:
+    try:
+        n1 = float(input("Insira a primeira nota: "))
+        n2 = float(input("Insira a segunda nota: "))
+        n3 = float(input("Insira a terceira nota: "))
+        break
+    except ValueError:
+        print("Insira uma nota válida!")
+calcular_status(n1, n2, n3)

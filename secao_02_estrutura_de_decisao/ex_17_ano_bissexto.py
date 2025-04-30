@@ -17,6 +17,30 @@ bissexto.
 
 """
 
-
 def eh_ano_bissexto(ano: int):
     """Escreva aqui em baixo a sua solução"""
+    if ano % 4 == 0:
+        if ano % 100 == 0:
+            if ano % 400 == 0:
+                return True
+            else:
+                return False
+        else:
+            return True
+    else:
+        return False
+while True:
+    try:
+        ano = int(input("Insira um ano: "))
+        algarismos = len(str(ano))
+        
+        if algarismos < 4:
+            print("Insira um ano válido!")
+        else:
+            break
+    except ValueError:
+        print("Insira um ano válido!")
+if eh_ano_bissexto(ano):
+    print(f"{ano} é um ano bissexto.")
+else:
+    print(f"{ano} não é um ano bissexto.")

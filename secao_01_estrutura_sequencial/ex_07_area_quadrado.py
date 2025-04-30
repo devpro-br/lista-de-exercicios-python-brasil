@@ -18,5 +18,10 @@ Mostrar a área com 2 casas decimais.
 """
 
 
-def calcular_area_de_quadrado():
+def calcular_area_de_quadrado(lado):
     """Escreva aqui em baixo a sua solução"""
+    return float(lado) ** 2
+
+lado = input("Insira o lado do quadrado: ")
+print(f"A área do quadrado com esse lado é: {calcular_area_de_quadrado(lado):.2f}")
+print(f"O dobro da área oo quadrado é: {calcular_area_de_quadrado(lado) * 2:.2f}")

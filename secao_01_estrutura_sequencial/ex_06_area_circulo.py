@@ -16,5 +16,15 @@ Observação: Use o valor de 3.1415 para o valor da constante π
 """
 
 
-def calcular_area_de_circulo():
+def calcular_area_de_circulo(raio):
     """Escreva aqui em baixo a sua solução"""
+    return 3.1415 * (raio ** 2)
+    
+while True:
+    try:
+        raio = float(input("Insira o raio do círculo: "))
+        break
+    except ValueError:
+        print("Insira um raio valido.")
+print(f"A área do círculo com esse raio é: {calcular_area_de_circulo(raio):.4f}")
+    

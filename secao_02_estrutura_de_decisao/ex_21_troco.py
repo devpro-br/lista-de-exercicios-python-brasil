@@ -24,6 +24,42 @@ uma nota de 5 e quatro notas de 1.
     '3 notas de R$ 100, 1 nota de R$ 50, 4 notas de R$ 10, 1 nota de R$ 5 e 4 notas de R$ 1'
 """
 
-
 def calcular_troco(valor: int) -> str:
     """Escreva aqui em baixo a sua solução"""
+    notas_100 = valor // 100
+    valor %= 100
+
+    notas_50 = valor // 50
+    valor %= 50
+
+    notas_10 = valor // 10
+    valor %= 10
+
+    notas_5 = valor // 5
+    valor %= 5
+
+    notas_1 = valor
+
+    print("\nNotas fornecidas:")
+    if notas_100:
+        print(f"{int(notas_100)} nota(s) de R$100")
+    if notas_50:
+        print(f"{int(notas_50)} nota(s) de R$50")
+    if notas_10:
+        print(f"{int(notas_10)} nota(s) de R$10")
+    if notas_5:
+        print(f"{int(notas_5)} nota(s) de R$5")
+    if notas_1:
+        print(f"{int(notas_1)} nota(s) de R$1")
+    
+while True:
+    try:
+        valor_saque = float(input("Valor do saque: R$"))
+        
+        if 1 <= valor_saque <= 600:
+            break
+        else:
+            print("O valor mínimo é de 1 real e o máximo de 600 reais.")
+    except ValueError:
+        print("Insira um valor válido!")
+calcular_troco(valor_saque)
