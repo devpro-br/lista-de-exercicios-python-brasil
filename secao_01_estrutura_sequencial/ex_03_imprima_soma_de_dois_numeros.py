@@ -15,3 +15,18 @@ Faça um Programa que peça dois números inteiros e imprima a soma.
 
 def imprima_a_soma_de_dois_numeros():
     """Escreva aqui em baixo a sua solução"""
+    # try:
+    #     primeiro_numero = int(input("Digite o primeiro numero: "))
+    #     segundo_numero = int(input("Digite o segundo numero: "))
+    #     soma = primeiro_numero + segundo_numero
+    #     print(f"A soma dos dois números informados é {soma}")
+    # except ValueError:
+    #     print("Erro: Digite apenas números inteiros")
+    primeiro_numero = int(input("Digite o primeiro numero: "))
+    segundo_numero = int(input("Digite o segundo numero: "))
+    soma = primeiro_numero + segundo_numero
+    print(f"A soma dos dois números informados é {soma}")
+
+if __name__ == "__main__":
+    imprima_a_soma_de_dois_numeros()
+
