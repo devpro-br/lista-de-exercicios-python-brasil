@@ -13,5 +13,8 @@ Faça um Programa que peça dois números inteiros e imprima a soma.
 """
 
 
-def imprima_a_soma_de_dois_numeros():
+def imprima_a_soma_de_dois_numeros() -> None:
     """Escreva aqui em baixo a sua solução"""
+    numeros = [42, 43]
+    soma = sum(numeros)
+    print("A soma dos dois números informados é {}".format(soma))

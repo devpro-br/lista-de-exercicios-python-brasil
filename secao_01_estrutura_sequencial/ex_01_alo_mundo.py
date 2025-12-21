@@ -10,6 +10,6 @@ Escreva um programa que mostre a mensagem "Olá Mundo"
 """
 
 
-def ola_mundo():
+def ola_mundo() -> None:
     """Escreva aqui em baixo a sua solução"""
-
+    print("Olá Mundo")
