@@ -13,6 +13,8 @@ Faça um Programa que peça as 4 notas bimestrais e mostre a média.
 """
 
 
-def calcular_media():
+def calcular_media() -> None:
     """Escreva aqui em baixo a sua solução"""
-
+    numeros = [7, 8, 9, 10]
+    media = sum(numeros) / len(numeros)
+    print("A média anual é {}".format(media))
